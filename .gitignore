@@ -31,3 +31,6 @@ build
 # ingore ide files
 .vscode
 idea/
+
+# environment file
+.env

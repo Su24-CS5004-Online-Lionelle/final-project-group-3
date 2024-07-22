@@ -1,0 +1,349 @@
+{
+    "results": [
+        {
+            "salary_max": 200218.55,
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "company": {
+                "display_name": "State Street",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "latitude": 42.281819,
+            "salary_min": 200218.55,
+            "created": "2024-06-26T09:44:07Z",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Norfolk Downs, Norfolk County",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Norfolk County",
+                    "Norfolk Downs"
+                ]
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "longitude": -71.026731,
+            "id": "4753282406",
+            "salary_is_predicted": "1",
+            "title": "Senior Software Development Engineer Java Full Stack, AVP",
+            "redirect_url": "https://www.adzuna.com/details/4753282406?utm_medium=api&utm_source=2489f9d0",
+            "description": "This position is in Global Application Development based in Eastern Massachusettes. We are looking for a Software Development Engineer who is capable of taking Functional Specifications written at a high level and be able to translate them into complex code changes necessary to fulfill the requirement and see these changes through the development life cycle. The candidate will be working on the Custody and Accounting related Applications This role can be performed in a hybrid model, where you c\u2026",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQwNiIsInMiOiJ1dmYycnB4SDd4R3RSX19ncUtSLVlRIn0.KazxZo4NOj7ZdnyMw4awFGKyyNZ9FbHQyOAGAd2T7ZY"
+        },
+        {
+            "salary_min": 155699.44,
+            "latitude": 42.354856,
+            "category": {
+                "label": "IT Jobs",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Flexcompute Inc."
+            },
+            "contract_time": "full_time",
+            "salary_max": 155699.44,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NjQ4MTY4NDY0In0.ig4J3LihFAvx0OGLpINcoZXVg3lY4Lte461T-TcJrCE",
+            "redirect_url": "https://www.adzuna.com/details/4648168464?utm_medium=api&utm_source=2489f9d0",
+            "description": "Flexcompute is leading the charge in transforming the engineering simulation landscape with our groundbreaking ultra-fast simulation technology. Our suite of products, including the acclaimed Computational Fluid Dynamics (CFD) software Flow360 and electromagnetic software Tidy3D, are at the forefront of the industry, revolutionizing how simulations are conducted across various sectors. Our inception is rooted in the pioneering foresight of experts from Stanford University and MIT, supported by \u2026",
+            "salary_is_predicted": "1",
+            "title": "Senior Backend Architect",
+            "longitude": -71.066119,
+            "id": "4648168464",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "location": {
+                "display_name": "Boston, Suffolk County",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ]
+            },
+            "created": "2024-04-14T03:48:19Z"
+        },
+        {
+            "company": {
+                "display_name": "ESR Healthcare",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_max": 147829.28,
+            "salary_min": 147829.28,
+            "latitude": 42.354856,
+            "id": "3920756688",
+            "longitude": -71.066119,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Boston, Suffolk County",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ]
+            },
+            "created": "2023-02-11T22:04:04Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzkyMDc1NjY4OCIsInMiOiJ1dmYycnB4SDd4R3RSX19ncUtSLVlRIn0.hmyhpu8Lxk6qY_VOs3pAFHjk1Z5HFBLeRfQRGckVYW4",
+            "description": "Test Engineer Java, Selenium, SQL, SCTM, ALM or Octane Boston, MA ref Skills: Software Automation, Java, Selenium, SQL, SCTM, ALM or Octane, Agile, TestNG, Experience level: Associate Experience required: 5 Years Education level: Bachelor\u2019s degree Job function: Information Technology Industry: Financial Services Pay rate : View hourly payrate Total position: 1 Relocation assistance: No Visa : Only US citizens and Greencard holders This role is CTH Your Responsibilities Prepare, maintain and exe\u2026",
+            "redirect_url": "https://www.adzuna.com/details/3920756688?utm_medium=api&utm_source=2489f9d0",
+            "title": "Test Engineer Java, Selenium, SQL, SCTM, ALM or Octane Boston, MA ref",
+            "salary_is_predicted": "1"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "4753284520",
+            "longitude": -71.026731,
+            "location": {
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Norfolk County",
+                    "Norfolk Downs"
+                ],
+                "display_name": "Norfolk Downs, Norfolk County",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "created": "2024-06-26T09:45:20Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NzUzMjg0NTIwIn0.Cxi2xCm6BHAVdGphb1K_KewQnhRxKmCwxCZcaj1Nj-A",
+            "salary_is_predicted": "1",
+            "title": "Senior Java and DB2 Developer - AVP",
+            "description": "The Cash Flow module application is undergoing several changes in keeping with State Street\u2019s strategic and client needs. As a result, we are looking for a senior application developer well versed in Web application development using Java, DB2 and Payment Initiation concepts. Knowledge of Payment Initiation systems is required. Additional knowledge of APIs to accounting systems desirable. Ideal candidate will have 10 years of experience developing web applications in an agile SDLC. This role ca\u2026",
+            "redirect_url": "https://www.adzuna.com/details/4753284520?utm_medium=api&utm_source=2489f9d0",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "State Street"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT Jobs",
+                "tag": "it-jobs"
+            },
+            "salary_max": 142768.88,
+            "salary_min": 142768.88,
+            "latitude": 42.281819
+        },
+        {
+            "salary_min": 141720.53,
+            "latitude": 42.34,
+            "company": {
+                "display_name": "Sisense",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "engineering-jobs",
+                "label": "Engineering Jobs"
+            },
+            "salary_max": 141720.53,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NzYzOTc0OTE2In0.YvVJFQLiGJARwEnyp1k4Sc-cjOGjDsOpxZqOWnNTmVM",
+            "title": "Principal Software Engineer - Data Expert - Remote",
+            "salary_is_predicted": "1",
+            "description": "Welcome to Sisense, the nerve center of the data and analytics revolution. Recognized by Gartner as an industry leader in the embedded analytics market, set to explode to a staggering USD 100 billion by 2027. At Sisense, we empower businesses worldwide to unlock the power of their data. We are building the next generation of Composable Analytics platform for companies to build advanced data and analytics products that drive their business growth. As we embark on a transformation to expand our m\u2026",
+            "redirect_url": "https://www.adzuna.com/details/4763974916?utm_medium=api&utm_source=2489f9d0",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "4763974916",
+            "longitude": -71.05,
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "South Boston, Suffolk County",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "South Boston"
+                ]
+            },
+            "created": "2024-07-03T06:15:42Z"
+        },
+        {
+            "redirect_url": "https://www.adzuna.com/details/2989168222?utm_medium=api&utm_source=2489f9d0",
+            "description": "SW Eng Java, CI/CD Python JPA Hibernate sql Boston, MA ref SW Eng Java, CI/CD Python JPA Hibernate sql Boston, MA ref Assoc Software EngJava, CI/CD Python JPA Hibernate sql Boston, MA ref Skills: Java, CI/CD, Python, JPA and Hibernate, PostgreSQL, Spring MVC/REST, Spring Boot, or any MVC J2EE Framework Experience level: Associate Experience required: 3 Years Education level: Bachelor\u2019s degree Job function: Information Technology Industry: Financial Services Pay rate : View hourly payrate Total \u2026",
+            "salary_is_predicted": "1",
+            "title": "SW Eng Java, CI/CD Python JPA Hibernate sql Boston, MA ref",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiIyOTg5MTY4MjIyIn0.VRQf2zUj8FmQRlviYQ38lspsCBoJa5CB8G6sD5wUHj4",
+            "created": "2022-03-21T21:14:25Z",
+            "location": {
+                "display_name": "Boston, Suffolk County",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ]
+            },
+            "longitude": -71.066119,
+            "id": "2989168222",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "latitude": 42.354856,
+            "salary_min": 138741.31,
+            "salary_max": 138741.31,
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "company": {
+                "display_name": "ESR Healthcare",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time"
+        },
+        {
+            "id": "4717900686",
+            "longitude": -71.066119,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "created": "2024-06-01T23:35:22Z",
+            "location": {
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Boston, Suffolk County"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NzE3OTAwNjg2In0.qh6o_4nTyQedaKPb76HxMayCXArg4DdFIJkHxnr_eg0",
+            "description": "LOCATION:BOSTON, MA Will design, develop, and maintain commercially available software products for the Workplace Investing module. Collaborate with DevOps teams to establish and maintain CI/CD pipelines using Maven, Docker, Jenkins, and Sonar. Build and deploy applications on Amazon Web Services (AWS) and Azure, utilizing services like Cloud Formation, serverless, compute, containers, and databases. Work in Agile software development environments, translating user stories into actionable work \u2026",
+            "redirect_url": "https://www.adzuna.com/details/4717900686?utm_medium=api&utm_source=2489f9d0",
+            "title": "Sr. Software Engineer",
+            "salary_is_predicted": "1",
+            "contract_type": "permanent",
+            "company": {
+                "display_name": "Beacon Hill Staffing Group, LLC",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "label": "IT Jobs",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_max": 125960.53,
+            "salary_min": 125960.53,
+            "latitude": 42.354856
+        },
+        {
+            "salary_max": 123861.72,
+            "company": {
+                "display_name": "State Street",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT Jobs",
+                "tag": "it-jobs"
+            },
+            "latitude": 42.34,
+            "salary_min": 123861.72,
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "South Boston, Suffolk County",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "South Boston"
+                ]
+            },
+            "created": "2024-06-26T09:44:39Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "4753284072",
+            "longitude": -71.05,
+            "title": "State Street Global Advisors - Senior Software Developer-AVP",
+            "salary_is_predicted": "1",
+            "description": "State Street Global Advisors is looking for an application developer with Masters or Bachelors in Computer Science, for our Next-Gen Reporting Platform Team, a part of Application Technology Solutions. This is a hands-on development position for a candidate with proven record of software development and execution excellence. The candidate must have excellent development and problem-solving skills, someone with creativity and self-motivation to deliver on mission critical projects with tight tim\u2026",
+            "redirect_url": "https://www.adzuna.com/details/4753284072?utm_medium=api&utm_source=2489f9d0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NzUzMjg0MDcyIn0.O9XUanHPic8WPxkxrqlY2uNMHuOKKAws3N7NO-fPtqU"
+        },
+        {
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Boston, Suffolk County",
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ]
+            },
+            "created": "2024-06-23T05:35:17Z",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "4749359058",
+            "longitude": -71.066119,
+            "salary_is_predicted": "1",
+            "title": "Principal Satellite Ground Systems Software Engineer (Onsite)",
+            "description": "Date Posted: 2024-06-20Country: United States of AmericaLocation: CO106: 16470 East Hughes Drive,Aurora 16470 East Hughes Drive Building S77, Aurora, CO, 80011 USAPosition Role Type: OnsiteAt Raytheon, the foundation of everything we do is rooted in our values and a higher calling \u2013 to help our nation and allies defend freedoms and deter aggression. We bring the strength of more than 100 years of experience and renowned engineering expertise to meet the needs of today\u2019s mission and stay ahead o\u2026",
+            "redirect_url": "https://www.adzuna.com/land/ad/4749359058?se=uvf2rpxH7xGtR__gqKR-YQ&utm_medium=api&utm_source=2489f9d0&v=52984FFB98F14C3D779DE65F9C0C8035ACF7E4C5",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc0OTM1OTA1OCIsInMiOiJ1dmYycnB4SDd4R3RSX19ncUtSLVlRIn0.rLC5Zv5W2TM7vB_i2YEkjpZIJ4w7zliyvFPDl9dI7Lo",
+            "salary_max": 119870.6,
+            "company": {
+                "display_name": "Raytheon",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "IT Jobs"
+            },
+            "latitude": 42.354856,
+            "salary_min": 119870.6
+        },
+        {
+            "company": {
+                "display_name": "Maximus",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "contract_time": "full_time",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT Jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "salary_max": 120000,
+            "salary_min": 115000,
+            "latitude": 42.3575,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "4765972359",
+            "longitude": -71.0691,
+            "location": {
+                "area": [
+                    "US",
+                    "Massachusetts",
+                    "Suffolk County",
+                    "Boston"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Boston, Suffolk County"
+            },
+            "created": "2024-07-04T08:07:18Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoidXZmMnJweEg3eEd0Ul9fZ3FLUi1ZUSIsImkiOiI0NzY1OTcyMzU5In0.Kxo2f2xgD1CRmuEDQZ0a9hou5qIMsK0KZC-_nccRGyo",
+            "salary_is_predicted": "0",
+            "title": "Software Developer - Java - Remote",
+            "contract_type": "permanent",
+            "description": "Description & Requirements Maximus is currently seeking a Java Developer to join our team supporting one of our Federal clients. Essential Duties and Responsibilities: - Lead the development of software solutions that will meet or exceed business requirements; the development effort includes designing and implementing modules to the system specifications, conducting unit testing, troubleshooting issues and producing detailed proposals to resolve issues. - Evaluate new coding techniques, tools, \u2026",
+            "redirect_url": "https://www.adzuna.com/details/4765972359?utm_medium=api&utm_source=2489f9d0"
+        }
+    ],
+    "count": 17,
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "mean": 117500
+}

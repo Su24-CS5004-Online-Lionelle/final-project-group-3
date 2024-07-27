@@ -45,8 +45,10 @@ public final class DataFormatter {
      * @param out the output stream to write to
      */
     private static void prettySingle(@Nonnull JobRecord record, @Nonnull PrintStream out) {
-        out.println(record.title());
-        out.println("             Description: " + record.description());
+        out.println("Title: " + record.title());
+        out.println("   Description: " + record.description());
+        out.println("   Company: " + record.company());
+        out.println("   Location: " + record.location());
     }
 
 

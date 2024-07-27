@@ -4,12 +4,23 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.xml.crypto.Data;
+
+import jobplanner.model.IJobPostModel.JobRecord;
+import jobplanner.model.formatters.DataFormatter;
+import jobplanner.model.formatters.Formats;
 
 /**
  * A class to help with pulling data from
@@ -136,20 +147,17 @@ public final class JobPostUtil {
         JobPostUtil client = new JobPostUtil(app_id, app_key);
         InputStream is = client.getJobPostings(params);
 
+        // deserialize the JSON response to a list of JobRecord objects
+        List<JobRecord> jobs = new ArrayList<>();
         try {
             ObjectMapper mapper = new ObjectMapper();
             JsonNode jsonMap = mapper.readTree(is);
-            JsonNode count = jsonMap.get("count");
-            JsonNode mean = jsonMap.get("mean");
             JsonNode results = jsonMap.get("results");
 
-            // iterate through the results
             for (JsonNode result : results) {
-                System.out.println(result.get("title"));
+                JobRecord job = mapper.treeToValue(result, JobRecord.class);
+                jobs.add(job);
             }
-
-            System.out.println("Count: " + count);
-            System.out.println("Mean: " + mean);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -159,6 +167,13 @@ public final class JobPostUtil {
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+        
+        // write the list of jobs to a file in JSON format using outputstream 
+        try {
+            DataFormatter.write(jobs, Formats.JSON, new FileOutputStream("data/jobpostings.json"));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

@@ -4,11 +4,12 @@ import java.io.OutputStream;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
-
 
 /**
  * Interface to the model.
@@ -31,13 +32,12 @@ public interface IJobPostModel {
      * OutputStream could be System.out or a FileOutputStream.
      * 
      * @param records the records to write, could be a single entry.
-     * @param format the format to write the records in
-     * @param out the output stream to write to
+     * @param format  the format to write the records in
+     * @param out     the output stream to write to
      */
     static void writeRecords(List<JobRecord> records, Formats format, OutputStream out) {
         DataFormatter.write(records, format, out);
     }
-
 
     /**
      * Gets an instance of the model using the 'default' location.
@@ -51,7 +51,8 @@ public interface IJobPostModel {
     /**
      * Gets an instance of the model using the 'default' class.
      * 
-     * Good spot to get the InputStream from the DATABASE file, and use that stream to build the
+     * Good spot to get the InputStream from the DATABASE file, and use that stream
+     * to build the
      * model.
      * 
      * From another class this would be called like
@@ -65,35 +66,74 @@ public interface IJobPostModel {
      */
     static IJobPostModel getInstance(String database) {
         throw new UnsupportedOperationException("Not implemented yet");
-        // you will want to implement this specific to your type of model - if you use it!
+        // you will want to implement this specific to your type of model - if you use
+        // it!
     }
 
-
     /**
-     * Primary record to pass around between objects. Is immutable and uses Jackson annotations for
+     * Primary record to pass around between objects. Is immutable and uses Jackson
+     * annotations for
      * serialization.
      * 
-     * @param title the title of the job
-     * @param description the description of the job
-     * @param company the company offering the job
-     * @param location the location of the job
-     * @param salary_min the minimum salary
-     * @param salary_max the maximum salary
-     * @param contract_time the contract time
-     * @param created the date the job was created
-     * @param redirect_url the URL to redirect to
-     * @param adref the ad reference
-     * @param category the category of the job
-     * @param latitude the latitude of the job
-     * @param longitude the longitude of the job
-     * @param id the id of the job
+     * @param title               the title of the job
+     * @param description         the description of the job
+     * @param company             the company offering the job
+     * @param location            the location of the job
+     * @param salary_min          the minimum salary
+     * @param salary_max          the maximum salary
+     * @param contract_time       the contract time
+     * @param created             the date the job was created
+     * @param redirect_url        the URL to redirect to
+     * @param adref               the ad reference
+     * @param category            the category of the job
+     * @param latitude            the latitude of the job
+     * @param longitude           the longitude of the job
+     * @param id                  the id of the job
      * @param salary_is_predicted if the salary is predicted
      * 
      */
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonIgnoreProperties(ignoreUnknown = true)
-    @JacksonXmlRootElement(localName = "job")
-    @JsonPropertyOrder({"title", "description", "company", "location", "salary_min", "salary_max", "contract_time", "created", "redirect_url", "adref", "category", "latitude", "longitude", "id", "salary_is_predicted"})
-    record JobRecord(String title, String description, String company, String location, double salary_min, double salary_max, String contract_time, String created, String redirect_url, String adref, JobCategory category, double latitude, double longitude, String id, String salary_is_predicted) {
-        // empty
-    }
+    @JsonPropertyOrder({
+        "title", "description", "company", "location", "salary_min", "salary_max", 
+        "contract_time", "created", "redirect_url", "adref", "category", 
+        "latitude", "longitude", "id", "salary_is_predicted"
+    })
+    public record JobRecord(
+        @JsonProperty("title") String title,
+        @JsonProperty("description") String description,
+        @JsonProperty("company") Company company,
+        @JsonProperty("location") Location location,
+        @JsonProperty("salary_min") double salaryMin,
+        @JsonProperty("salary_max") double salaryMax,
+        @JsonProperty("contract_time") String contractTime,
+        @JsonProperty("created") String created,
+        @JsonProperty("redirect_url") String redirectUrl,
+        @JsonProperty("adref") String adref,
+        @JsonProperty("category") Category category,
+        @JsonProperty("latitude") double latitude,
+        @JsonProperty("longitude") double longitude,
+        @JsonProperty("id") String id,
+        @JsonProperty("salary_is_predicted") String salaryIsPredicted
+    ) {}
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public record Category(
+        @JsonProperty("tag") String tag,
+        @JsonProperty("label") String label
+    ) {}
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public record Company(
+        @JsonProperty("display_name") String displayName
+    ) {}
+
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public record Location(
+        @JsonProperty("display_name") String displayName,
+        @JsonProperty("area") List<String> area
+    ) {}
 }

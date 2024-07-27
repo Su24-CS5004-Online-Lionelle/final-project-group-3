@@ -1,4 +1,4 @@
-package jobplanner.model;
+package jobplanner.model.models;
 
 import java.util.List;
 import java.io.FileInputStream;
@@ -6,9 +6,18 @@ import java.io.InputStream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * A class to represent the model of the job postings.
+ */
 public final class JobPostModel implements IJobPostModel {
+    /** Persistent database file path */
     private List<JobRecord> jobs;
 
+    /**
+     * Private constructor to prevent instantiation.
+     * 
+     * @param jobs the list of jobs
+     */
     private JobPostModel(List<JobRecord> jobs) {
         this.jobs = jobs;
     }

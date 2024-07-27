@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 
-import jobplanner.model.IJobPostModel.JobRecord;
+import jobplanner.model.models.IJobPostModel.JobRecord;
 
 /**
  * A class to format the data in different ways.

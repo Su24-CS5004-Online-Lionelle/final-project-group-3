@@ -1,4 +1,4 @@
-package jobplanner.model;
+package jobplanner.model.models;
 
 import java.io.OutputStream;
 
@@ -7,7 +7,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 
@@ -66,8 +65,6 @@ public interface IJobPostModel {
      */
     static IJobPostModel getInstance(String database) {
         throw new UnsupportedOperationException("Not implemented yet");
-        // you will want to implement this specific to your type of model - if you use
-        // it!
     }
 
     /**

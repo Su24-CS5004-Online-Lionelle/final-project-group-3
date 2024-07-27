@@ -1,6 +1,8 @@
-package jobplanner.model;
+package jobplanner.model.types;
 
+/** A list of job categories. */
 public enum JobCategory {
+    // The categories for the job
     ACCOUNTING_FINANCE("accounting-finance-jobs", "Accounting & Finance Jobs"),
     IT("it-jobs", "IT Jobs"),
     SALES("sales-jobs", "Sales Jobs"),
@@ -32,18 +34,36 @@ public enum JobCategory {
     OTHER_GENERAL("other-general-jobs", "Other/General Jobs"),
     UNKNOWN("unknown", "Unknown");
 
+    /** The tag for the category. */
     private final String tag;
+    /** The label for the category. */
     private final String label;
 
+    /**
+     * Constructor for the job category.
+     * 
+     * @param tag   the tag for the category
+     * @param label the label for the category
+     */
     JobCategory(String tag, String label) {
         this.tag = tag;
         this.label = label;
     }
 
+    /**
+     * Gets the tag for the category.
+     * 
+     * @return the tag for the category
+     */
     public String getTag() {
         return tag;
     }
 
+    /**
+     * Gets the label for the category.
+     * 
+     * @return the label for the category
+     */
     public String getLabel() {
         return label;
     }
@@ -53,6 +73,12 @@ public enum JobCategory {
         return label;
     }
 
+    /**
+     * Gets the category from the tag.
+     * 
+     * @param tag the tag to get the category from
+     * @return the category
+     */
     public static JobCategory fromTag(String tag) {
         for (JobCategory category : JobCategory.values()) {
             if (category.tag.equals(tag)) {
@@ -62,6 +88,12 @@ public enum JobCategory {
         return UNKNOWN;
     }
 
+    /**
+     * Gets the category from the label.
+     * 
+     * @param label the label to get the category from
+     * @return the category
+     */
     public static JobCategory fromLabel(String label) {
         for (JobCategory category : JobCategory.values()) {
             if (category.label.equals(label)) {
@@ -71,6 +103,12 @@ public enum JobCategory {
         return UNKNOWN;
     }
 
+    /**
+     * Gets the category from the string value.
+     * 
+     * @param value the value to get the category from
+     * @return the category
+     */
     public static JobCategory fromString(String value) {
         for (JobCategory category : JobCategory.values()) {
             if (category.toString().equals(value)) {

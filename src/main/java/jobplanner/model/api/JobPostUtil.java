@@ -1,15 +1,23 @@
-package jobplanner.model;
+package jobplanner.model.api;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jobplanner.model.formatters.DataFormatter;
+import jobplanner.model.formatters.Formats;
+import jobplanner.model.models.IJobPostModel.JobRecord;
 
 /**
  * A class to help with pulling data from
@@ -18,15 +26,22 @@ import java.nio.charset.StandardCharsets;
  * You can read more about the API at https://developer.adzuna.com/docs/search.
  */
 public final class JobPostUtil {
-    /** A Client Wrapper for Adzuna API */
+    /* API base url */
     private static String BASE_URL = "https://api.adzuna.com/v1/api/jobs/%s/%s/";
+    /* API id */
     private static String APP_ID;
+    /* API key */
     private static String APP_KEY;
+    /* Default country */
     private static String COUNTRY = "us";
+    /* Search endpoint */
     private static String SEARCH_ENDPOINT = "search";
 
     /**
-     * Prevent instantiation.
+     * Constructor for the JobPostUtil.
+     * 
+     * @param appId  The API id.
+     * @param appKey The API key.
      */
     public JobPostUtil(String appId, String appKey) {
         APP_ID = appId;
@@ -70,18 +85,42 @@ public final class JobPostUtil {
         return query.toString();
     }
 
+    /**
+     * Returns the job postings as an InputStream.
+     * 
+     * @return The job postings as an InputStream.
+     */
     public InputStream getJobPostings() {
         return getJobPostings(COUNTRY, null);
     }
 
+    /**
+     * Returns the job postings as an InputStream.
+     * 
+     * @param country The country to search in.
+     * @return The job postings as an InputStream.
+     */
     public InputStream getJobPostings(String country) {
         return getJobPostings(country, null);
     }
 
+    /**
+     * Returns the job postings as an InputStream.
+     * 
+     * @param params The parameters to search for.
+     * @return The job postings as an InputStream.
+     */
     public InputStream getJobPostings(HashMap<String, String> params) {
         return getJobPostings(COUNTRY, params);
     }
 
+    /**
+     * Returns the job postings as an InputStream.
+     * 
+     * @param country The country to search in.
+     * @param params  The parameters to search for.
+     * @return The job postings as an InputStream.
+     */
     public InputStream getJobPostings(String country, HashMap<String, String> params) {
         String query = buildQueryString(SEARCH_ENDPOINT, country, params);
         return getUrlContents(query);
@@ -95,7 +134,8 @@ public final class JobPostUtil {
      *         the connection
      *         fails
      * 
-     * Sourced from https://github.com/Su24-CS5004-Online-Lionelle/homework-07-Scarvy/blob/142c8726043fb851b0970b0955029db71d396662/src/main/java/student/model/net/NetUtils.java#L76
+     *         Sourced from
+     *         https://github.com/Su24-CS5004-Online-Lionelle/homework-07-Scarvy/blob/142c8726043fb851b0970b0955029db71d396662/src/main/java/student/model/net/NetUtils.java#L76
      */
     public InputStream getUrlContents(String urlStr) {
         try {
@@ -121,6 +161,11 @@ public final class JobPostUtil {
         return InputStream.nullInputStream();
     }
 
+    /**
+     * Main method to test the API request.
+     * 
+     * @param args The command line arguments.
+     */
     public static void main(String[] args) {
         // test the API request
         HashMap<String, String> params = new HashMap<>();
@@ -136,20 +181,17 @@ public final class JobPostUtil {
         JobPostUtil client = new JobPostUtil(app_id, app_key);
         InputStream is = client.getJobPostings(params);
 
+        // deserialize the JSON response to a list of JobRecord objects
+        List<JobRecord> jobs = new ArrayList<>();
         try {
             ObjectMapper mapper = new ObjectMapper();
             JsonNode jsonMap = mapper.readTree(is);
-            JsonNode count = jsonMap.get("count");
-            JsonNode mean = jsonMap.get("mean");
             JsonNode results = jsonMap.get("results");
 
-            // iterate through the results
             for (JsonNode result : results) {
-                System.out.println(result.get("title"));
+                JobRecord job = mapper.treeToValue(result, JobRecord.class);
+                jobs.add(job);
             }
-
-            System.out.println("Count: " + count);
-            System.out.println("Mean: " + mean);
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -160,5 +202,8 @@ public final class JobPostUtil {
                 e.printStackTrace();
             }
         }
+
+        // write the list of jobs to a file in JSON format using outputstream
+        DataFormatter.write(jobs, Formats.JSON, System.out);
     }
 }

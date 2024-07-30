@@ -3,8 +3,8 @@ package jobplanner.model.api;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Map;
 import java.util.HashMap;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -65,7 +65,7 @@ public final class JobPostUtil {
      * @param country The country to search in.
      * @param params  The parameters to search for.
      */
-    public static String buildQueryString(String endpoint, String country, HashMap<String, String> params) {
+    public static String buildQueryString(String endpoint, String country, Map<String, String> params) {
         if (country.isEmpty()) {
             country = COUNTRY;
         }
@@ -110,7 +110,7 @@ public final class JobPostUtil {
      * @param params The parameters to search for.
      * @return The job postings as an InputStream.
      */
-    public InputStream getJobPostings(HashMap<String, String> params) {
+    public InputStream getJobPostings(Map<String, String> params) {
         return getJobPostings(COUNTRY, params);
     }
 
@@ -121,7 +121,7 @@ public final class JobPostUtil {
      * @param params  The parameters to search for.
      * @return The job postings as an InputStream.
      */
-    public InputStream getJobPostings(String country, HashMap<String, String> params) {
+    public InputStream getJobPostings(String country, Map<String, String> params) {
         String query = buildQueryString(SEARCH_ENDPOINT, country, params);
         return getUrlContents(query);
     }
@@ -168,7 +168,7 @@ public final class JobPostUtil {
      */
     public static void main(String[] args) {
         // test the API request
-        HashMap<String, String> params = new HashMap<>();
+        Map<String, String> params = new HashMap<>();
         params.put("what", "java developer");
         params.put("salary_min", "50000");
         params.put("full_time", "1");

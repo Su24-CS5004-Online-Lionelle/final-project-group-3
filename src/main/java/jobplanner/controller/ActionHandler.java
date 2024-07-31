@@ -12,13 +12,41 @@ import java.io.InputStream;
 
 import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.models.IJobPostModel;
+import jobplanner.model.models.ISavedJobModel;
+import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 
 public class ActionHandler {
     IJobPostModel model;
+    ISavedJobModel savedJobs;
 
     public ActionHandler(IJobPostModel model) {
         this.model = model;
+        this.savedJobs = SavedJobModel.loadFromJson();
+    }
+
+    public List<JobRecord> getSavedJobs() {
+        return savedJobs.getSavedJobs();
+    }
+
+    public void saveJob(JobRecord job) {
+        savedJobs.addSavedJob(job);
+    }
+
+    public void removeJob(JobRecord job) {
+        savedJobs.removeSavedJob(job);
+    }
+
+    public void clearSavedJobs() {
+        savedJobs.clearSavedJobs();
+    }
+
+    public int countSavedJobs() {
+        return savedJobs.count();
+    }
+
+    public void saveJobs() {
+        savedJobs.save();
     }
 
     public List<JobRecord> search(String country, Map<String, String> searchParams) {

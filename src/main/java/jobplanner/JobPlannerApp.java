@@ -3,7 +3,6 @@ package jobplanner;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
-import picocli.CommandLine.Parameters;
 import picocli.CommandLine.Model.CommandSpec;
 import picocli.CommandLine.Spec;
 import picocli.CommandLine.ParameterException;
@@ -50,6 +49,9 @@ class JobPlannerSearch implements Runnable {
     @Option(names = { "-s", "--salary-min" }, description = "The minimum salary to search for.")
     String salaryMin;
 
+    @Option(names = {"-m", "--salary-max"}, description = "The maximum salary to search for.")
+    String salaryMax;
+
     @Option(names = { "-c", "--category" }, description = "The category to search in.")
     String category;
 
@@ -69,6 +71,9 @@ class JobPlannerSearch implements Runnable {
         if (salaryMin != null) {
             searchParams.put("salary_min", salaryMin);
         }
+        if (salaryMax != null) {
+            searchParams.put("salary_max", salaryMax);
+        }
         if (category != null) {
             searchParams.put("category", category);
         }
@@ -87,7 +92,7 @@ class JobPlannerList implements Runnable {
     @Override
     public void run() {
         ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
-        DataFormatter.write(handler.getJobPosts(), format, System.out);
+        DataFormatter.write(handler.getSavedJobs(), format, System.out);
     }
 }
 

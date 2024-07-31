@@ -4,29 +4,40 @@ package jobplanner.model.types;
  * A list of job query parameters.
  */
 public enum JobQueryParameter {    
-    /** */
+    /** Represents the job title or keyword to search for. */
     WHAT("what"),
-    /** */
+
+    /** Represents the location keyword to search for jobs in a specific place. */
     WHERE("where"),
-    /** */
+
+    /** Represents the country level in the location hierarchy. */
     COUNTRY("location0"),
-    /** */
+
+    /** Represents the state level in the location hierarchy. */
     STATE("location1"),
-    /** */
+
+    /** Represents the city level in the location hierarchy. */
     CITY("location2"),
-    /** */
+
+    /** Represents the job category or industry. */
     CATEGORY("category"),
-    /** */
+
+    /** Represents the date the job was posted, to filter by recency. */
     DATE_POSTED("max_days_old"),
-    /** */
+
+    /** Represents the minimum salary filter for job listings. */
     SALARY_MIN("salary_min"),
-    /** */
+
+    /** Represents the maximum salary filter for job listings. */
     SALARY_MAX("salary_max"),
-    /** */
+
+    /** Represents the filter to search for full-time jobs. */
     FULL_TIME("full_time"),
-    /** */
+
+    /** Represents the filter to search for part-time jobs. */
     PART_TIME("part_time"),
-    /** */
+
+    /** Represents the filter to search for contract jobs. */
     CONTRACT("contract");
 
     /** The tag for the parameter. */

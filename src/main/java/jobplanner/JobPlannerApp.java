@@ -9,11 +9,13 @@ import picocli.CommandLine.ParameterException;
 
 import java.util.Map;
 import java.util.HashMap;
+import java.io.FileOutputStream;
 
 import jobplanner.controller.ActionHandler;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
+import jobplanner.model.types.JobQueryParameter;
 import jobplanner.view.JobBoardGUI;
 
 @Command(name = "jobplanner", subcommands = { JobPlannerSearch.class, JobPlannerList.class, JobPlannerGUI.class,
@@ -37,7 +39,7 @@ public class JobPlannerApp implements Runnable {
 @Command(name = "search", description = "Search for job postings.")
 class JobPlannerSearch implements Runnable {
 
-    @Option(names = {"--country"}, description = "The country to search in.")
+    @Option(names = { "--country" }, description = "The country to search in.")
     String country = "us";
 
     @Option(names = { "-k", "--keyword" }, description = "The keyword to search for.")
@@ -49,7 +51,7 @@ class JobPlannerSearch implements Runnable {
     @Option(names = { "-s", "--salary-min" }, description = "The minimum salary to search for.")
     String salaryMin;
 
-    @Option(names = {"-m", "--salary-max"}, description = "The maximum salary to search for.")
+    @Option(names = { "-m", "--salary-max" }, description = "The maximum salary to search for.")
     String salaryMax;
 
     @Option(names = { "-c", "--category" }, description = "The category to search in.")
@@ -58,24 +60,30 @@ class JobPlannerSearch implements Runnable {
     @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
     Formats format = Formats.PRETTY;
 
+    @Option(names = { "-d", "--days" }, description = "The maximum days old for the job postings.")
+    String days;
+
     @Override
     public void run() {
         Map<String, String> searchParams = new HashMap<>();
 
         if (keyword != null) {
-            searchParams.put("what", String.join(" ", keyword));
+            searchParams.put(JobQueryParameter.WHAT.toString(), String.join(" ", keyword));
         }
         if (location != null) {
-            searchParams.put("where", location);
+            searchParams.put(JobQueryParameter.WHERE.toString(), location);
         }
         if (salaryMin != null) {
-            searchParams.put("salary_min", salaryMin);
+            searchParams.put(JobQueryParameter.SALARY_MIN.toString(), salaryMin);
         }
         if (salaryMax != null) {
-            searchParams.put("salary_max", salaryMax);
+            searchParams.put(JobQueryParameter.SALARY_MAX.toString(), salaryMax);
         }
         if (category != null) {
-            searchParams.put("category", category);
+            searchParams.put(JobQueryParameter.CATEGORY.toString(), category);
+        }
+        if (days != null) {
+            searchParams.put(JobQueryParameter.DATE_POSTED.toString(), days);
         }
 
         ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
@@ -86,13 +94,30 @@ class JobPlannerSearch implements Runnable {
 @Command(name = "list", description = "List saved job postings.")
 class JobPlannerList implements Runnable {
 
-    @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
     Formats format = Formats.PRETTY;
+
+    @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
+    void setFormat(String format) {
+        this.format = Formats.valueOf(format.toUpperCase()) == null ? Formats.PRETTY
+                : Formats.valueOf(format.toUpperCase());
+    }
+
+    @Option(names = { "-o", "--output" }, description = "The output file to write to.")
+    String output;
 
     @Override
     public void run() {
         ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
-        DataFormatter.write(handler.getSavedJobs(), format, System.out);
+        if (output != null) {
+            try {
+                DataFormatter.write(handler.getSavedJobs(), format, new FileOutputStream(output));
+            } catch (Exception e) {
+                System.err.println("Failed to write to file: " + output);
+                return;
+            }
+        } else {
+            DataFormatter.write(handler.getSavedJobs(), format, System.out);
+        }
     }
 }
 

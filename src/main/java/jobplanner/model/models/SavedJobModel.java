@@ -64,9 +64,28 @@ public class SavedJobModel implements ISavedJobModel {
     public void save(String filePath) {
         try {  
             DataFormatter.write(savedJobs, Formats.CSV, new FileOutputStream(filePath));
+            // update the last saved date
+            lastSaved = new Date();
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("Failed to save model to " + filePath, e);
+        }
+    }
+
+    public void export () {
+        export(Formats.JSON, FILEPATH);
+    }
+
+    public void export(Formats format) {
+        export(format, FILEPATH);
+    }
+
+    public void export(Formats format, String filePath) {
+        try {
+            DataFormatter.write(savedJobs, format, new FileOutputStream(filePath));
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new RuntimeException("Failed to export model to " + filePath, e);
         }
     }
 

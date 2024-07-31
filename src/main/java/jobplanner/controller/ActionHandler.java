@@ -15,6 +15,8 @@ import jobplanner.model.models.IJobPostModel;
 import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
+import jobplanner.model.formatters.DataFormatter;
+import jobplanner.model.formatters.Formats;
 
 public class ActionHandler {
     IJobPostModel model;
@@ -47,6 +49,10 @@ public class ActionHandler {
 
     public void saveJobs() {
         savedJobs.save();
+    }
+
+    public void exportSavedJobs(Formats format) {
+        savedJobs.export(format);
     }
 
     public List<JobRecord> search(String country, Map<String, String> searchParams) {

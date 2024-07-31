@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Date;
 
 import jobplanner.model.models.IJobPostModel.JobRecord;
-
+import jobplanner.model.formatters.Formats;
 /**
  * Interface to the saved job model.
  * 
@@ -58,9 +58,21 @@ public interface ISavedJobModel {
     /**
      * Save the saved jobs to a file.
      * 
-     * @param filePath the file path to save to
      */
     void save();
+
+    /**
+     * Export the saved jobs to a file.
+     * 
+     */
+    void export();
+
+    /**
+     * Export the saved jobs to a file.
+     * 
+     * @param format the format to export to
+     */
+    void export(Formats format);
 
     /**
      * Load the saved jobs from a file.

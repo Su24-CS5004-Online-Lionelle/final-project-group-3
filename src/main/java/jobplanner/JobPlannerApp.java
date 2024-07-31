@@ -25,9 +25,9 @@ import jobplanner.view.JobBoardGUI;
         CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.")
 public class JobPlannerApp implements Runnable {
 
-    // The spec for the command
+    /** The command spec. */
     @Spec
-    CommandSpec spec;
+    private CommandSpec spec;
 
     @Override
     public void run() {
@@ -51,29 +51,37 @@ public class JobPlannerApp implements Runnable {
 @Command(name = "search", description = "Search for job postings.")
 class JobPlannerSearch implements Runnable {
 
+    /** The country to search in. */
     @Option(names = { "--country" }, description = "The country to search in.")
-    String country = "us";
+    private String country = "us";
 
+    /** The keyword to search for. */
     @Option(names = { "-k", "--keyword" }, description = "The keyword to search for.")
-    String[] keyword;
+    private String[] keyword;
 
+    /** The location to search in. */
     @Option(names = { "-l", "--location" }, description = "The location to search in.")
-    String location;
+    private String location;
 
+    /** The minimum salary to search for. */
     @Option(names = { "-s", "--salary-min" }, description = "The minimum salary to search for.")
-    String salaryMin;
+    private String salaryMin;
 
+    /** The maximum salary to search for. */
     @Option(names = { "-m", "--salary-max" }, description = "The maximum salary to search for.")
-    String salaryMax;
+    private String salaryMax;
 
+    /** The category to search in. */
     @Option(names = { "-c", "--category" }, description = "The category to search in.")
-    String category;
+    private String category;
 
+    /** The format to display the job postings in. */
     @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
-    Formats format = Formats.PRETTY;
+    private Formats format = Formats.PRETTY;
 
+    /** The maximum days old for the job postings. */
     @Option(names = { "-d", "--days" }, description = "The maximum days old for the job postings.")
-    String days;
+    private String days;
 
     @Override
     public void run() {
@@ -109,19 +117,26 @@ class JobPlannerSearch implements Runnable {
 @Command(name = "list", description = "List saved job postings.")
 class JobPlannerList implements Runnable {
 
-    Formats format = Formats.PRETTY;
+    /** The format to display the job postings in. */
+    private Formats format = Formats.PRETTY;
 
+    /** The output file to write to. 
+     * 
+     * @param format the format to display the job postings in.
+    */
     @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
     void setFormat(String format) {
         this.format = Formats.valueOf(format.toUpperCase()) == null ? Formats.PRETTY
                 : Formats.valueOf(format.toUpperCase());
     }
 
+    /** The output file to write to. */
     @Option(names = { "-o", "--output" }, description = "The output file to write to.")
-    String output;
+    private String output;
 
+    /** The number of saved jobs. */
     @Option(names = {"-c", "--count"}, description = "The number of saved jobs.")
-    boolean count;
+    private boolean count;
 
     @Override
     public void run() {

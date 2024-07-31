@@ -11,7 +11,7 @@ import jobplanner.model.formatters.Formats;
  */
 public interface ISavedJobModel {
 
-    /** Persistent database file path */
+    /** Persistent database file path. */
     String FILEPATH = "data/savedJobs.json";
     
     /**
@@ -77,7 +77,6 @@ public interface ISavedJobModel {
     /**
      * Load the saved jobs from a file.
      * 
-     * @param filePath the file path to load from
      * @return the saved job model
      */
     static ISavedJobModel loadFromJson() {
@@ -87,6 +86,7 @@ public interface ISavedJobModel {
     /**
      * Get an instance of the model using the 'default' location.
      * 
+     * @param filePath the file path to load from
      * @return the instance of the model
      */
     static ISavedJobModel loadFromJson(String filePath) {

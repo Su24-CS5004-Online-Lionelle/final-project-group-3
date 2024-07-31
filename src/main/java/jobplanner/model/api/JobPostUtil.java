@@ -26,16 +26,16 @@ import jobplanner.model.models.IJobPostModel.JobRecord;
  * You can read more about the API at https://developer.adzuna.com/docs/search.
  */
 public final class JobPostUtil {
-    /* API base url */
-    private static String BASE_URL = "https://api.adzuna.com/v1/api/jobs/%s/%s/";
-    /* API id */
-    private static String APP_ID;
-    /* API key */
-    private static String APP_KEY;
-    /* Default country */
-    private static String COUNTRY = "us";
-    /* Search endpoint */
-    private static String SEARCH_ENDPOINT = "search";
+    /** API base url. */
+    private static final String URL = "https://api.adzuna.com/v1/api/jobs/%s/%s/";
+    /** API id. */
+    private String appId;
+    /** API key. */
+    private String appKey;
+    /** Default country. */
+    private static final String COUNTRY = "us";
+    /** Search endpoint. */
+    private static final String SEARCH = "search";
 
     /**
      * Constructor for the JobPostUtil.
@@ -44,8 +44,8 @@ public final class JobPostUtil {
      * @param appKey The API key.
      */
     public JobPostUtil(String appId, String appKey) {
-        APP_ID = appId;
-        APP_KEY = appKey;
+        this.appId = appId;
+        this.appKey = appKey;
     }
 
     /**
@@ -53,28 +53,32 @@ public final class JobPostUtil {
      * 
      * @param country  The country to search in.
      * @param endpoint The endpoint to search.
+     * 
      * @return The base URL for the API request.
      */
     private static String getBaseUrl(String country, String endpoint) {
-        return new StringBuilder(String.format(BASE_URL, country, endpoint)).toString();
+        return new StringBuilder(String.format(URL, country, endpoint)).toString();
     }
 
     /**
-     * Returns the search query
+     * Returns the search query.
      * 
-     * @param country The country to search in.
-     * @param params  The parameters to search for.
+     * @param endpoint The endpoint to search.
+     * @param country  The country to search in.
+     * @param params   The parameters to search for.
+     * 
+     * @return The search query.
      */
-    public static String buildQueryString(String endpoint, String country, Map<String, String> params) {
+    private String buildQueryString(String endpoint, String country, Map<String, String> params) {
         if (country.isEmpty()) {
             country = COUNTRY;
         }
 
-        String baseUrl = getBaseUrl(country, SEARCH_ENDPOINT);
+        String baseUrl = getBaseUrl(country, SEARCH);
         StringBuilder query = new StringBuilder(baseUrl);
 
-        query.append("?app_id=").append(APP_ID);
-        query.append("&app_key=").append(APP_KEY);
+        query.append("?app_id=").append(appId);
+        query.append("&app_key=").append(appKey);
 
         // Add the parameters to the query string
         for (String key : params.keySet()) {
@@ -122,7 +126,7 @@ public final class JobPostUtil {
      * @return The job postings as an InputStream.
      */
     public InputStream getJobPostings(String country, Map<String, String> params) {
-        String query = buildQueryString(SEARCH_ENDPOINT, country, params);
+        String query = buildQueryString(SEARCH, country, params);
         return getUrlContents(query);
     }
 
@@ -135,7 +139,8 @@ public final class JobPostUtil {
      *         fails
      * 
      *         Sourced from
-     *         https://github.com/Su24-CS5004-Online-Lionelle/homework-07-Scarvy/blob/142c8726043fb851b0970b0955029db71d396662/src/main/java/student/model/net/NetUtils.java#L76
+     *         https://github.com/Su24-CS5004-Online-Lionelle/homework-07-Scarvy/blob/
+     *          142c8726043fb851b0970b0955029db71d396662/src/main/java/student/model/net/NetUtils.java#L76
      */
     public InputStream getUrlContents(String urlStr) {
         try {
@@ -175,10 +180,10 @@ public final class JobPostUtil {
         params.put("where", "boston");
         params.put("category", "it-jobs");
 
-        String app_id = System.getenv("ADZUNA_APP_ID");
-        String app_key = System.getenv("ADZUNA_APP_KEY");
+        String appId = System.getenv("ADZUNA_APP_ID");
+        String appKey = System.getenv("ADZUNA_APP_KEY");
 
-        JobPostUtil client = new JobPostUtil(app_id, app_key);
+        JobPostUtil client = new JobPostUtil(appId, appKey);
         InputStream is = client.getJobPostings(params);
 
         // deserialize the JSON response to a list of JobRecord objects

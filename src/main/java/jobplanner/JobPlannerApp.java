@@ -18,10 +18,14 @@ import jobplanner.model.models.JobPostModel;
 import jobplanner.model.types.JobQueryParameter;
 import jobplanner.view.JobBoardGUI;
 
+/**
+ * The main class for the job planner application.
+ */
 @Command(name = "jobplanner", subcommands = { JobPlannerSearch.class, JobPlannerList.class, JobPlannerGUI.class,
         CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.")
 public class JobPlannerApp implements Runnable {
 
+    // The spec for the command
     @Spec
     CommandSpec spec;
 
@@ -30,12 +34,20 @@ public class JobPlannerApp implements Runnable {
         throw new ParameterException(spec.commandLine(), "Specify a subcommand");
     }
 
+    /**
+     * The main method for the job planner application.
+     * 
+     * @param args the command line arguments
+     */
     public static void main(String... args) {
         int exitCode = new CommandLine(new JobPlannerApp()).execute(args);
         System.exit(exitCode);
     }
 }
 
+/**
+ * The search command for the job planner application.
+ */
 @Command(name = "search", description = "Search for job postings.")
 class JobPlannerSearch implements Runnable {
 
@@ -91,6 +103,9 @@ class JobPlannerSearch implements Runnable {
     }
 }
 
+/**
+ * The list command for the job planner application.
+ */
 @Command(name = "list", description = "List saved job postings.")
 class JobPlannerList implements Runnable {
 
@@ -129,6 +144,9 @@ class JobPlannerList implements Runnable {
     }
 }
 
+/**
+ * The GUI command for the job planner application.
+ */
 @Command(name = "gui", description = "Open the GUI.")
 class JobPlannerGUI implements Runnable {
     @Override

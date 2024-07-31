@@ -105,9 +105,17 @@ class JobPlannerList implements Runnable {
     @Option(names = { "-o", "--output" }, description = "The output file to write to.")
     String output;
 
+    @Option(names = {"-c", "--count"}, description = "The number of saved jobs.")
+    boolean count;
+
     @Override
     public void run() {
         ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
+        if (count) {
+            System.out.println(handler.countSavedJobs());
+            return;
+        }
+
         if (output != null) {
             try {
                 DataFormatter.write(handler.getSavedJobs(), format, new FileOutputStream(output));

@@ -15,7 +15,6 @@ import jobplanner.model.models.IJobPostModel;
 import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 
 public class ActionHandler {

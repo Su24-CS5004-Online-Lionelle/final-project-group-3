@@ -3,19 +3,30 @@ package jobplanner.model.types;
 /**
  * A list of job query parameters.
  */
-public enum JobQueryParameter {
-    // The parameters for the job query
+public enum JobQueryParameter {    
+    /** */
     WHAT("what"),
+    /** */
     WHERE("where"),
+    /** */
     COUNTRY("location0"),
+    /** */
     STATE("location1"),
+    /** */
     CITY("location2"),
+    /** */
     CATEGORY("category"),
+    /** */
     DATE_POSTED("max_days_old"),
+    /** */
     SALARY_MIN("salary_min"),
+    /** */
     SALARY_MAX("salary_max"),
+    /** */
     FULL_TIME("full_time"),
+    /** */
     PART_TIME("part_time"),
+    /** */
     CONTRACT("contract");
 
     /** The tag for the parameter. */

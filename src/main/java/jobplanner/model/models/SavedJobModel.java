@@ -16,18 +16,26 @@ import jobplanner.model.models.IJobPostModel.JobRecord;
 /**
  * A class to represent the model of the saved job postings.
  */
-public class SavedJobModel implements ISavedJobModel {
+public final class SavedJobModel implements ISavedJobModel {
    
-    /** A list of jobs */
+    /** A list of jobs. */
     private List<JobRecord> savedJobs = new ArrayList<>();
-    // last date saved or null
+    /** The last saved date. */
     private Date lastSaved = null;
 
-    /** private contructor */
+    /** private contructor. 
+     * 
+     * @param savedJobs the list of saved jobs
+    */
     private SavedJobModel(List<JobRecord> savedJobs) {
         this.savedJobs = savedJobs;
     }
 
+    /**
+     * The last saved date.
+     * 
+     * @return the last saved date
+     */
     public Date lastSaved() {
         return lastSaved;
     }
@@ -57,10 +65,18 @@ public class SavedJobModel implements ISavedJobModel {
         return savedJobs.size();
     }
 
+    /**
+     * Save the saved jobs to a file.
+     */
     public void save() {
         save(FILEPATH);
     }
 
+    /**
+     * Save the saved jobs to a file.
+     * 
+     * @param filePath the file path to save to
+     */
     public void save(String filePath) {
         try {  
             DataFormatter.write(savedJobs, Formats.CSV, new FileOutputStream(filePath));
@@ -72,14 +88,29 @@ public class SavedJobModel implements ISavedJobModel {
         }
     }
 
-    public void export () {
+    /**
+     * Export the saved jobs to a file.
+     * 
+     */
+    public void export() {
         export(Formats.JSON, FILEPATH);
     }
 
+    /**
+     * Export the saved jobs to a file.
+     * 
+     * @param format the format to export to
+     */
     public void export(Formats format) {
         export(format, FILEPATH);
     }
 
+    /**
+     * Export the saved jobs to a file.
+     * 
+     * @param format the format to export to
+     * @param filePath the file path to export to
+     */
     public void export(Formats format, String filePath) {
         try {
             DataFormatter.write(savedJobs, format, new FileOutputStream(filePath));
@@ -89,10 +120,21 @@ public class SavedJobModel implements ISavedJobModel {
         }
     }
 
+    /**
+     * Load the saved jobs from a file.
+     * 
+     * @return the saved job model
+     */
     public static ISavedJobModel loadFromJson() {
         return loadFromJson(FILEPATH);
     }
 
+    /**
+     * Get an instance of the model using the 'default' location.
+     * 
+     * @param filePath the file path to load from
+     * @return the instance of the model
+     */
     public static ISavedJobModel loadFromJson(String filePath) {
         try (InputStream inputStream = new FileInputStream(filePath)) {
             ObjectMapper jsonMapper = new ObjectMapper();

@@ -1,19 +1,24 @@
 package jobplanner;
 
-import jobplanner.model.formatters.DataFormatter;
-import jobplanner.model.formatters.Formats;
-import jobplanner.model.models.IJobPostModel;
+import jobplanner.controller.JobPlannerController;
 import jobplanner.model.models.JobPostModel;
-import jobplanner.model.models.IJobPostModel.JobRecord;
+import jobplanner.view.JobPlannerGUI;
 
-import java.util.List;
+import javax.swing.*;
 
 public class JobBoardPlanner {
     public static void main(String[] args) {
-        IJobPostModel model = JobPostModel.getInstance("data/jobpostings.json");
-        List<JobRecord> jobs = model.getJobs();
+        // Load the model from JSON file
+        JobPostModel model = (JobPostModel) JobPostModel.getInstance("data/jobpostings.json");
 
-        // Print out the jobs
-        DataFormatter.write(jobs, Formats.JSON, System.out);
+        // Initialize the GUI components with the loaded model
+        JobPlannerGUI view = new JobPlannerGUI(model);
+
+        // Initialize the controller with the model and view
+        JobPlannerController controller = new JobPlannerController(model, view);
+
+        // Start the application
+        SwingUtilities.invokeLater(controller::start);
     }
 }
+

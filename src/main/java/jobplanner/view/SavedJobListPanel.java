@@ -4,6 +4,8 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import jobplanner.model.models.IJobPostModel.JobRecord;
+
+import java.awt.event.ActionListener;
 import java.util.List;
 
 /**
@@ -80,6 +82,18 @@ public class SavedJobListPanel extends JPanel {
         JPanel buttonPanel = new JPanel();
         exportCsvButton = new JButton("Export as CSV");
         exportTxtButton = new JButton("Export as TXT");
+
+        // Set the background colors for the buttons
+        exportCsvButton.setBackground(new Color(144, 238, 144)); // Set the background color to green
+        exportCsvButton.setForeground(Color.BLACK); // Set the text color to black
+        exportCsvButton.setOpaque(true);            // Ensure the button is opaque
+        exportCsvButton.setBorderPainted(false);    // Optional: remove the button border
+
+        exportTxtButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
+        exportTxtButton.setForeground(Color.BLACK); // Set the text color to white
+        exportTxtButton.setOpaque(true);            // Ensure the button is opaque
+        exportTxtButton.setBorderPainted(false);    // Optional: remove the button border
+
         buttonPanel.add(exportCsvButton);
         buttonPanel.add(exportTxtButton);
         add(buttonPanel, BorderLayout.SOUTH);
@@ -125,5 +139,18 @@ public class SavedJobListPanel extends JPanel {
      */
     public JButton getExportTxtButton() {
         return exportTxtButton;
+    }
+
+    /**
+     * Sets the action listeners for the buttons in the JobListPanel.
+     *
+     * @param listener The ActionListener to attach.
+     */
+    public void setListeners(ActionListener listener) {
+        exportCsvButton.setActionCommand("Export as TXT");
+        exportCsvButton.addActionListener(listener);
+
+        exportTxtButton.setActionCommand("Export as TXT");
+        exportTxtButton.addActionListener(listener);
     }
 }

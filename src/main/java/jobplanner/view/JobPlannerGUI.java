@@ -97,6 +97,7 @@ public class JobPlannerGUI extends JFrame {
     public void setListeners(ActionListener listener) {
         filterPanel.setListeners(listener);
         jobListPanel.setListeners(listener);
+        savedJobListPanel.setListeners(listener);
     }
 
     /**

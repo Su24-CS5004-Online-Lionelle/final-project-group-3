@@ -1,8 +1,10 @@
 package jobplanner.controller;
 
 import jobplanner.model.Filters;
+import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
+import jobplanner.model.models.JobTableModel;
 import jobplanner.model.types.JobCategory;
 import jobplanner.view.JobPlannerGUI;
 
@@ -68,6 +70,12 @@ public class JobPlannerController implements ActionListener {
                 break;
             case "Show Saved Jobs":
                 showSavedJobs();
+                break;
+            case "Export as CSV":
+                // TODO: add method
+                break;
+            case "Export as TXT":
+                // TODO: add method
                 break;
         }
     }
@@ -160,6 +168,8 @@ public class JobPlannerController implements ActionListener {
         List<JobRecord> savedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
         view.showSavedJobsPanel(savedJobs);
     }
+
+
 
     /**
      * Parses a string to a double value. Returns NaN if the parsing fails.

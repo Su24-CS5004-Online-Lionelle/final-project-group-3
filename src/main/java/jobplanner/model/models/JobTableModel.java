@@ -58,6 +58,7 @@ public class JobTableModel extends AbstractTableModel {
      * Returns the value at the specified cell in the table.
      * The value can represent different job attributes depending on the column index.
      *
+     *
      * @param rowIndex the row index
      * @param columnIndex the column index
      * @return the value at the specified cell
@@ -66,7 +67,7 @@ public class JobTableModel extends AbstractTableModel {
     public Object getValueAt(int rowIndex, int columnIndex) {
         JobRecord job = jobs.get(rowIndex);
         switch (columnIndex) {
-            case 0: return selected.get(rowIndex); // selection status
+            case 0: return selected.get(rowIndex); // returns the corresponding value (true or false) from the 'selected' list.
             case 1: return job.title(); // job title
             case 2: return job.location().displayName(); // job location
             case 3: return job.description(); // job description
@@ -79,6 +80,9 @@ public class JobTableModel extends AbstractTableModel {
 
     /**
      * Sets the value at the specified cell. This is primarily used to update the selection status.
+     *
+     * When a user clicks on a checkbox in the table, the JTable registers this interaction
+     * and determines that the cell's value needs to be updated.
      *
      * @param aValue the value to set
      * @param rowIndex the row index
@@ -93,7 +97,8 @@ public class JobTableModel extends AbstractTableModel {
     }
 
     /**
-     * Determines whether a cell is editable. Only the selection column is editable.
+     * Determines whether a cell is editable.
+     * Only the selection column (first column) is editable.
      *
      * @param rowIndex the row index
      * @param columnIndex the column index
@@ -105,7 +110,8 @@ public class JobTableModel extends AbstractTableModel {
     }
 
     /**
-     * Returns the class of the data in each column, which is used by the JTable to render the cells.
+     * Returns Boolean.class for the first column. This tells the JTable that the data in this column
+     * is of type Boolean, which allows the table to render checkboxes for this column.
      *
      * @param columnIndex the column index
      * @return the class of the column's data
@@ -148,7 +154,7 @@ public class JobTableModel extends AbstractTableModel {
     public List<JobRecord> getSelectedJobs() {
         List<JobRecord> selectedJobs = new ArrayList<>();
         for (int i = 0; i < jobs.size(); i++) {
-            if (selected.get(i)) {
+            if (selected.get(i)) { // if checkbox is marked, add to the list of saved jobs
                 selectedJobs.add(jobs.get(i));
             }
         }

@@ -54,14 +54,17 @@ public class FilterPanel extends JPanel {
         setPreferredSize(new Dimension(250, 700));
         setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        initializeUIComponents(); // initialize the UI components
+        initializeFilterComponents(); // initialize the Filter components
+        initializeButtonPanel(); // initialize the Filter components
+
+
     }
 
 
     /**
      * Initializes the UI components for the filter panel.
      */
-    private void initializeUIComponents() {
+    private void initializeFilterComponents() {
         // Initialize and add the country combo box
         countryComboBox = new JComboBox<>(new String[]{"Select", "US", "GB", "AU"});
         add(createLabeledComboBox("Country", countryComboBox));
@@ -94,16 +97,34 @@ public class FilterPanel extends JPanel {
         datePostedComboBox = new JComboBox<>(new String[]{"Select", "Past week", "Past month", "Today"});
         add(createLabeledComboBox("Date Posted", datePostedComboBox));
         add(Box.createRigidArea(new Dimension(0, 20)));
+    }
 
+    /**
+     * Initializes the button components for the filter panel.
+     */
+    private void initializeButtonPanel() {
         // Initialize and add the apply and reset buttons
         applyFilterButton = new JButton("Apply");
         resetFilterButton = new JButton("Reset");
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
+
+        // add color to the apply filter button
+        applyFilterButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
+        applyFilterButton.setForeground(Color.BLACK); // Set the text color to white
+        applyFilterButton.setOpaque(true);            // Ensure the button is opaque
+        applyFilterButton.setBorderPainted(false);    // Optional: remove the button border
+
+
+        // Set grey color for the exportTxtButton
+        resetFilterButton.setBackground(new Color(211, 211, 211)); // Light grey
+        resetFilterButton.setForeground(Color.BLACK);
+        resetFilterButton.setOpaque(true);
+        resetFilterButton.setBorderPainted(false);
+
         buttonPanel.add(applyFilterButton);
         buttonPanel.add(resetFilterButton);
         add(buttonPanel);
     }
-
     /**
      * Creates a panel with a label and combo box.
      *

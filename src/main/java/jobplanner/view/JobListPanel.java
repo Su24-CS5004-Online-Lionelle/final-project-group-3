@@ -87,6 +87,13 @@ public class JobListPanel extends JPanel {
      */
     private void initializeButtonPanel() {
         showSavedJobsButton = new JButton("Show Saved Jobs");
+
+        // add color to the show saved jobs button
+        showSavedJobsButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
+        showSavedJobsButton.setForeground(Color.BLACK); // Set the text color to white
+        showSavedJobsButton.setOpaque(true);            // Ensure the button is opaque
+        showSavedJobsButton.setBorderPainted(false);    // Optional: remove the button border
+
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(showSavedJobsButton);
         add(buttonPanel, BorderLayout.SOUTH);

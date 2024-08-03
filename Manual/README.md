@@ -36,16 +36,16 @@ The GUI window will appear.
 ## Features
 
 ### Filtering Jobs
-- Enter the domain name and click on the "Search" button.
-- The application will fetch and display information about the domain.
-- If the domain record information is not present in the current database, it will be added to the database.
+- Filter jobs using the available filters.
+- Hit the "Apply" button to apply changes to the main table.
 
-![Screenshot of Domain Information Display](./screenshots/3-singleresult.png)
+[Add screenshot of filter panel]
 
 #### Filters
-1. **Country**: Filter available jobs based on the country 
+1. **Country**: Filter available jobs based on the country
 
 [Add more filters]
+
 
 ### Resetting to default values
 - Hit the reset button at the bottom of the Filters pane to clear or reset to the default values.

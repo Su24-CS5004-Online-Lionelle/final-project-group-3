@@ -169,7 +169,7 @@ class JobPlannerList implements Runnable {
 @Command(name = "gui", description = "Open the GUI.")
 class JobPlannerGraphUI implements Runnable {
 
-    // Option to load saved jobs from a file, if provided, else use the default file location
+    /** The file to load previously saved jobs from. */
     @Option(names = {"-f", "--file"}, description = "The file to load previously saved jobs from.")
     private String file = "data/savedjobs.json";
 

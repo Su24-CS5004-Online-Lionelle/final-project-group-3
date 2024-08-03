@@ -12,8 +12,10 @@ import jobplanner.model.types.JobCategory;
 
 /**
  * The Filters class provides a set of methods to create filtering conditions
- * (predicates) for job records. These predicates can be used to filter job listings
- * based on various criteria such as country, category, company, salary range, contract time, and date posted.
+ * (predicates) for job records. These predicates can be used to filter job
+ * listings
+ * based on various criteria such as country, category, company, salary range,
+ * contract time, and date posted.
  */
 public class Filters {
 
@@ -39,7 +41,8 @@ public class Filters {
      * Creates a predicate that filters job records by country.
      *
      * @param country the country to filter by
-     * @return a predicate that returns true if the job is located in the specified country
+     * @return a predicate that returns true if the job is located in the specified
+     *         country
      */
     public Predicate<JobRecord> byCountry(String country) {
         return job -> job.location() != null && job.location().area() != null && !job.location().area().isEmpty()
@@ -50,7 +53,8 @@ public class Filters {
      * Creates a predicate that filters job records by category.
      *
      * @param category the job category to filter by
-     * @return a predicate that returns true if the job belongs to the specified category
+     * @return a predicate that returns true if the job belongs to the specified
+     *         category
      */
     public Predicate<JobRecord> byCategory(JobCategory category) {
         return job -> JobCategory.fromTag(job.category().tag()) == category;
@@ -72,10 +76,12 @@ public class Filters {
 
     /**
      * Creates a predicate that filters job records by company name.
-     * It matches jobs whose company name contains the provided substring, case-insensitively.
+     * It matches jobs whose company name contains the provided substring,
+     * case-insensitively.
      *
      * @param companyName the substring to match against company names
-     * @return a predicate that returns true if the job's company name contains the substring
+     * @return a predicate that returns true if the job's company name contains the
+     *         substring
      */
     public Predicate<JobRecord> byCompany(String companyName) {
         return job -> job.company().displayName().toLowerCase().contains(companyName.toLowerCase());
@@ -86,7 +92,8 @@ public class Filters {
      *
      * @param minSalary the minimum salary
      * @param maxSalary the maximum salary
-     * @return a predicate that returns true if the job's salary falls within the specified range
+     * @return a predicate that returns true if the job's salary falls within the
+     *         specified range
      */
     public Predicate<JobRecord> bySalaryRange(double minSalary, double maxSalary) {
         return job -> job.salaryMin() >= minSalary && job.salaryMax() <= maxSalary;
@@ -96,8 +103,10 @@ public class Filters {
      * Creates a predicate that filters job records by contract time.
      * This version handles a list of contract times, returning true if any match.
      *
-     * @param roleType the list of contract types (e.g., full-time, part-time, contract)
-     * @return a predicate that returns true if the job's contract time matches any in the list
+     * @param roleType the list of contract types (e.g., full-time, part-time,
+     *                 contract)
+     * @return a predicate that returns true if the job's contract time matches any
+     *         in the list
      */
     public Predicate<JobRecord> byRoleType(List<String> roleType) {
         return job -> roleType.stream().anyMatch(type -> job.contractTime().equalsIgnoreCase(type));
@@ -109,23 +118,26 @@ public class Filters {
      *
      * @param startDate the start date to filter from
      * @param endDate   the end date to filter to
-     * @return a predicate that returns true if the job was posted within the specified date range
+     * @return a predicate that returns true if the job was posted within the
+     *         specified date range
      */
     public Predicate<JobRecord> byDatePosted(LocalDate startDate, LocalDate endDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ISO_DATE_TIME;
         return job -> {
             LocalDate jobDate = LocalDateTime.parse(job.created(), formatter).toLocalDate();
-            return (jobDate.isEqual(startDate) || jobDate.isAfter(startDate)) &&
-                    (jobDate.isEqual(endDate) || jobDate.isBefore(endDate));
+            return (jobDate.isEqual(startDate) || jobDate.isAfter(startDate)) 
+            && (jobDate.isEqual(endDate) || jobDate.isBefore(endDate));
         };
     }
 
     /**
-     * Creates a predicate that filters job records based on a relative date filter, such as "Past week", "Past month", or "Today".
+     * Creates a predicate that filters job records based on a relative date filter,
+     * such as "Past week", "Past month", or "Today".
      * The filtering is done relative to the current date.
      *
      * @param filter The string representation of the relative date filter.
-     * @return A predicate that returns true if the job was posted within the specified time frame.
+     * @return A predicate that returns true if the job was posted within the
+     *         specified time frame.
      */
     public Predicate<JobRecord> byRelativeDateFilter(String filter) {
         LocalDate now = LocalDate.now();

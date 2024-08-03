@@ -15,7 +15,7 @@ import jobplanner.model.formatters.Formats;
  * 
  */
 public interface IJobPostModel {
-    /** Persistent database file path */
+    /** Persistent database file path. */
     String DATABASE = "data/jobpostings.json";
 
     /**
@@ -72,21 +72,21 @@ public interface IJobPostModel {
      * annotations for
      * serialization.
      * 
-     * @param title               the title of the job
-     * @param description         the description of the job
-     * @param company             the company offering the job
-     * @param location            the location of the job
-     * @param salary_min          the minimum salary
-     * @param salary_max          the maximum salary
-     * @param contract_time       the contract time
-     * @param created             the date the job was created
-     * @param redirect_url        the URL to redirect to
-     * @param adref               the ad reference
-     * @param category            the category of the job
-     * @param latitude            the latitude of the job
-     * @param longitude           the longitude of the job
-     * @param id                  the id of the job
-     * @param salary_is_predicted if the salary is predicted
+     * @param title            the title of the job
+     * @param description      the description of the job
+     * @param company          the company of the job
+     * @param location         the location of the job
+     * @param salaryMin        the minimum salary of the job
+     * @param salaryMax        the maximum salary of the job
+     * @param contractTime     the contract time of the job
+     * @param created          the date the job was created
+     * @param redirectUrl      the redirect url of the job
+     * @param adref            the ad reference of the job
+     * @param category         the category of the job
+     * @param latitude         the latitude of the job
+     * @param longitude        the longitude of the job
+     * @param id               the id of the job
+     * @param salaryIsPredicted the salary is predicted
      * 
      */
     @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -112,25 +112,33 @@ public interface IJobPostModel {
         @JsonProperty("longitude") double longitude,
         @JsonProperty("id") String id,
         @JsonProperty("salary_is_predicted") String salaryIsPredicted
-    ) {}
+    ) {
+        // Empty
+    }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record Category(
         @JsonProperty("tag") String tag,
         @JsonProperty("label") String label
-    ) {}
+    ) {
+        // Empty
+    }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record Company(
         @JsonProperty("display_name") String displayName
-    ) {}
+    ) {
+        // Empty
+    }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonIgnoreProperties(ignoreUnknown = true)
     public record Location(
         @JsonProperty("display_name") String displayName,
         @JsonProperty("area") List<String> area
-    ) {}
+    ) {
+        // Empty
+    }
 }

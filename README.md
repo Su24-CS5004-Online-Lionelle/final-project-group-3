@@ -1,5 +1,4 @@
-# Final Project for CS 5004 - (APPLICATION NAME/Update)
-
+# Final Project for CS 5004 - Job Panner App
 ## Group Members
 Abegail Santos
 - GitHub username: @asnts18

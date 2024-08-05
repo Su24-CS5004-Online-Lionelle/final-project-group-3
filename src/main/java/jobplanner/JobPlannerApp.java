@@ -5,7 +5,6 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import picocli.CommandLine.Model.CommandSpec;
 import picocli.CommandLine.Spec;
-import picocli.CommandLine.ParameterException;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -26,7 +25,8 @@ import javax.swing.*;
  * The main class for the job planner application.
  */
 @Command(name = "jobplanner", subcommands = { JobPlannerSearch.class, JobPlannerList.class, JobPlannerGraphUI.class,
-        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.", mixinStandardHelpOptions = true)
+        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", 
+        description = "Search and save jobs.", mixinStandardHelpOptions = true)
 public class JobPlannerApp implements Runnable {
 
     /** The command spec. */
@@ -45,7 +45,7 @@ public class JobPlannerApp implements Runnable {
      */
     public static void main(String... args) {
         if (args.length == 0) {
-            args = new String[] { "gui" };
+            args = new String[] {"gui"};
         }
 
         new CommandLine(new JobPlannerApp()).execute(args);

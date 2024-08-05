@@ -1,6 +1,9 @@
 package jobplanner.view;
 
 import javax.swing.*;
+
+import jobplanner.model.types.JobCategory;
+
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -71,7 +74,7 @@ public class FilterPanel extends JPanel {
         add(Box.createRigidArea(new Dimension(0, 10)));
 
         // Initialize and add the category combo box
-        categoryComboBox = new JComboBox<>(new String[]{"Select", "IT", "Finance", "Engineering"});
+        categoryComboBox = new JComboBox<>(jobCategoryLabelArray());
         add(createLabeledComboBox("Category", categoryComboBox));
         add(Box.createRigidArea(new Dimension(0, 10)));
 
@@ -97,6 +100,12 @@ public class FilterPanel extends JPanel {
         datePostedComboBox = new JComboBox<>(new String[]{"Select", "Past week", "Past month", "Today"});
         add(createLabeledComboBox("Date Posted", datePostedComboBox));
         add(Box.createRigidArea(new Dimension(0, 20)));
+    }
+
+    private static String[] jobCategoryLabelArray() {
+        List<String> jobCategoryLabels = JobCategory.getCategoryLabels();
+        jobCategoryLabels.add(0, "Select");
+        return jobCategoryLabels.toArray(new String[jobCategoryLabels.size()]);
     }
 
     /**

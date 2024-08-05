@@ -1,6 +1,7 @@
 package jobplanner.controller;
 
 import jobplanner.model.Filters;
+import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
@@ -12,13 +13,21 @@ import jobplanner.view.JobPlannerGUI;
 
 import javax.swing.JFileChooser;
 import javax.swing.SwingUtilities;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Predicate;
 
 /**
@@ -71,7 +80,7 @@ public class JobPlannerController implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand()) {
             case "Apply Filter":
-                applyFilters();
+                search();
                 break;
             case "Reset Filter":
                 resetFilters();
@@ -107,6 +116,102 @@ public class JobPlannerController implements ActionListener {
             }
         }
     }
+
+    /**
+     * Get a list of job postings from the Adzuna API.
+     * 
+     * @param country the country to search in
+     * @param searchParams the search parameters
+     * @return the job postings
+     */
+    public List<JobRecord> searchJobPostings(String country, Map<String, String> searchParams) {
+        JobPostUtil client = new JobPostUtil(
+            System.getenv("ADZUNA_APP_ID"), 
+            System.getenv("ADZUNA_APP_KEY")
+        );
+
+        InputStream is = client.getJobPostings(country, searchParams);
+
+        List<JobRecord> jobs = new ArrayList<>();
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode jsonMap = mapper.readTree(is);
+            JsonNode results = jsonMap.get("results");
+
+            for (JsonNode result : results) {
+                JobRecord job = mapper.treeToValue(result, JobRecord.class);
+                jobs.add(job);
+            }
+            return jobs;
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return jobs;
+    }
+
+    /** Update the view with the job postings from the Adzuna API. 
+     * 
+    */
+    private void search() {
+        String searchStr = view.getJobListPanel().getSearchText();
+
+        String country = view.getFilterPanel().getSelectedCountry().toLowerCase();
+
+        String selectedCategory = view.getFilterPanel().getSelectedCategory();
+        String company = view.getFilterPanel().getCompany();
+        double minSalary = parseDouble(view.getFilterPanel().getMinSalary());
+        double maxSalary = parseDouble(view.getFilterPanel().getMaxSalary());
+        List<String> roleTypes = view.getFilterPanel().getSelectedRoleTypes();
+
+        Map<String, String> searchParams = new HashMap<>();
+
+        // Build search query only if the value is selected or inputed by the user
+        if (country.isEmpty() || country.equals("select")) {
+            country = "us"; // default to United States
+        }
+
+        // search for a specific keyword like "title" or "description"
+        if (!searchStr.isEmpty()) {
+            searchParams.put("what", searchStr);
+        }
+
+        if (selectedCategory != null && !selectedCategory.equals("Select")) {
+            searchParams.put("category", JobCategory.fromString(selectedCategory).getTag());
+        }
+
+        if (!company.isEmpty()) {
+            searchParams.put("company", company);
+        }
+
+        if (!Double.isNaN(minSalary)) {
+            searchParams.put("salary_min", String.valueOf(minSalary));
+        }
+
+        if (!Double.isNaN(maxSalary)) {
+            searchParams.put("salary_max", String.valueOf(maxSalary));
+        }
+
+        if (!roleTypes.isEmpty()) {
+            if (roleTypes.contains("Full-time")) {
+                searchParams.put("full_time", "1");
+            } else if (roleTypes.contains("Part-time")) {
+                searchParams.put("part_time", "1");
+            } else if (roleTypes.contains("Contract")) {
+                searchParams.put("full_time", "1");
+            }   
+        }
+
+        List<JobRecord> jobs = searchJobPostings(country, searchParams);
+        updateJobList(jobs);
+    }
+
 
     /**
      * Applies the filters specified by the user through the FilterPanel.

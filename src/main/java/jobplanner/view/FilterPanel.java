@@ -10,8 +10,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * FilterPanel represents the panel that provides filtering options for job listings.
- * It includes filters for country, category, company, salary range, role type, and date posted.
+ * FilterPanel represents the panel that provides filtering options for job
+ * listings.
+ * It includes filters for country, category, company, salary range, role type,
+ * and date posted.
  */
 public class FilterPanel extends JPanel {
 
@@ -60,16 +62,15 @@ public class FilterPanel extends JPanel {
         initializeFilterComponents(); // initialize the Filter components
         initializeButtonPanel(); // initialize the Filter components
 
-
     }
-
 
     /**
      * Initializes the UI components for the filter panel.
      */
     private void initializeFilterComponents() {
         // Initialize and add the country combo box
-        countryComboBox = new JComboBox<>(new String[]{"Select", "US", "GB", "AU"});
+        countryComboBox = new JComboBox<>(new String[] { "Select", "GB", "US", "AT", "AU", "BE", "BR", "CA", "CH", "DE",
+                "ES", "FR", "IN", "IT", "MX", "NL", "PL", "SG", "ZA" });
         add(createLabeledComboBox("Country", countryComboBox));
         add(Box.createRigidArea(new Dimension(0, 10)));
 
@@ -97,7 +98,7 @@ public class FilterPanel extends JPanel {
         add(Box.createRigidArea(new Dimension(0, 10)));
 
         // Initialize and add the date posted combo box
-        datePostedComboBox = new JComboBox<>(new String[]{"Select", "Past week", "Past month", "Today"});
+        datePostedComboBox = new JComboBox<>(new String[] { "Select", "Past week", "Past month", "Today" });
         add(createLabeledComboBox("Date Posted", datePostedComboBox));
         add(Box.createRigidArea(new Dimension(0, 20)));
     }
@@ -118,11 +119,10 @@ public class FilterPanel extends JPanel {
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 10));
 
         // add color to the apply filter button
-        applyFilterButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
+        applyFilterButton.setBackground(new Color(135, 206, 235)); // Set the background color to blue
         applyFilterButton.setForeground(Color.BLACK); // Set the text color to white
-        applyFilterButton.setOpaque(true);            // Ensure the button is opaque
-        applyFilterButton.setBorderPainted(false);    // Optional: remove the button border
-
+        applyFilterButton.setOpaque(true); // Ensure the button is opaque
+        applyFilterButton.setBorderPainted(false); // Optional: remove the button border
 
         // Set grey color for the exportTxtButton
         resetFilterButton.setBackground(new Color(211, 211, 211)); // Light grey
@@ -134,6 +134,7 @@ public class FilterPanel extends JPanel {
         buttonPanel.add(resetFilterButton);
         add(buttonPanel);
     }
+
     /**
      * Creates a panel with a label and combo box.
      *

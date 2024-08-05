@@ -16,7 +16,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileOutputStream;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
@@ -37,7 +36,7 @@ public class JobPlannerController implements ActionListener {
     private JobPostModel model;
 
     /** The model containing saved jobs. */
-    private ISavedJobModel savedJobs;
+    private ISavedJobModel savedJobsModel;
 
     /**
      * Constructs a JobPlannerController with the specified model and view.
@@ -50,7 +49,7 @@ public class JobPlannerController implements ActionListener {
         this.view = view;
         this.filters = new Filters();
         this.model = model;
-        this.savedJobs = SavedJobModel.loadFromJson();
+        this.savedJobsModel = SavedJobModel.loadFromJson();
         view.setListeners(this);
     }
 
@@ -101,7 +100,7 @@ public class JobPlannerController implements ActionListener {
         if (result == JFileChooser.APPROVE_OPTION) {
             String filename = fileChooser.getSelectedFile().getAbsolutePath();
             try {
-                DataFormatter.write(savedJobs.getSavedJobs(), format, new FileOutputStream(filename));
+                DataFormatter.write(savedJobsModel.getSavedJobs(), format, new FileOutputStream(filename));
             } catch (Exception e) {
                 view.showErrorDialog("Error exporting file: " + e.getMessage());
             }
@@ -148,6 +147,8 @@ public class JobPlannerController implements ActionListener {
         // Get jobs and apply filters
         List<JobRecord> jobs = model.getJobs();
         List<JobRecord> filteredJobs = filters.applyFilters(jobs, predicates);
+
+        // display jobs
         updateJobList(filteredJobs);
     }
 
@@ -165,10 +166,10 @@ public class JobPlannerController implements ActionListener {
             // Determine date range based on selection
             switch (dateFilter) {
                 case "Past week":
-                    startDate = endDate.minus(1, ChronoUnit.WEEKS);
+                    startDate = endDate.minusWeeks(1);
                     break;
                 case "Past month":
-                    startDate = endDate.minus(1, ChronoUnit.MONTHS);
+                    startDate = endDate.minusMonths(1);
                     break;
                 case "Today":
                     startDate = endDate;
@@ -195,16 +196,18 @@ public class JobPlannerController implements ActionListener {
      * Shows the saved jobs in a separate window.
      */
     private void showSavedJobs() {
-        // Get selected jobs from the table
+        // Get list of selected jobs from the view
         List<JobRecord> selectedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
 
-        // Set saved job list
-        savedJobs.setSavedJobs(selectedJobs);
+        // Set list of selected job to the model
+        savedJobsModel.setSavedJobs(selectedJobs);
 
-        // Display the saved job list
-        view.showSavedJobsPanel(selectedJobs);
+        // Set list of selected job from the model to the view
+        view.getSavedJobListPanel().setJobs(savedJobsModel.getSavedJobs());
+
+        // Open saved jobs window
+        view.showSavedJobsPanel();
     }
-
 
 
     /**

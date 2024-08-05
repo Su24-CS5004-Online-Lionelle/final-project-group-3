@@ -46,6 +46,11 @@ public final class SavedJobModel implements ISavedJobModel {
     }
 
     @Override
+    public void setSavedJobs(List<JobRecord> jobs) {
+        this.savedJobs = new ArrayList<>(jobs);
+    }
+
+    @Override
     public void addSavedJob(JobRecord job) {
         savedJobs.add(job);
     }
@@ -65,60 +70,6 @@ public final class SavedJobModel implements ISavedJobModel {
         return savedJobs.size();
     }
 
-    /**
-     * Save the saved jobs to a file.
-     */
-    public void save() {
-        save(FILEPATH);
-    }
-
-    /**
-     * Save the saved jobs to a file.
-     * 
-     * @param filePath the file path to save to
-     */
-    public void save(String filePath) {
-        try {  
-            DataFormatter.write(savedJobs, Formats.CSV, new FileOutputStream(filePath));
-            // update the last saved date
-            lastSaved = new Date();
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException("Failed to save model to " + filePath, e);
-        }
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     */
-    public void export() {
-        export(Formats.JSON, FILEPATH);
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     */
-    public void export(Formats format) {
-        export(format, FILEPATH);
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     * @param filePath the file path to export to
-     */
-    public void export(Formats format, String filePath) {
-        try {
-            DataFormatter.write(savedJobs, format, new FileOutputStream(filePath));
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException("Failed to export model to " + filePath, e);
-        }
-    }
 
     /**
      * Load the saved jobs from a file.

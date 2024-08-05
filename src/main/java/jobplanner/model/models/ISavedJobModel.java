@@ -50,29 +50,15 @@ public interface ISavedJobModel {
     List<JobRecord> getSavedJobs();
 
     /**
+     * Set the saved jobs as a list.
+     *
+     */
+    void setSavedJobs(List<JobRecord> jobs);
+
+    /**
      * Clear all saved jobs.
      */
     void clearSavedJobs();
-
-
-    /**
-     * Save the saved jobs to a file.
-     * 
-     */
-    void save();
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     */
-    void export();
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     */
-    void export(Formats format);
 
     /**
      * Load the saved jobs from a file.

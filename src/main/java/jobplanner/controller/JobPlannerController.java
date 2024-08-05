@@ -195,8 +195,14 @@ public class JobPlannerController implements ActionListener {
      * Shows the saved jobs in a separate window.
      */
     private void showSavedJobs() {
-        List<JobRecord> savedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
-        view.showSavedJobsPanel(savedJobs);
+        // Get selected jobs from the table
+        List<JobRecord> selectedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
+
+        // Set saved job list
+        savedJobs.setSavedJobs(selectedJobs);
+
+        // Display the saved job list
+        view.showSavedJobsPanel(selectedJobs);
     }
 
 

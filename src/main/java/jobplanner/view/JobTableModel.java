@@ -1,4 +1,4 @@
-package jobplanner.model.models;
+package jobplanner.view;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.ArrayList;
@@ -67,7 +67,8 @@ public class JobTableModel extends AbstractTableModel {
     public Object getValueAt(int rowIndex, int columnIndex) {
         JobRecord job = jobs.get(rowIndex);
         switch (columnIndex) {
-            case 0: return selected.get(rowIndex); // returns the corresponding value (true or false) from the 'selected' list.
+            // returns the corresponding value (true or false) from the 'selected' list.
+            case 0: return selected.get(rowIndex); 
             case 1: return job.title(); // job title
             case 2: return job.location().displayName(); // job location
             case 3: return job.description(); // job description

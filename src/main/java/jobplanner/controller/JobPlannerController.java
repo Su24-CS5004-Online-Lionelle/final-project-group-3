@@ -1,16 +1,20 @@
 package jobplanner.controller;
 
 import jobplanner.model.Filters;
+import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
+import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.model.models.JobTableModel;
+import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.types.JobCategory;
 import jobplanner.view.JobPlannerGUI;
 
+import javax.swing.JFileChooser;
 import javax.swing.SwingUtilities;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileOutputStream;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
@@ -32,6 +36,9 @@ public class JobPlannerController implements ActionListener {
     /** The model containing job data. */
     private JobPostModel model;
 
+    /** The model containing saved jobs. */
+    private ISavedJobModel savedJobs;
+
     /**
      * Constructs a JobPlannerController with the specified model and view.
      * Sets up action listeners for the view components.
@@ -43,6 +50,7 @@ public class JobPlannerController implements ActionListener {
         this.view = view;
         this.filters = new Filters();
         this.model = model;
+        this.savedJobs = SavedJobModel.loadFromJson();
         view.setListeners(this);
     }
 
@@ -72,11 +80,31 @@ public class JobPlannerController implements ActionListener {
                 showSavedJobs();
                 break;
             case "Export as CSV":
-                // TODO: add method
+                exportList(Formats.CSV);
                 break;
             case "Export as TXT":
-                // TODO: add method
+                exportList(Formats.PRETTY);
                 break;
+            default:
+                break;
+        }
+    }
+
+    /**
+     * Exports the list of games to a file, either CSV or TXT format.
+     * 
+     * @param format the format to export the list as.
+     */
+    private void exportList(Formats format) {
+        JFileChooser fileChooser = new JFileChooser();
+        int result = fileChooser.showSaveDialog(view);
+        if (result == JFileChooser.APPROVE_OPTION) {
+            String filename = fileChooser.getSelectedFile().getAbsolutePath();
+            try {
+                DataFormatter.write(savedJobs.getSavedJobs(), format, new FileOutputStream(filename));
+            } catch (Exception e) {
+                view.showErrorDialog("Error exporting file: " + e.getMessage());
+            }
         }
     }
 
@@ -144,6 +172,8 @@ public class JobPlannerController implements ActionListener {
                     break;
                 case "Today":
                     startDate = endDate;
+                    break;
+                default:
                     break;
             }
 

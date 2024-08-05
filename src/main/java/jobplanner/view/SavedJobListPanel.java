@@ -10,7 +10,8 @@ import java.util.List;
 
 /**
  * SavedJobListPanel represents a panel displaying a list of saved job postings.
- * The panel includes a table with job details and buttons to export the list to CSV or TXT.
+ * The panel includes a table with job details and buttons to export the list to
+ * CSV or TXT.
  */
 public class SavedJobListPanel extends JPanel {
 
@@ -58,7 +59,9 @@ public class SavedJobListPanel extends JPanel {
      * Initializes the saved job table.
      */
     private void initializeSavedJobTable() {
-        savedJobTableModel = new DefaultTableModel(new Object[]{"Applied", "Title", "Company", "Salary Range", "Location"}, 0) {
+        savedJobTableModel = new DefaultTableModel(
+            new Object[]{"Applied", "Title", "Company", "Salary Range", "Location"}, 0) {
+                
             @Override
             public boolean isCellEditable(int row, int column) {
                 return column == 0;
@@ -86,13 +89,13 @@ public class SavedJobListPanel extends JPanel {
         // Set the background colors for the buttons
         exportCsvButton.setBackground(new Color(144, 238, 144)); // Set the background color to green
         exportCsvButton.setForeground(Color.BLACK); // Set the text color to black
-        exportCsvButton.setOpaque(true);            // Ensure the button is opaque
-        exportCsvButton.setBorderPainted(false);    // Optional: remove the button border
+        exportCsvButton.setOpaque(true); // Ensure the button is opaque
+        exportCsvButton.setBorderPainted(false); // Optional: remove the button border
 
-        exportTxtButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
+        exportTxtButton.setBackground(new Color(135, 206, 235)); // Set the background color to blue
         exportTxtButton.setForeground(Color.BLACK); // Set the text color to white
-        exportTxtButton.setOpaque(true);            // Ensure the button is opaque
-        exportTxtButton.setBorderPainted(false);    // Optional: remove the button border
+        exportTxtButton.setOpaque(true); // Ensure the button is opaque
+        exportTxtButton.setBorderPainted(false); // Optional: remove the button border
 
         buttonPanel.add(exportCsvButton);
         buttonPanel.add(exportTxtButton);
@@ -108,7 +111,7 @@ public class SavedJobListPanel extends JPanel {
         savedJobTableModel.setRowCount(0);
         for (JobRecord job : jobs) {
             String salaryRange = job.salaryMin() + " - " + job.salaryMax();
-            savedJobTableModel.addRow(new Object[]{
+            savedJobTableModel.addRow(new Object[] {
                     false, job.title(), job.company().displayName(), salaryRange, job.location().displayName()
             });
         }

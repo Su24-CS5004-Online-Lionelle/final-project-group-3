@@ -1,8 +1,7 @@
 package jobplanner.view;
 
-import jobplanner.model.models.IJobPostModel;
 import jobplanner.model.models.JobPostModel;
-import jobplanner.model.models.JobTableModel;
+import jobplanner.model.models.IJobPostModel.JobRecord;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,9 +27,9 @@ public class JobPlannerGUI extends JFrame {
      * Constructs a new JobPlannerGUI.
      * Initializes the main GUI components and layout.
      *
-     * @param model The JobPostModel containing job data.
+     * @param jobs The JobPostModel containing job data.
      */
-    public JobPlannerGUI(JobPostModel model) {
+    public JobPlannerGUI(JobPostModel jobs) {
         setTitle("Job Search Planner");
         setSize(1200, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -39,10 +38,11 @@ public class JobPlannerGUI extends JFrame {
 
         // Initialize panels
         filterPanel = new FilterPanel();
-        jobListPanel = new JobListPanel(new JobTableModel(model.getJobs()));
+        jobListPanel = new JobListPanel(new JobTableModel(jobs.getJobs()));
         savedJobListPanel = new SavedJobListPanel();
 
         initializePanels(); // Set up the panels in the frame
+        setVisible(true);
     }
 
     /**
@@ -79,7 +79,7 @@ public class JobPlannerGUI extends JFrame {
      *
      * @param savedJobs A list of saved job records to display.
      */
-    public void showSavedJobsPanel(List<IJobPostModel.JobRecord> savedJobs) {
+    public void showSavedJobsPanel(List<JobRecord> savedJobs) {
         savedJobListPanel.setJobs(savedJobs);
 
         JFrame savedJobsFrame = new JFrame("Saved Jobs");

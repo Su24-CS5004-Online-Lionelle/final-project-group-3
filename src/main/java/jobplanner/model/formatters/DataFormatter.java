@@ -95,6 +95,8 @@ public final class DataFormatter {
             @Nonnull OutputStream out) {
 
         switch (format) {
+            case PRETTY:
+                prettyPrint(records, out);
             case JSON:
                 writeJsonData(records, out);
                 break;
@@ -106,7 +108,4 @@ public final class DataFormatter {
 
         }
     }
-
-
-
 }

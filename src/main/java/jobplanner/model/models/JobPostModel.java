@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * A class to represent the model of the job postings.
  */
 public final class JobPostModel implements IJobPostModel {
-    /** Persistent database file path */
+    /** Persistent database file path. */
     private List<JobRecord> jobs;
 
     /**

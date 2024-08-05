@@ -80,10 +80,10 @@ public class JobPlannerController implements ActionListener {
                 showSavedJobs();
                 break;
             case "Export as CSV":
-                exportList();
+                exportList(Formats.CSV);
                 break;
             case "Export as TXT":
-                exportList();
+                exportList(Formats.PRETTY);
                 break;
             default:
                 break;
@@ -93,15 +93,15 @@ public class JobPlannerController implements ActionListener {
     /**
      * Exports the list of games to a file, either CSV or TXT format.
      * 
-     * 
+     * @param format the format to export the list as.
      */
-    private void exportList() {
+    private void exportList(Formats format) {
         JFileChooser fileChooser = new JFileChooser();
         int result = fileChooser.showSaveDialog(view);
         if (result == JFileChooser.APPROVE_OPTION) {
             String filename = fileChooser.getSelectedFile().getAbsolutePath();
             try {
-                DataFormatter.write(savedJobs.getSavedJobs(), Formats.CSV, new FileOutputStream(filename));
+                DataFormatter.write(savedJobs.getSavedJobs(), format, new FileOutputStream(filename));
             } catch (Exception e) {
                 view.showErrorDialog("Error exporting file: " + e.getMessage());
             }

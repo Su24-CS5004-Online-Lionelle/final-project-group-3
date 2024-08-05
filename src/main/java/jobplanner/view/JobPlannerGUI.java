@@ -42,6 +42,7 @@ public class JobPlannerGUI extends JFrame {
         savedJobListPanel = new SavedJobListPanel();
 
         initializePanels(); // Set up the panels in the frame
+        setVisible(true);
     }
 
     /**

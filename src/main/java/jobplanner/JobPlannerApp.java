@@ -26,7 +26,7 @@ import javax.swing.*;
  * The main class for the job planner application.
  */
 @Command(name = "jobplanner", subcommands = { JobPlannerSearch.class, JobPlannerList.class, JobPlannerGraphUI.class,
-        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.")
+        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.", mixinStandardHelpOptions = true)
 public class JobPlannerApp implements Runnable {
 
     /** The command spec. */
@@ -35,7 +35,7 @@ public class JobPlannerApp implements Runnable {
 
     @Override
     public void run() {
-        throw new ParameterException(spec.commandLine(), "Specify a subcommand");
+        new CommandLine(new JobPlannerGraphUI()).execute();
     }
 
     /**
@@ -44,8 +44,11 @@ public class JobPlannerApp implements Runnable {
      * @param args the command line arguments
      */
     public static void main(String... args) {
-        int exitCode = new CommandLine(new JobPlannerApp()).execute(args);
-        System.exit(exitCode);
+        if (args.length == 0) {
+            args = new String[] { "gui" };
+        }
+
+        new CommandLine(new JobPlannerApp()).execute(args);
     }
 }
 
@@ -124,10 +127,11 @@ class JobPlannerList implements Runnable {
     /** The format to display the job postings in. */
     private Formats format = Formats.PRETTY;
 
-    /** The output file to write to. 
+    /**
+     * The output file to write to.
      * 
      * @param format the format to display the job postings in.
-    */
+     */
     @Option(names = { "-f", "--format" }, description = "The format to display the job postings in.")
     void setFormat(String format) {
         this.format = Formats.valueOf(format.toUpperCase()) == null ? Formats.PRETTY
@@ -139,7 +143,7 @@ class JobPlannerList implements Runnable {
     private String output;
 
     /** The number of saved jobs. */
-    @Option(names = {"-c", "--count"}, description = "The number of saved jobs.")
+    @Option(names = { "-c", "--count" }, description = "The number of saved jobs.")
     private boolean count;
 
     @Override
@@ -170,7 +174,7 @@ class JobPlannerList implements Runnable {
 class JobPlannerGraphUI implements Runnable {
 
     /** The file to load previously saved jobs from. */
-    @Option(names = {"-f", "--file"}, description = "The file to load previously saved jobs from.")
+    @Option(names = { "-f", "--file" }, description = "The file to load previously saved jobs from.")
     private String file = "data/savedjobs.json";
 
     @Override
@@ -181,13 +185,16 @@ class JobPlannerGraphUI implements Runnable {
         // Load saved jobs from JSON file
         SavedJobModel savedJobs = (SavedJobModel) SavedJobModel.loadFromJson(file);
 
-        // Initialize the GUI components with the loaded model
-        JobPlannerGUI view = new JobPlannerGUI(jobs);
+        // Ensure GUI runs on the Event Dispatch Thread (EDT)
+        SwingUtilities.invokeLater(() -> {
+            // Initialize the GUI components with the loaded model
+            JobPlannerGUI view = new JobPlannerGUI(jobs);
 
-        // Initialize the controller with the model and view
-        JobPlannerController controller = new JobPlannerController(jobs, view);
+            // Initialize the controller with the model and view
+            JobPlannerController controller = new JobPlannerController(jobs, view);
 
-        // Start the application
-        SwingUtilities.invokeLater(controller::start);
+            // Start the application
+            controller.start();
+        });
     }
 }

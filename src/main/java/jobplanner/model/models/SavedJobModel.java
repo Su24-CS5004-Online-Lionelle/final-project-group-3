@@ -2,6 +2,7 @@ package jobplanner.model.models;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.List;
 import java.io.FileOutputStream;
 import java.util.Date;
@@ -21,7 +22,7 @@ public final class SavedJobModel implements ISavedJobModel {
     /** A list of jobs. */
     private List<JobRecord> savedJobs = new ArrayList<>();
     /** The last saved date. */
-    private Date lastSaved = null;
+    private LocalDate lastSaved = null;
 
     /** private contructor. 
      * 
@@ -32,12 +33,21 @@ public final class SavedJobModel implements ISavedJobModel {
     }
 
     /**
-     * The last saved date.
+     * Gets the last saved date.
      * 
      * @return the last saved date
      */
-    public Date lastSaved() {
+    public LocalDate getLastSaved() {
         return lastSaved;
+    }
+
+    /**
+     * Sets the last saved date.
+     *
+     * @return the last saved date
+     */
+    public void setLastSaved(LocalDate date) {
+        this.lastSaved = date;
     }
 
     @Override

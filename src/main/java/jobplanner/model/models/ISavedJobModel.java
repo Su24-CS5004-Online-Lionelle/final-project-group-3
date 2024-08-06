@@ -1,10 +1,9 @@
 package jobplanner.model.models;
 
+import java.time.LocalDate;
 import java.util.List;
-import java.util.Date;
 
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.model.formatters.Formats;
 /**
  * Interface to the saved job model.
  * 
@@ -19,7 +18,12 @@ public interface ISavedJobModel {
      * 
      * @return the last date saved
      */
-    Date lastSaved();
+    LocalDate getLastSaved();
+
+    /**
+     * Set the last date saved.
+     */
+    void setLastSaved(LocalDate date);
 
     /**
      * Get the number of saved jobs.

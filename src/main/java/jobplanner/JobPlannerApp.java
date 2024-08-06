@@ -10,11 +10,12 @@ import java.util.Map;
 import java.util.HashMap;
 import java.io.FileOutputStream;
 
-import jobplanner.controller.ActionHandler;
+import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
+import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.types.JobQueryParameter;
 import jobplanner.controller.JobPlannerController;
 import jobplanner.view.JobPlannerGUI;
@@ -113,8 +114,8 @@ class JobPlannerSearch implements Runnable {
             searchParams.put(JobQueryParameter.DATE_POSTED.toString(), days);
         }
 
-        ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
-        DataFormatter.write(handler.search(country, searchParams), format, System.out);
+        JobPostUtil client = new JobPostUtil(System.getenv("ADZUNA_APP_ID"), System.getenv("ADZUNA_APP_KEY"));
+        DataFormatter.write(client.getJobPostingList(country, searchParams), format, System.out);
     }
 }
 
@@ -148,21 +149,22 @@ class JobPlannerList implements Runnable {
 
     @Override
     public void run() {
-        ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
+        ISavedJobModel jobs = SavedJobModel.loadFromJson();
+
         if (count) {
-            System.out.println(handler.countSavedJobs());
+            System.out.println(SavedJobModel.loadFromJson().count());
             return;
         }
 
         if (output != null) {
             try {
-                DataFormatter.write(handler.getSavedJobs(), format, new FileOutputStream(output));
+                DataFormatter.write(jobs.getSavedJobs(), format, new FileOutputStream(output));
             } catch (Exception e) {
                 System.err.println("Failed to write to file: " + output);
                 return;
             }
         } else {
-            DataFormatter.write(handler.getSavedJobs(), format, System.out);
+            DataFormatter.write(jobs.getSavedJobs(), format, System.out);
         }
     }
 }

@@ -44,7 +44,7 @@ public class ActionHandler {
 
     /**
      * Add a job to the saved jobs.
-     * 
+     *
      * @param job the job to add
      */
     public void saveJob(JobRecord job) {
@@ -53,7 +53,7 @@ public class ActionHandler {
 
     /**
      * Remove a job from the saved jobs.
-     * 
+     *
      * @param job the job to remove
      */
     public void removeJob(JobRecord job) {
@@ -76,21 +76,6 @@ public class ActionHandler {
         return savedJobs.count();
     }
 
-    /**
-     * Save the jobs.
-     */
-    public void saveJobs() {
-        savedJobs.save();
-    }
-
-    /**
-     * Export the saved jobs.
-     * 
-     * @param format the format to export to
-     */
-    public void exportSavedJobs(Formats format) {
-        savedJobs.export(format);
-    }
 
     /**
      * Search for job postings.

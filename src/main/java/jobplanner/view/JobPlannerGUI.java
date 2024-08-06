@@ -76,12 +76,8 @@ public class JobPlannerGUI extends JFrame {
 
     /**
      * Displays a new window with saved job listings.
-     *
-     * @param savedJobs A list of saved job records to display.
-     */
-    public void showSavedJobsPanel(List<JobRecord> savedJobs) {
-        savedJobListPanel.setJobs(savedJobs);
-
+     **/
+    public void showSavedJobsPanel() {
         JFrame savedJobsFrame = new JFrame("Saved Jobs");
         savedJobsFrame.setSize(800, 600);
         savedJobsFrame.setLayout(new BorderLayout());

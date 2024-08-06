@@ -1,10 +1,9 @@
 package jobplanner.model.models;
 
+import java.time.LocalDate;
 import java.util.List;
-import java.util.Date;
 
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.model.formatters.Formats;
 /**
  * Interface to the saved job model.
  * 
@@ -19,7 +18,12 @@ public interface ISavedJobModel {
      * 
      * @return the last date saved
      */
-    Date lastSaved();
+    LocalDate getLastSaved();
+
+    /**
+     * Set the last date saved.
+     */
+    void setLastSaved(LocalDate date);
 
     /**
      * Get the number of saved jobs.
@@ -50,29 +54,15 @@ public interface ISavedJobModel {
     List<JobRecord> getSavedJobs();
 
     /**
+     * Set the saved jobs as a list.
+     *
+     */
+    void setSavedJobs(List<JobRecord> jobs);
+
+    /**
      * Clear all saved jobs.
      */
     void clearSavedJobs();
-
-
-    /**
-     * Save the saved jobs to a file.
-     * 
-     */
-    void save();
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     */
-    void export();
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     */
-    void export(Formats format);
 
     /**
      * Load the saved jobs from a file.

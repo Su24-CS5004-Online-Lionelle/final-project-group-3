@@ -31,7 +31,7 @@ public final class DataFormatter {
      * @param out the output stream to write to
      */
     private static void prettyPrint(Collection<JobRecord> records, OutputStream out) {
-        PrintStream pout = new PrintStream(out); // so i can use println
+        PrintStream pout = new PrintStream(out);
         for (JobRecord record : records) {
             prettySingle(record, pout);
             pout.println();
@@ -45,12 +45,16 @@ public final class DataFormatter {
      * @param out the output stream to write to
      */
     private static void prettySingle(@Nonnull JobRecord record, @Nonnull PrintStream out) {
+        // Extract city and state from the location area list
+        String city = record.location().displayName();
+        String state = record.location().area().size() > 1 ? record.location().area().get(1) : "";
+
         out.println("Title: " + record.title());
         out.println("   Description: " + record.description());
-        out.println("   Company: " + record.company());
-        out.println("   Location: " + record.location());
+        out.println("   Company: " + record.company().displayName());
+        out.println("   Location: " + city + ", " + state);
+        out.println("   Salary Range: " + record.salaryMin() + " - " + record.salaryMax());
     }
-
 
     /**
      * Write the data as JSON.
@@ -97,15 +101,13 @@ public final class DataFormatter {
         switch (format) {
             case PRETTY:
                 prettyPrint(records, out);
+                break;
             case JSON:
                 writeJsonData(records, out);
                 break;
             case CSV:
                 writeCSVData(records, out);
                 break;
-            default:
-                prettyPrint(records, out);
-
         }
     }
 }

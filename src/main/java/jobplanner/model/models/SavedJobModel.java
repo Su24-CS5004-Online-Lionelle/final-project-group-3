@@ -2,15 +2,12 @@ package jobplanner.model.models;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.time.LocalDate;
 import java.util.List;
-import java.io.FileOutputStream;
-import java.util.Date;
 import java.util.ArrayList;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import jobplanner.model.formatters.DataFormatter;
-import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 
 /**
@@ -21,7 +18,7 @@ public final class SavedJobModel implements ISavedJobModel {
     /** A list of jobs. */
     private List<JobRecord> savedJobs = new ArrayList<>();
     /** The last saved date. */
-    private Date lastSaved = null;
+    private LocalDate lastSaved = null;
 
     /** private contructor. 
      * 
@@ -32,17 +29,31 @@ public final class SavedJobModel implements ISavedJobModel {
     }
 
     /**
-     * The last saved date.
+     * Gets the last saved date.
      * 
      * @return the last saved date
      */
-    public Date lastSaved() {
+    public LocalDate getLastSaved() {
         return lastSaved;
+    }
+
+    /**
+     * Sets the last saved date.
+     * 
+     * @param date the last saved date.
+     */
+    public void setLastSaved(LocalDate date) {
+        this.lastSaved = date;
     }
 
     @Override
     public List<JobRecord> getSavedJobs() {
         return savedJobs;
+    }
+
+    @Override
+    public void setSavedJobs(List<JobRecord> jobs) {
+        this.savedJobs = new ArrayList<>(jobs);
     }
 
     @Override
@@ -63,61 +74,6 @@ public final class SavedJobModel implements ISavedJobModel {
     @Override
     public int count() {
         return savedJobs.size();
-    }
-
-    /**
-     * Save the saved jobs to a file.
-     */
-    public void save() {
-        save(FILEPATH);
-    }
-
-    /**
-     * Save the saved jobs to a file.
-     * 
-     * @param filePath the file path to save to
-     */
-    public void save(String filePath) {
-        try {  
-            DataFormatter.write(savedJobs, Formats.CSV, new FileOutputStream(filePath));
-            // update the last saved date
-            lastSaved = new Date();
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException("Failed to save model to " + filePath, e);
-        }
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     */
-    public void export() {
-        export(Formats.JSON, FILEPATH);
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     */
-    public void export(Formats format) {
-        export(format, FILEPATH);
-    }
-
-    /**
-     * Export the saved jobs to a file.
-     * 
-     * @param format the format to export to
-     * @param filePath the file path to export to
-     */
-    public void export(Formats format, String filePath) {
-        try {
-            DataFormatter.write(savedJobs, format, new FileOutputStream(filePath));
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException("Failed to export model to " + filePath, e);
-        }
     }
 
     /**

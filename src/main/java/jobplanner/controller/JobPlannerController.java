@@ -23,7 +23,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -46,7 +45,7 @@ public class JobPlannerController implements ActionListener {
     private JobPostModel model;
 
     /** The model containing saved jobs. */
-    private ISavedJobModel savedJobs;
+    private ISavedJobModel savedJobsModel;
 
     /**
      * Constructs a JobPlannerController with the specified model and view.
@@ -59,7 +58,7 @@ public class JobPlannerController implements ActionListener {
         this.view = view;
         this.filters = new Filters();
         this.model = model;
-        this.savedJobs = SavedJobModel.loadFromJson();
+        this.savedJobsModel = SavedJobModel.loadFromJson();
         view.setListeners(this);
     }
 
@@ -86,6 +85,7 @@ public class JobPlannerController implements ActionListener {
                 resetFilters();
                 break;
             case "Show Saved Jobs":
+                setSavedJobsModel();
                 showSavedJobs();
                 break;
             case "Export as CSV":
@@ -100,8 +100,8 @@ public class JobPlannerController implements ActionListener {
     }
 
     /**
-     * Exports the list of games to a file, either CSV or TXT format.
-     * 
+     * Exports the list of jobs to a file, either CSV or TXT format.
+     *
      * @param format the format to export the list as.
      */
     private void exportList(Formats format) {
@@ -109,10 +109,16 @@ public class JobPlannerController implements ActionListener {
         int result = fileChooser.showSaveDialog(view);
         if (result == JFileChooser.APPROVE_OPTION) {
             String filename = fileChooser.getSelectedFile().getAbsolutePath();
-            try {
-                DataFormatter.write(savedJobs.getSavedJobs(), format, new FileOutputStream(filename));
-            } catch (Exception e) {
-                view.showErrorDialog("Error exporting file: " + e.getMessage());
+
+            // check if user inputs a valid extension for filename
+            if (InputValidator.isValidExtension(filename, format)) {
+                try {
+                    DataFormatter.write(savedJobsModel.getSavedJobs(), format, new FileOutputStream(filename));
+                } catch (Exception e) {
+                    view.showErrorDialog("Error exporting file: " + e.getMessage());
+                }
+            } else {
+                view.showErrorDialog("Invalid file extension for the selected format.");
             }
         }
     }
@@ -166,8 +172,8 @@ public class JobPlannerController implements ActionListener {
 
         String selectedCategory = view.getFilterPanel().getSelectedCategory();
         String company = view.getFilterPanel().getCompany();
-        double minSalary = parseDouble(view.getFilterPanel().getMinSalary());
-        double maxSalary = parseDouble(view.getFilterPanel().getMaxSalary());
+        Integer minSalary = Integer.parseInt(view.getFilterPanel().getMinSalary());
+        Integer maxSalary = Integer.parseInt(view.getFilterPanel().getMaxSalary());
         List<String> roleTypes = view.getFilterPanel().getSelectedRoleTypes();
 
         Map<String, String> searchParams = new HashMap<>();
@@ -190,11 +196,12 @@ public class JobPlannerController implements ActionListener {
             searchParams.put("company", company);
         }
 
-        if (!Double.isNaN(minSalary)) {
+        if (minSalary >= 0) {
+            // make sure the min salary is a positive number
             searchParams.put("salary_min", String.valueOf(minSalary));
         }
 
-        if (!Double.isNaN(maxSalary)) {
+        if (maxSalary >= 0) {
             searchParams.put("salary_max", String.valueOf(maxSalary));
         }
 
@@ -242,6 +249,12 @@ public class JobPlannerController implements ActionListener {
         }
         if (!Double.isNaN(minSalary) && !Double.isNaN(maxSalary)) {
             predicates.add(filters.bySalaryRange(minSalary, maxSalary));
+        } else if (!Double.isNaN(minSalary)) {
+            // Add a separate condition if only the minimum salary is specified
+            predicates.add(filters.bySalaryRange(minSalary, Double.MAX_VALUE));
+        } else if (!Double.isNaN(maxSalary)) {
+            // Add a separate condition if only the maximum salary is specified
+            predicates.add(filters.bySalaryRange(Double.MIN_VALUE, maxSalary));
         }
         if (!roleTypes.isEmpty()) {
             predicates.add(filters.byRoleType(roleTypes));
@@ -253,8 +266,11 @@ public class JobPlannerController implements ActionListener {
         // Get jobs and apply filters
         List<JobRecord> jobs = model.getJobs();
         List<JobRecord> filteredJobs = filters.applyFilters(jobs, predicates);
+
+        // display jobs
         updateJobList(filteredJobs);
     }
+
 
     /**
      * Adds a date filter predicate based on the selected date range.
@@ -270,10 +286,10 @@ public class JobPlannerController implements ActionListener {
             // Determine date range based on selection
             switch (dateFilter) {
                 case "Past week":
-                    startDate = endDate.minus(1, ChronoUnit.WEEKS);
+                    startDate = endDate.minusWeeks(1);
                     break;
                 case "Past month":
-                    startDate = endDate.minus(1, ChronoUnit.MONTHS);
+                    startDate = endDate.minusMonths(1);
                     break;
                 case "Today":
                     startDate = endDate;
@@ -300,11 +316,23 @@ public class JobPlannerController implements ActionListener {
      * Shows the saved jobs in a separate window.
      */
     private void showSavedJobs() {
-        List<JobRecord> savedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
-        view.showSavedJobsPanel(savedJobs);
+        // Open saved jobs window
+        view.showSavedJobsPanel();
     }
 
+    private void setSavedJobsModel() {
+        // Get list of selected jobs from the view
+        List<JobRecord> selectedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
 
+        // Set list of selected job to the model
+        savedJobsModel.setSavedJobs(selectedJobs);
+
+        // Set list of selected job from the model to the view
+        view.getSavedJobListPanel().setJobs(savedJobsModel.getSavedJobs());
+
+        // set last saved date
+        savedJobsModel.setLastSaved(LocalDate.now());
+    }
 
     /**
      * Parses a string to a double value. Returns NaN if the parsing fails.

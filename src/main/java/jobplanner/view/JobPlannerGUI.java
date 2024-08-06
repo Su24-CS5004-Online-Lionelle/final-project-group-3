@@ -1,12 +1,10 @@
 package jobplanner.view;
 
 import jobplanner.model.models.JobPostModel;
-import jobplanner.model.models.IJobPostModel.JobRecord;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.List;
 
 /**
  * JobPlannerGUI represents the main GUI frame for the Job Planner application.
@@ -76,12 +74,8 @@ public class JobPlannerGUI extends JFrame {
 
     /**
      * Displays a new window with saved job listings.
-     *
-     * @param savedJobs A list of saved job records to display.
-     */
-    public void showSavedJobsPanel(List<JobRecord> savedJobs) {
-        savedJobListPanel.setJobs(savedJobs);
-
+     **/
+    public void showSavedJobsPanel() {
         JFrame savedJobsFrame = new JFrame("Saved Jobs");
         savedJobsFrame.setSize(800, 600);
         savedJobsFrame.setLayout(new BorderLayout());

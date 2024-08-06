@@ -127,30 +127,12 @@ public class SavedJobListPanel extends JPanel {
     }
 
     /**
-     * Returns the button used to export the list as a CSV file.
-     *
-     * @return the JButton for exporting to CSV
-     */
-    public JButton getExportCsvButton() {
-        return exportCsvButton;
-    }
-
-    /**
-     * Returns the button used to export the list as a TXT file.
-     *
-     * @return the JButton for exporting to TXT
-     */
-    public JButton getExportTxtButton() {
-        return exportTxtButton;
-    }
-
-    /**
      * Sets the action listeners for the buttons in the JobListPanel.
      *
      * @param listener The ActionListener to attach.
      */
     public void setListeners(ActionListener listener) {
-        exportCsvButton.setActionCommand("Export as TXT");
+        exportCsvButton.setActionCommand("Export as CSV");
         exportCsvButton.addActionListener(listener);
 
         exportTxtButton.setActionCommand("Export as TXT");

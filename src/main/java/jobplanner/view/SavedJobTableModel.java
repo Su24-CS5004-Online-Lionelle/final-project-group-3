@@ -9,19 +9,22 @@ import java.text.NumberFormat;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 
 /**
- * JobTableModel is a custom table model for displaying job records in a JTable.
+ * JobTableModel is a custom table model for displaying a user's saved job records in a JTable.
  * It handles job data, including the ability to select jobs for further actions.
  */
-public class JobTableModel extends AbstractTableModel {
+public class SavedJobTableModel extends AbstractTableModel {
 
-    /** List of job records. */
+    /** List of saved job records. */
     private List<JobRecord> jobs;
 
     /** List to track selected rows. */
     private List<Boolean> selected;
 
+    /** List to track applied job rows. */
+    private List<Boolean> applied;
+
     /** Column names for the table. */
-    private String[] columnNames = {"Selected", "Title", "Location", "Description", "Salary", "Category", "Company"};
+    private String[] columnNames = {"Selected", "Applied", "Title", "Company", "Salary Range", "Location"};
 
     /**
      * Constructs a JobTableModel with the given list of jobs.
@@ -29,18 +32,22 @@ public class JobTableModel extends AbstractTableModel {
      *
      * @param jobs the list of job records to display
      */
-    public JobTableModel(List<JobRecord> jobs) {
+    public SavedJobTableModel(List<JobRecord> jobs) {
         this.jobs = jobs != null ? jobs : new ArrayList<>();
+        
         this.selected = new ArrayList<>(this.jobs.size());
+        this.applied = new ArrayList<>(this.jobs.size());
+
         for (int i = 0; i < this.jobs.size(); i++) {
             selected.add(false); // Initialize all as not selected
+            applied.add(false); // Initialize all as not applied
         }
     }
 
     /**
-     * Returns the number of rows in the table, which corresponds to the number of jobs.
+     * Returns the number of rows in the table, which corresponds to the number of saved jobs.
      *
-     * @return the number of job records
+     * @return the number of saved job records
      */
     @Override
     public int getRowCount() {
@@ -71,13 +78,12 @@ public class JobTableModel extends AbstractTableModel {
         JobRecord job = jobs.get(rowIndex);
         switch (columnIndex) {
             // returns the corresponding value (true or false) from the 'selected' list.
-            case 0: return selected.get(rowIndex); 
-            case 1: return job.title(); // job title
-            case 2: return job.location().displayName(); // job location
-            case 3: return job.description(); // job description
+            case 0: return selected.get(rowIndex); // selected status
+            case 1: return applied.get(rowIndex); // applied status
+            case 2: return job.title(); // job title
+            case 3: return job.company().displayName(); // company name
             case 4: return convertSalary(job.salaryMin()) + " - " + convertSalary(job.salaryMax()); // salary range
-            case 5: return job.category().label(); // job category
-            case 6: return job.company().displayName(); // company name
+            case 5: return job.location().displayName(); // job location
             default: return null;
         }
     }
@@ -97,6 +103,9 @@ public class JobTableModel extends AbstractTableModel {
         if (columnIndex == 0) {
             selected.set(rowIndex, (Boolean) aValue);
             fireTableCellUpdated(rowIndex, columnIndex);
+        } else if (columnIndex == 1) {
+            applied.set(rowIndex, (Boolean) aValue);
+            fireTableCellUpdated(rowIndex, columnIndex);
         }
     }
 
@@ -110,7 +119,7 @@ public class JobTableModel extends AbstractTableModel {
      */
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex) {
-        return columnIndex == 0;
+        return columnIndex == 0 || columnIndex == 1; // Only allow selection and applied status to be edited
     }
 
     /**
@@ -122,7 +131,10 @@ public class JobTableModel extends AbstractTableModel {
      */
     @Override
     public Class<?> getColumnClass(int columnIndex) {
-        return columnIndex == 0 ? Boolean.class : String.class;
+        if (columnIndex == 0 || columnIndex == 1) {
+            return Boolean.class; // First two columns are checkboxes
+        }
+        return String.class;
     }
 
     /**
@@ -152,6 +164,21 @@ public class JobTableModel extends AbstractTableModel {
     }
 
     /**
+     * Returns a list of job records that have been applied to.
+     *
+     * @return a list of applied job records
+     */
+    public List<JobRecord> getAppliedJobs() {
+        List<JobRecord> appliedJobs = new ArrayList<>();
+        for (int i = 0; i < jobs.size(); i++) {
+            if (applied.get(i)) { // if checkbox is marked, add to the list of saved jobs
+                appliedJobs.add(jobs.get(i));
+            }
+        }
+        return appliedJobs;
+    }
+
+    /**
      * Returns the job record at the specified row index.
      *
      * @param rowIndex the index of the row
@@ -162,17 +189,19 @@ public class JobTableModel extends AbstractTableModel {
     }
 
     /**
-     * Updates the list of jobs and resets the selection state.
+     * Sets the job records to be displayed in the table.
      *
-     * @param jobs the new list of job records
+     * @param jobs the list of job records
      */
     public void setJobs(List<JobRecord> jobs) {
-        this.jobs = jobs != null ? jobs : new ArrayList<>();
-        this.selected = new ArrayList<>(jobs.size());
-        for (int i = 0; i < jobs.size(); i++) {
+        this.jobs = jobs;
+        this.selected = new ArrayList<>(this.jobs.size());
+        this.applied = new ArrayList<>(this.jobs.size());
+        for (int i = 0; i < this.jobs.size(); i++) {
             selected.add(false); // Initialize all as not selected
+            applied.add(false); // Initialize all as not applied
         }
-        fireTableDataChanged(); // Notify listeners that the data has changed
+        fireTableDataChanged();
     }
 
     /**

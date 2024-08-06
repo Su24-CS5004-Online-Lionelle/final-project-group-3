@@ -1,6 +1,7 @@
 package jobplanner.view;
 
 import jobplanner.model.models.JobPostModel;
+import jobplanner.model.models.SavedJobModel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -19,15 +20,16 @@ public class JobPlannerGUI extends JFrame {
     private JobListPanel jobListPanel;
 
     /** The panel for displaying saved job listings. */
-    private SavedJobListPanel savedJobListPanel;
+    private SavedJobsPanel savedJobsPanel;
 
     /**
      * Constructs a new JobPlannerGUI.
      * Initializes the main GUI components and layout.
      *
      * @param jobs The JobPostModel containing job data.
+     * @param savedJobs The SavedJobModel containing saved job data.
      */
-    public JobPlannerGUI(JobPostModel jobs) {
+    public JobPlannerGUI(JobPostModel jobs, SavedJobModel savedJobs) {
         setTitle("Job Search Planner");
         setSize(1200, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -37,7 +39,7 @@ public class JobPlannerGUI extends JFrame {
         // Initialize panels
         filterPanel = new FilterPanel();
         jobListPanel = new JobListPanel(new JobTableModel(jobs.getJobs()));
-        savedJobListPanel = new SavedJobListPanel();
+        savedJobsPanel = new SavedJobsPanel(new SavedJobTableModel(savedJobs.getSavedJobs()));
 
         initializePanels(); // Set up the panels in the frame
         setVisible(true);
@@ -79,7 +81,7 @@ public class JobPlannerGUI extends JFrame {
         JFrame savedJobsFrame = new JFrame("Saved Jobs");
         savedJobsFrame.setSize(800, 600);
         savedJobsFrame.setLayout(new BorderLayout());
-        savedJobsFrame.add(savedJobListPanel, BorderLayout.CENTER);
+        savedJobsFrame.add(savedJobsPanel, BorderLayout.CENTER);
         savedJobsFrame.setVisible(true);
     }
 
@@ -91,7 +93,7 @@ public class JobPlannerGUI extends JFrame {
     public void setListeners(ActionListener listener) {
         filterPanel.setListeners(listener);
         jobListPanel.setListeners(listener);
-        savedJobListPanel.setListeners(listener);
+        savedJobsPanel.setListeners(listener);
     }
 
     /**
@@ -117,8 +119,8 @@ public class JobPlannerGUI extends JFrame {
      *
      * @return The SavedJobListPanel component.
      */
-    public SavedJobListPanel getSavedJobListPanel() {
-        return savedJobListPanel;
+    public SavedJobsPanel getSavedJobsPanel() {
+        return savedJobsPanel;
     }
 
     /**

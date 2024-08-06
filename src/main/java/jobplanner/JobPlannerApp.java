@@ -190,10 +190,10 @@ class JobPlannerGraphUI implements Runnable {
         // Ensure GUI runs on the Event Dispatch Thread (EDT)
         SwingUtilities.invokeLater(() -> {
             // Initialize the GUI components with the loaded model
-            JobPlannerGUI view = new JobPlannerGUI(jobs);
+            JobPlannerGUI view = new JobPlannerGUI(jobs, savedJobs);
 
             // Initialize the controller with the model and view
-            JobPlannerController controller = new JobPlannerController(jobs, view);
+            JobPlannerController controller = new JobPlannerController(jobs, savedJobs, view);
 
             // Start the application
             controller.start();

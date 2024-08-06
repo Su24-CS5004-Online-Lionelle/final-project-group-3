@@ -1,25 +1,22 @@
 package jobplanner.view;
 
 import javax.swing.*;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import jobplanner.model.models.IJobPostModel.JobRecord;
 
 import java.awt.event.ActionListener;
-import java.util.List;
 
 /**
  * SavedJobListPanel represents a panel displaying a list of saved job postings.
  * The panel includes a table with job details and buttons to export the list to
  * CSV or TXT.
  */
-public class SavedJobListPanel extends JPanel {
+public class SavedJobsPanel extends JPanel {
 
     /** The table displaying saved job records. */
     private JTable savedJobTable;
 
     /** The table model for managing saved job records. */
-    private DefaultTableModel savedJobTableModel;
+    private SavedJobTableModel savedJobTableModel;
 
     /** Button for exporting the saved jobs as a CSV file. */
     private JButton exportCsvButton;
@@ -27,11 +24,17 @@ public class SavedJobListPanel extends JPanel {
     /** Button for exporting the saved jobs as a TXT file. */
     private JButton exportTxtButton;
 
+    /** Button for removing selected saved jobs. */
+    private JButton removeButton;
+
     /**
      * Constructs a new SavedJobListPanel.
      * This panel includes a table for saved jobs, a label, and export buttons.
+     *
+     * @param savedJobTableModel The table model containing saved job data.
      */
-    public SavedJobListPanel() {
+    public SavedJobsPanel(SavedJobTableModel savedJobTableModel) {
+        this.savedJobTableModel = savedJobTableModel;
         setLayout(new BorderLayout());
         initializeUIComponents();
     }
@@ -59,23 +62,34 @@ public class SavedJobListPanel extends JPanel {
      * Initializes the saved job table.
      */
     private void initializeSavedJobTable() {
-        savedJobTableModel = new DefaultTableModel(
-            new Object[]{"Applied", "Title", "Company", "Salary Range", "Location"}, 0) {
-                
-            @Override
-            public boolean isCellEditable(int row, int column) {
-                return column == 0;
-            }
 
-            @Override
-            public Class<?> getColumnClass(int columnIndex) {
-                return columnIndex == 0 ? Boolean.class : String.class;
-            }
-        };
-
+        // Create the table with the saved job data
         savedJobTable = new JTable(savedJobTableModel);
+
+        // Set the column widths
         savedJobTable.getColumnModel().getColumn(0).setMaxWidth(70);
+        savedJobTable.getColumnModel().getColumn(1).setMaxWidth(70);
+        
+        // Set the column widths
         add(new JScrollPane(savedJobTable), BorderLayout.CENTER);
+    }
+
+    /** 
+     * Get the job saved table.
+     * 
+     * @return the saved job table
+    */
+    public JTable getSavedJobTable() {
+        return savedJobTable;
+    }
+
+    /** 
+     * Get the job saved table model.
+     * 
+     * @return the saved job table model
+     */
+    public SavedJobTableModel getSavedJobTableModel() {
+        return savedJobTableModel;
     }
 
     /**
@@ -83,10 +97,16 @@ public class SavedJobListPanel extends JPanel {
      */
     private void initializeButtonPanel() {
         JPanel buttonPanel = new JPanel();
+        removeButton = new JButton("Remove Selected");
         exportCsvButton = new JButton("Export as CSV");
         exportTxtButton = new JButton("Export as TXT");
 
         // Set the background colors for the buttons
+        removeButton.setBackground(new Color(255, 99, 71)); // Set the background color to red
+        removeButton.setForeground(Color.BLACK); // Set the text color to black
+        removeButton.setOpaque(true); // Ensure the button is opaque
+        removeButton.setBorderPainted(false); // Optional: remove the button border
+
         exportCsvButton.setBackground(new Color(144, 238, 144)); // Set the background color to green
         exportCsvButton.setForeground(Color.BLACK); // Set the text color to black
         exportCsvButton.setOpaque(true); // Ensure the button is opaque
@@ -99,32 +119,11 @@ public class SavedJobListPanel extends JPanel {
 
         buttonPanel.add(exportCsvButton);
         buttonPanel.add(exportTxtButton);
+        buttonPanel.add(removeButton);
         add(buttonPanel, BorderLayout.SOUTH);
     }
 
-    /**
-     * Sets the job records to be displayed in the table.
-     *
-     * @param jobs a list of JobRecord objects to display
-     */
-    public void setJobs(List<JobRecord> jobs) {
-        savedJobTableModel.setRowCount(0);
-        for (JobRecord job : jobs) {
-            String salaryRange = job.salaryMin() + " - " + job.salaryMax();
-            savedJobTableModel.addRow(new Object[] {
-                    false, job.title(), job.company().displayName(), salaryRange, job.location().displayName()
-            });
-        }
-    }
 
-    /**
-     * Returns the table model containing the saved job data.
-     *
-     * @return the DefaultTableModel used by the saved jobs table
-     */
-    public DefaultTableModel getModel() {
-        return savedJobTableModel;
-    }
 
     /**
      * Sets the action listeners for the buttons in the JobListPanel.
@@ -137,5 +136,8 @@ public class SavedJobListPanel extends JPanel {
 
         exportTxtButton.setActionCommand("Export as TXT");
         exportTxtButton.addActionListener(listener);
+
+        removeButton.setActionCommand("Remove Selected");
+        removeButton.addActionListener(listener);
     }
 }

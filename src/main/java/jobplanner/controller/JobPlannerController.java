@@ -7,7 +7,6 @@ import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.types.JobCategory;
 import jobplanner.view.JobPlannerGUI;
 
@@ -45,20 +44,21 @@ public class JobPlannerController implements ActionListener {
     private JobPostModel model;
 
     /** The model containing saved jobs. */
-    private ISavedJobModel savedJobsModel;
+    private SavedJobModel savedJobsModel;
 
     /**
      * Constructs a JobPlannerController with the specified model and view.
      * Sets up action listeners for the view components.
      *
      * @param model the data model containing job records
+     * @param savedJobs the data model containing saved job records
      * @param view  the view component of the MVC architecture
      */
-    public JobPlannerController(JobPostModel model, JobPlannerGUI view) {
+    public JobPlannerController(JobPostModel model, SavedJobModel savedJobs, JobPlannerGUI view) {
         this.view = view;
         this.filters = new Filters();
         this.model = model;
-        this.savedJobsModel = SavedJobModel.loadFromJson();
+        this.savedJobsModel = savedJobs;
         view.setListeners(this);
     }
 
@@ -84,8 +84,13 @@ public class JobPlannerController implements ActionListener {
             case "Reset Filter":
                 resetFilters();
                 break;
+            case "Add to Saved Jobs":
+                addSelectedJobsToList();
+                break;
+            case "Remove Selected":
+                removeSelectedJobs();
+                break;
             case "Show Saved Jobs":
-                setSavedJobsModel();
                 showSavedJobs();
                 break;
             case "Export as CSV":
@@ -320,17 +325,41 @@ public class JobPlannerController implements ActionListener {
         view.showSavedJobsPanel();
     }
 
-    private void setSavedJobsModel() {
+    /**
+     * Adds the selected jobs to the list of saved jobs.
+     */
+    private void addSelectedJobsToList() {
         // Get list of selected jobs from the view
         List<JobRecord> selectedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
 
-        // Set list of selected job to the model
-        savedJobsModel.setSavedJobs(selectedJobs);
+        // Add selected jobs to the saved jobs list
+        for (JobRecord job : selectedJobs) {
+            savedJobsModel.addSavedJob(job);
+        }
 
-        // Set list of selected job from the model to the view
-        view.getSavedJobListPanel().setJobs(savedJobsModel.getSavedJobs());
+        // update view with saved jobs
+        view.getSavedJobsPanel().getSavedJobTableModel().setJobs(savedJobsModel.getSavedJobs());
+        
+        // Update the last saved date
+        savedJobsModel.setLastSaved(LocalDate.now());
+    }
 
-        // set last saved date
+    /**
+     * Removes the selected jobs from the list of saved jobs.
+     */
+    private void removeSelectedJobs() {
+        // Get list of selected jobs from the view
+        List<JobRecord> selectedJobs = view.getSavedJobsPanel().getSavedJobTableModel().getSelectedJobs();
+
+        // Remove selected jobs from the saved jobs list
+        for (JobRecord job : selectedJobs) {
+            savedJobsModel.removeSavedJob(job);
+        }
+
+        // update view with saved jobs
+        view.getSavedJobsPanel().getSavedJobTableModel().setJobs(savedJobsModel.getSavedJobs());
+
+        // Update the last saved date
         savedJobsModel.setLastSaved(LocalDate.now());
     }
 

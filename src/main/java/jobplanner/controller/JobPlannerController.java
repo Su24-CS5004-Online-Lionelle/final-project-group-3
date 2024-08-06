@@ -76,6 +76,7 @@ public class JobPlannerController implements ActionListener {
                 resetFilters();
                 break;
             case "Show Saved Jobs":
+                setSavedJobsModel();
                 showSavedJobs();
                 break;
             case "Export as CSV":
@@ -196,6 +197,11 @@ public class JobPlannerController implements ActionListener {
      * Shows the saved jobs in a separate window.
      */
     private void showSavedJobs() {
+        // Open saved jobs window
+        view.showSavedJobsPanel();
+    }
+
+    private void setSavedJobsModel() {
         // Get list of selected jobs from the view
         List<JobRecord> selectedJobs = view.getJobListPanel().getJobTableModel().getSelectedJobs();
 
@@ -205,10 +211,9 @@ public class JobPlannerController implements ActionListener {
         // Set list of selected job from the model to the view
         view.getSavedJobListPanel().setJobs(savedJobsModel.getSavedJobs());
 
-        // Open saved jobs window
-        view.showSavedJobsPanel();
+        // set last saved date
+        savedJobsModel.setLastSaved(LocalDate.now());
     }
-
 
     /**
      * Parses a string to a double value. Returns NaN if the parsing fails.

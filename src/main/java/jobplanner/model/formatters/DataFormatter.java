@@ -25,7 +25,7 @@ public final class DataFormatter {
     }
 
     /**
-     * Pretty print the data in a human readable format.
+     * Pretty print the data in a human-readable format.
      * 
      * @param records the records to print
      * @param out the output stream to write to
@@ -54,6 +54,8 @@ public final class DataFormatter {
         out.println("   Company: " + record.company().displayName());
         out.println("   Location: " + city + ", " + state);
         out.println("   Salary Range: " + record.salaryMin() + " - " + record.salaryMax());
+        out.println("   Role Type: " + record.contractTime());
+        out.println("   Date Posted: " + record.created());
     }
 
     /**
@@ -73,7 +75,7 @@ public final class DataFormatter {
     }
 
     /**
-     * Write the data as CSV.
+     * Write the data as CSV using a custom CSV schema builder.
      * 
      * @param records the records to write
      * @param out the output stream to write to
@@ -81,8 +83,30 @@ public final class DataFormatter {
     private static void writeCSVData(Collection<JobRecord> records, OutputStream out) {
         try {
             CsvMapper csvMapper = new CsvMapper();
-            CsvSchema schema = csvMapper.schemaFor(JobRecord.class).withHeader();
-            csvMapper.writer(schema).writeValue(out, records);
+
+            // define the schema
+            CsvSchema schema = CsvSchema.builder()
+                    .addColumn("Title")
+                    .addColumn("Company")
+                    .addColumn("Location")
+                    .addColumn("Salary Min")
+                    .addColumn("Salary Max")
+                    .addColumn("Role Type")
+                    .addColumn("Date Posted")
+                    .setUseHeader(true)
+                    .build();
+
+            csvMapper.writer(schema).writeValue(out, records.stream().map(record -> {
+                return new Object[]{
+                        record.title(),
+                        record.company().displayName(),
+                        record.location().displayName() + ", " + (record.location().area().size() > 1 ? record.location().area().get(1) : ""),
+                        record.salaryMin(),
+                        record.salaryMax(),
+                        record.contractTime(),
+                        record.created()
+                };
+            }).toArray());
         } catch (Exception e) {
             throw new RuntimeException("Failed to write CSV data", e);
         }

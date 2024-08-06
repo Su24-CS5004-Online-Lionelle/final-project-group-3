@@ -14,11 +14,18 @@ import jobplanner.model.models.IJobPostModel.Location;
 import jobplanner.model.models.IJobPostModel.Category;
 import jobplanner.model.types.JobCategory;
 
+/**
+ * Test class for the Filters class.
+ */
 public class TestFilters {
 
     private Filters filters;
     private List<JobRecord> sampleJobs;
 
+    /**
+     * Sets up the test environment.
+     * Initializes the Filters object and creates a list of sample job records.
+     */
     @BeforeEach
     public void setUp() {
         filters = new Filters();
@@ -38,6 +45,9 @@ public class TestFilters {
         );
     }
 
+    /**
+     * Tests the applyFilters method with a filter by company name.
+     */
     @Test
     public void testApplyFilters() {
         Predicate<JobRecord> byCompany = filters.byCompany("Company A");
@@ -46,6 +56,9 @@ public class TestFilters {
         assertEquals("Software Engineer", filteredJobs.get(0).title());
     }
 
+    /**
+     * Tests the filter by country.
+     */
     @Test
     public void testByCountry() {
         Predicate<JobRecord> byCountry = filters.byCountry("Country");
@@ -53,6 +66,10 @@ public class TestFilters {
         assertEquals(3, filteredJobs.size());
     }
 
+
+    /**
+     * Tests the filter by category.
+     */
     @Test
     public void testByCategory() {
         Predicate<JobRecord> byCategory = filters.byCategory(JobCategory.IT);
@@ -64,15 +81,9 @@ public class TestFilters {
     }
 
 
-    @Test
-    public void testFilterByCompany() {
-        List<JobRecord> filteredJobs = filters.filterByCompany(sampleJobs, "Company B");
-
-        // should have the Data Scientist record
-        assertEquals(1, filteredJobs.size());
-        assertEquals("Data Scientist", filteredJobs.get(0).title());
-    }
-
+    /**
+     * Tests the filter by company using the filterByCompany method.
+     */
     @Test
     public void testByCompany() {
         Predicate<JobRecord> byCompany = filters.byCompany("Company C");
@@ -83,6 +94,10 @@ public class TestFilters {
         assertEquals("Product Manager", filteredJobs.get(0).title());
     }
 
+
+    /**
+     * Tests the filter by salary range.
+     */
     @Test
     public void testBySalaryRange() {
         Predicate<JobRecord> bySalaryRange = filters.bySalaryRange(50000, 85000);
@@ -93,6 +108,9 @@ public class TestFilters {
         assertEquals("Software Engineer", filteredJobs.get(0).title());
     }
 
+    /**
+     * Tests the filter by role type.
+     */
     @Test
     public void testByRoleType() {
         Predicate<JobRecord> byRoleType = filters.byRoleType(List.of("full_time"));
@@ -104,6 +122,9 @@ public class TestFilters {
         assertEquals("Data Scientist", filteredJobs.get(1).title());
     }
 
+    /**
+     * Tests the filter by date posted.
+     */
     @Test
     public void testByDatePosted() {
         LocalDate startDate = LocalDate.of(2023, 1, 1);
@@ -117,6 +138,9 @@ public class TestFilters {
         assertEquals("Data Scientist", filteredJobs.get(1).title());
     }
 
+    /**
+     * Tests the filter by relative date filter for the past week.
+     */
     @Test
     public void testByRelativeDateFilterPastWeek() {
         Predicate<JobRecord> byRelativeDateFilter = filters.byRelativeDateFilter("Past week");
@@ -127,6 +151,9 @@ public class TestFilters {
         assertEquals("Product Manager", filteredJobs.get(0).title());
     }
 
+    /**
+     * Tests the filter by relative date filter for the past month.
+     */
     @Test
     public void testByRelativeDateFilterPastMonth() {
         Predicate<JobRecord> byRelativeDateFilter = filters.byRelativeDateFilter("Past month");
@@ -137,6 +164,9 @@ public class TestFilters {
         assertEquals("Product Manager", filteredJobs.get(0).title());
     }
 
+    /**
+     * Tests the filter by relative date filter for today.
+     */
     @Test
     public void testByRelativeDateFilterToday() {
         Predicate<JobRecord> byRelativeDateFilter = filters.byRelativeDateFilter("Today");

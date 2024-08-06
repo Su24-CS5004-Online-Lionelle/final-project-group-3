@@ -172,8 +172,8 @@ public class JobPlannerController implements ActionListener {
 
         String selectedCategory = view.getFilterPanel().getSelectedCategory();
         String company = view.getFilterPanel().getCompany();
-        Integer minSalary = Integer.parseInt(view.getFilterPanel().getMinSalary());
-        Integer maxSalary = Integer.parseInt(view.getFilterPanel().getMaxSalary());
+        Integer minSalary = parseInt(view.getFilterPanel().getMinSalary());
+        Integer maxSalary = parseInt(view.getFilterPanel().getMaxSalary());
         List<String> roleTypes = view.getFilterPanel().getSelectedRoleTypes();
 
         Map<String, String> searchParams = new HashMap<>();
@@ -345,6 +345,20 @@ public class JobPlannerController implements ActionListener {
             return Double.parseDouble(value);
         } catch (NumberFormatException e) {
             return Double.NaN;
+        }
+    }
+
+    /**
+     * Parses a string to a integer value. Returns -1 if the parsing fails.
+     *
+     * @param value the string to parse
+     * @return the parsed integer value or -1 if parsing fails
+     */
+    private Integer parseInt(String value) {
+        try {
+            return Integer.parseInt(value);
+        } catch (NumberFormatException e) {
+            return -1;
         }
     }
 

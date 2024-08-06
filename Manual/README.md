@@ -1,13 +1,17 @@
 # Job Planner User Manual
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Using the Application](#using-the-application)
-    - [Command Line Interface](#command-line-mode)
-    - [Graphical User Interface](#gui-mode)
-3. [Features](#features)
+- [Job Planner User Manual](#job-planner-user-manual)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Using the Application](#using-the-application)
+    - [Command Line Mode](#command-line-mode)
+    - [GUI Mode](#gui-mode)
+  - [Features](#features)
     - [Filtering Jobs](#filtering-jobs)
+      - [Filters](#filters)
     - [Resetting to default values](#resetting-to-default-values)
+    - [Saving the list of jobs](#saving-the-list-of-jobs)
     - [Loading back saved jobs](#loading-back-saved-jobs)
 
 ## Introduction
@@ -17,25 +21,67 @@ Welcome to Job Planner! [Add description]
 
 ### Command Line Mode
 To use application in command line mode, follow these steps:
+
 Run the application with the required arguments:
-   ```sh
+   
    ```
+    ./gradlew run --args="<commands>"
+   ```
+
 Example:
-   ```sh
-   ```
+   
+    ```
+    ./gradlew run --args="search -k 'python developer' -l boston -s 50000 -c it-jobs"
+    ```
 
 ### GUI Mode
-To use the application in GUI mode, run the application with the following argument: `-g`
-   ```sh
-   ```
+
+To use the application in GUI mode, run the application with the following command: `gui`
+
+```
+./gradlew run --args="gui"
+```
+
 The GUI window will appear.
 
-[Add screenshot of GUI window]
+**Help Message:**
+
+```
+Usage: jobplanner [-hV] [COMMAND]
+Search and save jobs.
+-h, --help      Show this help message and exit.
+-V, --version   Print version information and exit.
+Commands:
+search  Search for job postings.
+list    List saved job postings.
+gui     Open the GUI.
+help    Display help information about the specified command.
+```
+
+**Search Help Message:**
+
+```
+Usage: jobplanner search [-c=<category>] [--country=<country>] [-d=<days>]
+                         [-f=<format>] [-l=<location>] [-m=<salaryMax>]
+                         [-s=<salaryMin>] [-k=<keyword>]...
+Search for job postings.
+  -c, --category=<category> The category to search in.
+      --country=<country>   The country to search in.
+  -d, --days=<days>         The maximum days old for the job postings.
+  -f, --format=<format>     The format to display the job postings in.
+  -k, --keyword=<keyword>   The keyword to search for.
+  -l, --location=<location> The location to search in.
+  -m, --salary-max=<salaryMax>
+                            The maximum salary to search for.
+  -s, --salary-min=<salaryMin>
+                            The minimum salary to search for.
+```
 
 
 ## Features
 
 ### Filtering Jobs
+
 - Filter jobs using the available filters.
 - Hit the "Apply" button to apply changes to the main table.
 

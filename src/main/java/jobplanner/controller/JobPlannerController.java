@@ -143,6 +143,12 @@ public class JobPlannerController implements ActionListener {
         }
         if (!Double.isNaN(minSalary) && !Double.isNaN(maxSalary)) {
             predicates.add(filters.bySalaryRange(minSalary, maxSalary));
+        } else if (!Double.isNaN(minSalary)) {
+            // Add a separate condition if only the minimum salary is specified
+            predicates.add(filters.bySalaryRange(minSalary, Double.MAX_VALUE));
+        } else if (!Double.isNaN(maxSalary)) {
+            // Add a separate condition if only the maximum salary is specified
+            predicates.add(filters.bySalaryRange(Double.MIN_VALUE, maxSalary));
         }
         if (!roleTypes.isEmpty()) {
             predicates.add(filters.byRoleType(roleTypes));
@@ -158,6 +164,7 @@ public class JobPlannerController implements ActionListener {
         // display jobs
         updateJobList(filteredJobs);
     }
+
 
     /**
      * Adds a date filter predicate based on the selected date range.

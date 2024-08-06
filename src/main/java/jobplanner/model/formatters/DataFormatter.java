@@ -108,6 +108,8 @@ public final class DataFormatter {
             case CSV:
                 writeCSVData(records, out);
                 break;
+            default:
+                throw new IllegalArgumentException("Unsupported format: " + format);
         }
     }
 }

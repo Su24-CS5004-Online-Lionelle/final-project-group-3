@@ -131,6 +131,38 @@ public final class JobPostUtil {
     }
 
     /**
+     * Get a list of job postings from the API.
+     * 
+     * @param country The country to search in.
+     * @param params The parameters to search for.
+     * @return The list of job postings.
+     */
+    public List<JobRecord> getJobPostingList(String country, Map<String, String> params) {
+        InputStream is = getJobPostings(country, params);
+        List<JobRecord> jobs = new ArrayList<>();
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode jsonMap = mapper.readTree(is);
+            JsonNode results = jsonMap.get("results");
+
+            for (JsonNode result : results) {
+                JobRecord job = mapper.treeToValue(result, JobRecord.class);
+                jobs.add(job);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                is.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return jobs;
+    }
+
+    /**
      * Gets the contents of a URL as an InputStream.
      * 
      * @param urlStr the URL to get the contents of

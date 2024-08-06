@@ -2,7 +2,17 @@ package jobplanner.controller;
 
 import jobplanner.model.formatters.Formats;
 
-public class InputValidator {
+/**
+ * Validates the input file based on the desired format.
+ */
+public final class InputValidator {
+
+    /**
+     * Private constructor to prevent instantiation.
+     */
+    private InputValidator() {
+        // empty
+    }
 
     /**
      * Validates the file extension based on the desired format.

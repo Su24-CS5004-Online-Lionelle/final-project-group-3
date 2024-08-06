@@ -4,14 +4,10 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.time.LocalDate;
 import java.util.List;
-import java.io.FileOutputStream;
-import java.util.Date;
 import java.util.ArrayList;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import jobplanner.model.formatters.DataFormatter;
-import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 
 /**
@@ -43,8 +39,8 @@ public final class SavedJobModel implements ISavedJobModel {
 
     /**
      * Sets the last saved date.
-     *
-     * @return the last saved date
+     * 
+     * @param date the last saved date.
      */
     public void setLastSaved(LocalDate date) {
         this.lastSaved = date;
@@ -79,7 +75,6 @@ public final class SavedJobModel implements ISavedJobModel {
     public int count() {
         return savedJobs.size();
     }
-
 
     /**
      * Load the saved jobs from a file.

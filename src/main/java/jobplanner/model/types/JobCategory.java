@@ -1,5 +1,8 @@
 package jobplanner.model.types;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /** A list of job categories. */
 public enum JobCategory {
     /** Accounting and finance jobs. */
@@ -174,5 +177,18 @@ public enum JobCategory {
             }
         }
         return UNKNOWN;
+    }
+
+    /**
+     * Get the category label as a list of strings.
+     * 
+     * @return the category labels as a list of strings
+     */
+    public static List<String> getCategoryLabels() {
+        List<String> categoryLabels = new ArrayList<>();
+        for (JobCategory category : JobCategory.values()) {
+            categoryLabels.add(category.getLabel());
+        }
+        return categoryLabels;
     }
 }

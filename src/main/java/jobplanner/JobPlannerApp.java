@@ -5,17 +5,17 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import picocli.CommandLine.Model.CommandSpec;
 import picocli.CommandLine.Spec;
-import picocli.CommandLine.ParameterException;
 
 import java.util.Map;
 import java.util.HashMap;
 import java.io.FileOutputStream;
 
-import jobplanner.controller.ActionHandler;
+import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
+import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.types.JobQueryParameter;
 import jobplanner.controller.JobPlannerController;
 import jobplanner.view.JobPlannerGUI;
@@ -26,7 +26,8 @@ import javax.swing.*;
  * The main class for the job planner application.
  */
 @Command(name = "jobplanner", subcommands = { JobPlannerSearch.class, JobPlannerList.class, JobPlannerGraphUI.class,
-        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", description = "Search and save jobs.", mixinStandardHelpOptions = true)
+        CommandLine.HelpCommand.class }, version = "jobplanner 1.0", 
+        description = "Search and save jobs.", mixinStandardHelpOptions = true)
 public class JobPlannerApp implements Runnable {
 
     /** The command spec. */
@@ -45,7 +46,7 @@ public class JobPlannerApp implements Runnable {
      */
     public static void main(String... args) {
         if (args.length == 0) {
-            args = new String[] { "gui" };
+            args = new String[] {"gui"};
         }
 
         new CommandLine(new JobPlannerApp()).execute(args);
@@ -113,8 +114,8 @@ class JobPlannerSearch implements Runnable {
             searchParams.put(JobQueryParameter.DATE_POSTED.toString(), days);
         }
 
-        ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
-        DataFormatter.write(handler.search(country, searchParams), format, System.out);
+        JobPostUtil client = new JobPostUtil(System.getenv("ADZUNA_APP_ID"), System.getenv("ADZUNA_APP_KEY"));
+        DataFormatter.write(client.getJobPostingList(country, searchParams), format, System.out);
     }
 }
 
@@ -148,21 +149,22 @@ class JobPlannerList implements Runnable {
 
     @Override
     public void run() {
-        ActionHandler handler = new ActionHandler(JobPostModel.getInstance());
+        ISavedJobModel jobs = SavedJobModel.loadFromJson();
+
         if (count) {
-            System.out.println(handler.countSavedJobs());
+            System.out.println(SavedJobModel.loadFromJson().count());
             return;
         }
 
         if (output != null) {
             try {
-                DataFormatter.write(handler.getSavedJobs(), format, new FileOutputStream(output));
+                DataFormatter.write(jobs.getSavedJobs(), format, new FileOutputStream(output));
             } catch (Exception e) {
                 System.err.println("Failed to write to file: " + output);
                 return;
             }
         } else {
-            DataFormatter.write(handler.getSavedJobs(), format, System.out);
+            DataFormatter.write(jobs.getSavedJobs(), format, System.out);
         }
     }
 }

@@ -1,12 +1,10 @@
 package jobplanner.view;
 
 import jobplanner.model.models.JobPostModel;
-import jobplanner.model.models.IJobPostModel.JobRecord;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.util.List;
 
 /**
  * JobPlannerGUI represents the main GUI frame for the Job Planner application.

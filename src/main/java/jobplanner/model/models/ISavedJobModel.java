@@ -22,6 +22,8 @@ public interface ISavedJobModel {
 
     /**
      * Set the last date saved.
+     * 
+     * @param date the last date saved
      */
     void setLastSaved(LocalDate date);
 
@@ -56,6 +58,7 @@ public interface ISavedJobModel {
     /**
      * Set the saved jobs as a list.
      *
+     * @param jobs the list of saved jobs
      */
     void setSavedJobs(List<JobRecord> jobs);
 

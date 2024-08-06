@@ -28,7 +28,7 @@ public final class DataFormatter {
      * Pretty print the data in a human-readable format.
      * 
      * @param records the records to print
-     * @param out the output stream to write to
+     * @param out     the output stream to write to
      */
     private static void prettyPrint(Collection<JobRecord> records, OutputStream out) {
         PrintStream pout = new PrintStream(out);
@@ -42,7 +42,7 @@ public final class DataFormatter {
      * Pretty print a single record.
      * 
      * @param record the record to print
-     * @param out the output stream to write to
+     * @param out    the output stream to write to
      */
     private static void prettySingle(@Nonnull JobRecord record, @Nonnull PrintStream out) {
         // Extract city and state from the location area list
@@ -62,7 +62,7 @@ public final class DataFormatter {
      * Write the data as JSON.
      * 
      * @param records the records to write
-     * @param out the output stream to write to
+     * @param out     the output stream to write to
      */
     private static void writeJsonData(Collection<JobRecord> records, OutputStream out) {
         try {
@@ -78,7 +78,7 @@ public final class DataFormatter {
      * Write the data as CSV using a custom CSV schema builder.
      * 
      * @param records the records to write
-     * @param out the output stream to write to
+     * @param out     the output stream to write to
      */
     private static void writeCSVData(Collection<JobRecord> records, OutputStream out) {
         try {
@@ -97,10 +97,11 @@ public final class DataFormatter {
                     .build();
 
             csvMapper.writer(schema).writeValue(out, records.stream().map(record -> {
-                return new Object[]{
+                return new Object[] {
                         record.title(),
                         record.company().displayName(),
-                        record.location().displayName() + ", " + (record.location().area().size() > 1 ? record.location().area().get(1) : ""),
+                        record.location().displayName() + ", "
+                                + (record.location().area().size() > 1 ? record.location().area().get(1) : ""),
                         record.salaryMin(),
                         record.salaryMax(),
                         record.contractTime(),
@@ -108,6 +109,7 @@ public final class DataFormatter {
                 };
             }).toArray());
         } catch (Exception e) {
+            e.printStackTrace();
             throw new RuntimeException("Failed to write CSV data", e);
         }
     }
@@ -116,8 +118,8 @@ public final class DataFormatter {
      * Write the data in the specified format.
      * 
      * @param records the records to write
-     * @param format the format to write the records in
-     * @param out the output stream to write to
+     * @param format  the format to write the records in
+     * @param out     the output stream to write to
      */
     public static void write(@Nonnull Collection<JobRecord> records, @Nonnull Formats format,
             @Nonnull OutputStream out) {

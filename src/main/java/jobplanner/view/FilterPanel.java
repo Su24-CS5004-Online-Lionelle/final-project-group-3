@@ -69,8 +69,8 @@ public class FilterPanel extends JPanel {
      */
     private void initializeFilterComponents() {
         // Initialize and add the country combo box
-        countryComboBox = new JComboBox<>(new String[] { "Select", "GB", "US", "AT", "AU", "BE", "BR", "CA", "CH", "DE",
-                "ES", "FR", "IN", "IT", "MX", "NL", "PL", "SG", "ZA" });
+        countryComboBox = new JComboBox<>(new String[] {"Select", "GB", "US", "AT", "AU", "BE", "BR", "CA", "CH", "DE",
+                "ES", "FR", "IN", "IT", "MX", "NL", "PL", "SG", "ZA"});
         add(createLabeledComboBox("Country", countryComboBox));
         add(Box.createRigidArea(new Dimension(0, 10)));
 
@@ -98,7 +98,7 @@ public class FilterPanel extends JPanel {
         add(Box.createRigidArea(new Dimension(0, 10)));
 
         // Initialize and add the date posted combo box
-        datePostedComboBox = new JComboBox<>(new String[] { "Select", "Past week", "Past month", "Today" });
+        datePostedComboBox = new JComboBox<>(new String[] {"Select", "Past week", "Past month", "Today"});
         add(createLabeledComboBox("Date Posted", datePostedComboBox));
         add(Box.createRigidArea(new Dimension(0, 20)));
     }

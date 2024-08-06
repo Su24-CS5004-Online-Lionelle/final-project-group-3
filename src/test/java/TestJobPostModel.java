@@ -25,24 +25,28 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class TestJobPostModel {
 
+    /** Test database file path. */
     private static final String TEST_FILEPATH = "data/test_jobpostings.json";
+    /** The job post model. */
     private IJobPostModel jobPostModel;
 
     /**
-     * Set up the test environment by creating a test database file with sample data.
+     * Set up the test environment by creating a test database file with sample
+     * data.
      */
     @BeforeEach
     public void setUp() throws IOException {
         List<JobRecord> sampleJobs = List.of(
                 new JobRecord("Software Engineer", "Description",
-                        new Company("Company A"), new Location("City A", List.of("Country", "State", "County", "City A")),
+                        new Company("Company A"),
+                        new Location("City A", List.of("Country", "State", "County", "City A")),
                         60000, 80000, "full_time", "2023-01-01", "http://example.com", "adref",
                         new Category("it", "IT Jobs"), 40.7128, -74.0060, "1", "true"),
                 new JobRecord("Data Scientist", "Description",
-                        new Company("Company B"), new Location("City B", List.of("Country", "State", "County", "City B")),
+                        new Company("Company B"),
+                        new Location("City B", List.of("Country", "State", "County", "City B")),
                         70000, 90000, "full_time", "2023-02-01", "http://example.com", "adref",
-                        new Category("data", "Data Jobs"), 34.0522, -118.2437, "2", "true")
-        );
+                        new Category("data", "Data Jobs"), 34.0522, -118.2437, "2", "true"));
 
         ObjectMapper mapper = new ObjectMapper();
         try (OutputStream os = new FileOutputStream(TEST_FILEPATH)) {
@@ -111,4 +115,3 @@ public class TestJobPostModel {
         assertEquals(0, jobs.size());
     }
 }
-

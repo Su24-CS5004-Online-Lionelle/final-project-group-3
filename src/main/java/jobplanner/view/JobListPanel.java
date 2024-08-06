@@ -26,6 +26,9 @@ public class JobListPanel extends JPanel {
     /** The button to show saved jobs. */
     private JButton showSavedJobsButton;
 
+    /** The button to add selected jobs to saved list. */
+    private JButton addSavedJobsButton;
+
     /**
      * Constructs a new JobListPanel.
      * Initializes the table for displaying job records and the search bar for filtering.
@@ -86,6 +89,13 @@ public class JobListPanel extends JPanel {
      */
     private void initializeButtonPanel() {
         showSavedJobsButton = new JButton("Show Saved Jobs");
+        addSavedJobsButton = new JButton("Add to Saved Jobs");
+
+        // add green color to the add saved jobs button
+        addSavedJobsButton.setBackground(new Color(50, 205, 50));  // Set the background color to green
+        addSavedJobsButton.setForeground(Color.BLACK); // Set the text color to white
+        addSavedJobsButton.setOpaque(true);            // Ensure the button is opaque
+        addSavedJobsButton.setBorderPainted(false);    // Optional: remove the button border
 
         // add color to the show saved jobs button
         showSavedJobsButton.setBackground(new Color(135, 206, 235));  // Set the background color to blue
@@ -95,6 +105,7 @@ public class JobListPanel extends JPanel {
 
         JPanel buttonPanel = new JPanel();
         buttonPanel.add(showSavedJobsButton);
+        buttonPanel.add(addSavedJobsButton);
         add(buttonPanel, BorderLayout.SOUTH);
     }
 
@@ -182,6 +193,15 @@ public class JobListPanel extends JPanel {
     }
 
     /**
+     * Gets the "Add to Saved Jobs" button.
+     *
+     * @return The JButton for adding selected jobs to saved list.
+     */
+    public JButton getAddSavedJobsButton() {
+        return addSavedJobsButton;
+    }
+
+    /**
      * Sets the action listeners for the buttons in the JobListPanel.
      *
      * @param listener The ActionListener to attach.
@@ -189,5 +209,7 @@ public class JobListPanel extends JPanel {
     public void setListeners(ActionListener listener) {
         showSavedJobsButton.setActionCommand("Show Saved Jobs");
         showSavedJobsButton.addActionListener(listener);
+        addSavedJobsButton.setActionCommand("Add to Saved Jobs");
+        addSavedJobsButton.addActionListener(listener);
     }
 }

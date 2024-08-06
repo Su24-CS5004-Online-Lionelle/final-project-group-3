@@ -19,7 +19,9 @@ import jobplanner.model.types.JobCategory;
  */
 public class TestFilters {
 
+    /** The Filters object to test. */
     private Filters filters;
+    /** List of sample job records. */
     private List<JobRecord> sampleJobs;
 
     /**
@@ -31,18 +33,20 @@ public class TestFilters {
         filters = new Filters();
         sampleJobs = List.of(
                 new JobRecord("Software Engineer", "Description",
-                        new Company("Company A"), new Location("City A", List.of("Country", "State", "County", "City A")),
+                        new Company("Company A"),
+                        new Location("City A", List.of("Country", "State", "County", "City A")),
                         60000, 80000, "full_time", "2023-01-01T10:15:30", "http://example.com", "adref",
                         new Category("it-jobs", "IT Jobs"), 40.7128, -74.0060, "1", "true"),
                 new JobRecord("Data Scientist", "Description",
-                        new Company("Company B"), new Location("City B", List.of("Country", "State", "County", "City B")),
+                        new Company("Company B"),
+                        new Location("City B", List.of("Country", "State", "County", "City B")),
                         70000, 90000, "full_time", "2023-02-01T10:15:30", "http://example.com", "adref",
                         new Category("data-jobs", "Data Jobs"), 34.0522, -118.2437, "2", "true"),
                 new JobRecord("Product Manager", "Description",
-                        new Company("Company C"), new Location("City C", List.of("Country", "State", "County", "City C")),
+                        new Company("Company C"),
+                        new Location("City C", List.of("Country", "State", "County", "City C")),
                         80000, 100000, "part_time", "2024-08-04T10:15:30", "http://example.com", "adref",
-                        new Category("product-jobs", "Product Management Jobs"), 37.7749, -122.4194, "3", "true")
-        );
+                        new Category("product-jobs", "Product Management Jobs"), 37.7749, -122.4194, "3", "true"));
     }
 
     /**
@@ -66,7 +70,6 @@ public class TestFilters {
         assertEquals(3, filteredJobs.size());
     }
 
-
     /**
      * Tests the filter by category.
      */
@@ -80,7 +83,6 @@ public class TestFilters {
         assertEquals("Software Engineer", filteredJobs.get(0).title());
     }
 
-
     /**
      * Tests the filter by company using the filterByCompany method.
      */
@@ -93,7 +95,6 @@ public class TestFilters {
         assertEquals(1, filteredJobs.size());
         assertEquals("Product Manager", filteredJobs.get(0).title());
     }
-
 
     /**
      * Tests the filter by salary range.
@@ -145,7 +146,8 @@ public class TestFilters {
     public void testByRelativeDateFilterPastWeek() {
         Predicate<JobRecord> byRelativeDateFilter = filters.byRelativeDateFilter("Past week");
 
-        // should have the Product Manager record, which was created in 2024-08-04T10:15:30
+        // should have the Product Manager record, which was created in
+        // 2024-08-04T10:15:30
         List<JobRecord> filteredJobs = filters.applyFilters(sampleJobs, List.of(byRelativeDateFilter));
         assertEquals(1, filteredJobs.size());
         assertEquals("Product Manager", filteredJobs.get(0).title());
@@ -159,7 +161,8 @@ public class TestFilters {
         Predicate<JobRecord> byRelativeDateFilter = filters.byRelativeDateFilter("Past month");
         List<JobRecord> filteredJobs = filters.applyFilters(sampleJobs, List.of(byRelativeDateFilter));
 
-        // should have the Product Manager record, which was created in 2024-08-04T10:15:30
+        // should have the Product Manager record, which was created in
+        // 2024-08-04T10:15:30
         assertEquals(1, filteredJobs.size());
         assertEquals("Product Manager", filteredJobs.get(0).title());
     }

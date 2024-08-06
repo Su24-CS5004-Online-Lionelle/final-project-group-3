@@ -91,8 +91,8 @@ public class JobPlannerController implements ActionListener {
     }
 
     /**
-     * Exports the list of games to a file, either CSV or TXT format.
-     * 
+     * Exports the list of jobs to a file, either CSV or TXT format.
+     *
      * @param format the format to export the list as.
      */
     private void exportList(Formats format) {
@@ -100,10 +100,16 @@ public class JobPlannerController implements ActionListener {
         int result = fileChooser.showSaveDialog(view);
         if (result == JFileChooser.APPROVE_OPTION) {
             String filename = fileChooser.getSelectedFile().getAbsolutePath();
-            try {
-                DataFormatter.write(savedJobsModel.getSavedJobs(), format, new FileOutputStream(filename));
-            } catch (Exception e) {
-                view.showErrorDialog("Error exporting file: " + e.getMessage());
+
+            // check if user inputs a valid extension for filename
+            if (InputValidator.isValidExtension(filename, format)) {
+                try {
+                    DataFormatter.write(savedJobsModel.getSavedJobs(), format, new FileOutputStream(filename));
+                } catch (Exception e) {
+                    view.showErrorDialog("Error exporting file: " + e.getMessage());
+                }
+            } else {
+                view.showErrorDialog("Invalid file extension for the selected format.");
             }
         }
     }

@@ -25,7 +25,9 @@ import jobplanner.model.formatters.Formats;
  * Unit tests for the DataFormatter class.
  */
 public class TestDataFormatter {
+    /** Test database file path. */
     private static final String TEST_FILEPATH = "data/test_jobs.json";
+    /** List of sample jobs. */
     private List<JobRecord> sampleJobs;
 
     /**

@@ -18,6 +18,8 @@ import java.util.List;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.IJobPostModel.JobRecord;
+import io.github.cdimascio.dotenv.Dotenv;
+
 
 /**
  * A class to help with pulling data from
@@ -46,8 +48,9 @@ public final class JobPostUtil {
      * @param appKey The API key.
      */
     public JobPostUtil(String appId, String appKey) {
-        this.appId = appId;
-        this.appKey = appKey;
+        Dotenv dotenv = Dotenv.load();
+        this.appId = dotenv.get("ADZUNA_APP_ID");;
+        this.appKey = dotenv.get("ADZUNA_APP_KEY");
     }
 
     /**

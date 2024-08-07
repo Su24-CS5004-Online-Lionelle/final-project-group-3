@@ -42,6 +42,8 @@ dependencies {
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.13.0'
     // picocli
     implementation 'info.picocli:picocli:4.7.6'
+    implementation 'io.github.cdimascio:java-dotenv:5.2.2'
+
 }
 
 test {

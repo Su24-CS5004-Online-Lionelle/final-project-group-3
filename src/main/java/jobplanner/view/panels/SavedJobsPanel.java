@@ -1,4 +1,6 @@
-package jobplanner.view;
+package jobplanner.view.panels;
+
+import jobplanner.view.tablemodels.SavedJobTableModel;
 
 import javax.swing.*;
 import java.awt.*;

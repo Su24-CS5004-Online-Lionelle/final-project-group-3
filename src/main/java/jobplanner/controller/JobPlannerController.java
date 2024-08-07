@@ -31,7 +31,8 @@ import java.util.function.Predicate;
 /**
  * The JobPlannerController class is responsible for handling the interactions
  * between the view (GUI) and the model in the job planning application.
- * It processes user input from the GUI, applies filters to job data, and updates the view.
+ * It processes user input from the GUI, applies filters to job data, and
+ * updates the view.
  */
 public class JobPlannerController implements ActionListener {
     /** The main GUI view. */
@@ -50,9 +51,9 @@ public class JobPlannerController implements ActionListener {
      * Constructs a JobPlannerController with the specified model and view.
      * Sets up action listeners for the view components.
      *
-     * @param model the data model containing job records
+     * @param model     the data model containing job records
      * @param savedJobs the data model containing saved job records
-     * @param view  the view component of the MVC architecture
+     * @param view      the view component of the MVC architecture
      */
     public JobPlannerController(JobPostModel model, SavedJobModel savedJobs, JobPlannerGUI view) {
         this.view = view;
@@ -131,15 +132,14 @@ public class JobPlannerController implements ActionListener {
     /**
      * Get a list of job postings from the Adzuna API.
      * 
-     * @param country the country to search in
+     * @param country      the country to search in
      * @param searchParams the search parameters
      * @return the job postings
      */
     public List<JobRecord> searchJobPostings(String country, Map<String, String> searchParams) {
         JobPostUtil client = new JobPostUtil(
-            System.getenv("ADZUNA_APP_ID"), 
-            System.getenv("ADZUNA_APP_KEY")
-        );
+                System.getenv("ADZUNA_APP_ID"),
+                System.getenv("ADZUNA_APP_KEY"));
 
         InputStream is = client.getJobPostings(country, searchParams);
 
@@ -167,9 +167,10 @@ public class JobPlannerController implements ActionListener {
         return jobs;
     }
 
-    /** Update the view with the job postings from the Adzuna API. 
+    /**
+     * Update the view with the job postings from the Adzuna API.
      * 
-    */
+     */
     private void search() {
         String searchStr = view.getJobListPanel().getSearchText();
 
@@ -217,13 +218,12 @@ public class JobPlannerController implements ActionListener {
                 searchParams.put("part_time", "1");
             } else if (roleTypes.contains("Contract")) {
                 searchParams.put("full_time", "1");
-            }   
+            }
         }
 
         List<JobRecord> jobs = searchJobPostings(country, searchParams);
         updateJobList(jobs);
     }
-
 
     /**
      * Applies the filters specified by the user through the FilterPanel.
@@ -276,7 +276,6 @@ public class JobPlannerController implements ActionListener {
         updateJobList(filteredJobs);
     }
 
-
     /**
      * Adds a date filter predicate based on the selected date range.
      *
@@ -310,7 +309,8 @@ public class JobPlannerController implements ActionListener {
     }
 
     /**
-     * Resets the filters in the FilterPanel to their default values and updates the view.
+     * Resets the filters in the FilterPanel to their default values and updates the
+     * view.
      */
     private void resetFilters() {
         view.getFilterPanel().reset();
@@ -339,7 +339,7 @@ public class JobPlannerController implements ActionListener {
 
         // update view with saved jobs
         view.getSavedJobsPanel().getSavedJobTableModel().setJobs(savedJobsModel.getSavedJobs());
-        
+
         // Update the last saved date
         savedJobsModel.setLastSaved(LocalDate.now());
 
@@ -409,11 +409,12 @@ public class JobPlannerController implements ActionListener {
     /**
      * Updates the persistant storage of the saved job list.
      * 
-     * @param jobs the list of saved jobs to 
+     * @param jobs the list of saved jobs to
      */
     private void writeSavedJobListToFile(List<JobRecord> jobs) {
         try {
-            DataFormatter.write(savedJobsModel.getSavedJobs(), Formats.JSON, new FileOutputStream("data/savedjobs.json"));
+            DataFormatter.write(savedJobsModel.getSavedJobs(), Formats.JSON,
+                    new FileOutputStream("data/savedjobs.json"));
         } catch (Exception e) {
             view.showErrorDialog("Error exporting file: " + e.getMessage());
         }

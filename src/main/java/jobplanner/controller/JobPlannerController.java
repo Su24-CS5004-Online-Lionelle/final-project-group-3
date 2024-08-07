@@ -3,7 +3,7 @@ package jobplanner.controller;
 import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
-import jobplanner.model.models.SavedJobModel;
+import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 import jobplanner.model.types.JobCategory;
 import jobplanner.view.JobPlannerGUI;
@@ -36,7 +36,7 @@ public class JobPlannerController implements ActionListener {
     private JobPlannerGUI view;
 
     /** The model containing saved jobs. */
-    private SavedJobModel savedJobsModel;
+    private ISavedJobModel savedJobsModel;
 
     /**
      * Constructs a JobPlannerController with the specified model and view.
@@ -45,7 +45,7 @@ public class JobPlannerController implements ActionListener {
      * @param savedJobs the data model containing saved job records
      * @param view      the view component of the MVC architecture
      */
-    public JobPlannerController(SavedJobModel savedJobs, JobPlannerGUI view) {
+    public JobPlannerController(ISavedJobModel savedJobs, JobPlannerGUI view) {
         this.view = view;
         this.savedJobsModel = savedJobs;
         view.setListeners(this);

@@ -236,95 +236,11 @@ public class JobPlannerController implements ActionListener {
     }
 
     /**
-     * Applies the filters specified by the user through the FilterPanel.
-     * Filters the job records based on the selected criteria and updates the view.
-     */
-    private void applyFilters() {
-        // Retrieve filter criteria from the filter panel
-        String selectedCountry = view.getFilterPanel().getSelectedCountry();
-        String selectedCategory = view.getFilterPanel().getSelectedCategory();
-        String company = view.getFilterPanel().getCompany();
-        double minSalary = parseDouble(view.getFilterPanel().getMinSalary());
-        double maxSalary = parseDouble(view.getFilterPanel().getMaxSalary());
-        List<String> roleTypes = view.getFilterPanel().getSelectedRoleTypes();
-        String dateFilter = view.getFilterPanel().getDateFilter();
-
-        // List to hold filter predicates
-        List<Predicate<JobRecord>> predicates = new ArrayList<>();
-
-        // Add predicates based on user input
-        if (selectedCountry != null && !selectedCountry.equals("Select")) {
-            predicates.add(filters.byCountry(selectedCountry));
-        }
-        if (selectedCategory != null && !selectedCategory.equals("Select")) {
-            predicates.add(filters.byCategory(JobCategory.fromString(selectedCategory)));
-        }
-        if (company != null && !company.isEmpty()) {
-            predicates.add(filters.byCompany(company));
-        }
-        if (!Double.isNaN(minSalary) && !Double.isNaN(maxSalary)) {
-            predicates.add(filters.bySalaryRange(minSalary, maxSalary));
-        } else if (!Double.isNaN(minSalary)) {
-            // Add a separate condition if only the minimum salary is specified
-            predicates.add(filters.bySalaryRange(minSalary, Double.MAX_VALUE));
-        } else if (!Double.isNaN(maxSalary)) {
-            // Add a separate condition if only the maximum salary is specified
-            predicates.add(filters.bySalaryRange(Double.MIN_VALUE, maxSalary));
-        }
-        if (!roleTypes.isEmpty()) {
-            predicates.add(filters.byRoleType(roleTypes));
-        }
-
-        // Handle date filter
-        addDateFilterPredicate(predicates, dateFilter);
-
-        // Get jobs and apply filters
-        List<JobRecord> jobs = model.getJobs();
-        List<JobRecord> filteredJobs = filters.applyFilters(jobs, predicates);
-
-        // display jobs
-        updateJobList(filteredJobs);
-    }
-
-    /**
-     * Adds a date filter predicate based on the selected date range.
-     *
-     * @param predicates the list of predicates to add to
-     * @param dateFilter the selected date range filter
-     */
-    private void addDateFilterPredicate(List<Predicate<JobRecord>> predicates, String dateFilter) {
-        if (!dateFilter.equals("Select")) {
-            LocalDate endDate = LocalDate.now();
-            LocalDate startDate = null;
-
-            // Determine date range based on selection
-            switch (dateFilter) {
-                case "Past week":
-                    startDate = endDate.minusWeeks(1);
-                    break;
-                case "Past month":
-                    startDate = endDate.minusMonths(1);
-                    break;
-                case "Today":
-                    startDate = endDate;
-                    break;
-                default:
-                    break;
-            }
-
-            if (startDate != null) {
-                predicates.add(filters.byDatePosted(startDate, endDate));
-            }
-        }
-    }
-
-    /**
      * Resets the filters in the FilterPanel to their default values and updates the
      * view.
      */
     private void resetFilters() {
         view.getFilterPanel().reset();
-        applyFilters();
     }
 
     /**

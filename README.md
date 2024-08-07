@@ -43,7 +43,9 @@ To use the application in GUI mode, run the application with the following comma
 
 The GUI window will appear.
 
-![alt text](<./images/opening-screen.png>)
+
+   <img src="GUITestingHistory/screenshots/gui-main-window.png" alt="Main GUI Window" width="400">
+
 
 ### Command Line Mode
 

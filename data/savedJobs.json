@@ -1,166 +1,97 @@
 [ {
-  "title" : "Sr. Solarwinds Engineer (SME)",
-  "description" : "US Citizen Sr. SOLARWINDS ENGINEER (SME) Job description Bella is seeking a highly motivated, self-directed individual, to fill the role of Sr. SolarWinds Engineer (SME). The Sr. SolarWinds Engineer position (SME) focuses on administration, support, and operation of the SolarWinds platform including Network Performance Monitor, Network Configuration Manager, Server & Application Monitor, Traffic Analyzer and IP Address Manager, User Device Tracker, Voice and Quality Manager, Storage Resource Ma…",
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
   "company" : {
-    "display_name" : "Bella Information Systems, LLC"
+    "display_name" : "Vets Hired"
   },
   "location" : {
-    "display_name" : "Washington, Washington, D.C.",
-    "area" : [ "US", "Washington, D.C.", "Washington" ]
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
   },
-  "salary_min" : 226049.3,
-  "salary_max" : 226049.3,
-  "created" : "2024-06-30T19:57:24Z",
-  "redirect_url" : "https://www.adzuna.com/details/4759722044?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzU5NzIyMDQ0In0.YhtHE1kwIx_i6QZpgQssvdlBpaA_6vFjuzmCvYIus6U",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4759722044",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Security Engineer/NQVll - Employee Owned Company",
-  "description" : "Location: Dahlgren, Virginia, USA Telework: Potential for Hybrid Clearance :Active Secret (US Citizenship Required) Experience : 5 years Number of Openings: 1 Funding Status: Future Funded Salary Range: $110,000 - $145,000 (Please see below for more info on salary) SimVentions, consistently voted one Virginia's Best Places to Work, is looking for a Security Engineer/ NQVII to join our team Responsibilities: Plan and execute cybersecurity testing Author and revise system requirements and specifi…",
-  "company" : {
-    "display_name" : "SimVentions, Inc - Glassdoor ✪ 4.6"
-  },
-  "location" : {
-    "display_name" : "Pomfret, Charles County",
-    "area" : [ "US", "Maryland", "Charles County", "Pomfret" ]
-  },
-  "salary_min" : 159224.62,
-  "salary_max" : 159224.62,
+  "salary_min" : 104765.79,
+  "salary_max" : 104765.79,
   "contract_time" : "full_time",
-  "created" : "2024-08-01T03:14:33Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803931622?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODAzOTMxNjIyIn0.8jSUozMOW3ItZQfPSKlIGpLWC9qxp9BG3G3Wiv53FF0",
+  "created" : "2024-08-04T23:08:27Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810440379?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MDM3OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.6Iit5KtqnT4iRKFqSkOAMN4IJ57NU3OqalKfsS66k5U",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.5792,
-  "longitude" : -77.0229,
-  "id" : "4803931622",
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810440379",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "New College Grad, PhD Data Scientist (Supply Chain)",
-  "description" : "Job Description Strategically positioned within the organization of the CIO, AAO is missioned with accelerating Analytics solutions at scale across the Enterprise to rapidly capture business value. These solutions target key business metrics, such as, reducing manufacturing cost, improve capital efficiency, reduce time-to market to develop new products, improve planning, operational efficiency & logistics, and enhance customer experience. AAO solutions are built using cutting edge Industrial 4.…",
+  "title" : "Senior Java Developer",
+  "description" : "Title: Sr. Java Developer Location: Fort Worth, TX (close to DFW Airport) Duration: Contract to hire (long term) Compensation: $60-65/hr Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Skillset / Experience: Successful Software Developers excel in three key areas: Software Delivery Product Mindset Growth Mindset Software Development Teams find ways to improve daily work. This means taking an honest look at delivery metrics and asking what we will do to improve them. …",
   "company" : {
-    "display_name" : "Western Digital"
+    "display_name" : "INSPYR Solutions"
   },
   "location" : {
-    "display_name" : "San Jose, Santa Clara County",
-    "area" : [ "US", "California", "Santa Clara County", "San Jose" ]
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
   },
-  "salary_min" : 107641.77,
-  "salary_max" : 107641.77,
-  "created" : "2024-08-06T05:07:04Z",
-  "redirect_url" : "https://www.adzuna.com/details/4812407697?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMjQwNzY5NyIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.2Y3QATjli3fFFibVS-M2zLkZmOnKPphwbVmCykO8bFE",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 37.390494,
-  "longitude" : -121.885434,
-  "id" : "4812407697",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Application Developer",
-  "description" : "We are looking for an experienced Software Application Developer to design and code functional programs and applications. You will work as a part of a team of experienced software engineers and domain experts. Neuralog uses a variety of software development tools including Microsoft Visual Studio 2017 and Microsoft DevOps. Our applications are built to run on both current and legacy Windows operating systems. This position requires an in-depth knowledge of Windows operating systems as well as u…",
-  "company" : {
-    "display_name" : "NEURALOG, LP"
-  },
-  "location" : {
-    "display_name" : "Stafford, Fort Bend County",
-    "area" : [ "US", "Texas", "Fort Bend County", "Stafford" ]
-  },
-  "salary_min" : 102874.25,
-  "salary_max" : 102874.25,
-  "created" : "2023-12-05T07:04:58Z",
-  "redirect_url" : "https://www.adzuna.com/details/4464888905?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NDY0ODg4OTA1In0.bSJMaqFpJgaK1AeYe6Q6OPaGepNvvbwJ8u10dSXlXfM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 29.616067,
-  "longitude" : -95.557722,
-  "id" : "4464888905",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Network Operations Center (NOC) Administrator",
-  "description" : "OVERVIEW: VAE, Inc. is a full service IT Infrastructure Solutions Company focused on building, securing and supporting our clients’ mission critical enterprises. We provide a distinctive array of design, integration and implementation services as well as fully managed service offerings. VAE is at the forefront of leveraging multi-tenant capable technologies and shared IT services to create secure, reliable and cost-effective end-to-end services and solutions. We deliver exceptional infrastructu…",
-  "company" : {
-    "display_name" : "VAE, Inc."
-  },
-  "location" : {
-    "display_name" : "State Farm, Arlington County",
-    "area" : [ "US", "Virginia", "Arlington County", "State Farm" ]
-  },
-  "salary_min" : 105103.84,
-  "salary_max" : 105103.84,
+  "salary_min" : 132507.38,
+  "salary_max" : 132507.38,
   "contract_time" : "full_time",
-  "created" : "2024-08-01T04:32:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4804206866?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODA0MjA2ODY2In0.Vju-4mp3VQMdwU5O7fvVGbBg8JENr_eY9uTkElYoh1Q",
+  "created" : "2024-07-26T04:46:48Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODA0MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.HUHR-_2a6CMbwXIywz1NtUGHoy_utzWBNeaXYWMMyrs",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.886306,
-  "longitude" : -77.097739,
-  "id" : "4804206866",
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4795978041",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Software Engineer",
-  "description" : "We are looking for a highly skilled Software Engineer to join our engineering teams here at Tapcheck. As a software engineer, you will play a pivotal role in the development and maintenance of our Azure-based web applications and backend systems. At Tapcheck, we have two teams that are both hiring for Software Engineers. The Payments & Integrations Engineering team who plays a pivotal role in building new data-processing products and improving existing ones, ensuring scalability, reliability an…",
+  "title" : "Senior Java Developer",
+  "description" : "We have multiple openings for Senior Java FSD in Plano TX/ Reston, VA - Hybrid Onsite role . Please read further about the job profile: Title: Senior Java FSD  Strong AWS with Spring Batch & SQL Location: Plano TX/ Reston, VA - Hybrid Onsite Type: Full Time/ Contract- C2C/W2 Only local candidates from Texas and Virginia locations Required Skills: Minimum 12 Programming experience with Java, J2EE, XML, and Web Services AWS (EC2, ECS, S3, CloudWatch, SQS , SNS, AWS Lambda) Spring Batch, SQL Java …",
   "company" : {
-    "display_name" : "Tapcheck Inc."
+    "display_name" : "Trident Consulting"
   },
   "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
   },
-  "salary_min" : 130000.0,
-  "salary_max" : 140000.0,
+  "salary_min" : 105363.37,
+  "salary_max" : 105363.37,
   "contract_time" : "full_time",
-  "created" : "2024-07-03T00:12:32Z",
-  "redirect_url" : "https://www.adzuna.com/details/4763573155?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc2MzU3MzE1NSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.pOSQ_VXu8pZ9TkOsoHwmfHZN9GALeIG9B1ITPuHvWXI",
+  "created" : "2024-08-05T05:06:01Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810729420?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDcyOTQyMCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rJvfHIMSixaCP_-VTNM3j0LVXm4Ph1BVrzxjpLk3lCE",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4763573155",
-  "salary_is_predicted" : "0"
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4810729420",
+  "salary_is_predicted" : "1"
 }, {
-  "title" : "Systems Engineer (Partial Remote)",
-  "description" : "Our client, one of North America’s leading distributors of process materials with 40 locations nationwide seeks a full time direct hire Systems Engineer (Partial Remote). The position is responsible for availability, reliability, performance, monitoring, and security of the networking environment, including but not limited to cloud-based and on-premise systems. Responsible for installing networks, troubleshooting issues, maintaining security, and training end-users on related systems. The Netwo…",
+  "title" : "Java Developer with AWS",
+  "description" : "Job Description:- This Developer will be the go-to person for difficult development problems, Java/AWS design, code standards, code reviews, etc. Leverage industry best practices to design, test, implement and support a solution. Analyze highly complex business requirements; generate technical specifications to design or redesign complex software components and applications. Acts as an expert technical resource for modeling, simulation and analysis efforts Adapt to change quickly and adjust wor…",
   "company" : {
-    "display_name" : "Analytic Search"
+    "display_name" : "HexaQuEST Global"
   },
   "location" : {
-    "display_name" : "North Atlanta, DeKalb County",
-    "area" : [ "US", "Georgia", "DeKalb County", "North Atlanta" ]
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
   },
-  "salary_min" : 129737.16,
-  "salary_max" : 129737.16,
+  "salary_min" : 122743.21,
+  "salary_max" : 122743.21,
   "contract_time" : "full_time",
-  "created" : "2024-07-22T16:33:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4790794282?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzkwNzk0MjgyIn0.e52bUQHsU3P8Tmpfy-43Y3p3nqwdGjiZOzHQBokOLLw",
+  "created" : "2024-07-21T22:42:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790058736?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA1ODczNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XuSfNhUGPMFm-E6YIsdgvHNc1oLc4XnWuKrbw0kAsD4",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 33.87678,
-  "longitude" : -84.33396,
-  "id" : "4790794282",
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4790058736",
   "salary_is_predicted" : "1"
 } ]

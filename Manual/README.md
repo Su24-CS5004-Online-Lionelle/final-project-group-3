@@ -198,4 +198,4 @@ Title,Company,Location,"Salary Min","Salary Max","Role Type","Date Posted"
 
 Any job added will be stored for future sessions. The next time you open the application your data will be saved!
 
-![alt text](<images/Screenshot 2024-08-06 at 3.07.11 PM.png>)
+![alt text](<./images/saved-job-list-many.png>)

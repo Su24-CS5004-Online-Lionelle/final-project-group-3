@@ -24,6 +24,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
     testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
     testImplementation 'org.junit.platform:junit-platform-launcher:1.10.2'
+    // Mockito
+    testImplementation 'org.mockito:mockito-core:4.5.1'
 
     // optional, left these in here in case you wanted to use them.
     implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.25.3'
@@ -40,8 +42,10 @@ dependencies {
     implementation 'com.fasterxml.woodstox:woodstox-core:6.5.0'
     // jackson dataformat csv
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.13.0'
+
     // picocli
     implementation 'info.picocli:picocli:4.7.6'
+
 }
 
 test {

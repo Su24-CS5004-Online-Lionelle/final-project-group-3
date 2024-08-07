@@ -1,1168 +1,1181 @@
 [ {
-  "title" : "Cloud Data Architect ( remote )",
-  "description" : "TheCloud Data Solutions Architects is responsible for turning transactional and 3rd party data into data products. These self-service data assets are utilized by BI Developers, Data Scientists and Analysts across AssistRx to gain insights, make predictions and recommendations Requirements Translate business requirements into data models that are easy to understand and used by different subject areas. Hands-on experience of design and implementation of data warehousing solutions on cloud platfor…",
+  "title" : "Java Developer",
+  "description" : "Java Developer – Master Location: Reston Clearance: TS/SCI w/FSP Salary- 250k/yr The above salary range represents the range expected for the position; however, final salary offers are based on a number of factors such as the position’s responsibilities; the candidate’s experience, education, and skills; location; travel required; and current market conditions. This program requires US Citizenship Java Software Developer with strong systems, software, cloud, and Agile experience to support a co…",
   "company" : {
-    "display_name" : "AssistRx"
+    "display_name" : "ABBTECH Professional Resources"
+  },
+  "location" : {
+    "display_name" : "Reston, Fairfax County",
+    "area" : [ "US", "Virginia", "Fairfax County", "Reston" ]
+  },
+  "salary_min" : 170200.92,
+  "salary_max" : 170200.92,
+  "created" : "2024-08-06T16:39:31Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4813202434?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=11125A7DEA6D2C235A2008E9474982C2260C8FAF",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMzIwMjQzNCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.VzLaU-aMdfiD7P6zR8U_HPqr-h52mc23gUbgAbS4XIM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 38.95669,
+  "longitude" : -77.3421,
+  "id" : "4813202434",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Look for candidates with Overall 10 years of experience as Java Developer. Work you'll do/Responsibilities: Minimum of 10 years overall IT experience: including 5 years of web service development and integration experience Strong Automotive OEM experience Solid understanding of various enterprise services and micro-service concepts Design, develop, deploy, test and maintain technical assets in SOA environment, web services and integration Solid understanding of Enterprise Service Bus concepts E…",
+  "company" : {
+    "display_name" : "Genius Business Solutions Inc"
+  },
+  "location" : {
+    "display_name" : "Auburn Hills, Oakland County",
+    "area" : [ "US", "Michigan", "Oakland County", "Auburn Hills" ]
+  },
+  "salary_min" : 117857.64,
+  "salary_max" : 117857.64,
+  "created" : "2024-07-25T16:04:10Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4795436073?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=4B4F4412B00E61FE6AB4A60CF7EABF405653D107",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTQzNjA3MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.eafzi8sNEDwFm_NVY_3EoKlNNKQh22Ph6GbGtVHMyZU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 42.6745,
+  "longitude" : -83.24353,
+  "id" : "4795436073",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Day to day: Build the pipeline, they just need integration Focus on reconciliation support the application Must haves: Expereince with java type applications, how they run, read codes Minimum 5 years of experience with developing java core applications Linux/ Unix Scripting—Pearl or bash General infrastructure knowledge for hardware RDMBS exp Understanding of Normal CICD pipelines ( pipeline is there)- Need to be able to integrate and support Agile methodology",
+  "company" : {
+    "display_name" : "Collabera"
+  },
+  "location" : {
+    "display_name" : "Sun Lakes, Maricopa County",
+    "area" : [ "US", "Arizona", "Maricopa County", "Sun Lakes" ]
+  },
+  "salary_min" : 119885.0,
+  "salary_max" : 119885.0,
+  "created" : "2024-08-06T16:39:30Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4813202418?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=050AB6B086A4D4531CDD62E46438FE808A39C801",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMzIwMjQxOCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.GRL1WnU_ysn4icQmhDEDHgB2a7AtV1R8LS0YrSUQexM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.223676,
+  "longitude" : -111.797783,
+  "id" : "4813202418",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "CACI is seeking an enthusiastic Java Software Developer to join our Advanced Solutions Group, within the National Security and Innovative Solutions Sector. We enable national security missions through creation and delivery of innovative, technology-centric solutions that provide decision advantage to our customers. Our client engagement processes, the way we collaborate, operate and deliver value provides an unparalleled opportunity to grow and advance. This opportunity offers very rewarding an…",
+  "company" : {
+    "display_name" : "CACI"
+  },
+  "location" : {
+    "display_name" : "Sterling, Loudoun County",
+    "area" : [ "US", "Virginia", "Loudoun County", "Sterling" ]
+  },
+  "salary_min" : 103050.11,
+  "salary_max" : 103050.11,
+  "contract_time" : "full_time",
+  "created" : "2024-06-15T13:15:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4738784219?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDczODc4NDIxOSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.NoDTVaHJr0PMUEK00c122C60M7RR5DRzNdQvDu-_u0U",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 39.0215,
+  "longitude" : -77.3986,
+  "id" : "4738784219",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "JAVA Developer",
+  "description" : " THIS POSITION REQUIRES A TS/SCI  CACI is seeking a Web Developer with full-stack development experience. The role is responsible for designing, coding and modifying Enterprise Web Application, from layout to function and according to a clients specifications. Ideal candidate will strive to create visually appealing sites that feature user-friendly design and clear navigation. We are seeking developers who can change direction rapidly, utilize flexible thought processes, and can work in a close…",
+  "company" : {
+    "display_name" : "CACI"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 102157.72,
+  "salary_max" : 102157.72,
+  "contract_time" : "full_time",
+  "created" : "2024-06-15T13:15:37Z",
+  "redirect_url" : "https://www.adzuna.com/details/4738784258?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDczODc4NDI1OCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.sDPFwF1TXxaeG0rMQaCacEM5Sr6_DS6NEvAIZ04DLoo",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4738784258",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Sr Java Developer",
+  "description" : "STRATEGIC STAFFING SOLUTIONS HAS AN OPENING This is a Contract Opportunity with our company that MUST be worked on a W2 Only. No C2C eligibility for this position. Visa Sponsorship is Available The details are below. Job Title: Sr Java Developer Location: Concord, CA Duration: 12 Months On-Site Required Job ref 236833 Job Description: Review and analyze complex multi-faceted, larger scale or longer-term Software Engineering challenges that require in-depth evaluation of multiple factors includi…",
+  "company" : {
+    "display_name" : "Strategic Staffing Solutions"
+  },
+  "location" : {
+    "display_name" : "Pacheco, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Pacheco" ]
+  },
+  "salary_min" : 180213.28,
+  "salary_max" : 180213.28,
+  "created" : "2024-08-01T16:27:48Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4805911716?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=E81BBCA109088479452E59DEE0096A6AB3DDB666",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA1OTExNzE2In0.mNDPxqRnJ68GZflIsLXuh6dF-3LD0VRKyqHLJhME9sY",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.983351,
+  "longitude" : -122.036587,
+  "id" : "4805911716",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "JAVA DEVELOPER",
+  "description" : "Java Development, Spring boot (spring framework), Java J2EE, Integration knowledge JMS/ Broker/MQ, AWS, Knowledge on ROSA(redhat openshift) Platform, Strong proficiency in Java programming language Experience with SpringBoot framework for integration projects Knowledge of RESTful web services and API development Familiarity with database technologies such as PostgreSQL and AWS/ ROSA. Understanding of software development principles and methodologies Ability to work in a team environment and col…",
+  "company" : {
+    "display_name" : "eTeam Inc."
+  },
+  "location" : {
+    "display_name" : "Trammells, Harris County",
+    "area" : [ "US", "Texas", "Harris County", "Trammells" ]
+  },
+  "salary_min" : 112585.13,
+  "salary_max" : 112585.13,
+  "contract_time" : "full_time",
+  "created" : "2024-07-26T04:46:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978426?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODQyNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.DZ2Ln9mzHRZHjUn7sCdgsp864SS_8iXYb_0-r0U8_V4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 29.6403,
+  "longitude" : -95.4359,
+  "id" : "4795978426",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
+  },
+  "salary_min" : 104765.79,
+  "salary_max" : 104765.79,
+  "contract_time" : "full_time",
+  "created" : "2024-08-04T23:08:27Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810440379?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MDM3OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.6Iit5KtqnT4iRKFqSkOAMN4IJ57NU3OqalKfsS66k5U",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810440379",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "About Client: The Client is a leading global IT services and consulting company, providing a wide range of services to clients in various industries, including banking, financial services, retail, manufacturing, healthcare, and more. It is one of the largest employers in the IT industry and has a vast and diverse workforce. The company places a strong emphasis on employee training and development. Client is known for its commitment to innovation and invests in research and development to stay a…",
+  "company" : {
+    "display_name" : "ApTask"
+  },
+  "location" : {
+    "display_name" : "Grand Central, Manhattan",
+    "area" : [ "US", "New York", "New York City", "Manhattan", "Grand Central" ]
+  },
+  "salary_min" : 107085.7,
+  "salary_max" : 107085.7,
+  "contract_time" : "full_time",
+  "created" : "2024-07-15T10:47:13Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780155975?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzgwMTU1OTc1In0.sGIkBceEju22iUStgt4vH6Y84zQoSt5qmdPYRdjie48",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.75284,
+  "longitude" : -73.97528,
+  "id" : "4780155975",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Role : Java Developer Location : Cary, NC (ONSITE) Duration : Long Term \" API Design and Development: Design, develop, and implement RESTful APIs using Azure API Management, Azure Functions, and other relevant Azure services. \" Integration: Collaborate with software engineers, architects, and business stakeholders to understand integration requirements and implement API solutions that facilitate seamless data exchange between different systems and applications. \" Azure Services Utilization: Lev…",
+  "company" : {
+    "display_name" : "Diverse Lynx"
+  },
+  "location" : {
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
+  },
+  "salary_min" : 107802.34,
+  "salary_max" : 107802.34,
+  "contract_time" : "full_time",
+  "created" : "2024-08-04T23:09:13Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810443392?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MzM5MiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.MqEsGsqDsc1Ku3Zh_q2qVfZfyFU_ztjYisp7jJqV6KY",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810443392",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Mandatory Skills: Java, J2ee, REST Service, Spring Batch, Junit, GIThub, SQL Preferred Skills: Docker, Kibana, Kubernetes, Gradle, JIRA, UCD Job Description: • Contribute to SAFe PI planning and Scrum ceremonies • Collaborate with program team, understand requirements, design. • Write automation test cases following TDD • Coding and Unit testing • Deploy and release code to test and production • To be responsible for providing technical guidance / solutions • To develop and guide the team membe…",
+  "company" : {
+    "display_name" : "TechDigital Corporation"
+  },
+  "location" : {
+    "display_name" : "Fort Sam Houston, Bexar County",
+    "area" : [ "US", "Texas", "Bexar County", "Fort Sam Houston" ]
+  },
+  "salary_min" : 114418.41,
+  "salary_max" : 114418.41,
+  "contract_time" : "full_time",
+  "created" : "2024-07-25T04:45:32Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619356?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0NjE5MzU2In0.fZKrhYSagXXFMjYbs0WlBgVfg8eYnxcp5-57RDAaQTU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 29.43937,
+  "longitude" : -98.45883,
+  "id" : "4794619356",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "About Cognizant’s Digital Engineering Practice: At Cognizant Digital Engineering, a small cross functional team comprised of a Product Manager, an Architect, Full-Stack Developers, UI/UX designers and Big Data analysts builds higher quality software faster siloed individuals working independently. Small, forward-thinking engineering teams generate collective insight and comradery, thus increasing their ability to anticipate unforeseen development scope changes and maintain high quality results.…",
+  "company" : {
+    "display_name" : "Cognizant Technology Solutions"
+  },
+  "location" : {
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
+  },
+  "salary_min" : 105165.7,
+  "salary_max" : 105165.7,
+  "contract_time" : "full_time",
+  "created" : "2024-07-05T10:32:00Z",
+  "redirect_url" : "https://www.adzuna.com/details/4767398065?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzY3Mzk4MDY1In0.XIpFlP9GMHNYTnu4kfDxpNDAJOT31ZobBMCBq-AW09I",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4767398065",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "Kemper is one of the nation’s leading specialized insurers. Our success is a direct reflection of the talented and diverse people who make a positive difference in the lives of our customers every day. We believe a high-performing culture, valuable opportunities for personal development and professional challenge, and a healthy work-life balance can be highly motivating and productive. Kemper’s products and services are making a real difference to our customers, who have unique and evolving nee…",
+  "company" : {
+    "display_name" : "Kemper Corporation"
+  },
+  "location" : {
+    "display_name" : "Birmingham, Jefferson County",
+    "area" : [ "US", "Alabama", "Jefferson County", "Birmingham" ]
+  },
+  "salary_min" : 123668.51,
+  "salary_max" : 123668.51,
+  "contract_time" : "full_time",
+  "created" : "2024-06-26T09:45:41Z",
+  "redirect_url" : "https://www.adzuna.com/details/4753284643?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDY0MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.EB_2xsM6Sa-zpiLjwBElyj_zXiNaius1esa8qBlokSU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.5277,
+  "longitude" : -86.7992,
+  "id" : "4753284643",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "We’re Fiserv, a global leader in Fintech and payments, and we move money and information in a way that moves the world. We connect financial institutions, corporations, merchants, and consumers to one another millions of times a day – quickly, reliably, and securely. Any time you swipe your credit card, pay through a mobile app, or withdraw money from the bank, we’re involved. If you want to make an impact on a global scale, come make a difference at Fiserv. On our money networks and prepaid so…",
+  "company" : {
+    "display_name" : "Fiserv"
+  },
+  "location" : {
+    "display_name" : "Alpharetta, Fulton County",
+    "area" : [ "US", "Georgia", "Fulton County", "Alpharetta" ]
+  },
+  "salary_min" : 166904.48,
+  "salary_max" : 166904.48,
+  "contract_time" : "full_time",
+  "created" : "2024-06-25T09:39:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4751758385?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzUxNzU4Mzg1In0.LdogHtoL9ei73cZWJno2vb7bcK_T1KX5pQMy4mhkafY",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 34.0703,
+  "longitude" : -84.2887,
+  "id" : "4751758385",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer with Alfresco - 164109",
+  "description" : "Innova Solutions is immediately hiring for Java Full Stack Developer with Alfresco Position Type: Contract/Fulltime/W2 Duration: 24 Months Position: Java Full Stack Developer with Alfresco Location: Charlotte NC 28262 (Hybrid) As a Full Stack Java Developer, you would: - Consult on or participate in moderately complex initiatives and deliverables within Software Engineering and contribute to large-scale planning related to Software Engineering deliverables. Review and analyze moderately complex…",
+  "company" : {
+    "display_name" : "Innova Solutions"
+  },
+  "location" : {
+    "display_name" : "Harrisburg, Cabarrus County",
+    "area" : [ "US", "North Carolina", "Cabarrus County", "Harrisburg" ]
+  },
+  "salary_min" : 114072.38,
+  "salary_max" : 114072.38,
+  "contract_time" : "full_time",
+  "created" : "2024-07-31T17:15:57Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4803142081?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=D542AB304DC1862823BF0A3121EC67E70D9A62C2",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMTQyMDgxIn0.5be-vR-d4QeTgkUEZS5X0HIxX95xHoLNLZ8qJIKVTIk",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 35.311715,
+  "longitude" : -80.64098,
+  "id" : "4803142081",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Sr Java Developer",
+  "description" : "JD: Java Developer 9-12 years' experience with minimum of 2-3 years in Reactive Web services using Flux and Mono Java 17 - Spring Reactive Spring webservices based on Flux and Mono - prior project experience Cucumber TDD Cassandra or Cockroach DB medium skills Familiar with GKP (basic level is good) Git, Maven Kubernetes – should be familiar with deploy, monitor and debugging Jenkins deployment (able to look into existing pipeline, not required to create new) Previous Banking exp is plus Min 10…",
+  "company" : {
+    "display_name" : "TechDigital Corporation"
+  },
+  "location" : {
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
+  },
+  "salary_min" : 137886.3,
+  "salary_max" : 137886.3,
+  "contract_time" : "full_time",
+  "created" : "2024-07-15T10:37:30Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780107746?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4MDEwNzc0NiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.EABTyI-QKVzvrgAbDb_wfKgjmMm7HNlgWpGvAErPeOM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4780107746",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Backend Java Developer",
+  "description" : "Since 2010 Synergisticit has helped Jobseekers get employed in the tech Job market by providing candidates the requisite skills, experience, and technical competence to outperform at interviews and clients. Here at SynergisticIT We just don't focus on getting you a tech Job we make careers. In this Job market also, our candidates can achieve multiple job offers and $100k  salaries. please check the below links to see the success outcomes and salaries of our candidates . We regularly interact wi…",
+  "company" : {
+    "display_name" : "SynergisticIT"
+  },
+  "location" : {
+    "display_name" : "Carlsbad, San Diego County",
+    "area" : [ "US", "California", "San Diego County", "Carlsbad" ]
+  },
+  "salary_min" : 121464.4,
+  "salary_max" : 121464.4,
+  "contract_time" : "full_time",
+  "created" : "2024-07-21T22:51:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790065570?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2NTU3MCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.iJtDNvPkwtz_iO5VgbQIEmTVdgbnNP7brZb19ovxa_M",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.141212,
+  "longitude" : -117.320512,
+  "id" : "4790065570",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Sr Java Developer",
+  "description" : "JD: Java Developer Required Skills/Experience • 7 years IT-Software/ Software products. • Hands on experience with system programming, development of service/module type of applications in mainstream scripting. • Understanding of Microservices technologies including-, Sprint Boot, Java, JavaScript, Git, Jenkins • Stored Procedure, Kafka. • Experience on AWS services Preferred Skills/Experience • Container style of programing– Micro-services, Docker, Openshift. • Experienced across programming l…",
+  "company" : {
+    "display_name" : "TechDigital Corporation"
+  },
+  "location" : {
+    "display_name" : "Stanford, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Stanford" ]
+  },
+  "salary_min" : 142223.66,
+  "salary_max" : 142223.66,
+  "contract_time" : "full_time",
+  "created" : "2024-07-15T10:50:35Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780159937?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzgwMTU5OTM3In0.JOnU_dKQjNdfAhMN5B81iqQUmfwJMw85KG_MLJu6XHE",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.41686,
+  "longitude" : -122.129218,
+  "id" : "4780159937",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "Title: Sr. Java Developer Location: Fort Worth, TX (close to DFW Airport) Duration: Contract to hire (long term) Compensation: $60-65/hr Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Skillset / Experience: Successful Software Developers excel in three key areas: Software Delivery Product Mindset Growth Mindset Software Development Teams find ways to improve daily work. This means taking an honest look at delivery metrics and asking what we will do to improve them. …",
+  "company" : {
+    "display_name" : "INSPYR Solutions"
+  },
+  "location" : {
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
+  },
+  "salary_min" : 132507.38,
+  "salary_max" : 132507.38,
+  "contract_time" : "full_time",
+  "created" : "2024-07-26T04:46:48Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODA0MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.HUHR-_2a6CMbwXIywz1NtUGHoy_utzWBNeaXYWMMyrs",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4795978041",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "We have multiple openings for Senior Java FSD in Plano TX/ Reston, VA - Hybrid Onsite role . Please read further about the job profile: Title: Senior Java FSD  Strong AWS with Spring Batch & SQL Location: Plano TX/ Reston, VA - Hybrid Onsite Type: Full Time/ Contract- C2C/W2 Only local candidates from Texas and Virginia locations Required Skills: Minimum 12 Programming experience with Java, J2EE, XML, and Web Services AWS (EC2, ECS, S3, CloudWatch, SQS , SNS, AWS Lambda) Spring Batch, SQL Java …",
+  "company" : {
+    "display_name" : "Trident Consulting"
+  },
+  "location" : {
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
+  },
+  "salary_min" : 105363.37,
+  "salary_max" : 105363.37,
+  "contract_time" : "full_time",
+  "created" : "2024-08-05T05:06:01Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810729420?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDcyOTQyMCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rJvfHIMSixaCP_-VTNM3j0LVXm4Ph1BVrzxjpLk3lCE",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4810729420",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer with AWS",
+  "description" : "Job Description:- This Developer will be the go-to person for difficult development problems, Java/AWS design, code standards, code reviews, etc. Leverage industry best practices to design, test, implement and support a solution. Analyze highly complex business requirements; generate technical specifications to design or redesign complex software components and applications. Acts as an expert technical resource for modeling, simulation and analysis efforts Adapt to change quickly and adjust wor…",
+  "company" : {
+    "display_name" : "HexaQuEST Global"
+  },
+  "location" : {
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
+  },
+  "salary_min" : 122743.21,
+  "salary_max" : 122743.21,
+  "contract_time" : "full_time",
+  "created" : "2024-07-21T22:42:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790058736?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA1ODczNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XuSfNhUGPMFm-E6YIsdgvHNc1oLc4XnWuKrbw0kAsD4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4790058736",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer V",
+  "description" : "Responsibilities: Conceptualize, design, and implement sophisticated, multi-tier distributed software systems across all stages of the software development life cycle. Drive new and existing product initiatives, influencing the direction of product development. Take ownership of projects, collaborating with technical and business leaders to craft innovative yet straightforward solutions for complex business challenges. Define technical strategy, vision, and roadmaps for the team. Estimate engin…",
+  "company" : {
+    "display_name" : "Aditi Consulting"
+  },
+  "location" : {
+    "display_name" : "Campbell, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Campbell" ]
+  },
+  "salary_min" : 161409.39,
+  "salary_max" : 161409.39,
+  "contract_time" : "full_time",
+  "created" : "2024-07-19T10:46:25Z",
+  "redirect_url" : "https://www.adzuna.com/details/4787034059?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4NzAzNDA1OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.KXrNFd3tldc-dMwVV1cjv2BsML2YNNLkDwF5xt3_6Qk",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.3063,
+  "longitude" : -121.9221,
+  "id" : "4787034059",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Sr. Java Developer",
+  "description" : "JD: 10 years of hands-on experience in Java8, Spring Boot, Hibernate, Microservices & Cloud platform. 2 to 4 years of experience in microservices based architecture. Hands on exp in Agile Methodology. Perform project planning and scheduling, manage tasks and coordinate project resources to meet objectives and timelines. Develop and adhere to project plans, including an effective communication plan and production implementation plan. Advanced understanding of agile methodologies such as CI/CD, A…",
+  "company" : {
+    "display_name" : "TechDigital Corporation"
   },
   "location" : {
     "display_name" : "Orlando, Orange County",
     "area" : [ "US", "Florida", "Orange County", "Orlando" ]
   },
-  "salary_min" : 118632.91,
-  "salary_max" : 118632.91,
+  "salary_min" : 121857.73,
+  "salary_max" : 121857.73,
   "contract_time" : "full_time",
-  "created" : "2024-06-28T08:43:49Z",
-  "redirect_url" : "https://www.adzuna.com/details/4756622143?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzU2NjIyMTQzIn0.l7SmiXeCXPplTAZh4GEHBvgqtCOVuRPOXQ9bB51xCJo",
+  "created" : "2024-07-21T22:44:00Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790060332?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2MDMzMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rEr4jxPOwMtjjmZNakkH0iMjXd4PD_dWZ66LaLBmDMc",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 28.541508,
-  "longitude" : -81.374139,
-  "id" : "4756622143",
+  "latitude" : 28.538056,
+  "longitude" : -81.379444,
+  "id" : "4790060332",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Software Developer",
-  "description" : "Job Title: Senior Software Engineer Experience: 8 years and a Bachelors Degree in Computer Science or a related field. Location : Gaithersburg, MD Clearance : Current Active TS/SCI MINIMUM SKILLS REQUIRED: Strong proficiency with the following technologies: Frontend Web Development: REACT, Angular, Vue.js, or similar JavaScript frameworks Backend Development: Java including Java Spring Boot Cloud Development: AWS, Azure, or similar cloud platforms Relational Database: PostgreSQL with the abilit…",
+  "title" : "Java Developer with angular",
+  "description" : "About Client: The Client is a leading global IT services and consulting company, providing a wide range of services to clients in various industries, including banking, financial services, retail, manufacturing, healthcare, and more. It is one of the largest employers in the IT industry and has a vast and diverse workforce. The company places a strong emphasis on employee training and development. Client is known for its commitment to innovation and invests in research and development to stay a…",
   "company" : {
-    "display_name" : "Noetic Strategies Inc."
+    "display_name" : "ApTask"
   },
   "location" : {
-    "display_name" : "Gaithersburg, Montgomery County",
-    "area" : [ "US", "Maryland", "Montgomery County", "Gaithersburg" ]
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
   },
-  "salary_min" : 128436.91,
-  "salary_max" : 128436.91,
-  "created" : "2024-06-27T01:43:26Z",
-  "redirect_url" : "https://www.adzuna.com/details/4754368922?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1NDM2ODkyMiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.NvE7ad3aWGmTlIyL0Y53eQ-kD9RgbzVyWnslcKqOyis",
+  "salary_min" : 101616.11,
+  "salary_max" : 101616.11,
+  "contract_time" : "full_time",
+  "created" : "2024-07-25T04:45:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619316?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0NjE5MzE2In0.X9bwaa8ZTzVrfuMITbgOTGElhEskHT5MP9ZtC4EXA8A",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 39.139295,
-  "longitude" : -77.180452,
-  "id" : "4754368922",
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4794619316",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Databricks Platform/DevOps Engineer",
-  "description" : "Job Description (JD): Experience: 5 years Skills Required: Databricks/Azure admin/Azure DevOps Git/Git-Actions Terraform Experience in setting up CI/CD Experience in Azure services admin (ADF, Logic Apps, Blob, ADLS, Key-Vault, etc.) Experience in Databricks admin (Workspaces, Unity Catalog, Volumes, Ext volumes, etc.)",
+  "title" : "Sr Java Developer",
+  "description" : "About NTT DATA NTT DATA is a $30 billion trusted global innovator of business and technology services. We serve 75% of the Fortune Global 100 and are committed to helping clients innovate, optimize, and transform for long-term success. We invest over $3.6 billion each year in R&D to help organizations and society move confidently and sustainably into the digital future. As a Global Top Employer, we have diverse experts in more than 50 countries and a robust partner ecosystem of established and …",
   "company" : {
-    "display_name" : "Volto USA"
+    "display_name" : "NTT DATA"
+  },
+  "location" : {
+    "display_name" : "Highland Park, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Highland Park" ]
+  },
+  "salary_min" : 105077.48,
+  "salary_max" : 105077.48,
+  "contract_time" : "full_time",
+  "created" : "2024-07-30T04:54:34Z",
+  "redirect_url" : "https://www.adzuna.com/details/4800500041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAwNTAwMDQxIn0.ZMaa7iryf5M36pkLZSDXdwMJqFSCX-Gyf3n-OMCnZPU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.760168,
+  "longitude" : -96.765058,
+  "id" : "4800500041",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full Stack Java Developer",
+  "description" : "Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. We leverage our holistic portfolio of capabilities in consulting, design, engineering, operations, and emerging technologies to help clients realize their boldest ambitions and build future-ready, sustainable businesses. A company recognized globally for its comprehensive portfolio of …",
+  "company" : {
+    "display_name" : "Wipro Ltd"
   },
   "location" : {
     "display_name" : "US",
     "area" : [ "US" ]
   },
-  "salary_min" : 115200.0,
-  "salary_max" : 124800.0,
-  "created" : "2024-07-30T19:22:16Z",
-  "redirect_url" : "https://www.adzuna.com/details/4801788737?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMTc4ODczNyIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.OE2VDkZVCDLmzUtLDnpx8ysRpCiK-dsn4u5WfWzgVEg",
+  "salary_min" : 169005.95,
+  "salary_max" : 169005.95,
+  "contract_time" : "full_time",
+  "created" : "2024-07-24T12:24:32Z",
+  "redirect_url" : "https://www.adzuna.com/details/4793321322?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MzMyMTMyMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.8Pb8qPs5FRFzEtXxNecFP2MDWUp7K2giLp7HDQH6tgQ",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
   "latitude" : 0.0,
   "longitude" : 0.0,
-  "id" : "4801788737",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Budget & Operations Analyst- Ethics Commission (1824)",
-  "description" : "Job Description ABOUT THE ROLE Reporting to the Deputy Director, the Budget and Operations Analyst will be responsible for leading strategic projects to support organizational planning and departmental operations. This role will plan and conduct complex, sensitive, and detailed projects and tasks related to budget, financial accounting, performance reporting, procurement, contracting, human resources, recruitment, and other departmental functions. This role will establish and implement standard…",
-  "company" : {
-    "display_name" : "City and County of San Francisco"
-  },
-  "location" : {
-    "display_name" : "San Francisco, California",
-    "area" : [ "US", "California", "San Francisco" ]
-  },
-  "salary_min" : 119551.05,
-  "salary_max" : 119551.05,
-  "created" : "2024-08-07T05:09:14Z",
-  "redirect_url" : "https://www.adzuna.com/details/4814242223?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODE0MjQyMjIzIn0.jN-PzWotNovPHgjxpSkRsBIpusCGE7jq97XG1SluJEo",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 37.798085,
-  "longitude" : -122.466538,
-  "id" : "4814242223",
+  "id" : "4793321322",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Contract Specialist",
-  "description" : "U.S. Federal Solutions, Inc. (USFS) is a management consulting firm with offices and staff in the DC metro area. USFS was founded in 2010 and provides financial management, acquisition management, program management, and data analytic support services to federal and state governments. Position Overview: A member of a team that provides acquisition support services to a government agency. Perform acquisition strategy planning to include assisting and collecting requirement package(s) for contrac…",
+  "title" : "Full Stack Java Developer",
+  "description" : "Job Description Job Description Position: Full Stack Java Developer Client: Bank Location: Jersey City, NJ 07302 Duration: Fulltime/ Permanent Hybrid: 2-3 days onsite per week The Software Engineer II will participate in the development, implementation, and ongoing maintenance of the Bank's critical application software. Essential job function Participate in end-to-end development of business solutions including requirements gathering, analysis, design, coding, testing, and implementation. Prov…",
   "company" : {
-    "display_name" : "US Federal Solutions"
-  },
-  "location" : {
-    "display_name" : "Palma Ceia, Hillsborough County",
-    "area" : [ "US", "Florida", "Hillsborough County", "Palma Ceia" ]
-  },
-  "salary_min" : 115000.0,
-  "salary_max" : 130000.0,
-  "contract_time" : "full_time",
-  "created" : "2024-06-28T17:41:40Z",
-  "redirect_url" : "https://www.adzuna.com/details/4757337623?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzU3MzM3NjIzIn0.BHcmrRpBAH9QpNBBM-gLoMQDkXJevAZDR2oD_jJZGZ0",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 27.891547,
-  "longitude" : -82.505737,
-  "id" : "4757337623",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Sr. Solarwinds Engineer (SME)",
-  "description" : "US Citizen Sr. SOLARWINDS ENGINEER (SME) Job description Bella is seeking a highly motivated, self-directed individual, to fill the role of Sr. SolarWinds Engineer (SME). The Sr. SolarWinds Engineer position (SME) focuses on administration, support, and operation of the SolarWinds platform including Network Performance Monitor, Network Configuration Manager, Server & Application Monitor, Traffic Analyzer and IP Address Manager, User Device Tracker, Voice and Quality Manager, Storage Resource Ma…",
-  "company" : {
-    "display_name" : "Bella Information Systems, LLC"
-  },
-  "location" : {
-    "display_name" : "Washington, Washington, D.C.",
-    "area" : [ "US", "Washington, D.C.", "Washington" ]
-  },
-  "salary_min" : 226049.3,
-  "salary_max" : 226049.3,
-  "created" : "2024-06-30T19:57:24Z",
-  "redirect_url" : "https://www.adzuna.com/details/4759722044?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzU5NzIyMDQ0In0.YhtHE1kwIx_i6QZpgQssvdlBpaA_6vFjuzmCvYIus6U",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4759722044",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Engineer - Principal I",
-  "description" : "Software Engineer - Principal I Our client is seeking a Prin. Software Engineer (Cyber) that applies current analytical and logical thinking to the design, architecture, development, evaluation, testing, and integration of computer systems, appliances, and networks to elevate the security posture of the program. This Software Engineer (Cyber) may be involved with commercial, custom and/or government computer product vendors in the design, evaluation, and architecture of state-of-the-art secure …",
-  "company" : {
-    "display_name" : "MY HR"
-  },
-  "location" : {
-    "display_name" : "Bellview, Escambia County",
-    "area" : [ "US", "Florida", "Escambia County", "Bellview" ]
-  },
-  "salary_min" : 136829.69,
-  "salary_max" : 136829.69,
-  "created" : "2024-08-05T19:29:15Z",
-  "redirect_url" : "https://www.adzuna.com/details/4811898468?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMTg5ODQ2OCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.N-3JkGLJ47_9KqZ0a8nsG6MF8CWnXBe3jAG6u6ubz6w",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 30.395321,
-  "longitude" : -87.296866,
-  "id" : "4811898468",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Engineer",
-  "description" : "We are looking for a highly skilled Software Engineer to join our engineering teams here at Tapcheck. As a software engineer, you will play a pivotal role in the development and maintenance of our Azure-based web applications and backend systems. At Tapcheck, we have two teams that are both hiring for Software Engineers. The Payments & Integrations Engineering team who plays a pivotal role in building new data-processing products and improving existing ones, ensuring scalability, reliability an…",
-  "company" : {
-    "display_name" : "Tapcheck Inc."
-  },
-  "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
-  },
-  "salary_min" : 130000.0,
-  "salary_max" : 140000.0,
-  "contract_time" : "full_time",
-  "created" : "2024-07-03T00:12:32Z",
-  "redirect_url" : "https://www.adzuna.com/details/4763573155?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc2MzU3MzE1NSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.pOSQ_VXu8pZ9TkOsoHwmfHZN9GALeIG9B1ITPuHvWXI",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4763573155",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Sr. Oracle DBA / Lead Analyst for Service Now/Sail Point",
-  "description" : "LaBella Associates was established in 1978 and is a certified Great Place To Work. We are headquartered in Rochester, NY with offices across New York, Ohio, Pennsylvania, Connecticut, Maine, Virginia, North and South Carolina, and Madrid, Spain. LaBella is a multi-disciplined architectural and engineering firm dedicated to client satisfaction through teamwork, respect, and trust. We provide services that take a project from start to finish—from an initial study to determine a project’s feasibil…",
-  "company" : {
-    "display_name" : "LaBella Associates"
-  },
-  "location" : {
-    "display_name" : "Vestal, Broome County",
-    "area" : [ "US", "New York", "Broome County", "Vestal" ]
-  },
-  "salary_min" : 110000.0,
-  "salary_max" : 125000.0,
-  "contract_time" : "full_time",
-  "created" : "2024-04-25T11:03:26Z",
-  "redirect_url" : "https://www.adzuna.com/details/4664788519?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NjY0Nzg4NTE5In0.qoaYWfsDvUoboi_k6YczIXUdg0iSuS3LJWGtusu7aj0",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.085,
-  "longitude" : -76.054167,
-  "id" : "4664788519",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Agile Delivery Consultant / Project Manager",
-  "description" : "A leading utility provider located in New York, NY is looking for an Agile Delivery Consultant / Project Manager for a 6 month contract (very strong probability of multi-year extensions). The Customer Engagement Capital Portfolio Team is looking for a Agile Delivery Consultant / Project Manager with strong communications skills, to work with our existing IT delivery team to design, develop, test and implement key functional enhancements based on business requirements from our product owner and …",
-  "company" : {
-    "display_name" : "QED National"
-  },
-  "location" : {
-    "display_name" : "New York, US",
-    "area" : [ "US", "New York" ]
-  },
-  "salary_min" : 169309.39,
-  "salary_max" : 169309.39,
-  "contract_time" : "full_time",
-  "created" : "2024-08-06T10:38:31Z",
-  "redirect_url" : "https://www.adzuna.com/details/4812714924?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMjcxNDkyNCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.uypi5rDBYIW80gTIGwnWfzjV-gbsQJa07QCbqDfz9OM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.522869,
-  "longitude" : -75.574677,
-  "id" : "4812714924",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Systems Engineer (Partial Remote)",
-  "description" : "Our client, one of North America’s leading distributors of process materials with 40 locations nationwide seeks a full time direct hire Systems Engineer (Partial Remote). The position is responsible for availability, reliability, performance, monitoring, and security of the networking environment, including but not limited to cloud-based and on-premise systems. Responsible for installing networks, troubleshooting issues, maintaining security, and training end-users on related systems. The Netwo…",
-  "company" : {
-    "display_name" : "Analytic Search"
-  },
-  "location" : {
-    "display_name" : "North Atlanta, DeKalb County",
-    "area" : [ "US", "Georgia", "DeKalb County", "North Atlanta" ]
-  },
-  "salary_min" : 129737.16,
-  "salary_max" : 129737.16,
-  "contract_time" : "full_time",
-  "created" : "2024-07-22T16:33:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4790794282?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzkwNzk0MjgyIn0.e52bUQHsU3P8Tmpfy-43Y3p3nqwdGjiZOzHQBokOLLw",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 33.87678,
-  "longitude" : -84.33396,
-  "id" : "4790794282",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Oracle Service Cloud Engineer",
-  "description" : "Onsite Role from Day 1 Responsibilities Strong Oracle RightNow implementation experience with below activities. o Agent console and CP customizations. o Chat, Knowledge & CP interfacing with custom portals. o Rules & Workflow Implementation. o eMail Management. o Custom Add-in development. o Custom Processes development. o REST API development. Must have Exp range - 7 - 9 years Strong technical experience demonstrating a solid background on successful Oracle RightNow CRM implementations/upgrade…",
-  "company" : {
-    "display_name" : "Algobrain"
+    "display_name" : "Veterans Sourcing Group"
   },
   "location" : {
     "display_name" : "Jersey City, Hudson County",
     "area" : [ "US", "New Jersey", "Hudson County", "Jersey City" ]
   },
-  "salary_min" : 141685.53,
-  "salary_max" : 141685.53,
-  "created" : "2024-07-31T17:20:15Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803159199?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMzE1OTE5OSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.INRRDI0AYPa-XQc7V_UINJfKviKIOYmvPi_0SsfmAnw",
+  "salary_min" : 151057.1,
+  "salary_max" : 151057.1,
+  "created" : "2024-08-05T10:49:28Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4811172463?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=A4B0ABA586F2CB4C3015ED9214B0BE60EE789145",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMTE3MjQ2MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.-UAK_pYBh1_wY7h1njZyM1W4LfESXLD8K-JPoefJxaA",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
   "latitude" : 40.721832,
   "longitude" : -74.0447,
-  "id" : "4803159199",
+  "id" : "4811172463",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Security Engineer/NQVll - Employee Owned Company",
-  "description" : "Location: Dahlgren, Virginia, USA Telework: Potential for Hybrid Clearance :Active Secret (US Citizenship Required) Experience : 5 years Number of Openings: 1 Funding Status: Future Funded Salary Range: $110,000 - $145,000 (Please see below for more info on salary) SimVentions, consistently voted one Virginia's Best Places to Work, is looking for a Security Engineer/ NQVII to join our team Responsibilities: Plan and execute cybersecurity testing Author and revise system requirements and specifi…",
+  "title" : "Full Stack Java Developer",
+  "description" : "CACI is currently looking for a Full Stack Developer with agile methodology experience to join our BEAGLE (Border Enforcement Applications for Government Leading-Edge Information Technology) Agile Solution Factory (ASF) Team supporting Customs and Border Protection (CBP) client located in Northern Virginia Join this passionate team of industry-leading individuals supporting the best practices in Agile Software Development for the Department of Homeland Security (DHS). As a member of the BEAGLE …",
   "company" : {
-    "display_name" : "SimVentions, Inc - Glassdoor ✪ 4.6"
+    "display_name" : "CACi"
   },
   "location" : {
-    "display_name" : "Pomfret, Charles County",
-    "area" : [ "US", "Maryland", "Charles County", "Pomfret" ]
+    "display_name" : "Ashburn, Loudoun County",
+    "area" : [ "US", "Virginia", "Loudoun County", "Ashburn" ]
   },
-  "salary_min" : 159224.62,
-  "salary_max" : 159224.62,
+  "salary_min" : 117804.38,
+  "salary_max" : 117804.38,
   "contract_time" : "full_time",
-  "created" : "2024-08-01T03:14:33Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803931622?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODAzOTMxNjIyIn0.8jSUozMOW3ItZQfPSKlIGpLWC9qxp9BG3G3Wiv53FF0",
+  "created" : "2024-06-14T11:58:43Z",
+  "redirect_url" : "https://www.adzuna.com/details/4737139265?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzM3MTM5MjY1In0.U_HB9PD1FH_L6vhcrYlYtDbpnRtkeK1IpPTtnYGUSVM",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.5792,
-  "longitude" : -77.0229,
-  "id" : "4803931622",
+  "latitude" : 39.04,
+  "longitude" : -77.481,
+  "id" : "4737139265",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Paralegal - Intellectual Property & Trademarks",
-  "description" : "Job Description Location: Domino’s World Resource Center; 30 Frank Lloyd Wright Dr, Ann Arbor, MI 48105 (Hybrid) On - Site requirement of 3 days per week Compensation- $90-105k  10% Bonus RESPONSIBILITIES AND DUTIES (25%) Trademark/Domain Name Portfolio Management and Protection: Protect intellectual property rights through trademark and services mark/Domain Name filings, renewals, oppositions, appeals, cancellations and prosecution of infringers. Develop and implement strategy for internationa…",
+  "title" : "Full Stack Java Developer",
+  "description" : "Role: Full Stack Java Developer Location: DFW, TX - Hybrid 3x per week onsite Rate: $65-70/hour Length: Ongoing Contract Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Education/Experience: • Bachelor’s degree in Computer Science, Computer Engineering, Technology, Information Systems (CIS/MIS), Engineering or related technical discipline, or equivalent experience/training • 5 years of Java experience • 5 years of experience with AngularJS/Angular • Experience with A…",
   "company" : {
-    "display_name" : "Domino's Corporate"
+    "display_name" : "INSPYR Solutions"
   },
   "location" : {
-    "display_name" : "Ann Arbor, Washtenaw County",
-    "area" : [ "US", "Michigan", "Washtenaw County", "Ann Arbor" ]
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
   },
-  "salary_min" : 126480.66,
-  "salary_max" : 126480.66,
-  "created" : "2024-08-01T11:17:44Z",
-  "redirect_url" : "https://www.adzuna.com/details/4805446396?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNTQ0NjM5NiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.QpT4sZXmQzlqtFOFXqkM3tKkpxw6mdRLGE6JlFSN5Gg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.269394,
-  "longitude" : -83.851822,
-  "id" : "4805446396",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Client Solutions Manager (Lead)",
-  "description" : "VIA is making an impact, and so can you. VIA’s mission is to make communities cleaner, safer, and more equitable. In order to improve communities, verification, integration, and analysis across multiple private data sources is a requirement, but it's also costly and massively time consuming. Using our Web3 platform, VIA enables real-time data verification, replicable integration, and privacy-preserving analysis of energy and environmental data. The U.S. Department of Defense (DoD) and energy co…",
-  "company" : {
-    "display_name" : "VIA Science"
-  },
-  "location" : {
-    "display_name" : "Washington, Washington, D.C.",
-    "area" : [ "US", "Washington, D.C.", "Washington" ]
-  },
-  "salary_min" : 142616.19,
-  "salary_max" : 142616.19,
+  "salary_min" : 131890.36,
+  "salary_max" : 131890.36,
   "contract_time" : "full_time",
-  "created" : "2024-07-23T08:11:55Z",
-  "redirect_url" : "https://www.adzuna.com/details/4791628197?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzkxNjI4MTk3In0.saV99LDSIkkMx96zQB_jtmUIkKsBxYowthv5A41ZIB8",
+  "created" : "2024-07-24T04:43:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4792845927?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5Mjg0NTkyNyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.0S3e7TQdgYgh_XtuKKBWMN0SV1JhngB_kebx1m6iTOk",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.912068,
-  "longitude" : -77.019023,
-  "id" : "4791628197",
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4792845927",
   "salary_is_predicted" : "1"
 }, {
-  "title" : ".Net Developer/Tech Lead with Mulesoft",
-  "description" : "Job Title: .Net Developer/Tech Lead with Mulesoft Job Location: Remote Client : LPL Job Description Designing, coding, testing, and debugging .NET applications Experience in designing and developing MuleSoft integrations using the Anypoint Platform. Developing MuleSoft integrations, APIs, and microservices to connect and orchestrate different systems and applications. .Configuring and deploying MuleSoft applications and .NET Core services to various environments (local, cloud, or on-premises). …",
+  "title" : "Java Developer with Angular 13",
+  "description" : "Experience in Java, J2EE (v8) Backend Service/API Development, Spring, Spring boot, JMS, Web services and other distributed technologies. Experience in Web UI development using Angular 13, HTML5 and CSS 3,Flex, Aggrid, Bootstrap/Material. Experience in CI and Dev Ops. Understands Jenkins, GitHub, etc. Experience in writing independent components and writing unit tests using frameworks like Jasmine. Good communication skills Able to articulate clearly his/her ideas. Experience with Agile methodo…",
   "company" : {
-    "display_name" : "Intone Networks Inc"
+    "display_name" : "Diverse Lynx"
   },
   "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
+    "display_name" : "Highland Park, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Highland Park" ]
   },
-  "salary_min" : 119461.24,
-  "salary_max" : 119461.24,
-  "created" : "2024-07-30T19:21:11Z",
-  "redirect_url" : "https://www.adzuna.com/details/4801787468?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMTc4NzQ2OCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.HdoENUw72wnEIDbq7K-DQBcp6mj_KsGMZtqHUKJ38Jw",
+  "salary_min" : 118700.7,
+  "salary_max" : 118700.7,
+  "contract_time" : "full_time",
+  "created" : "2024-07-25T04:45:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619202?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NDYxOTIwMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XEppMO3YFehZI20nBz_y9wn_KHB2bz8-7Oivhg0QiTQ",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4801787468",
+  "latitude" : 32.760168,
+  "longitude" : -96.765058,
+  "id" : "4794619202",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Software Developer - General Application",
-  "description" : "Gunnison is always looking for top-notch software engineers to support our federal customers. We welcome the opportunity to consider you Duties and responsibilities may include but are not limited to: Design, develop, unit/integration test, and build software code to provide new functionality and extend/modify existing code, using object-oriented software methodologies. Write and implement code to interact with object-relational databases. Performs product design and programming activities invo…",
+  "title" : "Senior/Lead Java Developer",
+  "description" : "Overview of role: Full stack - will be database interaction, API layers, UI work (JavaScript, micro front end architecture). Split 50/50 back/front – at the beginning of the assignment they will be doing more backend and near the end will begin favoring front-end work. Will integrate into current teams and once fully staffed will switch over into pay reconciliation workstream. They have a dedicated PO plus internal CapOne employees to drive intent. No people leadership on any roles – these are …",
   "company" : {
-    "display_name" : "Gunnison Consulting Group Inc"
+    "display_name" : "HexaQuEST Global"
   },
   "location" : {
-    "display_name" : "Fairfax, Fairfax County",
-    "area" : [ "US", "Virginia", "Fairfax County", "Fairfax" ]
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
   },
-  "salary_min" : 138918.98,
-  "salary_max" : 138918.98,
-  "created" : "2023-04-05T22:54:53Z",
-  "redirect_url" : "https://www.adzuna.com/details/4022734245?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0MDIyNzM0MjQ1In0.BULM4o3L40lub_GxnYqGeq0t5KMHbmAIMulyqV2D8Wk",
+  "salary_min" : 120245.69,
+  "salary_max" : 120245.69,
+  "contract_time" : "full_time",
+  "created" : "2024-07-21T22:50:33Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790065029?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2NTAyOSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.PnMTcOeqmPI2iBbhaiZzke9_bR3Uq4mjlVqJ8JGwTaM",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.84732,
-  "longitude" : -77.332845,
-  "id" : "4022734245",
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4790065029",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "New College Grad, PhD Data Scientist (Supply Chain)",
-  "description" : "Job Description Strategically positioned within the organization of the CIO, AAO is missioned with accelerating Analytics solutions at scale across the Enterprise to rapidly capture business value. These solutions target key business metrics, such as, reducing manufacturing cost, improve capital efficiency, reduce time-to market to develop new products, improve planning, operational efficiency & logistics, and enhance customer experience. AAO solutions are built using cutting edge Industrial 4.…",
+  "title" : "(1) Senior Java Developer",
+  "description" : "Job Description Job Description Position Overview Are you a senior engineer who is energized by designing and implementing elegant code that is focused on solving business problems? Who believes that the job is not done until end-users are successfully using your solution to do their job more effectively? Do you enjoy variety and the freedom to work on many different areas of a product? Do you continually seek to develop your knowledge and skills, learning tools and technologies that help you m…",
   "company" : {
-    "display_name" : "Western Digital"
+    "display_name" : "eTrigue"
   },
   "location" : {
     "display_name" : "San Jose, Santa Clara County",
     "area" : [ "US", "California", "Santa Clara County", "San Jose" ]
   },
-  "salary_min" : 107641.77,
-  "salary_max" : 107641.77,
-  "created" : "2024-08-06T05:07:04Z",
-  "redirect_url" : "https://www.adzuna.com/details/4812407697?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMjQwNzY5NyIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.2Y3QATjli3fFFibVS-M2zLkZmOnKPphwbVmCykO8bFE",
+  "salary_min" : 147510.72,
+  "salary_max" : 147510.72,
+  "created" : "2024-07-25T10:29:27Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4794963073?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=D5B16678DA82CF81C010BBDE6351A4BB00362BDF",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0OTYzMDczIn0.ZSpV91p6D5Ut9C7wh_j5ExWy__39UHG9XQnlG_K0qOA",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
   "latitude" : 37.390494,
   "longitude" : -121.885434,
-  "id" : "4812407697",
+  "id" : "4794963073",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Cabling SME",
-  "description" : "Program Description: This is a contract to provide design and engineering services needed to implement structured network cabling installations/upgrades to the Federal Bureau of Investigation (FBI) Finance and Facilities Division (FFD) Technology Deployment Unit (TDU). Responsibilities: Shall meet with customer and contractor personnel to formulate and review task plans and deliverable items. Shall ensure strict conformance to/with program task schedules and prices. Shall lead the effort to sec…",
+  "title" : "Full-Stack Java Developer",
+  "description" : "Job Description Job Description Location: Bethesda, MD (Hybrid) LCG is a minority-owned technology consulting firm that has been a trusted partner to more than 40 federal agencies, including 21 of the 27 Institutes and Centers (ICs) at the National Institutes of Health (NIH). For over 25 years, LCG has brought digitization and innovation to the Health and Human Services (HHS) and the NIH ecosystems. We support IT organizations by bringing precision technology and operation models that achieve m…",
   "company" : {
-    "display_name" : "Systems Engineering Solutions Corporation"
-  },
-  "location" : {
-    "display_name" : "Washington, Washington, D.C.",
-    "area" : [ "US", "Washington, D.C.", "Washington" ]
-  },
-  "salary_min" : 108122.55,
-  "salary_max" : 108122.55,
-  "contract_time" : "full_time",
-  "created" : "2024-08-01T17:49:18Z",
-  "redirect_url" : "https://www.adzuna.com/details/4806079777?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODA2MDc5Nzc3In0.6pjTtI1gCv5Dn_eGF2cR03Oytjf8iQImr5kmJRf8yuc",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.912068,
-  "longitude" : -77.019023,
-  "id" : "4806079777",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Benefits Manager",
-  "description" : "WAHL EMPOWERS PEOPLE TO BE THEIR BEST Wahl Clipper Corporation, a global manufacturer of branded Consumer and Professional products, has an exciting opportunity for a Senior Manager of Benefits and Well-being at our Global Headquarters in Sterling, Illinois. The Senior Manager develops, drives, and executes benefit programs that are competitive with the marketplace. This role will help establish Wahl as an employer of choice by ensuring all benefits programs align with our One Wahl strategy. PR…",
-  "company" : {
-    "display_name" : "Wahl Clipper Corporation"
-  },
-  "location" : {
-    "display_name" : "Sterling, Whiteside County",
-    "area" : [ "US", "Illinois", "Whiteside County", "Sterling" ]
-  },
-  "salary_min" : 140000.0,
-  "salary_max" : 160000.0,
-  "created" : "2024-01-18T09:04:55Z",
-  "redirect_url" : "https://www.adzuna.com/details/4531209182?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NTMxMjA5MTgyIn0.tuSUg5SAxXM0w8TKRNMVUxLRcTaEp2YJr_KuO3JLOII",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 41.806005,
-  "longitude" : -89.700713,
-  "id" : "4531209182",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Senior Zero Trust ISSO",
-  "description" : "Cyber Security Innovations (CSI) is seeking a Senior Zero Trust ISSO to join our team in support of our federal client located in Camp Springs, MD. The Information System Security Officer (ISSO) will have experience performing FISMA compliance for the federal government. They will be responsible for Security Authorization activities for CSI's client in accordance with National Institute of Standards and Technology (NIST) 800 series. A successful candidate will manage tasks related to the planni…",
-  "company" : {
-    "display_name" : "Cyber Security Innovations"
-  },
-  "location" : {
-    "display_name" : "Suitland, Prince George's County",
-    "area" : [ "US", "Maryland", "Prince George's County", "Suitland" ]
-  },
-  "salary_min" : 130000.0,
-  "salary_max" : 150000.0,
-  "created" : "2023-11-21T12:30:05Z",
-  "redirect_url" : "https://www.adzuna.com/details/4445606427?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NDQ1NjA2NDI3In0.hXbQ3zi2E7FuEXXDLATBuxivyuzyiP_qbS0Sq3XGcTI",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.83506,
-  "longitude" : -76.91724,
-  "id" : "4445606427",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Salesforce Practice Lead",
-  "description" : "We are looking for Salesforce talents: as Developers, Leads for our Salesforce practice. Accountabilities include: leading the enterprise Salesforce platform solutions as part of an organization-wide digital modernization initiative to transform a wide-range of IT systems. In this role, you will be tasked with leading teams and interacting with government customers, including Product Owners, Project Managers, and various project stakeholders. To ensure success as the Salesforce Practice Lead, y…",
-  "company" : {
-    "display_name" : "NikSoft Systems Corp."
-  },
-  "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
-  },
-  "salary_min" : 135097.9,
-  "salary_max" : 135097.9,
-  "created" : "2024-06-07T09:11:02Z",
-  "redirect_url" : "https://www.adzuna.com/details/4725936182?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzI1OTM2MTgyIn0.Ajxg6Qdv-BrK_ZoI6NpfomV28bI_Ny081ViZM6bQvaM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4725936182",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Developer",
-  "description" : "Software Developer RSA Conference™ is the premier series of global events and year-round learning for the cybersecurity community. RSAC is where the security industry converges to discuss current and future concerns and have access to the experts, unbiased content and ideas that help enable individuals and companies advance their cybersecurity posture and build stronger and smarter teams. Both in-person and online, RSAC brings the cybersecurity industry together and empowers the collective “we”…",
-  "company" : {
-    "display_name" : "RSA Conference"
-  },
-  "location" : {
-    "display_name" : "Seattle, King County",
-    "area" : [ "US", "Washington", "King County", "Seattle" ]
-  },
-  "salary_min" : 101950.7,
-  "salary_max" : 101950.7,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T13:52:46Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753586214?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzU4NjIxNCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.G_JmwliH_QDOxyZTpEvWBaUKKToyvcQEMZqFxvUGz-4",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 47.608492,
-  "longitude" : -122.336407,
-  "id" : "4753586214",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Application Developer",
-  "description" : "We are looking for an experienced Software Application Developer to design and code functional programs and applications. You will work as a part of a team of experienced software engineers and domain experts. Neuralog uses a variety of software development tools including Microsoft Visual Studio 2017 and Microsoft DevOps. Our applications are built to run on both current and legacy Windows operating systems. This position requires an in-depth knowledge of Windows operating systems as well as u…",
-  "company" : {
-    "display_name" : "NEURALOG, LP"
-  },
-  "location" : {
-    "display_name" : "Stafford, Fort Bend County",
-    "area" : [ "US", "Texas", "Fort Bend County", "Stafford" ]
-  },
-  "salary_min" : 102874.25,
-  "salary_max" : 102874.25,
-  "created" : "2023-12-05T07:04:58Z",
-  "redirect_url" : "https://www.adzuna.com/details/4464888905?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NDY0ODg4OTA1In0.bSJMaqFpJgaK1AeYe6Q6OPaGepNvvbwJ8u10dSXlXfM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 29.616067,
-  "longitude" : -95.557722,
-  "id" : "4464888905",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Entry Level Software Developer",
-  "description" : "Location: Dahlgren, Virginia, USA - ON BASE Telework: None Clearance : Interim - Secret (US Citizenship Required) Experience : Entry Level Number of Openings: 2 Funding Status: Funded (Anticipated start September 2024) Salary Range: $69,000 - $82,000 (Please see below for more info on salary) Software Developer I SimVentions is a 100% employee-owned business and has consistently been voted one of Virginia's Best Places to Work. We are looking for an entry-level software developer to join our te…",
-  "company" : {
-    "display_name" : "SimVentions, Inc - Glassdoor ✪ 4.6"
-  },
-  "location" : {
-    "display_name" : "Nationwide, Spotsylvania County",
-    "area" : [ "US", "Virginia", "Spotsylvania County", "Nationwide" ]
-  },
-  "salary_min" : 119608.41,
-  "salary_max" : 119608.41,
-  "contract_time" : "full_time",
-  "created" : "2024-08-05T19:29:29Z",
-  "redirect_url" : "https://www.adzuna.com/details/4811899518?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODExODk5NTE4In0.U0YLgpBLvAuiDadIwzab6gyEHGvX_xGzwRoZQo9SBUw",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.256077,
-  "longitude" : -77.568153,
-  "id" : "4811899518",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "GitHub Actions Support Engineer",
-  "description" : "Job Description: We are looking for a seasoned GitHub Actions Support Engineer to provide expert troubleshooting and optimize CI/CD pipelines for our development teams. Title: GitHub Actions Support Engineer Location: Phoenix, AZ Client: Impetus Technologies, Inc. / American Express Rate: $60-65/hr on C2C Onsite-hybrid role. Note: Pls ensure the authenticity of candidate as many fakes are in market on this skill. Qualifications: Must-Have: Git Expertise: Strong command of Git version control, i…",
-  "company" : {
-    "display_name" : "Nationmind"
-  },
-  "location" : {
-    "display_name" : "Guadalupe, Maricopa County",
-    "area" : [ "US", "Arizona", "Maricopa County", "Guadalupe" ]
-  },
-  "salary_min" : 115200.0,
-  "salary_max" : 0.0,
-  "created" : "2024-07-31T19:12:37Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803298052?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMzI5ODA1MiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.AYJYug27vZH2p9K4G5C0XZyNixUDYZ9i-WmTCaI1FYg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 33.331208,
-  "longitude" : -111.988084,
-  "id" : "4803298052",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Security Engineer/NQVll - 110k - 145k annually",
-  "description" : "Location: Dahlgren, Virginia, USA Telework: Potential for Hybrid Clearance :Active Secret (US Citizenship Required) Experience : 5 years Number of Openings: 1 Funding Status: Future Funded Salary Range: $110,000 - $145,000 (Please see below for more info on salary) SimVentions, consistently voted one Virginia's Best Places to Work, is looking for a Security Engineer/ NQVII to join our team Responsibilities: Plan and execute cybersecurity testing Author and revise system requirements and specifi…",
-  "company" : {
-    "display_name" : "SimVentions, Inc - Glassdoor ✪ 4.6"
-  },
-  "location" : {
-    "display_name" : "Brooke, Stafford County",
-    "area" : [ "US", "Virginia", "Stafford County", "Brooke" ]
-  },
-  "salary_min" : 191345.81,
-  "salary_max" : 191345.81,
-  "contract_time" : "full_time",
-  "created" : "2024-08-01T03:14:35Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803932036?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMzkzMjAzNiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.ZpIhUrgeQ0rTkxil24J6Y03f9ol9OzpgcL8J8cKl90U",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.38734,
-  "longitude" : -77.38031,
-  "id" : "4803932036",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Network Operations Center (NOC) Administrator",
-  "description" : "OVERVIEW: VAE, Inc. is a full service IT Infrastructure Solutions Company focused on building, securing and supporting our clients’ mission critical enterprises. We provide a distinctive array of design, integration and implementation services as well as fully managed service offerings. VAE is at the forefront of leveraging multi-tenant capable technologies and shared IT services to create secure, reliable and cost-effective end-to-end services and solutions. We deliver exceptional infrastructu…",
-  "company" : {
-    "display_name" : "VAE, Inc."
-  },
-  "location" : {
-    "display_name" : "State Farm, Arlington County",
-    "area" : [ "US", "Virginia", "Arlington County", "State Farm" ]
-  },
-  "salary_min" : 105103.84,
-  "salary_max" : 105103.84,
-  "contract_time" : "full_time",
-  "created" : "2024-08-01T04:32:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4804206866?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODA0MjA2ODY2In0.Vju-4mp3VQMdwU5O7fvVGbBg8JENr_eY9uTkElYoh1Q",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.886306,
-  "longitude" : -77.097739,
-  "id" : "4804206866",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Java Full Stack Developer",
-  "description" : "Job Title: Java Full Stack Developer Location: San Antonio, TX Duration: / Term: 6 months Contract Skills: Java, Springboot, Microservices, Kafka. PostgresSQL Desired Skills: Splunk, Unix scripting, Selenium, BDD Job Description Design and Development of services, enhancements Database scripting and troubleshooting Version upgrades, development of patch fixes Development of deployment scripts, coordination of release activities Test automation scripts development using selenium Automation frame…",
-  "company" : {
-    "display_name" : "VDart Inc"
-  },
-  "location" : {
-    "display_name" : "China Grove, Bexar County",
-    "area" : [ "US", "Texas", "Bexar County", "China Grove" ]
-  },
-  "salary_min" : 111360.0,
-  "salary_max" : 115200.0,
-  "created" : "2024-08-01T19:21:23Z",
-  "redirect_url" : "https://www.adzuna.com/details/4806167371?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNjE2NzM3MSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.jsyQUZssN5ujpSNNVyxorlwACqCCSwRlCng-Mm7CESs",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 29.353554,
-  "longitude" : -98.433749,
-  "id" : "4806167371",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Client Implementations Practice / Project Manager",
-  "description" : "Northern Bank is currently recruiting for a Client Implementations Practice / Project Manager to join our PMO organization. This is a ground level opportunity within our Digital Solutions group to help establish, define, and manage the Client Implementations process. As a Client Implementations Practice manager, you will define the processes, deliverables, and other details necessary for repeatable and successful client implementations of our digital solutions. You will also lead the implementa…",
-  "company" : {
-    "display_name" : "Northern Bank"
-  },
-  "location" : {
-    "display_name" : "Woburn, Middlesex County",
-    "area" : [ "US", "Massachusetts", "Middlesex County", "Woburn" ]
-  },
-  "salary_min" : 108151.22,
-  "salary_max" : 108151.22,
-  "created" : "2024-05-21T16:40:30Z",
-  "redirect_url" : "https://www.adzuna.com/details/4702551471?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDcwMjU1MTQ3MSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.tjI9bDcYkgLH9QhL3NdTjNAGl6o4N6RyZcTvfoIxdJg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.479262,
-  "longitude" : -71.152277,
-  "id" : "4702551471",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "VMware Aria Architect",
-  "description" : "Job Title: Remote VMware Aria Architect Location: Remote (Work from Home) Contract Duration: Uknown at this point Start Date: July 15th is expected Company Overview: We are a leading IT Professional Services company specializing in providing cutting-edge solutions to our global clientele. Our focus is on delivering innovative and efficient IT services to meet the dynamic needs of our customers. Job Description: We are seeking a highly skilled and experienced VMware Aria Architect to join our te…",
-  "company" : {
-    "display_name" : "Arganteal, Corp."
-  },
-  "location" : {
-    "display_name" : "Buda, Hays County",
-    "area" : [ "US", "Texas", "Hays County", "Buda" ]
-  },
-  "salary_min" : 133475.84,
-  "salary_max" : 133475.84,
-  "created" : "2024-07-02T01:53:31Z",
-  "redirect_url" : "https://www.adzuna.com/details/4762317570?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc2MjMxNzU3MCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.qEeWskRrxz-7DvRHsBjrFSEBhCWtk0LAUJ8QlW65VX8",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 30.081723,
-  "longitude" : -97.842893,
-  "id" : "4762317570",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Site Reliability Engineer",
-  "description" : "Optimize systems that elevate educational access for all students Are you ready to apply your technical expertise to make a significant impact in the educational sector? As a Senior Site Reliability Engineer at MasteryPrep, you'll ensure that our digital platforms are robust, scalable, and secure, providing a reliable learning environment for underserved students. Your skills will not only optimize our systems but also enhance the educational journey of thousands of students by ensuring uninter…",
-  "company" : {
-    "display_name" : "MasteryPrep"
-  },
-  "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
-  },
-  "salary_min" : 165000.0,
-  "salary_max" : 175000.0,
-  "contract_time" : "full_time",
-  "created" : "2024-07-15T16:36:23Z",
-  "redirect_url" : "https://www.adzuna.com/details/4780509735?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4MDUwOTczNSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.DB0GEEL6axjNAUSyUHSiEL7z5m4Xpf9J1IsO42U0urI",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4780509735",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Senior Software Engineer",
-  "description" : "Who We Are: Omatic solutions are purpose-built using the direct feedback of our 3,000 social good customers. With over 80% of nonprofit organizations leveraging 4 or more cloud solutions today, the need for a uniquely tailored integration solution has never been greater. Omatic is a place where the employees thrive on helping others, both through business goals and personal pursuits. Fun, energetic, and lively are terms frequently used to describe the culture at Omatic, and this is balanced by …",
-  "company" : {
-    "display_name" : "Omatic"
-  },
-  "location" : {
-    "display_name" : "Mount Pleasant, Charleston County",
-    "area" : [ "US", "South Carolina", "Charleston County", "Mount Pleasant" ]
-  },
-  "salary_min" : 111298.95,
-  "salary_max" : 111298.95,
-  "created" : "2024-04-25T00:47:38Z",
-  "redirect_url" : "https://www.adzuna.com/details/4663791778?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDY2Mzc5MTc3OCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.peO0bH8paclHoF_o24G3F1YFE1LLx6x8F4Z6z2CBphs",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 32.823485,
-  "longitude" : -79.852082,
-  "id" : "4663791778",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "CJIS FAST-LESS Data Scientist",
-  "description" : "Employee dedication contributes to our success, customer satisfaction, and our nation's most outstanding achievements. At Fusion Technology, we recognize that our employees are our greatest attribute. That is why our top priority is to attract, recruit, retain, and continuously motivate quality employees who meet or exceed customer requirements. Our dedicated people make Fusion Technology one of the fastest-growing information technology (IT) companies in West Virginia. As a HUBZone Small Busin…",
-  "company" : {
-    "display_name" : "Fusion Technology LLC"
-  },
-  "location" : {
-    "display_name" : "Clarksburg, Harrison County",
-    "area" : [ "US", "West Virginia", "Harrison County", "Clarksburg" ]
-  },
-  "salary_min" : 115313.61,
-  "salary_max" : 115313.61,
-  "created" : "2024-02-20T18:47:42Z",
-  "redirect_url" : "https://www.adzuna.com/details/4576139830?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NTc2MTM5ODMwIn0.EleAOB6Ikay7Fyn0Q-E938omcco5TqCe8w02O7sMaT4",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 39.280645,
-  "longitude" : -80.344534,
-  "id" : "4576139830",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Associate Analytics Manager (CPG/Retail)",
-  "description" : "Job Description Have you ever walked down an aisle in your local retailor and wondered why your favorite beverage or food product moved or why the signage changed? At NielsenIQ, we work with U.S. retailers and manufacturers to help them understand their consumers, and to optimize their business down every aisle. Every day brings a new challenge working in an extremely fast paced, ever evolving, competitive retail landscape. The Associate Analytics Manager is responsible for all client activity …",
-  "company" : {
-    "display_name" : "NielsenIQ"
-  },
-  "location" : {
-    "display_name" : "Austin, Travis County",
-    "area" : [ "US", "Texas", "Travis County", "Austin" ]
-  },
-  "salary_min" : 103457.38,
-  "salary_max" : 103457.38,
-  "created" : "2024-07-30T16:56:43Z",
-  "redirect_url" : "https://www.adzuna.com/details/4801246238?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODAxMjQ2MjM4In0.3tAnTb4j19OxR_NER6jbTpggJQ05HvTpVCKmQpi2CrA",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 30.272921,
-  "longitude" : -97.744386,
-  "id" : "4801246238",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "User Study Researcher IV",
-  "description" : "Research Scientist, Services Engineering Seattle WA / NYC NY / San Diego CA (Hybrid) Contract Job Summary Services Engineering is looking for a research scientist to design, coordinate, execute, and monitor research studies which enable the development and evaluation of large language models (LLM). In this role, you will work with teams of Data Scientists, Product Managers, Engineers, and others to design and execute research testing how humans evaluate LLM features. You will combine broad skil…",
-  "company" : {
-    "display_name" : "Signature Consultants"
-  },
-  "location" : {
-    "display_name" : "San Diego County, California",
-    "area" : [ "US", "California", "San Diego County" ]
-  },
-  "salary_min" : 115200.0,
-  "salary_max" : 190080.0,
-  "contract_time" : "full_time",
-  "created" : "2024-07-30T10:33:50Z",
-  "redirect_url" : "https://www.adzuna.com/details/4800720214?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODAwNzIwMjE0In0.QdjTgoide83QUdk7Z6wGuMBVGLShtc_MFT_xbPdJPzg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 32.942157,
-  "longitude" : -116.979805,
-  "id" : "4800720214",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Software Engineer (Hybrid) - Mid Level - TS/SCI",
-  "description" : "Grey Matters Defense Solutions specializes in software development and solutions, specialized data analytics algorithms, and innovative remote sensing technologies and operations, with senior-level personnel formerly from DIA, NRO, DARPA, and the US Armed Forces. Grey Matters Defense Solutions differentiates itself by combining its subject matter experts, analysts, software engineers, and its data scientists to create unique artificial intelligence algorithms and various applications. Grey Matt…",
-  "company" : {
-    "display_name" : "Grey Matters Defense Solutions"
-  },
-  "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
-  },
-  "salary_min" : 235219.56,
-  "salary_max" : 235219.56,
-  "created" : "2024-07-11T20:55:53Z",
-  "redirect_url" : "https://www.adzuna.com/details/4775392573?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc3NTM5MjU3MyIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.YQRcq2jRVZNIWv6XFsOYdngjCD4TXGLPRCl4GsQI52E",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "4775392573",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "SAP ABAP",
-  "description" : "Title : SAP ABAP S4 HANA Location : Houston , TX Duration : 6 Months Expertise: - Advanced skills in AMDP/CDS Views. - Proficient in analytical reporting using tools such as Query Browser, Report Create, and KPI Creation from the FIORI Launchpad. - Expertise in interfaces, particularly cloud interfaces. - Proficient in SAP Lumira Discovery & Designer Reporting. - Experience in working on Fiori Apps extensions, enhancements, tile creation, roles, OData, custom app developments, and ABAP. - Exper…",
-  "company" : {
-    "display_name" : "UrBench"
-  },
-  "location" : {
-    "display_name" : "Willowood, Houston",
-    "area" : [ "US", "Texas", "Harris County", "Houston", "Willowood" ]
-  },
-  "salary_min" : 163200.0,
-  "salary_max" : 172800.0,
-  "created" : "2024-07-31T19:12:28Z",
-  "redirect_url" : "https://www.adzuna.com/details/4803297622?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODAzMjk3NjIyIn0.7jvbWQMeF2FJYIoqFdlIrWVycrmo8Ld_CVQnEgsHAN0",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 29.91891,
-  "longitude" : -95.49117,
-  "id" : "4803297622",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Oracle SSO Identity and Access Administrator",
-  "description" : "OTS is seeking an Oracle SSO Identity and Access Administrator to join our growing team. In this role, you will implement, analyze, and resolve Single Sign-On (SSO) Identity and Access issues and initiatives within a highly visible, mission-critical (24x7) environment. Duties and Responsibilities Work with large enterprise-wide Oracle Single Sign-On (SSO) implementations involving attributes/role-based authorization model(s) and experience with configuration of Oracle OAM environments for high …",
-  "company" : {
-    "display_name" : "Optimized Technical Solutions"
-  },
-  "location" : {
-    "display_name" : "Castle Hills, Bexar County",
-    "area" : [ "US", "Texas", "Bexar County", "Castle Hills" ]
-  },
-  "salary_min" : 113074.84,
-  "salary_max" : 113074.84,
-  "created" : "2022-09-01T13:23:21Z",
-  "redirect_url" : "https://www.adzuna.com/details/3450833953?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiIzNDUwODMzOTUzIn0.gl2fSs-1C5gYD9atqQ1kSaSXzCSEAT3pirMXfZK4hWo",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 29.535262,
-  "longitude" : -98.490997,
-  "id" : "3450833953",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Sr. Solution Architect - AI/ML (USA)",
-  "description" : "Sr. Solution Architect - USA About ArangoDB Founded in Germany and now headquartered in San Francisco, ArangoDB is the most highly scalable, open-source, Graph Database with AI/ML capabilities available in the market. In addition to graphs, it is natively supporting a number of data models including Document, and Key-Value as well as Full-Text Search and Retrieval. It serves as the scalable backbone for Graph-Analytics and complex data architectures across many different industries. Developers …",
-  "company" : {
-    "display_name" : "ArangoDB"
-  },
-  "location" : {
-    "display_name" : "Jamaica Est, Queens",
-    "area" : [ "US", "New York", "New York City", "Queens", "Jamaica Est" ]
-  },
-  "salary_min" : 169017.56,
-  "salary_max" : 169017.56,
-  "created" : "2024-07-05T20:33:00Z",
-  "redirect_url" : "https://www.adzuna.com/details/4767969150?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc2Nzk2OTE1MCIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.Zu2cRMsim7sgIJobSIoaZEtODRK41qAOQpNkSiDcohg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.717854,
-  "longitude" : -73.774262,
-  "id" : "4767969150",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Solutions Architect",
-  "description" : "Job ID: 7970903 Solutions Architect Client: State of Colorado OIT Duration: 12 Months Location: Denver, CO ( Remote) Required tasks to fulfil primary responsibility: Bring best in class technologies, innovation, and creativity to the table in developing technical solutions to solve complex multi-dimensional problems. Perform a wide range of highly technical and advisory duties associated with the design, implementation and support of OIT Applications solutions. Provide technology leadership by …",
-  "company" : {
-    "display_name" : "nLeague"
-  },
-  "location" : {
-    "display_name" : "Colorado, US",
-    "area" : [ "US", "Colorado" ]
-  },
-  "salary_min" : 119892.44,
-  "salary_max" : 119892.44,
-  "created" : "2024-08-05T19:29:30Z",
-  "redirect_url" : "https://www.adzuna.com/details/4811899626?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODExODk5NjI2In0.ubnce5GfXqhBtS4yHwCJ3LJS3Z57nQHd4VVioxhEg6E",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.925195,
-  "longitude" : -105.49903,
-  "id" : "4811899626",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Masterfile ALC Tester",
-  "description" : "Please Note: The project site is located at New Carrollton, MD or remote contractor site within the Washington D.C. Metro area. Active IRS MBI clearance is preferred. Candidates in the local to Washington, D.C. metropolitan area are preferred, however other locations will be considered. Commuting expenses will not be reimbursed. Description of Assignment: Create input data for testing and test procedures Process test data and review output (using the expected results) to show details on test re…",
-  "company" : {
-    "display_name" : "Omm IT Solutions"
-  },
-  "location" : {
-    "display_name" : "Landover Hills, Prince George's County",
-    "area" : [ "US", "Maryland", "Prince George's County", "Landover Hills" ]
-  },
-  "salary_min" : 128128.62,
-  "salary_max" : 128128.62,
-  "created" : "2024-07-13T02:25:58Z",
-  "redirect_url" : "https://www.adzuna.com/details/4777373341?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc3NzM3MzM0MSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.BdY1UCcFANyxye7gs3-CAT7vfCXb6GDlkdHnYGCruRY",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.95398,
-  "longitude" : -76.89678,
-  "id" : "4777373341",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Network Engineers SME- 3>5",
-  "description" : "Company Overview GeoWireless was founded in 2004 with a leadership team possessing over 150 years of aggregate IT and Radio Frequency experience. GeoWireless is headquartered in Charleston, South Carolina with offices in Florida, Maryland, Tennessee and Virginia. We specialize in Information Assurance and Cyber Security, High Performance Computing, Modeling and Simulation Support, Certification and Accreditation, Secure Network Architecture and Engineering, Physical Security System Monitoring &…",
-  "company" : {
-    "display_name" : "GeoWireless Inc"
-  },
-  "location" : {
-    "display_name" : "US",
-    "area" : [ "US" ]
-  },
-  "salary_min" : 108894.11,
-  "salary_max" : 108894.11,
-  "created" : "2022-03-26T17:32:14Z",
-  "redirect_url" : "https://www.adzuna.com/details/3001974829?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiIzMDAxOTc0ODI5In0.yMXhWq_hEXJ7Z4ZIWg2Z9OQ2GIWQQOKF6XtYlkCac-A",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 0.0,
-  "longitude" : 0.0,
-  "id" : "3001974829",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior AWS Connect Engineer/Developer",
-  "description" : "Please Note: For this req specifically, we are willing to allow you to submit candidates are not local. Please make note it will be the vendor's responsibility to ensure the candidate is able to be in Baltimore for badging twice. We will not be able to support any remote badging. As of today's guidance, once they are badged, they will be allowed to work remotely. Position Description: Design, develop and implement AWS Connect processes to include new or modifications to applications, forms, wor…",
-  "company" : {
-    "display_name" : "Omm IT Solutions"
-  },
-  "location" : {
-    "display_name" : "Windsor Mill, Baltimore County",
-    "area" : [ "US", "Maryland", "Baltimore County", "Windsor Mill" ]
-  },
-  "salary_min" : 100260.76,
-  "salary_max" : 100260.76,
-  "created" : "2024-07-24T18:33:58Z",
-  "redirect_url" : "https://www.adzuna.com/details/4793806866?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MzgwNjg2NiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.eUby59IiG1vZi0H21uNlwaKqmJQJvxiyE0wUPrS50Yo",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 39.336825,
-  "longitude" : -76.764569,
-  "id" : "4793806866",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Actuarial Business Analyst",
-  "description" : "Job Description The Regulatory and Contractual Reporting unit of ISO Programs Operations is looking for an Actuarial/Business Analyst to contribute to the success of one of Verisk's most important roles in the insurance industry - a statistical agent and data partner to insurance companies, regulatory entities, and federal and local government agencies. In our strong team of experienced, intelligent, and collaborative actuarial and business analysts, you will have the opportunity to work with a…",
-  "company" : {
-    "display_name" : "Underwriting Solutions"
-  },
-  "location" : {
-    "display_name" : "Jersey City, Hudson County",
-    "area" : [ "US", "New Jersey", "Hudson County", "Jersey City" ]
-  },
-  "salary_min" : 114442.75,
-  "salary_max" : 114442.75,
-  "created" : "2024-07-22T22:41:13Z",
-  "redirect_url" : "https://www.adzuna.com/details/4791098002?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MTA5ODAwMiIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.JUMH-3NJxwZ83Y8m7cnq4cxUq-g45Em78l8HOPcZdMM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.721832,
-  "longitude" : -74.0447,
-  "id" : "4791098002",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Full Stack Software Engineer (Hybrid) (E)",
-  "description" : "Base Pay Range: $110,900.00 - $188,500.00 Primary Location: USA-MI-Ann Arbor-KLA KLA’s total rewards package for employees may also include participation in performance incentive programs and eligibility for additional benefits identified below. Interns are eligible for some of the benefits identified below. Our pay ranges are determined by role, level, and location. The range displayed above reflects the minimum and maximum pay for this position in the primary location identified in this posti…",
-  "company" : {
-    "display_name" : "KLA"
-  },
-  "location" : {
-    "display_name" : "Ann Arbor, Washtenaw County",
-    "area" : [ "US", "Michigan", "Washtenaw County", "Ann Arbor" ]
-  },
-  "salary_min" : 101302.12,
-  "salary_max" : 101302.12,
-  "contract_time" : "full_time",
-  "created" : "2024-07-10T10:25:44Z",
-  "redirect_url" : "https://www.adzuna.com/details/4773273941?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0NzczMjczOTQxIn0.T0C8j_jKYESAwHxEGeHcsZB2HkEqR64310qiZuSvXrY",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.269394,
-  "longitude" : -83.851822,
-  "id" : "4773273941",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Tableau Server Administrator",
-  "description" : "Senior Tableau Server Administrator (Remote) | Wash, DC | Public Trust (Must have ability to obtain a Public Trust clearance). This position is expected to be generally remote with rare customer visits in Washington, DC metropolitan area, as needed. Candidates should intend to live in the Washington, DC metro area. Salary: $150,000 to $170,000 Strategic Innovations Group, LLC is a fast-growing and award winning certified 8(A) Government Contractor based in Arlington, Virginia - https://www.stra…",
-  "company" : {
-    "display_name" : "Strategic Innovation Group LLC"
-  },
-  "location" : {
-    "display_name" : "Crystal, Arlington County",
-    "area" : [ "US", "Virginia", "Arlington County", "Crystal" ]
-  },
-  "salary_min" : 115000.0,
-  "salary_max" : 140000.0,
-  "created" : "2023-07-01T13:37:35Z",
-  "redirect_url" : "https://www.adzuna.com/details/4182887583?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0MTgyODg3NTgzIn0.Qv5eq_Z5Up1xqvzc7mzvUKEDOwjpsFs-ERQZ3OmUlQA",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 38.8874,
-  "longitude" : -77.02322,
-  "id" : "4182887583",
-  "salary_is_predicted" : "0"
-}, {
-  "title" : "Performance Engineer",
-  "description" : "Job Title: Performance Engineer Location : Irving, Texas Duration: 3 Months Job Description: Responsibilities: Automate-first, striving for complete automation of acceptance testing for release features Participate in cross-functional collaboration to refine software requirements, with a clear focus on intent and outcomes, and plan, prepare and deliver implementation of test automation Define comprehensive scenarios and variations in data to adequately perform testing Implement test automation …",
-  "company" : {
-    "display_name" : "Telnet Inc"
-  },
-  "location" : {
-    "display_name" : "Irving, Dallas",
-    "area" : [ "US", "Texas", "Dallas", "Irving" ]
-  },
-  "salary_min" : 101500.27,
-  "salary_max" : 101500.27,
-  "created" : "2024-08-02T19:23:08Z",
-  "redirect_url" : "https://www.adzuna.com/details/4807967709?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODA3OTY3NzA5In0.RSnNoJpClQV4uf9VHrykyHjzgmnjQv9vyA1t4lNgVPs",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 32.8269,
-  "longitude" : -96.96594,
-  "id" : "4807967709",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "IT Cloud Systems Engineer (TS/SCI with FS Polygraph)",
-  "description" : "Title: IT Cloud Systems Engineer1, Expert Location: On-site Bethesda, MD Job Type: Full-time (40 hours per week) with benefits. Availability: immediate. Security Clearance: TS/SCI with FS Polygraph. Years of Experience: 4 years with a PhD 8 years with a BS degree. 6 years with a master’s degree 10 years with an AA degree 12 years with an HS diploma Job Description This engineer will work with a team of technical cloud computing professionals to rapidly build and deploy a demonstration capabilit…",
-  "company" : {
-    "display_name" : "Hummingbirds Innovations"
+    "display_name" : "LCG, Inc."
   },
   "location" : {
     "display_name" : "Bethesda, Montgomery County",
     "area" : [ "US", "Maryland", "Montgomery County", "Bethesda" ]
   },
-  "salary_min" : 190000.0,
-  "salary_max" : 200000.0,
-  "contract_time" : "full_time",
-  "created" : "2024-07-15T16:36:27Z",
-  "redirect_url" : "https://www.adzuna.com/details/4780509781?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4MDUwOTc4MSIsInMiOiJSb25YSnVKVTd4R2hCdXRNMFZkTTVRIn0.m0Bx7z5En0abQCxkrLctTFkSzjvhS1G9WvTMmP3sk2s",
+  "salary_min" : 103799.33,
+  "salary_max" : 103799.33,
+  "created" : "2024-08-05T22:45:32Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4812018915?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=A29D2B8BCC88B934FA1E5E02E5367AE27334EE0D",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMjAxODkxNSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.UZ20DcoumQLJKRMJhhdgCD4nJnEfNJmOdFEiQoIoX68",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
   "latitude" : 39.003888,
   "longitude" : -77.105367,
-  "id" : "4780509781",
-  "salary_is_predicted" : "0"
+  "id" : "4812018915",
+  "salary_is_predicted" : "1"
 }, {
-  "title" : "Principle Data Platform Product Manager",
-  "description" : "Job Description As a Principal Data Platform PM , you’ll impact the lives of everyday people and help them move from surviving to thriving with digital personal finance solutions. Behind our forward-thinking technology is a group of curious, innovative problem solvers creating next-level products backed by data and consumer-centric strategy. At Achieve, you’re encouraged to explore new technologies while working on exciting projects that directly impact our member’s success. We need a first-cla…",
+  "title" : "Senior Node.JS Java Developer",
+  "description" : "Local Candidates Preferred. Non-local candidates must be willing to pay for your own interview travel expenses and relocation costsCandidates submitted over the max. bill rate will be automatically disqualified and counted as a submittal. For each position CBD allows only 2 (two) submittals from our sub-vendors/partners. So please send us only the exact matching profiles for better chances of shortlisting and quick response. Experience in messaging technologies such as MQ series or JMS Experien…",
   "company" : {
-    "display_name" : "Achieve"
+    "display_name" : "Vets Hired"
   },
   "location" : {
-    "display_name" : "Las Vegas, Clark County",
-    "area" : [ "US", "Nevada", "Clark County", "Las Vegas" ]
+    "display_name" : "Hayes Valley, San Francisco",
+    "area" : [ "US", "California", "San Francisco", "Hayes Valley" ]
   },
-  "salary_min" : 142632.78,
-  "salary_max" : 142632.78,
-  "created" : "2024-08-02T23:02:22Z",
-  "redirect_url" : "https://www.adzuna.com/details/4808092880?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUm9uWEp1SlU3eEdoQnV0TTBWZE01USIsImkiOiI0ODA4MDkyODgwIn0.gPtI4OqN_wK_Px20gy2mhXuRpnkKEGZhdREWcPEZfrI",
+  "salary_min" : 136480.69,
+  "salary_max" : 136480.69,
+  "contract_time" : "full_time",
+  "created" : "2024-07-24T10:43:20Z",
+  "redirect_url" : "https://www.adzuna.com/details/4793271245?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MzI3MTI0NSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.wy0ODG1ssWXKoSXOQ2QvfgEWXJ3RP5-2O5N4so4-GV4",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 35.920884,
-  "longitude" : -115.165201,
-  "id" : "4808092880",
+  "latitude" : 37.775,
+  "longitude" : -122.4183,
+  "id" : "4793271245",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer - Client Portal (DS)",
+  "description" : "Interactive Brokers Group has been consistently at the forefront of trading innovation, starting with the invention of the first floor-based handheld computer in 1983. We pride ourselves on being primarily a technology company and challenging the status quo. We push boundaries to offer our clients the best trading platform with the most sophisticated features at the lowest cost. Software development is the lifeblood of our firm, and it shows in our stellar brokerage platform. Interactive Broker…",
+  "company" : {
+    "display_name" : "Interactive Brokers Group, Inc."
+  },
+  "location" : {
+    "display_name" : "Glenville, Fairfield County",
+    "area" : [ "US", "Connecticut", "Fairfield County", "Glenville" ]
+  },
+  "salary_min" : 111969.34,
+  "salary_max" : 111969.34,
+  "contract_time" : "full_time",
+  "created" : "2024-06-24T09:37:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4750417188?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzUwNDE3MTg4In0.A4-zUAmiZ3sbhP-PMFjHi2ANeUMjGJTwN5dYuHHAciU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 41.06156,
+  "longitude" : -73.657002,
+  "id" : "4750417188",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Cloud Developer",
+  "description" : "Innova Solutions is immediately hiring for a Java Cloud Developer Position type: Contract Duration: 12 Months Location: Pittsburgh, PA and Lake Mary, FL -Hybrid 2,3 Days in Office. As a Java Cloud Developer: You will require expertise including hands-on experience with server infrastructure, virtualization, and cloud computing to architect and maintain high availability production systems in Public/Private Cloud environments. Experience with secure, infrastructure deployment in the cloud using …",
+  "company" : {
+    "display_name" : "Innova Solutions"
+  },
+  "location" : {
+    "display_name" : "Bloomfield, Allegheny County",
+    "area" : [ "US", "Pennsylvania", "Allegheny County", "Bloomfield" ]
+  },
+  "salary_min" : 137935.88,
+  "salary_max" : 137935.88,
+  "created" : "2024-08-02T16:42:52Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4807790223?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=FB16BC492E06CE5F5ADBD9D5360C5A3D8F8C76E1",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA3NzkwMjIzIn0.0TtLyf2QU3g7M9USznu5yqKdjbCB0UByCcJ1gx8AqSU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.444374,
+  "longitude" : -79.941817,
+  "id" : "4807790223",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Role: Java Developer Location: Remote Required Qualifications Bachelor's Degree in a Business, Computer Science, Information Systems or related field, with 6 years (or commensurate experience) 6 plus years of experience in IT 5 years of PL/SQL development experience 3-5 years of Java-related development experience Excellent written and oral communication skills Understanding and knowledge of the Software Development Life Cycle Maintains strong attention to detail in high-pressure situations",
+  "company" : {
+    "display_name" : "Digital Janet LLC"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 105499.71,
+  "salary_max" : 105499.71,
+  "created" : "2024-08-02T19:23:12Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807967760?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNzk2Nzc2MCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.SJL5ZpwslufmP6C4TWJIyddFahmGpWSiOH4yN6iEyEw",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4807967760",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position: 3 Title: Java Developer Location: Albany, NY Job ID: HBITS-06-13504 Exp: 12 Years Description: 84 Months of experience in object oriented analysis and design (OOAD) in designing and implementing information technology solutions using the Java programming language. 60 Months of experience in Oracle PL/SQL and developing procedures and packages. 48 Months of experience in using the Spring MVC framework 24 Months of experience in using the Struts framework 24 Months of experience using J…",
+  "company" : {
+    "display_name" : "Accord Technologies Inc."
+  },
+  "location" : {
+    "display_name" : "Rensselaer, Rensselaer County",
+    "area" : [ "US", "New York", "Rensselaer County", "Rensselaer" ]
+  },
+  "salary_min" : 105600.0,
+  "salary_max" : 0.0,
+  "created" : "2024-07-31T19:12:24Z",
+  "redirect_url" : "https://www.adzuna.com/details/4803297476?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMjk3NDc2In0.ZULTUZ2tKUMKUw0dXYyt4gMOBQPklYbnA8CSpLHjTo0",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 42.65581,
+  "longitude" : -73.74952,
+  "id" : "4803297476",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java developer",
+  "description" : "Job Title: Java Developer Job Type: Contract Location: Dallas ,TX/ Edison NJ Job summary Language/Framework - Java, SpringBoot, Spring Framework Database - Postgres SQL Environment/Build - CI/CD, Jenkins, OpenShift, Kubernetes Unit testing - SonarQube, Junit, Mockito FrontEnd Angular Automation Cucumber, Postman",
+  "company" : {
+    "display_name" : "VDart Inc"
+  },
+  "location" : {
+    "display_name" : "Cockrell Hill, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Cockrell Hill" ]
+  },
+  "salary_min" : 105600.0,
+  "salary_max" : 111360.0,
+  "created" : "2024-07-30T19:20:42Z",
+  "redirect_url" : "https://www.adzuna.com/details/4801787148?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMTc4NzE0OCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.Jqc-r7Vye6zXbG-wg7itc3Ce_SKMjNiHfNedBsEl-2c",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.77038,
+  "longitude" : -96.86376,
+  "id" : "4801787148",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Job Title: Java Developer Location: VA - Remote Duration: / Term: 6 months Contract Job Description: Responsibilities: 90% Hands-On coding Building Java Spring Boot microservices Developing a lot of microservices REST APIs Integrating with various different downstreams Working on end-to-end life cycle of a microservice, from domain-driven design to development till maturity Integrating with Sonar Cube for code quality and ensuring good test coverage Building sufficient logging distributed traci…",
+  "company" : {
+    "display_name" : "VDart Inc"
+  },
+  "location" : {
+    "display_name" : "Virginia, US",
+    "area" : [ "US", "Virginia" ]
+  },
+  "salary_min" : 115200.0,
+  "salary_max" : 115200.0,
+  "created" : "2024-08-02T19:22:24Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807966985?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA3OTY2OTg1In0.J2dJEZ22oZv8bLVJ4TOElb8rNBMQDcgnulUnODONjPU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.556671,
+  "longitude" : -78.510684,
+  "id" : "4807966985",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Allowed Work Authorization US Citizen,Greencard Holder,EAD,H4-EAD Java Developer Concord, California (Hybrid role) Look for Nearby candidates 5 years of Java experience and Java EE experience 5 years of Tomcat development or implementation experience 5 years of experience with Spring, Spring Batch, and Spring Boot and RESTful or SOAP web services 5 years of experience with Software Development Life Cycle (SDLC) tools 3 years of SQL experience 3 years of JIRA experience and Agile experience",
+  "company" : {
+    "display_name" : "SoftPathTechnologies"
+  },
+  "location" : {
+    "display_name" : "Pacheco, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Pacheco" ]
+  },
+  "salary_min" : 144000.0,
+  "salary_max" : 153600.0,
+  "created" : "2024-07-31T19:12:34Z",
+  "redirect_url" : "https://www.adzuna.com/details/4803297930?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMjk3OTMwIn0.jGy67Q65f4zND175dWzELM8_VlbS_PffF40PqDF-FZA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.983351,
+  "longitude" : -122.036587,
+  "id" : "4803297930",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "New York City, New York",
+    "area" : [ "US", "New York", "New York City" ]
+  },
+  "salary_min" : 103617.34,
+  "salary_max" : 103617.34,
+  "created" : "2024-07-04T16:28:38Z",
+  "redirect_url" : "https://www.adzuna.com/details/4766622733?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzY2NjIyNzMzIn0.Ag__w9gBYeSbiC-NaDVDapfQGw9ratMFG7tj_dCj50I",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4766622733",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "VCS is looking for Java Developer for one of our clients in Concord, California (Hybrid role) W2 Candidates only Pay Rate: up to $80/hr all inclusive on W2 Contract: 10 Months GC/USC/GC-EAD, H4-EAD only Travel not required 5 years of Java experience and Java EE experience 5 years of Tomcat development or implementation experience 5 years of experience with Spring, Spring Batch, and Spring Boot and RESTful or SOAP web services 5 years of experience with Software Development Life Cycle (SDLC) too…",
+  "company" : {
+    "display_name" : "Elite Mente LLC"
+  },
+  "location" : {
+    "display_name" : "Concord, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Concord" ]
+  },
+  "salary_min" : 144000.0,
+  "salary_max" : 153600.0,
+  "created" : "2024-08-01T19:22:14Z",
+  "redirect_url" : "https://www.adzuna.com/details/4806168535?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA2MTY4NTM1In0.UPmoJgcS6VGeNJX0QjFXvi4tK25NgJ7rQ12IM07bsso",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.946121,
+  "longitude" : -122.021234,
+  "id" : "4806168535",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Location: San Francisco (US), Bangalore Mode of Work: Remote/Hybrid Brief Overview of the Job Description: Our client is looking for a skilled Java Developer to join our team and contribute to the development of high-quality software solutions. This role involves designing, implementing, and maintaining Java applications that are high-volume and low-latency, necessary for mission-critical systems. Key Responsibilities: Design, implement, and maintain efficient, reusable, and reliable Java code.…",
+  "company" : {
+    "display_name" : "MhyMatch"
+  },
+  "location" : {
+    "display_name" : "San Francisco, California",
+    "area" : [ "US", "California", "San Francisco" ]
+  },
+  "salary_min" : 120316.12,
+  "salary_max" : 120316.12,
+  "created" : "2024-06-06T15:36:21Z",
+  "redirect_url" : "https://www.adzuna.com/details/4724887823?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzI0ODg3ODIzIn0.4N6wPw7cQ0CcDOWRFF2zRLnWXHBoob1Z2rz4LL9f5q8",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.798085,
+  "longitude" : -122.466538,
+  "id" : "4724887823",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Responsibilities of a Java Developer Designs, develops, enhances, debugs, and implements software. Troubleshoots production problems related to software applications. As part of an agile team, research, tests, builds, and coordinates the conversion and/or integration of new products based on client requirements. As part of an agile team, designs and develops new software products or major enhancements to existing software. Addresses problems of systems integration, compatibility, and multiple p…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "Virginia, US",
+    "area" : [ "US", "Virginia" ]
+  },
+  "salary_min" : 135151.25,
+  "salary_max" : 135151.25,
+  "created" : "2024-06-26T16:24:28Z",
+  "redirect_url" : "https://www.adzuna.com/details/4753771535?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1Mzc3MTUzNSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.Lp5kEAi-bclewpsFwGtw0ICJ38tlA7T5r4E-SpdKK1s",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.556671,
+  "longitude" : -78.510684,
+  "id" : "4753771535",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "ARETUM, a leading government contracting company specializing in technology-enabled mission support services, is seeking a skilled Java Developer to join our team. As a Java Developer at ARETUM, you will be involved in designing, developing, and maintaining Java-based applications and systems for our clients. ARETUM is known for providing cutting-edge solutions and outstanding service to Federal clients in various sectors, including Next Generation Analytics, Engineering Services, Training Serv…",
+  "company" : {
+    "display_name" : "Aretum"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 135691.36,
+  "salary_max" : 135691.36,
+  "contract_time" : "full_time",
+  "created" : "2024-05-30T15:00:59Z",
+  "redirect_url" : "https://www.adzuna.com/details/4713797076?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzEzNzk3MDc2In0.MezSKj5GIxBDLpXLxcPmhXBCq9Peyfrc1dlqgaHk1c4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4713797076",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position: Java Developer Location: Bothell/WA day one onsite job decsription: Should have 6 years of experience in Java and NodeJS development Should have the ability to write a clean and readable code in Java Should have a strong knowledge on Java, Nodejs, Javascript, VueJS, ReactJS, Golang Should have the strong understanding of SQL, Oracle, GraphQl. Should have the strong understanding of the structure and logic of Object-Oriented programming Should have the ability to develop scripts for in…",
+  "company" : {
+    "display_name" : "Inherent Technologies"
+  },
+  "location" : {
+    "display_name" : "Queensgate, King County",
+    "area" : [ "US", "Washington", "King County", "Queensgate" ]
+  },
+  "salary_min" : 112085.58,
+  "salary_max" : 112085.58,
+  "created" : "2024-08-05T19:28:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4811898171?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMTg5ODE3MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.ckOL7nFJwxJGlDk14iycDsWAZv2v6peYM6ERURj1DAA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 47.7544,
+  "longitude" : -122.1932,
+  "id" : "4811898171",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Java Developer (mid level) San Jose (onsite), Austin (onsite), Chicago (onsite) HACKER RANK REQUIRED Key Responsibilities: Work within a team of highly talented engineers, products, and architects to design and develop a highly scalable and configurable Identity Platform. Involved in all aspects of the project life cycle, from the initial kickoff through the requirements analysis, design, and implementation. Must be a self-starter, work independently or as a team member, and have strong communi…",
+  "company" : {
+    "display_name" : "VeeRteq Solutions Inc."
+  },
+  "location" : {
+    "display_name" : "Campbell, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Campbell" ]
+  },
+  "salary_min" : 175583.25,
+  "salary_max" : 175583.25,
+  "created" : "2024-08-02T19:23:06Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807967663?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNzk2NzY2MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.dbiJPOLajQvG4hWPnfV6QAcd0CR7TEgPywqh46gb0C4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.31091,
+  "longitude" : -121.962682,
+  "id" : "4807967663",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Samsung SDS America is seeking for a hands-on full-stack Java Developer who will be in charge of troubleshooting issues and develop and enhance features of software applications. This position will be part of a team that creates and maintains small to medium-sized custom internal applications that supports the business and operations for our Austin Semiconductor location and our brand-new state-of-the-art Semiconductor Fab in Taylor, TX. This role will be working onsite 3 days per week/2 days r…",
+  "company" : {
+    "display_name" : "Samsung SDS America"
+  },
+  "location" : {
+    "display_name" : "Dessau, Travis County",
+    "area" : [ "US", "Texas", "Travis County", "Dessau" ]
+  },
+  "salary_min" : 105000.0,
+  "salary_max" : 130000.0,
+  "contract_time" : "full_time",
+  "created" : "2023-08-31T04:46:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4286537786?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Mjg2NTM3Nzg2In0.nsub-b5QEkODXeJWAzAzvxMSMI_JXq81rXOf-V6HcrI",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 30.362762,
+  "longitude" : -97.646419,
+  "id" : "4286537786",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position : Java Developer Location : Atlanta GA(Onsite)(Need Local) Duration : Long Term Need 10 Years Qualifications: Must required Core Java, Typescript, Microservices, Rest API, scripting, AWS (specially lambda, code pipeline, Api gateway, cloud watch, Dynamodb, AWS Cli ), Docker, Kubernetes Good to have Quarkus, GRAAL VM, Java 17, Mockito, Openshift (PAAS), podman High School Diploma, GED, or High School Equivalency 2 years' experience in Java, Full-stack, C#, .NET and/or Python development…",
+  "company" : {
+    "display_name" : "MSR Cosmos"
+  },
+  "location" : {
+    "display_name" : "Atlanta, Fulton County",
+    "area" : [ "US", "Georgia", "Fulton County", "Atlanta" ]
+  },
+  "salary_min" : 140408.88,
+  "salary_max" : 140408.88,
+  "created" : "2024-08-01T19:21:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4806168123?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNjE2ODEyMyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.p6PFKtIeJYUEIXXbRKPS8DR9T3Wo042fqF8CCaULVz4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.79235,
+  "longitude" : -84.44794,
+  "id" : "4806168123",
   "salary_is_predicted" : "1"
 } ]

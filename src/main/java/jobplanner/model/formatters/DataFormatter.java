@@ -2,6 +2,7 @@ package jobplanner.model.formatters;
 
 import java.io.PrintStream;
 import java.io.OutputStream;
+import java.text.NumberFormat;
 import java.util.Collection;
 import javax.annotation.Nonnull;
 
@@ -53,7 +54,7 @@ public final class DataFormatter {
         out.println("   Description: " + record.description());
         out.println("   Company: " + record.company().displayName());
         out.println("   Location: " + city + ", " + state);
-        out.println("   Salary Range: " + record.salaryMin() + " - " + record.salaryMax());
+        out.println("   Salary Range: " + convertSalary(record.salaryMin()) + " - " + convertSalary(record.salaryMax()));
         out.println("   Role Type: " + record.contractTime());
         out.println("   Date Posted: " + record.created());
     }
@@ -102,8 +103,8 @@ public final class DataFormatter {
                         record.company().displayName(),
                         record.location().displayName() + ", "
                                 + (record.location().area().size() > 1 ? record.location().area().get(1) : ""),
-                        record.salaryMin(),
-                        record.salaryMax(),
+                        convertSalary(record.salaryMin()),
+                        convertSalary(record.salaryMax()),
                         record.contractTime(),
                         record.created(),
 
@@ -138,5 +139,22 @@ public final class DataFormatter {
             default:
                 throw new IllegalArgumentException("Unsupported format: " + format);
         }
+    }
+
+    /**
+     * Converts a salary value to a formatted string.
+     * If the salary is less than or equal to 0, returns "N/A".
+     *
+     * @param salary the salary to convert
+     * @return the formatted salary
+     */
+    public static String convertSalary(double salary) {
+        if (salary <= 0) {
+            return "N/A";
+        }
+        NumberFormat formatter = NumberFormat.getNumberInstance();
+        formatter.setMaximumFractionDigits(0); // No decimal points
+        formatter.setGroupingUsed(true); // Use grouping (commas)
+        return formatter.format(salary);
     }
 }

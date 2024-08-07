@@ -15,11 +15,14 @@ This application is a comprehensive job search and tracking tool designed to str
 
 - **View Job Details**: Browse through detailed job listings, including job title, company, location, salary, category, and a detailed description.
 
-- **Select and Save Jobs**: Easily select jobs from the listings and save them to a formatted CSV or TXT file for future reference.
+- **Save Jobs**: Easily select jobs from the listings and save them for future reference.
+
+- **Modify List of Saved Jobs**: Modify saved jobs by adding new jobs or removing existings jobs from the list.
+
+- **Export to File**: Export saved list of jobs to a formatted CSV or TXT file for future reference.
 
 - **Track Job Applications**: Keep track of jobs you have applied to by marking them in your saved job lists.
 
-- **Load and Modify Saved Jobs**: Reload previously exported files for further modifications and updates.
 ## Design Documents and Manual
 
 - [Manual](Manual/README.md)

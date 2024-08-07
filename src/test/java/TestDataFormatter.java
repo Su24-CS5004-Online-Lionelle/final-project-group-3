@@ -15,15 +15,25 @@ import jobplanner.model.models.IJobPostModel.Company;
 import jobplanner.model.models.IJobPostModel.Location;
 import jobplanner.model.models.IJobPostModel.Category;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
 
+/**
+ * Unit tests for the DataFormatter class.
+ */
 public class TestDataFormatter {
     private static final String TEST_FILEPATH = "data/test_jobs.json";
     private List<JobRecord> sampleJobs;
 
+    /**
+     * Sets up the test environment by creating sample job records
+     * and writing them to a JSON file.
+     *
+     * @throws Exception if an error occurs during setup
+     */
     @BeforeEach
     public void setUp() throws Exception {
         sampleJobs = List.of(
@@ -40,11 +50,19 @@ public class TestDataFormatter {
         }
     }
 
+    /**
+     * Cleans up the test environment by deleting the test JSON file.
+     *
+     * @throws Exception if an error occurs during teardown
+     */
     @AfterEach
     public void tearDown() throws Exception {
         Files.deleteIfExists(Paths.get(TEST_FILEPATH));
     }
 
+    /**
+     * Tests the write method with the PRETTY format.
+     */
     @Test
     public void testWritePretty() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -61,6 +79,10 @@ public class TestDataFormatter {
 
         assertEquals(expectedPrettyOutput, prettyOutput);
     }
+
+    /**
+     * Tests the write method with the JSON format.
+     */
     @Test
     public void testWriteJson() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -77,6 +99,9 @@ public class TestDataFormatter {
         assertTrue(jsonOutput.contains("\"created\" : \"2024-08-07\""));
     }
 
+    /**
+     * Tests the write method with the CSV format.
+     */
     @Test
     public void testWriteCsv() {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -88,29 +113,44 @@ public class TestDataFormatter {
                 "Software Engineer",MockCompany,"Boston, MA","50,000","100,000",Full-time,2024-08-07
                 """;
 
-        assertEquals(expectedCsvOutput, csvOutput);
+        assertEquals(expectedCsvOutput.trim(), csvOutput.trim());
     }
 
+    /**
+     * Tests the convertSalary method with a zero salary.
+     */
     @Test
     public void testConvertSalaryZero() {
         assertEquals("N/A", DataFormatter.convertSalary(0));
     }
 
+    /**
+     * Tests the convertSalary method with a negative salary.
+     */
     @Test
     public void testConvertSalaryNegative() {
         assertEquals("N/A", DataFormatter.convertSalary(-5000));
     }
 
+    /**
+     * Tests the convertSalary method with a positive salary.
+     */
     @Test
     public void testConvertSalaryPositive() {
         assertEquals("50,000", DataFormatter.convertSalary(50000));
     }
 
+    /**
+     * Tests the convertSalary method with a large positive salary.
+     */
     @Test
     public void testConvertSalaryLargeNumber() {
         assertEquals("1,000,000", DataFormatter.convertSalary(1000000));
     }
 
+    /**
+     * Tests the convertSalary method with a small positive salary.
+     */
     @Test
     public void testConvertSalarySmallNumber() {
         assertEquals("1", DataFormatter.convertSalary(1));

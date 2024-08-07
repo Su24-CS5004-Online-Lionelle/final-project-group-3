@@ -150,11 +150,11 @@ public abstract class AbstractJobTableModel extends AbstractTableModel {
     }
 
     /**
-     * Converts a salary value to a formatted string in dollar amount.
+     * Converts a salary value to a formatted string.
      * If the salary is less than or equal to 0, returns "N/A".
      *
      * @param salary the salary to convert
-     * @return the salary in dollar amount
+     * @return the formatted salary
      */
     protected String convertSalary(double salary) {
         if (salary <= 0) {

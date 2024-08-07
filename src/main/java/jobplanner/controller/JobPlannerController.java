@@ -221,8 +221,18 @@ public class JobPlannerController implements ActionListener {
             }
         }
 
+        // set the number of results per page, default to 50
+        searchParams.put("results_per_page", "50");
+
         List<JobRecord> jobs = searchJobPostings(country, searchParams);
         updateJobList(jobs);
+
+        // write the list of jobs to a file in JSON format using outputstream
+        try {
+            DataFormatter.write(jobs, Formats.JSON, new FileOutputStream("data/jobpostings.json"));
+        } catch (Exception e) {
+            view.showErrorDialog("Error exporting file: " + e.getMessage());
+        }
     }
 
     /**

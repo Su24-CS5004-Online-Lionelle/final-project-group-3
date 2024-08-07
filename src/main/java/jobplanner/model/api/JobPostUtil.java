@@ -27,7 +27,7 @@ import jobplanner.model.models.IJobPostModel.JobRecord;
  */
 public final class JobPostUtil {
     /** API base url. */
-    private static final String URL = "https://api.adzuna.com/v1/api/jobs/%s/%s/";
+    private static final String URL = "https://api.adzuna.com/v1/api/jobs/%s/%s/%s";
     /** API id. */
     private String appId;
     /** API key. */
@@ -36,6 +36,8 @@ public final class JobPostUtil {
     private static final String COUNTRY = "us";
     /** Search endpoint. */
     private static final String SEARCH = "search";
+    /** Default page number. */
+    private static final String PAGES = "1";
 
     /**
      * Constructor for the JobPostUtil.
@@ -53,11 +55,12 @@ public final class JobPostUtil {
      * 
      * @param country  The country to search in.
      * @param endpoint The endpoint to search.
+     * @param pages    The number of pages to search.
      * 
      * @return The base URL for the API request.
      */
-    private static String getBaseUrl(String country, String endpoint) {
-        return new StringBuilder(String.format(URL, country, endpoint)).toString();
+    private static String getBaseUrl(String country, String endpoint, String pages) {
+        return new StringBuilder(String.format(URL, country, endpoint, pages)).toString();
     }
 
     /**
@@ -74,7 +77,7 @@ public final class JobPostUtil {
             country = COUNTRY;
         }
 
-        String baseUrl = getBaseUrl(country, SEARCH);
+        String baseUrl = getBaseUrl(country, SEARCH, PAGES);
         StringBuilder query = new StringBuilder(baseUrl);
 
         query.append("?app_id=").append(appId);
@@ -211,6 +214,8 @@ public final class JobPostUtil {
         params.put("full_time", "1");
         params.put("where", "boston");
         params.put("category", "it-jobs");
+        params.put("sort_by", "date");
+        params.put("results_per_page", "50");
 
         String appId = System.getenv("ADZUNA_APP_ID");
         String appKey = System.getenv("ADZUNA_APP_KEY");

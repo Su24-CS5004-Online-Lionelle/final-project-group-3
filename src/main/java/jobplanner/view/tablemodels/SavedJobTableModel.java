@@ -1,7 +1,6 @@
 package jobplanner.view.tablemodels;
 
 import jobplanner.model.models.IJobPostModel.JobRecord;
-import jobplanner.view.tablemodels.AbstractJobTableModel;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -13,7 +12,8 @@ import java.util.ArrayList;
 public class SavedJobTableModel extends AbstractJobTableModel {
 
     /** Column names for the saved job table. */
-    private static final String[] COLUMN_NAMES = {"Selected", "Applied", "Title", "Company", "Salary Range", "Location"};
+    private static final String[] COLUMN_NAMES = {"Selected", "Applied", "Title", 
+        "Company", "Salary Range", "Location"};
 
     /** List to track applied job rows. */
     private List<Boolean> applied;

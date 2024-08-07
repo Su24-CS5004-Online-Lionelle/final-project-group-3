@@ -11,9 +11,10 @@ Scott Carvalho
 ## The Application: Job Planner
 
 This application is a comprehensive job search and tracking tool designed to streamline your job hunting process. With this application, users can:
-- **Filter Job Listings**: Apply various filters to narrow down job search results based on criteria like country, category, company, salary range, role type, and date posted.
 
-- **View Job Details**: Browse through detailed job listings, including job title, company, location, salary, category, and a detailed description.
+- **View Job Details**: Browse through detailed job listings, including job title, company, location, salary, category, and a detailed description. Double-click on a job to read the job description on a new window.
+
+- **Filter Job Listings**: Apply various filters to narrow down job search results based on criteria like country, category, company, salary range, role type, and date posted.
 
 - **Save Jobs**: Easily select jobs from the listings and save them for future reference.
 

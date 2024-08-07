@@ -5,8 +5,8 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Using the Application](#using-the-application)
-    - [Command Line Mode](#command-line-mode)
     - [GUI Mode](#gui-mode)
+    - [Command Line Mode](#command-line-mode)
   - [Features](#features)
     - [Filtering Jobs](#filtering-jobs)
       - [Filters](#filters)
@@ -15,24 +15,14 @@
     - [Loading back saved jobs](#loading-back-saved-jobs)
 
 ## Introduction
-Welcome to Job Planner! [Add description]
+
+Welcome to Job Planner! 
+
+A easy-to-use job search and planner tool from the command-line or from a easy to navigate graphical-user interface.
+
+![alt text](<images/Screenshot 2024-08-06 at 3.06.58 PM.png>)
 
 ## Using the Application
-
-### Command Line Mode
-To use application in command line mode, follow these steps:
-
-Run the application with the required arguments:
-   
-   ```
-    ./gradlew run --args="<commands>"
-   ```
-
-Example:
-   
-    ```
-    ./gradlew run --args="search -k 'python developer' -l boston -s 50000 -c it-jobs"
-    ```
 
 ### GUI Mode
 
@@ -60,7 +50,7 @@ help    Display help information about the specified command.
 
 **Search Help Message:**
 
-```
+```bash
 Usage: jobplanner search [-c=<category>] [--country=<country>] [-d=<days>]
                          [-f=<format>] [-l=<location>] [-m=<salaryMax>]
                          [-s=<salaryMin>] [-k=<keyword>]...
@@ -77,6 +67,57 @@ Search for job postings.
                             The minimum salary to search for.
 ```
 
+**List Help**:
+
+```bash
+Usage: jobplanner list [-c] [-f=<format>] [-o=<output>]
+List saved job postings.
+  -c, --count             The number of saved jobs.
+  -f, --format=<format>   The format to display the job postings in.
+  -o, --output=<output>   The output file to write to.
+```
+
+### Command Line Mode
+
+To use application in command line mode, follow these steps:
+
+Run the application with the required arguments:
+   
+   ```
+    ./gradlew run --args="<commands>"
+   ```
+
+Example - Search for jobs in the command-line:
+   
+    ```bash
+    $ ./gradlew run --args="search -k 'python developer' -l boston -s 50000 -c it-jobs"
+
+    Title: Python Developer
+      Description: hOS is an early-stage technology company founded in 2021 by several DataRobot alumni and former executives, including founder and former CEO Jeremy Achin. The company is operating in stealth-mode developing scalable technologies and AI-driven products that will make significant positive change in the world. About the role In this role, you will engineer and develop the backend that will serve 10s of millions of users. There is no legacy codebase which means you don’t need to suffer from old poo…
+      Company: hOS
+      Location: Boston, Suffolk County, Massachusetts
+      Salary Range: 98624.12 - 98624.12
+      Role Type: full_time
+      Date Posted: 2024-08-01T05:37:28Z
+
+    Title: Sr. Python Developer (Remote)
+      Description: Senior Python Developer Remote - Long term contract Apply directly to ldavissyrinx.com U.S. Citizens and those authorized to work in the U.S. are encouraged to apply. We are unable to sponsor at this time. No Corp to Corp. ​ Description We are looking for a senior level python web application developer to build a new Customer Service automation product for a major travel site. This is a green field project and you will on a very small team with major independence. Job Responsibilities Collabora…
+      Company: Syrinx
+      Location: Boston, Suffolk County, Massachusetts
+      Salary Range: 123904.02 - 123904.02
+      Role Type: null
+      Date Posted: 2024-07-31T10:18:42Z
+
+    ...
+    
+    Title: Vet Academy-Java or Python Software Development Engineer 2 - U.S. Military and Military Spouse
+      Description: Job Description The Oracle Cloud Infrastructure (OCI) team can provide you with the opportunity to collaborate, build, and operate a suite of massive-scale, integrated cloud services in a broadly distributed, multi-tenant cloud environment. OCI is committed to providing the best cloud products that meet the needs of our customers, who are tackling some of the world's biggest opportunities. We offer unique opportunities for smart, hands-on engineers with the expertise and passion to solve diffic…
+      Company: Oracle
+      Location: Boston, Suffolk County, Massachusetts
+      Salary Range: 114116.67 - 114116.67
+      Role Type: null
+      Date Posted: 2024-08-02T15:30:55Z
+    ```
 
 ## Features
 
@@ -89,9 +130,8 @@ Search for job postings.
 
 #### Filters
 1. **Country**: Filter available jobs based on the country
-
-[Add more filters]
-
+2. **Category**: Filter available jobs based on the category
+[add the rest]
 
 ### Resetting to default values
 - Hit the reset button at the bottom of the Filters pane to clear or reset to the default values.
@@ -109,6 +149,10 @@ Search for job postings.
     2. select output file path
     3. name the output file
 
-[Add screenshot of Saved Jobs window with export to file]
+![alt text](<images/Screenshot 2024-08-06 at 9.26.30 PM.png>)
 
 ### Loading back saved jobs
+
+Any job added will be stored for future sessions. The next time you open the application your data will be saved!
+
+![alt text](<images/Screenshot 2024-08-06 at 3.07.11 PM.png>)

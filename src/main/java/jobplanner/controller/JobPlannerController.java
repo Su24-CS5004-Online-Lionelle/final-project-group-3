@@ -3,7 +3,6 @@ package jobplanner.controller;
 import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
-import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 import jobplanner.model.types.JobCategory;

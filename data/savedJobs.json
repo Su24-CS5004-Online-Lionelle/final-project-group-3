@@ -1,49 +1,97 @@
 [ {
-  "title" : "Senior Java and DB2 Developer - AVP",
-  "description" : "The Cash Flow module application is undergoing several changes in keeping with State Street’s strategic and client needs. As a result, we are looking for a senior application developer well versed in Web application development using Java, DB2 and Payment Initiation concepts. Knowledge of Payment Initiation systems is required. Additional knowledge of APIs to accounting systems desirable. Ideal candidate will have 10 years of experience developing web applications in an agile SDLC. This role ca…",
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Vets Hired"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
   },
-  "salary_min" : 142768.88,
-  "salary_max" : 142768.88,
+  "salary_min" : 104765.79,
+  "salary_max" : 104765.79,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:20Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284520?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVmdybDMwZE03eEdsUU9VVzFyVXk2dyIsImkiOiI0NzUzMjg0NTIwIn0.W16DGn8Gi-zkEUbKwRqk507FgIMmaA4pGrFbOkzOJVA",
+  "created" : "2024-08-04T23:08:27Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810440379?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MDM3OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.6Iit5KtqnT4iRKFqSkOAMN4IJ57NU3OqalKfsS66k5U",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753284520",
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810440379",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Software Developer",
-  "description" : "LOCATION:BOSTON, MA Will design, development, and modification of complex systems using Java, Spring Boot, JavaScript, Microservices and React JS. Perform software engineering tasks associated with the analysis, design, and development of cloud-based applications using tools such as Java, Spring and JavaScript. Perform code configurations in Java, Spring Boot and MySQL. Design, code, test, maintenance and debugging of Microservice application using Java 8/J2EE, Java, JSP, Servlet, Spring MVC, R…",
+  "title" : "Senior Java Developer",
+  "description" : "Title: Sr. Java Developer Location: Fort Worth, TX (close to DFW Airport) Duration: Contract to hire (long term) Compensation: $60-65/hr Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Skillset / Experience: Successful Software Developers excel in three key areas: Software Delivery Product Mindset Growth Mindset Software Development Teams find ways to improve daily work. This means taking an honest look at delivery metrics and asking what we will do to improve them. …",
   "company" : {
-    "display_name" : "Beacon Hill Staffing Group, LLC"
+    "display_name" : "INSPYR Solutions"
   },
   "location" : {
-    "display_name" : "Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "Boston" ]
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
   },
-  "salary_min" : 103445.45,
-  "salary_max" : 103445.45,
+  "salary_min" : 132507.38,
+  "salary_max" : 132507.38,
   "contract_time" : "full_time",
-  "created" : "2024-07-04T00:57:15Z",
-  "redirect_url" : "https://www.adzuna.com/details/4765581889?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc2NTU4MTg4OSIsInMiOiJWZ3JsMzBkTTd4R2xRT1VXMXJVeTZ3In0.WD5Sf4FgFsFEaqmlYeyTUBgngj9RyVi2NtpPMVAqSww",
+  "created" : "2024-07-26T04:46:48Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODA0MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.HUHR-_2a6CMbwXIywz1NtUGHoy_utzWBNeaXYWMMyrs",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.354856,
-  "longitude" : -71.066119,
-  "id" : "4765581889",
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4795978041",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer",
+  "description" : "We have multiple openings for Senior Java FSD in Plano TX/ Reston, VA - Hybrid Onsite role . Please read further about the job profile: Title: Senior Java FSD  Strong AWS with Spring Batch & SQL Location: Plano TX/ Reston, VA - Hybrid Onsite Type: Full Time/ Contract- C2C/W2 Only local candidates from Texas and Virginia locations Required Skills: Minimum 12 Programming experience with Java, J2EE, XML, and Web Services AWS (EC2, ECS, S3, CloudWatch, SQS , SNS, AWS Lambda) Spring Batch, SQL Java …",
+  "company" : {
+    "display_name" : "Trident Consulting"
+  },
+  "location" : {
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
+  },
+  "salary_min" : 105363.37,
+  "salary_max" : 105363.37,
+  "contract_time" : "full_time",
+  "created" : "2024-08-05T05:06:01Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810729420?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDcyOTQyMCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rJvfHIMSixaCP_-VTNM3j0LVXm4Ph1BVrzxjpLk3lCE",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4810729420",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer with AWS",
+  "description" : "Job Description:- This Developer will be the go-to person for difficult development problems, Java/AWS design, code standards, code reviews, etc. Leverage industry best practices to design, test, implement and support a solution. Analyze highly complex business requirements; generate technical specifications to design or redesign complex software components and applications. Acts as an expert technical resource for modeling, simulation and analysis efforts Adapt to change quickly and adjust wor…",
+  "company" : {
+    "display_name" : "HexaQuEST Global"
+  },
+  "location" : {
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
+  },
+  "salary_min" : 122743.21,
+  "salary_max" : 122743.21,
+  "contract_time" : "full_time",
+  "created" : "2024-07-21T22:42:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790058736?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA1ODczNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XuSfNhUGPMFm-E6YIsdgvHNc1oLc4XnWuKrbw0kAsD4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4790058736",
   "salary_is_predicted" : "1"
 } ]

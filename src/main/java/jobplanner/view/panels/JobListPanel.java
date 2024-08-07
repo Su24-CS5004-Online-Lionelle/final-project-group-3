@@ -1,4 +1,4 @@
-package jobplanner.view;
+package jobplanner.view.panels;
 
 import javax.swing.*;
 import javax.swing.table.TableColumn;
@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import jobplanner.model.models.IJobPostModel.JobRecord;
+import jobplanner.view.tablemodels.JobTableModel;
 
 /**
  * JobListPanel represents the panel that displays the list of job records in a table format.

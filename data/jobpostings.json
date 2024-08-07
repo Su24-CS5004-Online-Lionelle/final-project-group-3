@@ -1,1195 +1,1181 @@
 [ {
-  "title" : "AI Engineer, Vice President",
-  "description" : "Our mission is to explore, enable and exploit artificial intelligence, machine learning, natural language processing, cognitive computing and intelligent automation at scale with applicability into the financial data, risk and global markets . We are looking for a successful candidate with: • 3 years of machine learning engineering experience in feature engineering, model training, model serving, model monitoring and model refresh management. • Experience developing AI/ML systems at scale in pr…",
+  "title" : "Java Developer",
+  "description" : "Java Developer – Master Location: Reston Clearance: TS/SCI w/FSP Salary- 250k/yr The above salary range represents the range expected for the position; however, final salary offers are based on a number of factors such as the position’s responsibilities; the candidate’s experience, education, and skills; location; travel required; and current market conditions. This program requires US Citizenship Java Software Developer with strong systems, software, cloud, and Agile experience to support a co…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "ABBTECH Professional Resources"
   },
   "location" : {
-    "display_name" : "North Cambridge, Middlesex County",
-    "area" : [ "US", "Massachusetts", "Middlesex County", "North Cambridge" ]
+    "display_name" : "Reston, Fairfax County",
+    "area" : [ "US", "Virginia", "Fairfax County", "Reston" ]
   },
-  "salary_min" : 197563.86,
-  "salary_max" : 197563.86,
+  "salary_min" : 170200.92,
+  "salary_max" : 170200.92,
+  "created" : "2024-08-06T16:39:31Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4813202434?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=11125A7DEA6D2C235A2008E9474982C2260C8FAF",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMzIwMjQzNCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.VzLaU-aMdfiD7P6zR8U_HPqr-h52mc23gUbgAbS4XIM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 38.95669,
+  "longitude" : -77.3421,
+  "id" : "4813202434",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Look for candidates with Overall 10 years of experience as Java Developer. Work you'll do/Responsibilities: Minimum of 10 years overall IT experience: including 5 years of web service development and integration experience Strong Automotive OEM experience Solid understanding of various enterprise services and micro-service concepts Design, develop, deploy, test and maintain technical assets in SOA environment, web services and integration Solid understanding of Enterprise Service Bus concepts E…",
+  "company" : {
+    "display_name" : "Genius Business Solutions Inc"
+  },
+  "location" : {
+    "display_name" : "Auburn Hills, Oakland County",
+    "area" : [ "US", "Michigan", "Oakland County", "Auburn Hills" ]
+  },
+  "salary_min" : 117857.64,
+  "salary_max" : 117857.64,
+  "created" : "2024-07-25T16:04:10Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4795436073?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=4B4F4412B00E61FE6AB4A60CF7EABF405653D107",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTQzNjA3MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.eafzi8sNEDwFm_NVY_3EoKlNNKQh22Ph6GbGtVHMyZU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 42.6745,
+  "longitude" : -83.24353,
+  "id" : "4795436073",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Day to day: Build the pipeline, they just need integration Focus on reconciliation support the application Must haves: Expereince with java type applications, how they run, read codes Minimum 5 years of experience with developing java core applications Linux/ Unix Scripting—Pearl or bash General infrastructure knowledge for hardware RDMBS exp Understanding of Normal CICD pipelines ( pipeline is there)- Need to be able to integrate and support Agile methodology",
+  "company" : {
+    "display_name" : "Collabera"
+  },
+  "location" : {
+    "display_name" : "Sun Lakes, Maricopa County",
+    "area" : [ "US", "Arizona", "Maricopa County", "Sun Lakes" ]
+  },
+  "salary_min" : 119885.0,
+  "salary_max" : 119885.0,
+  "created" : "2024-08-06T16:39:30Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4813202418?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=050AB6B086A4D4531CDD62E46438FE808A39C801",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMzIwMjQxOCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.GRL1WnU_ysn4icQmhDEDHgB2a7AtV1R8LS0YrSUQexM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.223676,
+  "longitude" : -111.797783,
+  "id" : "4813202418",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "CACI is seeking an enthusiastic Java Software Developer to join our Advanced Solutions Group, within the National Security and Innovative Solutions Sector. We enable national security missions through creation and delivery of innovative, technology-centric solutions that provide decision advantage to our customers. Our client engagement processes, the way we collaborate, operate and deliver value provides an unparalleled opportunity to grow and advance. This opportunity offers very rewarding an…",
+  "company" : {
+    "display_name" : "CACI"
+  },
+  "location" : {
+    "display_name" : "Sterling, Loudoun County",
+    "area" : [ "US", "Virginia", "Loudoun County", "Sterling" ]
+  },
+  "salary_min" : 103050.11,
+  "salary_max" : 103050.11,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:02Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282346?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjM0NiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.itkbp8o2HAV87M6wYFRFjQ-UPkgO6UB8BNhB2cNbklc",
+  "created" : "2024-06-15T13:15:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4738784219?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDczODc4NDIxOSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.NoDTVaHJr0PMUEK00c122C60M7RR5DRzNdQvDu-_u0U",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.39258,
-  "longitude" : -71.13294,
-  "id" : "4753282346",
+  "latitude" : 39.0215,
+  "longitude" : -77.3986,
+  "id" : "4738784219",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Product Owner, Loan SME- Vice President",
-  "description" : "We are seeking a self-motivated candidate who is a Loans SME to join the transformation team and work on Loan HQ which is STTs strategic solution for Loans and Private Credit embodying all processes and technologies related to loans and their servicing for the world’s largest investor manager clients. Why this role is important to us The team you will be joining is a part of our Global Transformation effort. We are affecting real change in the Loan Product space and creating a new Loan HQ Platf…",
+  "title" : "JAVA Developer",
+  "description" : " THIS POSITION REQUIRES A TS/SCI  CACI is seeking a Web Developer with full-stack development experience. The role is responsible for designing, coding and modifying Enterprise Web Application, from layout to function and according to a clients specifications. Ideal candidate will strive to create visually appealing sites that feature user-friendly design and clear navigation. We are seeking developers who can change direction rapidly, utilize flexible thought processes, and can work in a close…",
   "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 229981.83,
-  "salary_max" : 229981.83,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:45Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753287073?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg3MDczIn0.OPCn0rInwN3hK-rfrGCSZe7QlyDAVyjsAcp7HaCvte4",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753287073",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Alternative Investments Business Transformation Business Analyst, Assistant Vice President",
-  "description" : "Assistant Vice President level independent contributor needed for the Alternative Investments Transformation team. This role will work closely with Alternative Investments technology, various internal and external stakeholders in a varied and challenging role. A good candidate is able to familiarize themselves with existing solutions quickly and design meaningful solutions for our internal operations team as well as the client. Additionally, candidates must be well-organized and able to deliver…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 121592.12,
-  "salary_max" : 121592.12,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:17Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284482?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0NDgyIn0.YtDhvHUPkpCJiAYx0J1PRCPaQRzUUabPOZWyuMZfYts",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284482",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Cyber Engineering Leader",
-  "description" : "The State Street Cyber Architecture & Engineering team is looking for a Managing Director, Cyber Software Engineering. The Security Architecture, Analytics & Fusion Engineering (SA2FE) team delivers architectural solutions, platforms, pipelines, and security tooling to secure State Street’s digital footprint. The ideal candidate will be a strategic and forward-thinking technology leader with deep expertise in engineering and security technologies including strategy with excellent communication,…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Five Corners, Hudson County",
-    "area" : [ "US", "New Jersey", "Hudson County", "Five Corners" ]
-  },
-  "salary_min" : 126202.34,
-  "salary_max" : 126202.34,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:25Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753286440?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg2NDQwIn0.OttdbHmolB5NhJ_RBzjM1yLdjPbK1vWfSuNk8jpusXg",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.7282,
-  "longitude" : -74.0784,
-  "id" : "4753286440",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Application, Infrastructure & Service Management, AVP",
-  "description" : "As part of the Middle Office ARO (Application Reliability Operations) team you will be focused on the reliability and stability of our Production applications, with an eye on the Client experience. Much of support will focus on existing systems, reducing work through automation, enhancing business/client experience and ensuring the permanent closure of incidents. What you will be responsible for As an ARO you will • Troubleshoot Major Incidents, involving and engaging all necessary teams, creat…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 131703.33,
-  "salary_max" : 131703.33,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:02Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282359?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjM1OSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.Sl6lOuDxRzzJ9dz51UkYkgZWG62Md46cp2E2BfSJFaQ",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282359",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Product Owner-Cash Product Development, Assistant Vice President",
-  "description" : "The Product Developer/Analyst will have excellent verbal and written communication skills and have demonstrated ability to understand complex business processes. Experience with payment processing and/or deposit banking is highly desired, particularly operations experience if not product development or product management experience. The ability to collect input from subject matter experts, operations teams, product managers, client service teams and/or our clients and translate that information…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 158753.69,
-  "salary_max" : 158753.69,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:10Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282470?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQ3MCIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.XiwA1TZBMEH6nhAxlmsV-bxLwxtRGJ9UIBY97l_iJNY",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282470",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Alpha Professional Services Conversion Manager",
-  "description" : "Individual will lead and coordinate Alpha E2E and middle office conversion activities. This will range from cost estimation, scoping requirements and engaging with client to facilitating data extract set up process, organizing and leading conversion events (dry run, dress rehearsal, go live) and ensuring a smooth transition to BAU working across the different business units. The individual will be expected to coordinate the activities of those involved in the conversion which could be up to 10-…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Princeton Junction, Mercer County",
-    "area" : [ "US", "New Jersey", "Mercer County", "Princeton Junction" ]
-  },
-  "salary_min" : 74735.91,
-  "salary_max" : 74735.91,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:56Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282283?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMjgzIn0.0iYCqMXxswrcsV8g63NRJA2djE5gIDmfWvcllcrDad4",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.31282,
-  "longitude" : -74.6543,
-  "id" : "4753282283",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Sanctions Screening Design, Vice President",
-  "description" : "The role will be responsible for working with other groups across the bank to analyze, understand, and document sanctions screening needs and opportunities. This includes deep dives into State Street operational systems and processes business models to help define and implement enhancements to our transactional screening platform Firco Continuity. These projects aim to make the platform more effective and efficient as well as improving the control environment. The individual in this position wi…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 93924.52,
-  "salary_max" : 93924.52,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:18Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284496?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0NDk2In0.0krVBpp5rAtCsaWvZ4AVZBMnCIPuHwC5UOVUw6v4LBY",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284496",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Security Platform Engineer",
-  "description" : "Will serve as a technical expert for product engineering and service support for critical enterprise security technologies of the Company’s Information Security Services. Entails hands on technical product design and deployment specifically for building and managing SIEM platforms like Splunk Enterprise, Splunk User Behavior Analytics, Splunk Phantom, Splunk Enterprise Security and ArcSight. Will mentor junior staff members, both on-shore and off-shore, to develop their skills in SIEM platforms…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Northlake, DeKalb County",
-    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
-  },
-  "salary_min" : 165278.39,
-  "salary_max" : 165278.39,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:51Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282231?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMjMxIn0.R3bNBwq8hfdS0luHaAGsWg1Mc_rqAUBKwa2IcUUvgcU",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 33.7487,
-  "longitude" : -84.3879,
-  "id" : "4753282231",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Engineering & Development, Assistant Vice President, Onsite",
-  "description" : "We are looking for a Software Developer with experience in building high-performing, scalable, enterprise-grade applications. You will be part of a software team working on maintaining and enhancing our Agency Lending Application. Your role in this position will include application maintenance of the existing system as well as design and implementation of new product features. Youll also be expected to provide expertise across the entire technology stack. This position is to support Agency Lend…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 111812.38,
-  "salary_max" : 111812.38,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:18Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284502?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDUwMiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.4HZlBAXgSvWvg3uSVUL4OASP7AnEo-GQa5EyAH7c7M8",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284502",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Business Systems Analyst, AVP - State Street Global Advisors",
-  "description" : "A motivated Senior Business Analyst with financial and technical experience to lead requirement gathering and data analysis on Portfolio Exposures. The ideal candidate should have 5 years of professional experience working in the Asset Management industry, participate in discussion with the portfolio managers on requirements gathering and data analysis and partner with development team to translate the requirements into implementation tasks. The individual will be Boston-based and will work wit…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 114526.27,
-  "salary_max" : 114526.27,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:14Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282531?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyNTMxIn0.wymndklaG5N5wmPTV8bMUTtCjSzt4Zq-egpc4ByoEzY",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282531",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Transaction Lifecycle Management Product and Implementation Business Manager, Managing Director",
-  "description" : "State Street’s Alpha Services Strategy, Transaction Lifecycle Management Service Family is looking for a Business Manager for Product and Implementations - Transaction Lifecycle Management, Managing Director for our Alpha Product Solutions Team. This qualified individual will develop and deliver product, business solutions and strategy as well as implement functionality aligned with our Alpha Transaction Lifecycle Management vision. This leader will focus on driving front, middle and back-offic…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 179294.1,
-  "salary_max" : 179294.1,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:01Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282329?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMzI5In0.tsuBim9BTTR4pycG6aVIBjoGcl6ghAouvbevITaiD0E",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282329",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "AI Software Developer, Vice President",
-  "description" : "Our mission is to explore, enable and exploit artificial intelligence, machine learning, natural language processing, cognitive computing and intelligent automation at scale with applicability into the financial data, risk and global markets . We are looking for a successful candidate with: • 3 years of machine learning engineering experience in feature engineering, model training, model serving, model monitoring and model refresh management. • Experience developing AI/ML systems at scale in pr…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "North Cambridge, Middlesex County",
-    "area" : [ "US", "Massachusetts", "Middlesex County", "North Cambridge" ]
-  },
-  "salary_min" : 201705.77,
-  "salary_max" : 201705.77,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:56Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282273?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMjczIn0.OlPoGsfl25sp5prReB3dLWYjVYY_kX8BUhiX-UDrv-I",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.39258,
-  "longitude" : -71.13294,
-  "id" : "4753282273",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Product Development- Senior Business Analyst",
-  "description" : "We are seeking an experienced Technical Business Analyst to work with a stellar team of BA’s developing the product through its next phase of growth. This role focuses on technical analysis and documentation to support the Product Management team in designing new functionality and features. With a well-established technical background in financial services, the successful candidate will be able to show a successful track-record of delivering complex real-time trading solutions where attention t…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Grand Central, Manhattan",
-    "area" : [ "US", "New York", "New York City", "Manhattan", "Grand Central" ]
-  },
-  "salary_min" : 136504.11,
-  "salary_max" : 136504.11,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:14Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282534?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyNTM0In0.H6d4SW8j08GzgWSdomTuUybymGKnLA66aGxpg90uBog",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.75284,
-  "longitude" : -73.97528,
-  "id" : "4753282534",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "IT Business Analyst, AVP",
-  "description" : "Global Markets Technology IT Business Analyst, AVP Job Description The successful candidate will be responsible for defining, planning and implementing technology solutions to achieve Global Markets Operations strategic technology directives. The individual will be responsible for working with Business and Technology counterparts across global sites as a Business Analyst and use their knowledge of the business systems, industry, and system development lifecycle methodology to successfully deliv…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 112529.64,
-  "salary_max" : 112529.64,
-  "created" : "2024-07-24T00:13:01Z",
-  "redirect_url" : "https://www.adzuna.com/details/4792478473?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MjQ3ODQ3MyIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.Ojl0w5sxaTXvzHaDDlMo1ehqAyPbwojXF1Kz4qnDoU4",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4792478473",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Data Engineer, Officer",
-  "description" : "We are looking for a Data engineer for Cloud Data Lake activities. The candidate should have industry experience (preferably in Financial Services) in supporting enterprise applications and exposure to Cloud based database engineering platforms. Main Duties and Responsibilities: • End to end Cloud Data Lake design & development including data ingestion, data modeling and data distribution. • Build data integrations between on-prem/cloud-based systems. • Design and develop high volume data inges…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 107682.02,
-  "salary_max" : 107682.02,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:00Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284245?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0MjQ1In0.5348v_5KZZs_KHxlyOUP6MqrlqBoOxVxsXZ3KlIyYFM",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284245",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "AVP Software Engineering & Developer",
-  "description" : "We are looking for an Enterprise Java Developer with experience in building high-performing, scalable, enterprise-grade applications. You will be part of a software team working on maintaining and enhancing our mission-critical Fixed Income and Equity Pricing application for a high-profile client. Your role in this position will include application maintenance of the existing system as well as design and implementation of new product features. Youll also be expected to provide expertise across …",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "East Irvine, Orange County",
-    "area" : [ "US", "California", "Orange County", "East Irvine" ]
-  },
-  "salary_min" : 132727.94,
-  "salary_max" : 132727.94,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:51Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282223?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMjIzIn0.M82Zq01akoB1VgJPrysL1j1kRLogRVOZPqWV9tMy_Mc",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 33.6698,
-  "longitude" : -117.7646,
-  "id" : "4753282223",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "IT Audit Infrastructure, Assistant Vice President",
-  "description" : "We are looking for an IT Audit Infrastructure, Assistant Vice President within State Street’s Corporate Audit Division to lead audit engagements focused on Information Technology within the Global Technology Services (GTS) Business Unit. GTS is a key enabler to achieving State Street’s vision to be a technology-led innovator, a leading enterprise outsourcing partner, and a resilient platform for our investors. GTS aims to deliver innovative product and platform capabilities, a resilient and sca…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 174334.2,
-  "salary_max" : 174334.2,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:50Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282197?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjE5NyIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.N9m89gAyC_uYGziPQcb4q9TOmktn_xPKXAV7DQNtJGc",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282197",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Technology Risk , VP",
-  "description" : "The Technology Risk, VP is part of the First Line Risk and Controls (FLRC) team, a First Line of Defense function responsible for driving effective technology risk management at State Street. The individual in this position will be responsible for leading and executing specific aspects of the FLRC Regulatory Management Services (RMS) program, including leading global staff with the required expertise to manage regulatory finding remediations, work with Management to develop and inventory remedi…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 212134.05,
-  "salary_max" : 212134.05,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:02Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282343?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMzQzIn0.5XUYqEdyPPCeoFLLMQ2k2fDwYnk6QI1M4dfCqNBZz0o",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282343",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Quality Automation Engineer",
-  "description" : "We are currently looking for a talented Software Quality Automation Engineer to join our team and deliver technology solutions for our Corporate Action applications. This role involves performing automated and manual testing. The candidate should have a Bachelor’s Degree or higher and 7 years of application quality assurance testing experience overall. This is an onsite position in our Quincy, MA location. We believe that collaboration drives innovation, and our software quality assurance testi…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 107072.21,
-  "salary_max" : 107072.21,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:50Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282208?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgyMjA4In0.xdseVv8WwV5o_m0b59ljWoYCTS1qF4bEbsCBvRhX7TE",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282208",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Software Engineer",
-  "description" : "Will provide engineering troubleshooting assistance to customer support teams and other development teams within Charles River and will contribute to the enhancement and maintenance of one or more Charles River modules, components and related applications as a member of an agile scrum team. Specific duties include: Designing, testing, and debugging small to medium software enhancements and solutions within the business and technical problem domains; Developing, testing, debugging, and implement…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 122855.4,
-  "salary_max" : 122855.4,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282398?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjM5OCIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.yKktFr9jUPqZgvzgBpG2bsB9wgUIbxjaLbDt2BoSnxQ",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282398",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Software Developer - Officer",
-  "description" : "Who are we looking for? The Payments and Banking platform is undergoing several changes in keeping State Street’s strategic and client needs. As a result, we are looking for a software developer well versed in Web application development using JAVA, Node.js and Oracle. Knowledge of cash position management systems or payment initiation system is desirable. The position requires effective communication and technical skills with a willingness to learn and implement best of breed tools and solutio…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Quincy, Plumas County",
-    "area" : [ "US", "California", "Plumas County", "Quincy" ]
-  },
-  "salary_min" : 100908.54,
-  "salary_max" : 100908.54,
-  "created" : "2024-07-24T02:15:55Z",
-  "redirect_url" : "https://www.adzuna.com/details/4792790784?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5Mjc5MDc4NCIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.yqgwkqYEaXS-idQzmEgk88vT7HN0ExzkJ0Av91E2dVk",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 39.936836,
-  "longitude" : -120.947176,
-  "id" : "4792790784",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Global Head of External CyberSecurity Engagement",
-  "description" : "The SVP, External Cybersecurity Engagement provides cybersecurity risk management and client engagement oversight to all State Street and legal entity businesses globally, sits within the first line of defense and reports into the Global Chief Information Security Officer. The SVP, External Cybersecurity Engagement will manage a team of cybersecurity experts focused on assessing cybersecurity risks associated with third party engagements and merger and acquisition activity. Additionally, the SV…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 208319.06,
-  "salary_max" : 208319.06,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:56Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282288?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjI4OCIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.L12NtEcG5bTjdnefRWmyqnji13f44J8vPsP1WVsMUYs",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282288",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Product Development, VP",
-  "description" : "Market Data Framework Reference data system is used as a repository for composite data received from various suppliers related to securities, prices, FX rates, cross reference, corporate actions and various other aspects. As a lead developer of the MDF team, Resource will be responsible to own and maintain daily BAU activities and participate in production support. The data managed in this system provides direct and critical input for the portfolio construction process, Trading, compliance syst…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 161574.64,
-  "salary_max" : 161574.64,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:01Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282331?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjMzMSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.zbNm27WmdIAWwot_oEP8HAZjNtOcY3bdTuQMloCvV7A",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282331",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Senior Consultant - ADP / EDM Implementation / Charles River Development",
-  "description" : "Implementation Managers/Senior Consultants lead the implementation of the Alpha Data Platform (ADP) within the Charles River Professional Services organization. Their contributions include defining client requirements, configuring and tuning the application to the client’s business and technical needs, training users, testing workflows and resolving issues before taking the client “live”. The ideal candidate will have at least 5 years of hands-on experience gained in the financial industry work…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Grand Central, Manhattan",
-    "area" : [ "US", "New York", "New York City", "Manhattan", "Grand Central" ]
-  },
-  "salary_min" : 72131.0,
-  "salary_max" : 72131.0,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282401?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQwMSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.AJFWgoNoDSnOAIYptRmKWraN0FKQTeHSBcbMgdJyMSs",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.75284,
-  "longitude" : -73.97528,
-  "id" : "4753282401",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Custody Software Quality Engineer – Officer",
-  "description" : "The Custody Software Quality Engineer role is responsible for analyzing business and technical specifications to define & execute test cases and capture & track defects. As a Custody Software Quality Engineer you will: • Ensure adherence with all State Street SDLC tollgate requirements for SQA ensuring all proper procedures and controls are in place throughout the software testing process • Analyze business requirements, Agile stories and acceptance criteria and technical specifications provide…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
-  },
-  "salary_min" : 115285.35,
-  "salary_max" : 115285.35,
-  "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:00Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753285764?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg1NzY0In0.KHaQL2DDjzMJ6eFKCNFHDUpHd96cVstD-B6FiB5h3LI",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753285764",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Head of Corporate Functions, MD",
-  "description" : "Job Description Who we are looking for. Data, Markets & Corporate (DMC) (Corporate Functions) is looking for a highly skilled Senior Lead/Application Manager with financial and technical experience to lead the Corporate Functions technology teams. This includes Audit, GHR, ECMS, Marketing, Global Realty & Global Security. Candidate should have a demonstrated history in defining and driving transformation initiatives to realize significant business enablement and efficiencies. Strong critical th…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Clifton, Passaic County",
-    "area" : [ "US", "New Jersey", "Passaic County", "Clifton" ]
-  },
-  "salary_min" : 159500.02,
-  "salary_max" : 159500.02,
-  "created" : "2024-07-18T02:14:13Z",
-  "redirect_url" : "https://www.adzuna.com/details/4784647567?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0Nzg0NjQ3NTY3In0.Mcw3TpugGEQZtnq_uasbx28ddbc8_3QXx-hXozwbBy0",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 40.881156,
-  "longitude" : -74.141613,
-  "id" : "4784647567",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Managing Director - Implementation / Charles River Development",
-  "description" : "Responsible for creating and managing a referenceable client base within their assigned territory. The Implementation Managing Director will manage teams of Consultants at a variety of levels while holding them accountable for the successful implementation of the Charles River Investment Management Solution. In addition, the Director will work with sales leadership to develop business through positioning and selling services for new and existing customers. This role will interface with existing…",
-  "company" : {
-    "display_name" : "State Street"
+    "display_name" : "CACI"
   },
   "location" : {
     "display_name" : "US",
     "area" : [ "US" ]
   },
-  "salary_min" : 111184.27,
-  "salary_max" : 111184.27,
+  "salary_min" : 102157.72,
+  "salary_max" : 102157.72,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:50Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282195?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjE5NSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.ht4lcZwsCn57JVodEfqsOQsBvl4ABtwg6mezNCkrt_4",
+  "created" : "2024-06-15T13:15:37Z",
+  "redirect_url" : "https://www.adzuna.com/details/4738784258?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDczODc4NDI1OCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.sDPFwF1TXxaeG0rMQaCacEM5Sr6_DS6NEvAIZ04DLoo",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
   "latitude" : 0.0,
   "longitude" : 0.0,
-  "id" : "4753282195",
+  "id" : "4738784258",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Technology Risk, Vice President",
-  "description" : "We are looking for a highly skilled and experienced Cybersecurity Risk Manager to perform Second line Risk Oversight over State Street’s Application Security Program. You will be collaborating with peers in Global Cyber Security to ensure risk are being reduced through Static Code & Dynamic Application Security scans together with Open Source Scanning and Vulnerability Management. The Application Security Risk Manager will be part of a high performing Second Line of Defense team focused on redu…",
+  "title" : "Sr Java Developer",
+  "description" : "STRATEGIC STAFFING SOLUTIONS HAS AN OPENING This is a Contract Opportunity with our company that MUST be worked on a W2 Only. No C2C eligibility for this position. Visa Sponsorship is Available The details are below. Job Title: Sr Java Developer Location: Concord, CA Duration: 12 Months On-Site Required Job ref 236833 Job Description: Review and analyze complex multi-faceted, larger scale or longer-term Software Engineering challenges that require in-depth evaluation of multiple factors includi…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Strategic Staffing Solutions"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Pacheco, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Pacheco" ]
   },
-  "salary_min" : 221825.98,
-  "salary_max" : 221825.98,
+  "salary_min" : 180213.28,
+  "salary_max" : 180213.28,
+  "created" : "2024-08-01T16:27:48Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4805911716?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=E81BBCA109088479452E59DEE0096A6AB3DDB666",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA1OTExNzE2In0.mNDPxqRnJ68GZflIsLXuh6dF-3LD0VRKyqHLJhME9sY",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.983351,
+  "longitude" : -122.036587,
+  "id" : "4805911716",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "JAVA DEVELOPER",
+  "description" : "Java Development, Spring boot (spring framework), Java J2EE, Integration knowledge JMS/ Broker/MQ, AWS, Knowledge on ROSA(redhat openshift) Platform, Strong proficiency in Java programming language Experience with SpringBoot framework for integration projects Knowledge of RESTful web services and API development Familiarity with database technologies such as PostgreSQL and AWS/ ROSA. Understanding of software development principles and methodologies Ability to work in a team environment and col…",
+  "company" : {
+    "display_name" : "eTeam Inc."
+  },
+  "location" : {
+    "display_name" : "Trammells, Harris County",
+    "area" : [ "US", "Texas", "Harris County", "Trammells" ]
+  },
+  "salary_min" : 112585.13,
+  "salary_max" : 112585.13,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:36Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284013?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDAxMyIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.DbnyR-oU4wtGIf85GKSk7fSWTjBap3OPQrDAZKMN3iA",
+  "created" : "2024-07-26T04:46:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978426?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODQyNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.DZ2Ln9mzHRZHjUn7sCdgsp864SS_8iXYb_0-r0U8_V4",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753284013",
+  "latitude" : 29.6403,
+  "longitude" : -95.4359,
+  "id" : "4795978426",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Workday HCM Technology Consultant (HRIS) – Vice President",
-  "description" : "The Workday Talent Technology Consultant will support the execution of processes and projects focused on improving the efficiency of our Core Talent Portfolio in addition to supporting our Global HCM platform while integrating and maintaining global regulatory requirements through the use of technology. The incumbent is responsible to ensure design/configuration takes into consideration of upstream/downstream business processes and data quality impact. S/he will also provide complex analytical …",
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Vets Hired"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
   },
-  "salary_min" : 123090.42,
-  "salary_max" : 123090.42,
+  "salary_min" : 104765.79,
+  "salary_max" : 104765.79,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:56Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282279?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjI3OSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.zrGxXURA0MTOgifQtvjem-B9_k2A8a4qFLcHCyhYWT4",
+  "created" : "2024-08-04T23:08:27Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810440379?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MDM3OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.6Iit5KtqnT4iRKFqSkOAMN4IJ57NU3OqalKfsS66k5U",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282279",
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810440379",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Principal Software Engineer, Charles River Development, Vice President",
-  "description" : "Charles River Development is looking for an experienced Software Engineer for the platform department to work client and blotter framework that supports Charles River Investment Management Solution (“IMS”). This position will require working on multiple strategic and key initiatives including NextGen APIs, building a high performing low latency trading system, Observability, and other nonfunctional needs. This is a full-time position for the Paradigm team located at our Burlington, Massachusett…",
+  "title" : "Java Developer",
+  "description" : "About Client: The Client is a leading global IT services and consulting company, providing a wide range of services to clients in various industries, including banking, financial services, retail, manufacturing, healthcare, and more. It is one of the largest employers in the IT industry and has a vast and diverse workforce. The company places a strong emphasis on employee training and development. Client is known for its commitment to innovation and invests in research and development to stay a…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "ApTask"
   },
   "location" : {
-    "display_name" : "Burlington, Middlesex County",
-    "area" : [ "US", "Massachusetts", "Middlesex County", "Burlington" ]
+    "display_name" : "Grand Central, Manhattan",
+    "area" : [ "US", "New York", "New York City", "Manhattan", "Grand Central" ]
   },
-  "salary_min" : 186807.97,
-  "salary_max" : 186807.97,
+  "salary_min" : 107085.7,
+  "salary_max" : 107085.7,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282409?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQwOSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.jTnigaicqFOeuKP_5ulfIL1XlOd9TEcasMD6FqW7LVs",
+  "created" : "2024-07-15T10:47:13Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780155975?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzgwMTU1OTc1In0.sGIkBceEju22iUStgt4vH6Y84zQoSt5qmdPYRdjie48",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.50598,
-  "longitude" : -71.196288,
-  "id" : "4753282409",
+  "latitude" : 40.75284,
+  "longitude" : -73.97528,
+  "id" : "4780155975",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Alpha Product Management – Vice President",
-  "description" : "State Street’s Alpha Services Strategy, Solutioning and Product Team is looking for an Alpha Product and Strategy-Transaction Lifecycle Management, Vice President. This qualified individual will develop and deliver product, business solutions and strategy aligned with our Alpha Transaction Lifecycle Management vision. This leader will focus on driving front, middle and back-office service innovations that support and streamline end-to-end integration, servicing and interoperability for our Alph…",
+  "title" : "Java Developer",
+  "description" : "Role : Java Developer Location : Cary, NC (ONSITE) Duration : Long Term \" API Design and Development: Design, develop, and implement RESTful APIs using Azure API Management, Azure Functions, and other relevant Azure services. \" Integration: Collaborate with software engineers, architects, and business stakeholders to understand integration requirements and implement API solutions that facilitate seamless data exchange between different systems and applications. \" Azure Services Utilization: Lev…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Diverse Lynx"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "New York, Lucas County",
+    "area" : [ "US", "Iowa", "Lucas County", "New York" ]
   },
-  "salary_min" : 139153.94,
-  "salary_max" : 139153.94,
+  "salary_min" : 107802.34,
+  "salary_max" : 107802.34,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:00Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284252?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0MjUyIn0.Yum6b_3W9weL21BSLxs_z0Ls6LtXTQEDYxUh7VLX7BU",
+  "created" : "2024-08-04T23:09:13Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810443392?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDQ0MzM5MiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.MqEsGsqDsc1Ku3Zh_q2qVfZfyFU_ztjYisp7jJqV6KY",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753284252",
+  "latitude" : 40.85167,
+  "longitude" : -93.259932,
+  "id" : "4810443392",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Software Development Engineer",
-  "description" : "This position is in Global Application Development based in Eastern Massachusetts. We are looking for a Senior Software Development Engineer / Analyst who is capable of reading and understanding Business User Requirements and, through thorough application review be able to translate those requirements into Functional Specifications for on and offshore team members. The candidate will be working on the Custody Settlements and Income applications. The position will entail working with the busines…",
+  "title" : "Java Developer",
+  "description" : "Mandatory Skills: Java, J2ee, REST Service, Spring Batch, Junit, GIThub, SQL Preferred Skills: Docker, Kibana, Kubernetes, Gradle, JIRA, UCD Job Description: • Contribute to SAFe PI planning and Scrum ceremonies • Collaborate with program team, understand requirements, design. • Write automation test cases following TDD • Coding and Unit testing • Deploy and release code to test and production • To be responsible for providing technical guidance / solutions • To develop and guide the team membe…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "TechDigital Corporation"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Fort Sam Houston, Bexar County",
+    "area" : [ "US", "Texas", "Bexar County", "Fort Sam Houston" ]
   },
-  "salary_min" : 99294.65,
-  "salary_max" : 99294.65,
+  "salary_min" : 114418.41,
+  "salary_max" : 114418.41,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:45Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753287066?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg3MDY2In0.0uDo-kbaop7pwKfaJlXv9_Eawkq_rnRaHuMAd_2bREc",
+  "created" : "2024-07-25T04:45:32Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619356?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0NjE5MzU2In0.fZKrhYSagXXFMjYbs0WlBgVfg8eYnxcp5-57RDAaQTU",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753287066",
+  "latitude" : 29.43937,
+  "longitude" : -98.45883,
+  "id" : "4794619356",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Software Engineer",
-  "description" : "Will provide engineering troubleshooting assistance to customer support teams and other development teams within Charles River and will contribute to the enhancement and maintenance of one or more Charles River Investment Management Suite (IMS) modules, components and related applications as a member of an agile scrum team. Specific duties of the position include: Implementing user stories that meets the Definition of Done and the user story acceptance criteria without producing new technical d…",
+  "title" : "Senior Java Developer",
+  "description" : "About Cognizant’s Digital Engineering Practice: At Cognizant Digital Engineering, a small cross functional team comprised of a Product Manager, an Architect, Full-Stack Developers, UI/UX designers and Big Data analysts builds higher quality software faster siloed individuals working independently. Small, forward-thinking engineering teams generate collective insight and comradery, thus increasing their ability to anticipate unforeseen development scope changes and maintain high quality results.…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Cognizant Technology Solutions"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
   },
-  "salary_min" : 96728.64,
-  "salary_max" : 96728.64,
+  "salary_min" : 105165.7,
+  "salary_max" : 105165.7,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:10Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282473?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQ3MyIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.Jujc6fIZunYdvQJq0OWR_e-by6PVxY7YYotm6CoPReA",
+  "created" : "2024-07-05T10:32:00Z",
+  "redirect_url" : "https://www.adzuna.com/details/4767398065?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzY3Mzk4MDY1In0.XIpFlP9GMHNYTnu4kfDxpNDAJOT31ZobBMCBq-AW09I",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282473",
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4767398065",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "State Street Global Advisors-Business Systems Analyst-AVP",
-  "description" : "State Street Global Advisors is looking for a Business Systems Analyst (BSA) with Masters (2) or Bachelors (5) years’ experience looking to join our Application Technology Solutions team. The candidate will play a key role in shaping our multi-year Next-Gen Reporting initiative. The candidate must have industry experience, be responsible for transforming business requirements into system specifications, analyzing data, and formulating solutions to complex problems. What you will be responsible …",
+  "title" : "Senior Java Developer",
+  "description" : "Kemper is one of the nation’s leading specialized insurers. Our success is a direct reflection of the talented and diverse people who make a positive difference in the lives of our customers every day. We believe a high-performing culture, valuable opportunities for personal development and professional challenge, and a healthy work-life balance can be highly motivating and productive. Kemper’s products and services are making a real difference to our customers, who have unique and evolving nee…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Kemper Corporation"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "Birmingham, Jefferson County",
+    "area" : [ "US", "Alabama", "Jefferson County", "Birmingham" ]
   },
-  "salary_min" : 192254.34,
-  "salary_max" : 192254.34,
+  "salary_min" : 123668.51,
+  "salary_max" : 123668.51,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:39Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284627?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDYyNyIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.DuKr1kwCD9cvxlxLFkZY6vcDksNQxorgYx7-POkX6Ek",
+  "created" : "2024-06-26T09:45:41Z",
+  "redirect_url" : "https://www.adzuna.com/details/4753284643?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDY0MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.EB_2xsM6Sa-zpiLjwBElyj_zXiNaius1esa8qBlokSU",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284627",
+  "latitude" : 33.5277,
+  "longitude" : -86.7992,
+  "id" : "4753284643",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Vice President, Advanced Threat Analyst",
-  "description" : "State Street seeks to recruit a Cyber Fusion Advanced Threat Analyst to support the transformation from a legacy Security Operations Model to a pro-active intelligence driven Fusion model that better protects State Street, its customers and partners from ever evolving and sophisticated global threat actors. The Cyber Fusion Advanced Threat Analyst will be part of a high performing Advanced Threat team focused on threat hunting, incident response and investigations, collaboration, intelligence s…",
+  "title" : "Senior Java Developer",
+  "description" : "We’re Fiserv, a global leader in Fintech and payments, and we move money and information in a way that moves the world. We connect financial institutions, corporations, merchants, and consumers to one another millions of times a day – quickly, reliably, and securely. Any time you swipe your credit card, pay through a mobile app, or withdraw money from the bank, we’re involved. If you want to make an impact on a global scale, come make a difference at Fiserv. On our money networks and prepaid so…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Fiserv"
   },
   "location" : {
-    "display_name" : "Florin, Sacramento County",
-    "area" : [ "US", "California", "Sacramento County", "Florin" ]
+    "display_name" : "Alpharetta, Fulton County",
+    "area" : [ "US", "Georgia", "Fulton County", "Alpharetta" ]
   },
-  "salary_min" : 137190.33,
-  "salary_max" : 137190.33,
+  "salary_min" : 166904.48,
+  "salary_max" : 166904.48,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:00Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753285765?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg1NzY1In0.mkRWSyld2eQnQXF-XFofP3-9bAt5k-RFTmFdLTST5JQ",
+  "created" : "2024-06-25T09:39:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4751758385?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzUxNzU4Mzg1In0.LdogHtoL9ei73cZWJno2vb7bcK_T1KX5pQMy4mhkafY",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 38.484098,
-  "longitude" : -121.398884,
-  "id" : "4753285765",
+  "latitude" : 34.0703,
+  "longitude" : -84.2887,
+  "id" : "4751758385",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "AVP Admin and Control",
-  "description" : "State Street seeks to recruit an AVP, Administration & Control Management Analyst to support the execution of regulatory and audit interactions across Cyber Fusion, to ensure the organization is responsive, agile, and well-prepared for unique and demanding regulatory and audit requests. The objective of this role is to support the VP of Cyber Fusion Regulatory & Audit Operations execution of regulatory and audit interactions across the Fusion programs. The position requires project management a…",
+  "title" : "Java Developer with Alfresco - 164109",
+  "description" : "Innova Solutions is immediately hiring for Java Full Stack Developer with Alfresco Position Type: Contract/Fulltime/W2 Duration: 24 Months Position: Java Full Stack Developer with Alfresco Location: Charlotte NC 28262 (Hybrid) As a Full Stack Java Developer, you would: - Consult on or participate in moderately complex initiatives and deliverables within Software Engineering and contribute to large-scale planning related to Software Engineering deliverables. Review and analyze moderately complex…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Innova Solutions"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Harrisburg, Cabarrus County",
+    "area" : [ "US", "North Carolina", "Cabarrus County", "Harrisburg" ]
   },
-  "salary_min" : 161254.3,
-  "salary_max" : 161254.3,
+  "salary_min" : 114072.38,
+  "salary_max" : 114072.38,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:47:30Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753286738?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg2NzM4In0.DjESZ1IBTKWBB7SGSgTnD8322E6S0ekY0KGNgNsHFMg",
+  "created" : "2024-07-31T17:15:57Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4803142081?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=D542AB304DC1862823BF0A3121EC67E70D9A62C2",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMTQyMDgxIn0.5be-vR-d4QeTgkUEZS5X0HIxX95xHoLNLZ8qJIKVTIk",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753286738",
+  "latitude" : 35.311715,
+  "longitude" : -80.64098,
+  "id" : "4803142081",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Cloud Platform/Site Reliability Engineer",
-  "description" : "The State Street Cyber Architecture & Engineering team is looking for a Cloud Platform/SRE Engineer. We deliver models, insights, and tooling to help Cybersecurity teams make faster, more informed decisions as we work to secure State Street’s digital footprint We have multiple openings for this role and it is open to candidates with varying levels of experience. What you will be responsible for As a Cloud Platform/SRE Engineer, you will: • Undertake cloud service hardening, management of policy…",
+  "title" : "Sr Java Developer",
+  "description" : "JD: Java Developer 9-12 years' experience with minimum of 2-3 years in Reactive Web services using Flux and Mono Java 17 - Spring Reactive Spring webservices based on Flux and Mono - prior project experience Cucumber TDD Cassandra or Cockroach DB medium skills Familiar with GKP (basic level is good) Git, Maven Kubernetes – should be familiar with deploy, monitor and debugging Jenkins deployment (able to look into existing pipeline, not required to create new) Previous Banking exp is plus Min 10…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "TechDigital Corporation"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
   },
-  "salary_min" : 233390.4,
-  "salary_max" : 233390.4,
+  "salary_min" : 137886.3,
+  "salary_max" : 137886.3,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:07Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282422?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjQyMiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.OBU6b6JMTcaJt1bslrXGNFEDI_FgG8lNSDG4NfYZ0Ck",
+  "created" : "2024-07-15T10:37:30Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780107746?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4MDEwNzc0NiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.EABTyI-QKVzvrgAbDb_wfKgjmMm7HNlgWpGvAErPeOM",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282422",
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4780107746",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Full Stack Developer (React/Typescript), VP",
-  "description" : "We are looking to hire a Vie President to support our web and desktop-based applications. What you will be responsible for: • Develop and enhance both web and desktop-based applications using cutting-edge technologies such as React and Electron. • Contribute to and utilize our proprietary libraries which are integral for both internal and external partners to integrate seamlessly with our platforms. • Engage in the entire lifecycle of product development, from conception through deployment and …",
+  "title" : "Backend Java Developer",
+  "description" : "Since 2010 Synergisticit has helped Jobseekers get employed in the tech Job market by providing candidates the requisite skills, experience, and technical competence to outperform at interviews and clients. Here at SynergisticIT We just don't focus on getting you a tech Job we make careers. In this Job market also, our candidates can achieve multiple job offers and $100k  salaries. please check the below links to see the success outcomes and salaries of our candidates . We regularly interact wi…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "SynergisticIT"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "Carlsbad, San Diego County",
+    "area" : [ "US", "California", "San Diego County", "Carlsbad" ]
   },
-  "salary_min" : 138696.6,
-  "salary_max" : 138696.6,
+  "salary_min" : 121464.4,
+  "salary_max" : 121464.4,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:43:56Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282282?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjI4MiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.R_SgHW-eZijrAXzV_WOpImVbegd4YQFh64h74vo0esI",
+  "created" : "2024-07-21T22:51:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790065570?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2NTU3MCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.iJtDNvPkwtz_iO5VgbQIEmTVdgbnNP7brZb19ovxa_M",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753282282",
+  "latitude" : 33.141212,
+  "longitude" : -117.320512,
+  "id" : "4790065570",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Software Quality Assurance Engineer, Assistance Vice President",
-  "description" : "Who We Are Looking For The Software Quality Automation Engineer will play a key role in the quality assurance of AML Transaction Monitoring suite of applications. We are looking for someone who has proven experience with testing and automating complex applications. This role will be responsible for defining and maintaining an acceptance testing cycle that is common in an Agile process including automation. Candidate will be expected to attend daily scrum ceremonies and required to attend meetin…",
+  "title" : "Sr Java Developer",
+  "description" : "JD: Java Developer Required Skills/Experience • 7 years IT-Software/ Software products. • Hands on experience with system programming, development of service/module type of applications in mainstream scripting. • Understanding of Microservices technologies including-, Sprint Boot, Java, JavaScript, Git, Jenkins • Stored Procedure, Kafka. • Experience on AWS services Preferred Skills/Experience • Container style of programing– Micro-services, Docker, Openshift. • Experienced across programming l…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "TechDigital Corporation"
   },
   "location" : {
-    "display_name" : "Quincy, Plumas County",
-    "area" : [ "US", "California", "Plumas County", "Quincy" ]
+    "display_name" : "Stanford, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Stanford" ]
   },
-  "salary_min" : 145090.75,
-  "salary_max" : 145090.75,
-  "created" : "2024-07-29T02:18:51Z",
-  "redirect_url" : "https://www.adzuna.com/details/4799298126?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5OTI5ODEyNiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.Id8YQyFxEOYMyW6o0zWkdGbn9B29YhFeI0UQiqUGs_Q",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 39.936836,
-  "longitude" : -120.947176,
-  "id" : "4799298126",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "VP, Financial Risk Engineer",
-  "description" : "State Street Global Technology Services ERM systems is looking for an experienced Application Architect/Sr. Software Engineering Manager to manage Enterprise Risk Management Applications. We are looking for a candidate who is ready to work with new technologies and architectures in a forward-thinking organization that’s always pushing boundaries. What you will be responsible for As Deliver Manager you will • Lead and manage a global team to deliver technology solutions for the Risk Management a…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Clifton, Passaic County",
-    "area" : [ "US", "New Jersey", "Passaic County", "Clifton" ]
-  },
-  "salary_min" : 156833.83,
-  "salary_max" : 156833.83,
+  "salary_min" : 142223.66,
+  "salary_max" : 142223.66,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:37Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284608?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDYwOCIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.KJZgusn1FKVg0QzYfHZ2CxQLuFkpcTX_2QMXqreqCoQ",
+  "created" : "2024-07-15T10:50:35Z",
+  "redirect_url" : "https://www.adzuna.com/details/4780159937?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzgwMTU5OTM3In0.JOnU_dKQjNdfAhMN5B81iqQUmfwJMw85KG_MLJu6XHE",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 40.89095,
-  "longitude" : -74.1315,
-  "id" : "4753284608",
+  "latitude" : 37.41686,
+  "longitude" : -122.129218,
+  "id" : "4780159937",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Business Risk Manager, GlobalLink, Vice President",
-  "description" : "Global Markets has established a Business Risk Management function that is focused on risk management in the first line of defense through the implementation of controls, assessment of risks in change projects, and ongoing oversight. This role acts as a valued partner to the GlobalLink business and Global Link IT in the identification, assessment, and mitigation of risk as well as the cultivation of a framework of practices that enables a balance of commercial considerations with the risk excel…",
+  "title" : "Senior Java Developer",
+  "description" : "Title: Sr. Java Developer Location: Fort Worth, TX (close to DFW Airport) Duration: Contract to hire (long term) Compensation: $60-65/hr Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Skillset / Experience: Successful Software Developers excel in three key areas: Software Delivery Product Mindset Growth Mindset Software Development Teams find ways to improve daily work. This means taking an honest look at delivery metrics and asking what we will do to improve them. …",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "INSPYR Solutions"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
   },
-  "salary_min" : 201972.16,
-  "salary_max" : 201972.16,
+  "salary_min" : 132507.38,
+  "salary_max" : 132507.38,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:39Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284077?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0MDc3In0.0wViTJUp4cskCxVp9FNRgohLv0VVkn_94LPrtALpi8A",
+  "created" : "2024-07-26T04:46:48Z",
+  "redirect_url" : "https://www.adzuna.com/details/4795978041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NTk3ODA0MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.HUHR-_2a6CMbwXIywz1NtUGHoy_utzWBNeaXYWMMyrs",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284077",
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4795978041",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "PMO Analyst, AVP",
-  "description" : "Who We Are Looking For State Street Global Technology Services (GTS) – Transformation Office is seeking a skilled and proven Project Manager, Assistant Vice President to coordinate people and processes to ensure that our projects are delivered on time and produce the desired results. What You Will Be Responsible For Coordinate internal resources and third parties/vendors for the flawless execution of projects Ensure that projects are delivered on-time, within scope and within budget Developing …",
+  "title" : "Senior Java Developer",
+  "description" : "We have multiple openings for Senior Java FSD in Plano TX/ Reston, VA - Hybrid Onsite role . Please read further about the job profile: Title: Senior Java FSD  Strong AWS with Spring Batch & SQL Location: Plano TX/ Reston, VA - Hybrid Onsite Type: Full Time/ Contract- C2C/W2 Only local candidates from Texas and Virginia locations Required Skills: Minimum 12 Programming experience with Java, J2EE, XML, and Web Services AWS (EC2, ECS, S3, CloudWatch, SQS , SNS, AWS Lambda) Spring Batch, SQL Java …",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Trident Consulting"
   },
   "location" : {
-    "display_name" : "Quincy, Plumas County",
-    "area" : [ "US", "California", "Plumas County", "Quincy" ]
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
   },
-  "salary_min" : 94611.37,
-  "salary_max" : 94611.37,
-  "created" : "2024-07-29T02:18:50Z",
-  "redirect_url" : "https://www.adzuna.com/details/4799297975?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0Nzk5Mjk3OTc1In0.b01yEpVo9U5VlD3yJPVj2wsbfY2iujtik1_4Oel-OCk",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 39.936836,
-  "longitude" : -120.947176,
-  "id" : "4799297975",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Principle UI Software Engineer",
-  "description" : "Who We Are Looking For Scroll down for a complete overview of what this job will require Are you the right candidate for this opportunity Leading technical contributor to the enhancement and maintenance of one or more Charles River IMS modules or components of an agile scrum team. Provide engineering troubleshooting assistance to customer support teams and other development teams within Charles River. Why this role is important to us The team you will be joining is a part of Charles River Devel…",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "Burlington, Middlesex County",
-    "area" : [ "US", "Massachusetts", "Middlesex County", "Burlington" ]
-  },
-  "salary_min" : 134774.66,
-  "salary_max" : 134774.66,
-  "created" : "2024-08-06T13:02:30Z",
-  "redirect_url" : "https://www.adzuna.com/details/4812982191?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0ODEyOTgyMTkxIn0.nLe0VheBTTz37k_qAzVv0b7iyabXT-PJx5_7LnCy5lo",
-  "category" : {
-    "tag" : "it-jobs",
-    "label" : "IT Jobs"
-  },
-  "latitude" : 42.504716,
-  "longitude" : -71.195621,
-  "id" : "4812982191",
-  "salary_is_predicted" : "1"
-}, {
-  "title" : "Technical Client Solutions/Data Engineering/Product Development, AVP",
-  "description" : "We are seeking a Technical Product Development Assistant Vice President to help us take our BI offering to the next level. The successful candidate will drive the design and implementation of a new data platform based on Databricks and PowerBI. This will also include engaging with various stakeholders to collect functional and non-functional requirements. Besides, the candidate might be asked to assist the team with implementing additional solutions for clients internally and externally. These …",
-  "company" : {
-    "display_name" : "State Street"
-  },
-  "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
-  },
-  "salary_min" : 154208.69,
-  "salary_max" : 154208.69,
+  "salary_min" : 105363.37,
+  "salary_max" : 105363.37,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:39Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284081?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0MDgxIn0.WZDm0NSBsFCi9tVtGMbRhEjrP4ctA3SZkGxg91GCZcA",
+  "created" : "2024-08-05T05:06:01Z",
+  "redirect_url" : "https://www.adzuna.com/details/4810729420?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMDcyOTQyMCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rJvfHIMSixaCP_-VTNM3j0LVXm4Ph1BVrzxjpLk3lCE",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284081",
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4810729420",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Global Head of Business Information Security Officers",
-  "description" : "The SVP, Information Security Officer provides cyber risk management oversight to all State Street and legal entity businesses globally, sits within the first line of defense and reports into the Global Chief Information Security Officer. The SVP, Information Security Officer will manage a team of business unit aligned ISOs to strengthen cyber control adoption at the business unit level, lead cyber metrics discussions, influence strong cyber awareness behavior, present open risk and vulnerabili…",
+  "title" : "Java Developer with AWS",
+  "description" : "Job Description:- This Developer will be the go-to person for difficult development problems, Java/AWS design, code standards, code reviews, etc. Leverage industry best practices to design, test, implement and support a solution. Analyze highly complex business requirements; generate technical specifications to design or redesign complex software components and applications. Acts as an expert technical resource for modeling, simulation and analysis efforts Adapt to change quickly and adjust wor…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "HexaQuEST Global"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
   },
-  "salary_min" : 201771.17,
-  "salary_max" : 201771.17,
+  "salary_min" : 122743.21,
+  "salary_max" : 122743.21,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:38Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284611?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0NjExIn0.3xbSs0EE7njdzcU8yuQqM3SgMiZCNYEcvKEj38MaL6o",
+  "created" : "2024-07-21T22:42:19Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790058736?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA1ODczNiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XuSfNhUGPMFm-E6YIsdgvHNc1oLc4XnWuKrbw0kAsD4",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753284611",
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4790058736",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Product Development Analyst/Manager, Vice President",
-  "description" : "The Senior Product Development Analyst/Manager will have excellent verbal and written communication skills and have demonstrated ability to understand, develop, and deploy complex solutions supporting critical business processes. Experience with running payment or banking operations or product development teams or similar experience is also required. The ability to manage the collection of input from subject matter experts, operations teams, product managers, client service teams and/or our cli…",
+  "title" : "Java Developer V",
+  "description" : "Responsibilities: Conceptualize, design, and implement sophisticated, multi-tier distributed software systems across all stages of the software development life cycle. Drive new and existing product initiatives, influencing the direction of product development. Take ownership of projects, collaborating with technical and business leaders to craft innovative yet straightforward solutions for complex business challenges. Define technical strategy, vision, and roadmaps for the team. Estimate engin…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "Aditi Consulting"
   },
   "location" : {
-    "display_name" : "Norfolk Downs, Norfolk County",
-    "area" : [ "US", "Massachusetts", "Norfolk County", "Norfolk Downs" ]
+    "display_name" : "Campbell, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Campbell" ]
   },
-  "salary_min" : 204883.33,
-  "salary_max" : 204883.33,
+  "salary_min" : 161409.39,
+  "salary_max" : 161409.39,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:01Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753282339?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4MjMzOSIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.s4XkVhnAGkj58ZrKwQKFgHyB0Rx-j2ptxKJpKU57y78",
+  "created" : "2024-07-19T10:46:25Z",
+  "redirect_url" : "https://www.adzuna.com/details/4787034059?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc4NzAzNDA1OSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.KXrNFd3tldc-dMwVV1cjv2BsML2YNNLkDwF5xt3_6Qk",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.281819,
-  "longitude" : -71.026731,
-  "id" : "4753282339",
+  "latitude" : 37.3063,
+  "longitude" : -121.9221,
+  "id" : "4787034059",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Data Architect, VP I - State Street Global Advisors",
-  "description" : "State Street Global Advisors is seeking an experienced hands-on, dynamic and well connected data architect to join Technology team and lead the design and implementation of large data initiatives. As a Data Architect you will be responsible for • End to end data architecture design & implementation including data ingestion, data modeling and data distribution. • Lead large scale data warehousing projects • Build data integrations between cloud-based systems • Manage and mentor a large global te…",
+  "title" : "Sr. Java Developer",
+  "description" : "JD: 10 years of hands-on experience in Java8, Spring Boot, Hibernate, Microservices & Cloud platform. 2 to 4 years of experience in microservices based architecture. Hands on exp in Agile Methodology. Perform project planning and scheduling, manage tasks and coordinate project resources to meet objectives and timelines. Develop and adhere to project plans, including an effective communication plan and production implementation plan. Advanced understanding of agile methodologies such as CI/CD, A…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "TechDigital Corporation"
   },
   "location" : {
-    "display_name" : "Stamford, Fairfield County",
-    "area" : [ "US", "Connecticut", "Fairfield County", "Stamford" ]
+    "display_name" : "Orlando, Orange County",
+    "area" : [ "US", "Florida", "Orange County", "Orlando" ]
   },
-  "salary_min" : 141578.56,
-  "salary_max" : 141578.56,
+  "salary_min" : 121857.73,
+  "salary_max" : 121857.73,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:45:17Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284486?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1MzI4NDQ4NiIsInMiOiJQaHNVWTlwVTd4RzBTalRMRzRHeGNRIn0.-Hvd2bk7EONb3qwWBHY_K2-orGIuO6VczxMHwYF5UXs",
+  "created" : "2024-07-21T22:44:00Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790060332?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2MDMzMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.rEr4jxPOwMtjjmZNakkH0iMjXd4PD_dWZ66LaLBmDMc",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 41.052959,
-  "longitude" : -73.538799,
-  "id" : "4753284486",
+  "latitude" : 28.538056,
+  "longitude" : -81.379444,
+  "id" : "4790060332",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "State Street Global Advisors - Senior Software Developer-AVP",
-  "description" : "State Street Global Advisors is looking for an application developer with Masters or Bachelors in Computer Science, for our Next-Gen Reporting Platform Team, a part of Application Technology Solutions. This is a hands-on development position for a candidate with proven record of software development and execution excellence. The candidate must have excellent development and problem-solving skills, someone with creativity and self-motivation to deliver on mission critical projects with tight tim…",
+  "title" : "Java Developer with angular",
+  "description" : "About Client: The Client is a leading global IT services and consulting company, providing a wide range of services to clients in various industries, including banking, financial services, retail, manufacturing, healthcare, and more. It is one of the largest employers in the IT industry and has a vast and diverse workforce. The company places a strong emphasis on employee training and development. Client is known for its commitment to innovation and invests in research and development to stay a…",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "ApTask"
   },
   "location" : {
-    "display_name" : "South Boston, Suffolk County",
-    "area" : [ "US", "Massachusetts", "Suffolk County", "South Boston" ]
+    "display_name" : "Northlake, DeKalb County",
+    "area" : [ "US", "Georgia", "DeKalb County", "Northlake" ]
   },
-  "salary_min" : 123861.72,
-  "salary_max" : 123861.72,
+  "salary_min" : 101616.11,
+  "salary_max" : 101616.11,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:39Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753284072?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjg0MDcyIn0.Rh--TW4Za0UaYzk7QGwCySsvoYp766TAxcA1WqVV_iE",
+  "created" : "2024-07-25T04:45:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619316?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0NjE5MzE2In0.X9bwaa8ZTzVrfuMITbgOTGElhEskHT5MP9ZtC4EXA8A",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 42.34,
-  "longitude" : -71.05,
-  "id" : "4753284072",
+  "latitude" : 33.7487,
+  "longitude" : -84.3879,
+  "id" : "4794619316",
   "salary_is_predicted" : "1"
 }, {
-  "title" : "Senior Application Developer, Assistant Vice President",
-  "description" : "Who we are looking for • The role of this Senior Developer is to assist onsite development and support of Enterprise recon suite of applications such as EZops, RecXpress, Mosiki and ESP warehouse, servicing various lines of business. This position requires 8 years of IT experience with excellent technical, analytical, communication, conflict resolution skills, and expertise in reconciliation systems in financial domain. What you will be responsible for As Senior Developer you will • Lead, guide…",
+  "title" : "Sr Java Developer",
+  "description" : "About NTT DATA NTT DATA is a $30 billion trusted global innovator of business and technology services. We serve 75% of the Fortune Global 100 and are committed to helping clients innovate, optimize, and transform for long-term success. We invest over $3.6 billion each year in R&D to help organizations and society move confidently and sustainably into the digital future. As a Global Top Employer, we have diverse experts in more than 50 countries and a robust partner ecosystem of established and …",
   "company" : {
-    "display_name" : "State Street"
+    "display_name" : "NTT DATA"
   },
   "location" : {
-    "display_name" : "Princeton Junction, Mercer County",
-    "area" : [ "US", "New Jersey", "Mercer County", "Princeton Junction" ]
+    "display_name" : "Highland Park, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Highland Park" ]
   },
-  "salary_min" : 127908.62,
-  "salary_max" : 127908.62,
+  "salary_min" : 105077.48,
+  "salary_max" : 105077.48,
   "contract_time" : "full_time",
-  "created" : "2024-06-26T09:44:27Z",
-  "redirect_url" : "https://www.adzuna.com/details/4753283779?utm_medium=api&utm_source=2489f9d0",
-  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiUGhzVVk5cFU3eEcwU2pUTEc0R3hjUSIsImkiOiI0NzUzMjgzNzc5In0.W-gB1fMBZZbJJScFsDf2yNGTvjWXLLjUsoLu6nsUnho",
+  "created" : "2024-07-30T04:54:34Z",
+  "redirect_url" : "https://www.adzuna.com/details/4800500041?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAwNTAwMDQxIn0.ZMaa7iryf5M36pkLZSDXdwMJqFSCX-Gyf3n-OMCnZPU",
   "category" : {
     "tag" : "it-jobs",
     "label" : "IT Jobs"
   },
-  "latitude" : 40.31282,
-  "longitude" : -74.6543,
-  "id" : "4753283779",
+  "latitude" : 32.760168,
+  "longitude" : -96.765058,
+  "id" : "4800500041",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full Stack Java Developer",
+  "description" : "Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading technology services and consulting company focused on building innovative solutions that address clients’ most complex digital transformation needs. We leverage our holistic portfolio of capabilities in consulting, design, engineering, operations, and emerging technologies to help clients realize their boldest ambitions and build future-ready, sustainable businesses. A company recognized globally for its comprehensive portfolio of …",
+  "company" : {
+    "display_name" : "Wipro Ltd"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 169005.95,
+  "salary_max" : 169005.95,
+  "contract_time" : "full_time",
+  "created" : "2024-07-24T12:24:32Z",
+  "redirect_url" : "https://www.adzuna.com/details/4793321322?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MzMyMTMyMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.8Pb8qPs5FRFzEtXxNecFP2MDWUp7K2giLp7HDQH6tgQ",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4793321322",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full Stack Java Developer",
+  "description" : "Job Description Job Description Position: Full Stack Java Developer Client: Bank Location: Jersey City, NJ 07302 Duration: Fulltime/ Permanent Hybrid: 2-3 days onsite per week The Software Engineer II will participate in the development, implementation, and ongoing maintenance of the Bank's critical application software. Essential job function Participate in end-to-end development of business solutions including requirements gathering, analysis, design, coding, testing, and implementation. Prov…",
+  "company" : {
+    "display_name" : "Veterans Sourcing Group"
+  },
+  "location" : {
+    "display_name" : "Jersey City, Hudson County",
+    "area" : [ "US", "New Jersey", "Hudson County", "Jersey City" ]
+  },
+  "salary_min" : 151057.1,
+  "salary_max" : 151057.1,
+  "created" : "2024-08-05T10:49:28Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4811172463?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=A4B0ABA586F2CB4C3015ED9214B0BE60EE789145",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMTE3MjQ2MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.-UAK_pYBh1_wY7h1njZyM1W4LfESXLD8K-JPoefJxaA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.721832,
+  "longitude" : -74.0447,
+  "id" : "4811172463",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full Stack Java Developer",
+  "description" : "CACI is currently looking for a Full Stack Developer with agile methodology experience to join our BEAGLE (Border Enforcement Applications for Government Leading-Edge Information Technology) Agile Solution Factory (ASF) Team supporting Customs and Border Protection (CBP) client located in Northern Virginia Join this passionate team of industry-leading individuals supporting the best practices in Agile Software Development for the Department of Homeland Security (DHS). As a member of the BEAGLE …",
+  "company" : {
+    "display_name" : "CACi"
+  },
+  "location" : {
+    "display_name" : "Ashburn, Loudoun County",
+    "area" : [ "US", "Virginia", "Loudoun County", "Ashburn" ]
+  },
+  "salary_min" : 117804.38,
+  "salary_max" : 117804.38,
+  "contract_time" : "full_time",
+  "created" : "2024-06-14T11:58:43Z",
+  "redirect_url" : "https://www.adzuna.com/details/4737139265?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzM3MTM5MjY1In0.U_HB9PD1FH_L6vhcrYlYtDbpnRtkeK1IpPTtnYGUSVM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 39.04,
+  "longitude" : -77.481,
+  "id" : "4737139265",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full Stack Java Developer",
+  "description" : "Role: Full Stack Java Developer Location: DFW, TX - Hybrid 3x per week onsite Rate: $65-70/hour Length: Ongoing Contract Work Requirements: US Citizen, GC Holders or Authorized to Work in the U.S. Education/Experience: • Bachelor’s degree in Computer Science, Computer Engineering, Technology, Information Systems (CIS/MIS), Engineering or related technical discipline, or equivalent experience/training • 5 years of Java experience • 5 years of experience with AngularJS/Angular • Experience with A…",
+  "company" : {
+    "display_name" : "INSPYR Solutions"
+  },
+  "location" : {
+    "display_name" : "Fort Worth, Tarrant County",
+    "area" : [ "US", "Texas", "Tarrant County", "Fort Worth" ]
+  },
+  "salary_min" : 131890.36,
+  "salary_max" : 131890.36,
+  "contract_time" : "full_time",
+  "created" : "2024-07-24T04:43:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4792845927?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5Mjg0NTkyNyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.0S3e7TQdgYgh_XtuKKBWMN0SV1JhngB_kebx1m6iTOk",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.75876,
+  "longitude" : -97.32316,
+  "id" : "4792845927",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer with Angular 13",
+  "description" : "Experience in Java, J2EE (v8) Backend Service/API Development, Spring, Spring boot, JMS, Web services and other distributed technologies. Experience in Web UI development using Angular 13, HTML5 and CSS 3,Flex, Aggrid, Bootstrap/Material. Experience in CI and Dev Ops. Understands Jenkins, GitHub, etc. Experience in writing independent components and writing unit tests using frameworks like Jasmine. Good communication skills Able to articulate clearly his/her ideas. Experience with Agile methodo…",
+  "company" : {
+    "display_name" : "Diverse Lynx"
+  },
+  "location" : {
+    "display_name" : "Highland Park, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Highland Park" ]
+  },
+  "salary_min" : 118700.7,
+  "salary_max" : 118700.7,
+  "contract_time" : "full_time",
+  "created" : "2024-07-25T04:45:31Z",
+  "redirect_url" : "https://www.adzuna.com/details/4794619202?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5NDYxOTIwMiIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.XEppMO3YFehZI20nBz_y9wn_KHB2bz8-7Oivhg0QiTQ",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.760168,
+  "longitude" : -96.765058,
+  "id" : "4794619202",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior/Lead Java Developer",
+  "description" : "Overview of role: Full stack - will be database interaction, API layers, UI work (JavaScript, micro front end architecture). Split 50/50 back/front – at the beginning of the assignment they will be doing more backend and near the end will begin favoring front-end work. Will integrate into current teams and once fully staffed will switch over into pay reconciliation workstream. They have a dedicated PO plus internal CapOne employees to drive intent. No people leadership on any roles – these are …",
+  "company" : {
+    "display_name" : "HexaQuEST Global"
+  },
+  "location" : {
+    "display_name" : "Plano, Collin County",
+    "area" : [ "US", "Texas", "Collin County", "Plano" ]
+  },
+  "salary_min" : 120245.69,
+  "salary_max" : 120245.69,
+  "contract_time" : "full_time",
+  "created" : "2024-07-21T22:50:33Z",
+  "redirect_url" : "https://www.adzuna.com/details/4790065029?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MDA2NTAyOSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.PnMTcOeqmPI2iBbhaiZzke9_bR3Uq4mjlVqJ8JGwTaM",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.0234,
+  "longitude" : -96.69858,
+  "id" : "4790065029",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "(1) Senior Java Developer",
+  "description" : "Job Description Job Description Position Overview Are you a senior engineer who is energized by designing and implementing elegant code that is focused on solving business problems? Who believes that the job is not done until end-users are successfully using your solution to do their job more effectively? Do you enjoy variety and the freedom to work on many different areas of a product? Do you continually seek to develop your knowledge and skills, learning tools and technologies that help you m…",
+  "company" : {
+    "display_name" : "eTrigue"
+  },
+  "location" : {
+    "display_name" : "San Jose, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "San Jose" ]
+  },
+  "salary_min" : 147510.72,
+  "salary_max" : 147510.72,
+  "created" : "2024-07-25T10:29:27Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4794963073?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=D5B16678DA82CF81C010BBDE6351A4BB00362BDF",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Nzk0OTYzMDczIn0.ZSpV91p6D5Ut9C7wh_j5ExWy__39UHG9XQnlG_K0qOA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.390494,
+  "longitude" : -121.885434,
+  "id" : "4794963073",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Full-Stack Java Developer",
+  "description" : "Job Description Job Description Location: Bethesda, MD (Hybrid) LCG is a minority-owned technology consulting firm that has been a trusted partner to more than 40 federal agencies, including 21 of the 27 Institutes and Centers (ICs) at the National Institutes of Health (NIH). For over 25 years, LCG has brought digitization and innovation to the Health and Human Services (HHS) and the NIH ecosystems. We support IT organizations by bringing precision technology and operation models that achieve m…",
+  "company" : {
+    "display_name" : "LCG, Inc."
+  },
+  "location" : {
+    "display_name" : "Bethesda, Montgomery County",
+    "area" : [ "US", "Maryland", "Montgomery County", "Bethesda" ]
+  },
+  "salary_min" : 103799.33,
+  "salary_max" : 103799.33,
+  "created" : "2024-08-05T22:45:32Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4812018915?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=A29D2B8BCC88B934FA1E5E02E5367AE27334EE0D",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMjAxODkxNSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.UZ20DcoumQLJKRMJhhdgCD4nJnEfNJmOdFEiQoIoX68",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 39.003888,
+  "longitude" : -77.105367,
+  "id" : "4812018915",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Node.JS Java Developer",
+  "description" : "Local Candidates Preferred. Non-local candidates must be willing to pay for your own interview travel expenses and relocation costsCandidates submitted over the max. bill rate will be automatically disqualified and counted as a submittal. For each position CBD allows only 2 (two) submittals from our sub-vendors/partners. So please send us only the exact matching profiles for better chances of shortlisting and quick response. Experience in messaging technologies such as MQ series or JMS Experien…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "Hayes Valley, San Francisco",
+    "area" : [ "US", "California", "San Francisco", "Hayes Valley" ]
+  },
+  "salary_min" : 136480.69,
+  "salary_max" : 136480.69,
+  "contract_time" : "full_time",
+  "created" : "2024-07-24T10:43:20Z",
+  "redirect_url" : "https://www.adzuna.com/details/4793271245?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc5MzI3MTI0NSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.wy0ODG1ssWXKoSXOQ2QvfgEWXJ3RP5-2O5N4so4-GV4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.775,
+  "longitude" : -122.4183,
+  "id" : "4793271245",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Senior Java Developer - Client Portal (DS)",
+  "description" : "Interactive Brokers Group has been consistently at the forefront of trading innovation, starting with the invention of the first floor-based handheld computer in 1983. We pride ourselves on being primarily a technology company and challenging the status quo. We push boundaries to offer our clients the best trading platform with the most sophisticated features at the lowest cost. Software development is the lifeblood of our firm, and it shows in our stellar brokerage platform. Interactive Broker…",
+  "company" : {
+    "display_name" : "Interactive Brokers Group, Inc."
+  },
+  "location" : {
+    "display_name" : "Glenville, Fairfield County",
+    "area" : [ "US", "Connecticut", "Fairfield County", "Glenville" ]
+  },
+  "salary_min" : 111969.34,
+  "salary_max" : 111969.34,
+  "contract_time" : "full_time",
+  "created" : "2024-06-24T09:37:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4750417188?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzUwNDE3MTg4In0.A4-zUAmiZ3sbhP-PMFjHi2ANeUMjGJTwN5dYuHHAciU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 41.06156,
+  "longitude" : -73.657002,
+  "id" : "4750417188",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Cloud Developer",
+  "description" : "Innova Solutions is immediately hiring for a Java Cloud Developer Position type: Contract Duration: 12 Months Location: Pittsburgh, PA and Lake Mary, FL -Hybrid 2,3 Days in Office. As a Java Cloud Developer: You will require expertise including hands-on experience with server infrastructure, virtualization, and cloud computing to architect and maintain high availability production systems in Public/Private Cloud environments. Experience with secure, infrastructure deployment in the cloud using …",
+  "company" : {
+    "display_name" : "Innova Solutions"
+  },
+  "location" : {
+    "display_name" : "Bloomfield, Allegheny County",
+    "area" : [ "US", "Pennsylvania", "Allegheny County", "Bloomfield" ]
+  },
+  "salary_min" : 137935.88,
+  "salary_max" : 137935.88,
+  "created" : "2024-08-02T16:42:52Z",
+  "redirect_url" : "https://www.adzuna.com/land/ad/4807790223?se=jnwwtuZU7xG3_r6TyxWxSw&utm_medium=api&utm_source=2489f9d0&v=FB16BC492E06CE5F5ADBD9D5360C5A3D8F8C76E1",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA3NzkwMjIzIn0.0TtLyf2QU3g7M9USznu5yqKdjbCB0UByCcJ1gx8AqSU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 40.444374,
+  "longitude" : -79.941817,
+  "id" : "4807790223",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Role: Java Developer Location: Remote Required Qualifications Bachelor's Degree in a Business, Computer Science, Information Systems or related field, with 6 years (or commensurate experience) 6 plus years of experience in IT 5 years of PL/SQL development experience 3-5 years of Java-related development experience Excellent written and oral communication skills Understanding and knowledge of the Software Development Life Cycle Maintains strong attention to detail in high-pressure situations",
+  "company" : {
+    "display_name" : "Digital Janet LLC"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 105499.71,
+  "salary_max" : 105499.71,
+  "created" : "2024-08-02T19:23:12Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807967760?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNzk2Nzc2MCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.SJL5ZpwslufmP6C4TWJIyddFahmGpWSiOH4yN6iEyEw",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4807967760",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position: 3 Title: Java Developer Location: Albany, NY Job ID: HBITS-06-13504 Exp: 12 Years Description: 84 Months of experience in object oriented analysis and design (OOAD) in designing and implementing information technology solutions using the Java programming language. 60 Months of experience in Oracle PL/SQL and developing procedures and packages. 48 Months of experience in using the Spring MVC framework 24 Months of experience in using the Struts framework 24 Months of experience using J…",
+  "company" : {
+    "display_name" : "Accord Technologies Inc."
+  },
+  "location" : {
+    "display_name" : "Rensselaer, Rensselaer County",
+    "area" : [ "US", "New York", "Rensselaer County", "Rensselaer" ]
+  },
+  "salary_min" : 105600.0,
+  "salary_max" : 0.0,
+  "created" : "2024-07-31T19:12:24Z",
+  "redirect_url" : "https://www.adzuna.com/details/4803297476?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMjk3NDc2In0.ZULTUZ2tKUMKUw0dXYyt4gMOBQPklYbnA8CSpLHjTo0",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 42.65581,
+  "longitude" : -73.74952,
+  "id" : "4803297476",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java developer",
+  "description" : "Job Title: Java Developer Job Type: Contract Location: Dallas ,TX/ Edison NJ Job summary Language/Framework - Java, SpringBoot, Spring Framework Database - Postgres SQL Environment/Build - CI/CD, Jenkins, OpenShift, Kubernetes Unit testing - SonarQube, Junit, Mockito FrontEnd Angular Automation Cucumber, Postman",
+  "company" : {
+    "display_name" : "VDart Inc"
+  },
+  "location" : {
+    "display_name" : "Cockrell Hill, Dallas",
+    "area" : [ "US", "Texas", "Dallas", "Cockrell Hill" ]
+  },
+  "salary_min" : 105600.0,
+  "salary_max" : 111360.0,
+  "created" : "2024-07-30T19:20:42Z",
+  "redirect_url" : "https://www.adzuna.com/details/4801787148?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwMTc4NzE0OCIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.Jqc-r7Vye6zXbG-wg7itc3Ce_SKMjNiHfNedBsEl-2c",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 32.77038,
+  "longitude" : -96.86376,
+  "id" : "4801787148",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Job Title: Java Developer Location: VA - Remote Duration: / Term: 6 months Contract Job Description: Responsibilities: 90% Hands-On coding Building Java Spring Boot microservices Developing a lot of microservices REST APIs Integrating with various different downstreams Working on end-to-end life cycle of a microservice, from domain-driven design to development till maturity Integrating with Sonar Cube for code quality and ensuring good test coverage Building sufficient logging distributed traci…",
+  "company" : {
+    "display_name" : "VDart Inc"
+  },
+  "location" : {
+    "display_name" : "Virginia, US",
+    "area" : [ "US", "Virginia" ]
+  },
+  "salary_min" : 115200.0,
+  "salary_max" : 115200.0,
+  "created" : "2024-08-02T19:22:24Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807966985?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA3OTY2OTg1In0.J2dJEZ22oZv8bLVJ4TOElb8rNBMQDcgnulUnODONjPU",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.556671,
+  "longitude" : -78.510684,
+  "id" : "4807966985",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Allowed Work Authorization US Citizen,Greencard Holder,EAD,H4-EAD Java Developer Concord, California (Hybrid role) Look for Nearby candidates 5 years of Java experience and Java EE experience 5 years of Tomcat development or implementation experience 5 years of experience with Spring, Spring Batch, and Spring Boot and RESTful or SOAP web services 5 years of experience with Software Development Life Cycle (SDLC) tools 3 years of SQL experience 3 years of JIRA experience and Agile experience",
+  "company" : {
+    "display_name" : "SoftPathTechnologies"
+  },
+  "location" : {
+    "display_name" : "Pacheco, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Pacheco" ]
+  },
+  "salary_min" : 144000.0,
+  "salary_max" : 153600.0,
+  "created" : "2024-07-31T19:12:34Z",
+  "redirect_url" : "https://www.adzuna.com/details/4803297930?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODAzMjk3OTMwIn0.jGy67Q65f4zND175dWzELM8_VlbS_PffF40PqDF-FZA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.983351,
+  "longitude" : -122.036587,
+  "id" : "4803297930",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Required Skills & Experience 7 years of experience in Application Development - Core Java. Knowledge of various streaming frameworks. Familiarity with challenges that arise when implementing real time performant systems. Strong familiarity with Rates trading business as well as quantitative foundation of pricing and risk calculations. Experience with system analysis and in programming of software applications, especially as it pertains to performance and testability of components. Familiarity w…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "New York City, New York",
+    "area" : [ "US", "New York", "New York City" ]
+  },
+  "salary_min" : 103617.34,
+  "salary_max" : 103617.34,
+  "created" : "2024-07-04T16:28:38Z",
+  "redirect_url" : "https://www.adzuna.com/details/4766622733?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzY2NjIyNzMzIn0.Ag__w9gBYeSbiC-NaDVDapfQGw9ratMFG7tj_dCj50I",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4766622733",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "VCS is looking for Java Developer for one of our clients in Concord, California (Hybrid role) W2 Candidates only Pay Rate: up to $80/hr all inclusive on W2 Contract: 10 Months GC/USC/GC-EAD, H4-EAD only Travel not required 5 years of Java experience and Java EE experience 5 years of Tomcat development or implementation experience 5 years of experience with Spring, Spring Batch, and Spring Boot and RESTful or SOAP web services 5 years of experience with Software Development Life Cycle (SDLC) too…",
+  "company" : {
+    "display_name" : "Elite Mente LLC"
+  },
+  "location" : {
+    "display_name" : "Concord, Contra Costa County",
+    "area" : [ "US", "California", "Contra Costa County", "Concord" ]
+  },
+  "salary_min" : 144000.0,
+  "salary_max" : 153600.0,
+  "created" : "2024-08-01T19:22:14Z",
+  "redirect_url" : "https://www.adzuna.com/details/4806168535?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0ODA2MTY4NTM1In0.UPmoJgcS6VGeNJX0QjFXvi4tK25NgJ7rQ12IM07bsso",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.946121,
+  "longitude" : -122.021234,
+  "id" : "4806168535",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Location: San Francisco (US), Bangalore Mode of Work: Remote/Hybrid Brief Overview of the Job Description: Our client is looking for a skilled Java Developer to join our team and contribute to the development of high-quality software solutions. This role involves designing, implementing, and maintaining Java applications that are high-volume and low-latency, necessary for mission-critical systems. Key Responsibilities: Design, implement, and maintain efficient, reusable, and reliable Java code.…",
+  "company" : {
+    "display_name" : "MhyMatch"
+  },
+  "location" : {
+    "display_name" : "San Francisco, California",
+    "area" : [ "US", "California", "San Francisco" ]
+  },
+  "salary_min" : 120316.12,
+  "salary_max" : 120316.12,
+  "created" : "2024-06-06T15:36:21Z",
+  "redirect_url" : "https://www.adzuna.com/details/4724887823?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzI0ODg3ODIzIn0.4N6wPw7cQ0CcDOWRFF2zRLnWXHBoob1Z2rz4LL9f5q8",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.798085,
+  "longitude" : -122.466538,
+  "id" : "4724887823",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Responsibilities of a Java Developer Designs, develops, enhances, debugs, and implements software. Troubleshoots production problems related to software applications. As part of an agile team, research, tests, builds, and coordinates the conversion and/or integration of new products based on client requirements. As part of an agile team, designs and develops new software products or major enhancements to existing software. Addresses problems of systems integration, compatibility, and multiple p…",
+  "company" : {
+    "display_name" : "Vets Hired"
+  },
+  "location" : {
+    "display_name" : "Virginia, US",
+    "area" : [ "US", "Virginia" ]
+  },
+  "salary_min" : 135151.25,
+  "salary_max" : 135151.25,
+  "created" : "2024-06-26T16:24:28Z",
+  "redirect_url" : "https://www.adzuna.com/details/4753771535?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDc1Mzc3MTUzNSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.Lp5kEAi-bclewpsFwGtw0ICJ38tlA7T5r4E-SpdKK1s",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.556671,
+  "longitude" : -78.510684,
+  "id" : "4753771535",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "ARETUM, a leading government contracting company specializing in technology-enabled mission support services, is seeking a skilled Java Developer to join our team. As a Java Developer at ARETUM, you will be involved in designing, developing, and maintaining Java-based applications and systems for our clients. ARETUM is known for providing cutting-edge solutions and outstanding service to Federal clients in various sectors, including Next Generation Analytics, Engineering Services, Training Serv…",
+  "company" : {
+    "display_name" : "Aretum"
+  },
+  "location" : {
+    "display_name" : "US",
+    "area" : [ "US" ]
+  },
+  "salary_min" : 135691.36,
+  "salary_max" : 135691.36,
+  "contract_time" : "full_time",
+  "created" : "2024-05-30T15:00:59Z",
+  "redirect_url" : "https://www.adzuna.com/details/4713797076?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0NzEzNzk3MDc2In0.MezSKj5GIxBDLpXLxcPmhXBCq9Peyfrc1dlqgaHk1c4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 0.0,
+  "longitude" : 0.0,
+  "id" : "4713797076",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position: Java Developer Location: Bothell/WA day one onsite job decsription: Should have 6 years of experience in Java and NodeJS development Should have the ability to write a clean and readable code in Java Should have a strong knowledge on Java, Nodejs, Javascript, VueJS, ReactJS, Golang Should have the strong understanding of SQL, Oracle, GraphQl. Should have the strong understanding of the structure and logic of Object-Oriented programming Should have the ability to develop scripts for in…",
+  "company" : {
+    "display_name" : "Inherent Technologies"
+  },
+  "location" : {
+    "display_name" : "Queensgate, King County",
+    "area" : [ "US", "Washington", "King County", "Queensgate" ]
+  },
+  "salary_min" : 112085.58,
+  "salary_max" : 112085.58,
+  "created" : "2024-08-05T19:28:58Z",
+  "redirect_url" : "https://www.adzuna.com/details/4811898171?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgxMTg5ODE3MSIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.ckOL7nFJwxJGlDk14iycDsWAZv2v6peYM6ERURj1DAA",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 47.7544,
+  "longitude" : -122.1932,
+  "id" : "4811898171",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Java Developer (mid level) San Jose (onsite), Austin (onsite), Chicago (onsite) HACKER RANK REQUIRED Key Responsibilities: Work within a team of highly talented engineers, products, and architects to design and develop a highly scalable and configurable Identity Platform. Involved in all aspects of the project life cycle, from the initial kickoff through the requirements analysis, design, and implementation. Must be a self-starter, work independently or as a team member, and have strong communi…",
+  "company" : {
+    "display_name" : "VeeRteq Solutions Inc."
+  },
+  "location" : {
+    "display_name" : "Campbell, Santa Clara County",
+    "area" : [ "US", "California", "Santa Clara County", "Campbell" ]
+  },
+  "salary_min" : 175583.25,
+  "salary_max" : 175583.25,
+  "created" : "2024-08-02T19:23:06Z",
+  "redirect_url" : "https://www.adzuna.com/details/4807967663?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNzk2NzY2MyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.dbiJPOLajQvG4hWPnfV6QAcd0CR7TEgPywqh46gb0C4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 37.31091,
+  "longitude" : -121.962682,
+  "id" : "4807967663",
+  "salary_is_predicted" : "1"
+}, {
+  "title" : "Java Developer",
+  "description" : "Samsung SDS America is seeking for a hands-on full-stack Java Developer who will be in charge of troubleshooting issues and develop and enhance features of software applications. This position will be part of a team that creates and maintains small to medium-sized custom internal applications that supports the business and operations for our Austin Semiconductor location and our brand-new state-of-the-art Semiconductor Fab in Taylor, TX. This role will be working onsite 3 days per week/2 days r…",
+  "company" : {
+    "display_name" : "Samsung SDS America"
+  },
+  "location" : {
+    "display_name" : "Dessau, Travis County",
+    "area" : [ "US", "Texas", "Travis County", "Dessau" ]
+  },
+  "salary_min" : 105000.0,
+  "salary_max" : 130000.0,
+  "contract_time" : "full_time",
+  "created" : "2023-08-31T04:46:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4286537786?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiam53d3R1WlU3eEczX3I2VHl4V3hTdyIsImkiOiI0Mjg2NTM3Nzg2In0.nsub-b5QEkODXeJWAzAzvxMSMI_JXq81rXOf-V6HcrI",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 30.362762,
+  "longitude" : -97.646419,
+  "id" : "4286537786",
+  "salary_is_predicted" : "0"
+}, {
+  "title" : "Java Developer",
+  "description" : "Position : Java Developer Location : Atlanta GA(Onsite)(Need Local) Duration : Long Term Need 10 Years Qualifications: Must required Core Java, Typescript, Microservices, Rest API, scripting, AWS (specially lambda, code pipeline, Api gateway, cloud watch, Dynamodb, AWS Cli ), Docker, Kubernetes Good to have Quarkus, GRAAL VM, Java 17, Mockito, Openshift (PAAS), podman High School Diploma, GED, or High School Equivalency 2 years' experience in Java, Full-stack, C#, .NET and/or Python development…",
+  "company" : {
+    "display_name" : "MSR Cosmos"
+  },
+  "location" : {
+    "display_name" : "Atlanta, Fulton County",
+    "area" : [ "US", "Georgia", "Fulton County", "Atlanta" ]
+  },
+  "salary_min" : 140408.88,
+  "salary_max" : 140408.88,
+  "created" : "2024-08-01T19:21:57Z",
+  "redirect_url" : "https://www.adzuna.com/details/4806168123?utm_medium=api&utm_source=2489f9d0",
+  "adref" : "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNDgwNjE2ODEyMyIsInMiOiJqbnd3dHVaVTd4RzNfcjZUeXhXeFN3In0.p6PFKtIeJYUEIXXbRKPS8DR9T3Wo042fqF8CCaULVz4",
+  "category" : {
+    "tag" : "it-jobs",
+    "label" : "IT Jobs"
+  },
+  "latitude" : 33.79235,
+  "longitude" : -84.44794,
+  "id" : "4806168123",
   "salary_is_predicted" : "1"
 } ]

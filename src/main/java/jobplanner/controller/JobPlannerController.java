@@ -1,6 +1,5 @@
 package jobplanner.controller;
 
-import jobplanner.model.Filters;
 import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
@@ -26,7 +25,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Predicate;
 
 /**
  * The JobPlannerController class is responsible for handling the interactions
@@ -38,12 +36,6 @@ public class JobPlannerController implements ActionListener {
     /** The main GUI view. */
     private JobPlannerGUI view;
 
-    /** The filter logic. */
-    private Filters filters;
-
-    /** The model containing job data. */
-    private JobPostModel model;
-
     /** The model containing saved jobs. */
     private SavedJobModel savedJobsModel;
 
@@ -51,14 +43,11 @@ public class JobPlannerController implements ActionListener {
      * Constructs a JobPlannerController with the specified model and view.
      * Sets up action listeners for the view components.
      *
-     * @param model     the data model containing job records
      * @param savedJobs the data model containing saved job records
      * @param view      the view component of the MVC architecture
      */
-    public JobPlannerController(JobPostModel model, SavedJobModel savedJobs, JobPlannerGUI view) {
+    public JobPlannerController(SavedJobModel savedJobs, JobPlannerGUI view) {
         this.view = view;
-        this.filters = new Filters();
-        this.model = model;
         this.savedJobsModel = savedJobs;
         view.setListeners(this);
     }
@@ -293,20 +282,6 @@ public class JobPlannerController implements ActionListener {
 
         // write updated list to persistant storage file
         writeSavedJobListToFile(savedJobsModel.getSavedJobs());
-    }
-
-    /**
-     * Parses a string to a double value. Returns NaN if the parsing fails.
-     *
-     * @param value the string to parse
-     * @return the parsed double value or NaN if parsing fails
-     */
-    private double parseDouble(String value) {
-        try {
-            return Double.parseDouble(value);
-        } catch (NumberFormatException e) {
-            return Double.NaN;
-        }
     }
 
     /**

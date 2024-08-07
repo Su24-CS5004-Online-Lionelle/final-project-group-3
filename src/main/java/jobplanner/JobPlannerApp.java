@@ -16,7 +16,6 @@ import jobplanner.model.formatters.Formats;
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
 import jobplanner.model.models.ISavedJobModel;
-import jobplanner.model.types.JobQueryParameter;
 import jobplanner.controller.JobPlannerController;
 import jobplanner.view.JobPlannerGUI;
 
@@ -96,22 +95,22 @@ class JobPlannerSearch implements Runnable {
         Map<String, String> searchParams = new HashMap<>();
 
         if (keyword != null) {
-            searchParams.put(JobQueryParameter.WHAT.toString(), String.join(" ", keyword));
+            searchParams.put("what", String.join(" ", keyword));
         }
         if (location != null) {
-            searchParams.put(JobQueryParameter.WHERE.toString(), location);
+            searchParams.put("where", location);
         }
         if (salaryMin != null) {
-            searchParams.put(JobQueryParameter.SALARY_MIN.toString(), salaryMin);
+            searchParams.put("salary_min", salaryMin);
         }
         if (salaryMax != null) {
-            searchParams.put(JobQueryParameter.SALARY_MAX.toString(), salaryMax);
+            searchParams.put("salary_max", salaryMax);
         }
         if (category != null) {
-            searchParams.put(JobQueryParameter.CATEGORY.toString(), category);
+            searchParams.put("category", category);
         }
         if (days != null) {
-            searchParams.put(JobQueryParameter.DATE_POSTED.toString(), days);
+            searchParams.put("max_days_old", days);
         }
 
         JobPostUtil client = new JobPostUtil(System.getenv("ADZUNA_APP_ID"), System.getenv("ADZUNA_APP_KEY"));
@@ -193,7 +192,7 @@ class JobPlannerGraphUI implements Runnable {
             JobPlannerGUI view = new JobPlannerGUI(jobs, savedJobs);
 
             // Initialize the controller with the model and view
-            JobPlannerController controller = new JobPlannerController(jobs, savedJobs, view);
+            JobPlannerController controller = new JobPlannerController(savedJobs, view);
 
             // Start the application
             controller.start();

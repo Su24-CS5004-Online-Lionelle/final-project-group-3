@@ -105,7 +105,8 @@ public final class DataFormatter {
                         record.salaryMin(),
                         record.salaryMax(),
                         record.contractTime(),
-                        record.created()
+                        record.created(),
+
                 };
             }).toArray());
         } catch (Exception e) {

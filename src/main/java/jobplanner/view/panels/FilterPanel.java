@@ -1,4 +1,4 @@
-package jobplanner.view;
+package jobplanner.view.panels;
 
 import javax.swing.*;
 

@@ -2,6 +2,11 @@ package jobplanner.view;
 
 import jobplanner.model.models.JobPostModel;
 import jobplanner.model.models.SavedJobModel;
+import jobplanner.view.panels.FilterPanel;
+import jobplanner.view.panels.JobListPanel;
+import jobplanner.view.panels.SavedJobsPanel;
+import jobplanner.view.tablemodels.JobTableModel;
+import jobplanner.view.tablemodels.SavedJobTableModel;
 
 import javax.swing.*;
 import java.awt.*;

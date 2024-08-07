@@ -342,6 +342,9 @@ public class JobPlannerController implements ActionListener {
         
         // Update the last saved date
         savedJobsModel.setLastSaved(LocalDate.now());
+
+        // write updated list to persistant storage file
+        writeSavedJobListToFile(savedJobsModel.getSavedJobs());
     }
 
     /**
@@ -361,6 +364,9 @@ public class JobPlannerController implements ActionListener {
 
         // Update the last saved date
         savedJobsModel.setLastSaved(LocalDate.now());
+
+        // write updated list to persistant storage file
+        writeSavedJobListToFile(savedJobsModel.getSavedJobs());
     }
 
     /**
@@ -398,5 +404,18 @@ public class JobPlannerController implements ActionListener {
      */
     public void updateJobList(List<JobRecord> jobs) {
         view.getJobListPanel().getJobTableModel().setJobs(jobs);
+    }
+
+    /**
+     * Updates the persistant storage of the saved job list.
+     * 
+     * @param jobs the list of saved jobs to 
+     */
+    private void writeSavedJobListToFile(List<JobRecord> jobs) {
+        try {
+            DataFormatter.write(savedJobsModel.getSavedJobs(), Formats.JSON, new FileOutputStream("data/savedjobs.json"));
+        } catch (Exception e) {
+            view.showErrorDialog("Error exporting file: " + e.getMessage());
+        }
     }
 }

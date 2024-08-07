@@ -166,6 +166,7 @@ public class JobTableModel extends AbstractTableModel {
      *
      * @param jobs the new list of job records
      */
+    @SuppressWarnings("null")
     public void setJobs(List<JobRecord> jobs) {
         this.jobs = jobs != null ? jobs : new ArrayList<>();
         this.selected = new ArrayList<>(jobs.size());

@@ -49,7 +49,7 @@ public final class JobPostUtil {
      */
     public JobPostUtil(String appId, String appKey) {
         Dotenv dotenv = Dotenv.load();
-        this.appId = dotenv.get("ADZUNA_APP_ID");;
+        this.appId = dotenv.get("ADZUNA_APP_ID");
         this.appKey = dotenv.get("ADZUNA_APP_KEY");
     }
 

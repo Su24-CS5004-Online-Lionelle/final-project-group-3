@@ -1,11 +1,9 @@
 package jobplanner.controller;
 
-import jobplanner.model.Filters;
 import jobplanner.model.api.JobPostUtil;
 import jobplanner.model.formatters.DataFormatter;
 import jobplanner.model.formatters.Formats;
-import jobplanner.model.models.JobPostModel;
-import jobplanner.model.models.SavedJobModel;
+import jobplanner.model.models.ISavedJobModel;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 import jobplanner.model.types.JobCategory;
 import jobplanner.view.JobPlannerGUI;
@@ -26,7 +24,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Predicate;
 
 /**
  * The JobPlannerController class is responsible for handling the interactions
@@ -38,27 +35,18 @@ public class JobPlannerController implements ActionListener {
     /** The main GUI view. */
     private JobPlannerGUI view;
 
-    /** The filter logic. */
-    private Filters filters;
-
-    /** The model containing job data. */
-    private JobPostModel model;
-
     /** The model containing saved jobs. */
-    private SavedJobModel savedJobsModel;
+    private ISavedJobModel savedJobsModel;
 
     /**
      * Constructs a JobPlannerController with the specified model and view.
      * Sets up action listeners for the view components.
      *
-     * @param model     the data model containing job records
      * @param savedJobs the data model containing saved job records
      * @param view      the view component of the MVC architecture
      */
-    public JobPlannerController(JobPostModel model, SavedJobModel savedJobs, JobPlannerGUI view) {
+    public JobPlannerController(ISavedJobModel savedJobs, JobPlannerGUI view) {
         this.view = view;
-        this.filters = new Filters();
-        this.model = model;
         this.savedJobsModel = savedJobs;
         view.setListeners(this);
     }
@@ -236,95 +224,11 @@ public class JobPlannerController implements ActionListener {
     }
 
     /**
-     * Applies the filters specified by the user through the FilterPanel.
-     * Filters the job records based on the selected criteria and updates the view.
-     */
-    private void applyFilters() {
-        // Retrieve filter criteria from the filter panel
-        String selectedCountry = view.getFilterPanel().getSelectedCountry();
-        String selectedCategory = view.getFilterPanel().getSelectedCategory();
-        String company = view.getFilterPanel().getCompany();
-        double minSalary = parseDouble(view.getFilterPanel().getMinSalary());
-        double maxSalary = parseDouble(view.getFilterPanel().getMaxSalary());
-        List<String> roleTypes = view.getFilterPanel().getSelectedRoleTypes();
-        String dateFilter = view.getFilterPanel().getDateFilter();
-
-        // List to hold filter predicates
-        List<Predicate<JobRecord>> predicates = new ArrayList<>();
-
-        // Add predicates based on user input
-        if (selectedCountry != null && !selectedCountry.equals("Select")) {
-            predicates.add(filters.byCountry(selectedCountry));
-        }
-        if (selectedCategory != null && !selectedCategory.equals("Select")) {
-            predicates.add(filters.byCategory(JobCategory.fromString(selectedCategory)));
-        }
-        if (company != null && !company.isEmpty()) {
-            predicates.add(filters.byCompany(company));
-        }
-        if (!Double.isNaN(minSalary) && !Double.isNaN(maxSalary)) {
-            predicates.add(filters.bySalaryRange(minSalary, maxSalary));
-        } else if (!Double.isNaN(minSalary)) {
-            // Add a separate condition if only the minimum salary is specified
-            predicates.add(filters.bySalaryRange(minSalary, Double.MAX_VALUE));
-        } else if (!Double.isNaN(maxSalary)) {
-            // Add a separate condition if only the maximum salary is specified
-            predicates.add(filters.bySalaryRange(Double.MIN_VALUE, maxSalary));
-        }
-        if (!roleTypes.isEmpty()) {
-            predicates.add(filters.byRoleType(roleTypes));
-        }
-
-        // Handle date filter
-        addDateFilterPredicate(predicates, dateFilter);
-
-        // Get jobs and apply filters
-        List<JobRecord> jobs = model.getJobs();
-        List<JobRecord> filteredJobs = filters.applyFilters(jobs, predicates);
-
-        // display jobs
-        updateJobList(filteredJobs);
-    }
-
-    /**
-     * Adds a date filter predicate based on the selected date range.
-     *
-     * @param predicates the list of predicates to add to
-     * @param dateFilter the selected date range filter
-     */
-    private void addDateFilterPredicate(List<Predicate<JobRecord>> predicates, String dateFilter) {
-        if (!dateFilter.equals("Select")) {
-            LocalDate endDate = LocalDate.now();
-            LocalDate startDate = null;
-
-            // Determine date range based on selection
-            switch (dateFilter) {
-                case "Past week":
-                    startDate = endDate.minusWeeks(1);
-                    break;
-                case "Past month":
-                    startDate = endDate.minusMonths(1);
-                    break;
-                case "Today":
-                    startDate = endDate;
-                    break;
-                default:
-                    break;
-            }
-
-            if (startDate != null) {
-                predicates.add(filters.byDatePosted(startDate, endDate));
-            }
-        }
-    }
-
-    /**
      * Resets the filters in the FilterPanel to their default values and updates the
      * view.
      */
     private void resetFilters() {
         view.getFilterPanel().reset();
-        applyFilters();
     }
 
     /**
@@ -377,20 +281,6 @@ public class JobPlannerController implements ActionListener {
 
         // write updated list to persistant storage file
         writeSavedJobListToFile(savedJobsModel.getSavedJobs());
-    }
-
-    /**
-     * Parses a string to a double value. Returns NaN if the parsing fails.
-     *
-     * @param value the string to parse
-     * @return the parsed double value or NaN if parsing fails
-     */
-    private double parseDouble(String value) {
-        try {
-            return Double.parseDouble(value);
-        } catch (NumberFormatException e) {
-            return Double.NaN;
-        }
     }
 
     /**

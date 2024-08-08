@@ -10,7 +10,8 @@ import java.util.List;
 public class JobTableModel extends AbstractJobTableModel {
 
     /** Column names for the job table. */
-    private static final String[] COLUMN_NAMES = {"Selected", "Title", "Location", "Description", "Salary", "Category", "Company"};
+    private static final String[] COLUMN_NAMES = {"Selected", "Title", "Location", "Description", 
+        "Salary", "Category", "Company"};
 
     /**
      * Constructs a JobTableModel with the given list of jobs.

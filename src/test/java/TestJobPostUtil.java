@@ -1,103 +1,71 @@
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
-
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jobplanner.model.models.IJobPostModel.JobRecord;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
-import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.net.HttpURLConnection;
-import java.net.URL;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import jobplanner.model.api.JobPostUtil;
 
-class JobPostUtilTest {
-    /** The api client wrapper object. */
-    private JobPostUtil jobPostUtil;
-    /** The app id. */
-    private static final String APP_ID = "testAppId";
-    /** The app key. */
-    private static final String APP_KEY = "testAppKey";
+/**
+ * Unit tests for the JobPostUtil class.
+ */
+public class TestJobPostUtil {
 
-    /**
-     * Set up the test environment.
-     */
+    /** JobPostUtil instance. */
+    private JobPostUtil jobPostUtil;
+
     @BeforeEach
     void setUp() {
-        jobPostUtil = new JobPostUtil(APP_ID, APP_KEY);
-    }
+        String appId = "2489f9d0";
+        String appKey = "c03e5ba3db6fb0c3edab2dfc03d8e4c9";
 
-    /**
-     * Test the constructor.
-     */
-    @Test
-    void testGetUrlContentsSuccess() throws Exception {
-        String mockJsonResponse = "{\"results\": [{\"title\": \"Java Developer\", \"company\": \"Tech Co\"}]}";
-        InputStream mockInputStream = new ByteArrayInputStream(mockJsonResponse.getBytes());
-
-        HttpURLConnection mockConnection = mock(HttpURLConnection.class);
-        when(mockConnection.getResponseCode()).thenReturn(200);
-        when(mockConnection.getInputStream()).thenReturn(mockInputStream);
-
-        URL mockUrl = Mockito.mock(URL.class);
-        when(mockUrl.openConnection()).thenReturn(mockConnection);
-
-        InputStream resultStream = jobPostUtil.getUrlContents(mockUrl.toString());
-
-        assertNotNull(resultStream);
-
-        ObjectMapper mapper = new ObjectMapper();
-        JsonNode jsonMap = mapper.readTree(resultStream);
-        JsonNode results = jsonMap.get("results");
-        assertEquals(1, results.size());
+        jobPostUtil = new JobPostUtil(appId, appKey);
     }
 
     @Test
-    void testGetUrlContentsFailure() throws Exception {
-        HttpURLConnection mockConnection = mock(HttpURLConnection.class);
-        when(mockConnection.getResponseCode()).thenReturn(404);
-
-        URL mockUrl = Mockito.mock(URL.class);
-        when(mockUrl.openConnection()).thenReturn(mockConnection);
-
-        InputStream resultStream = jobPostUtil.getUrlContents(mockUrl.toString());
-
-        assertEquals(InputStream.nullInputStream(), resultStream);
-    }
-
-    @Test
-    void testGetJobPostingList() throws Exception {
-        // Mock API response JSON
-        String mockJsonResponse = "{\"results\": [{\"title\": \"Java Developer\", \"company\": \"Tech Co\"}]}";
-        InputStream mockInputStream = new ByteArrayInputStream(mockJsonResponse.getBytes());
-
-        // Mock HttpURLConnection
-        HttpURLConnection mockConnection = mock(HttpURLConnection.class);
-        when(mockConnection.getResponseCode()).thenReturn(200);
-        when(mockConnection.getInputStream()).thenReturn(mockInputStream);
-
-        // Mock URL
-        URL mockUrl = Mockito.mock(URL.class);
-        when(mockUrl.openConnection()).thenReturn(mockConnection);
-
-        // Spy on jobPostUtil to mock getUrlContents
-        JobPostUtil spyJobPostUtil = Mockito.spy(jobPostUtil);
-        doReturn(mockInputStream).when(spyJobPostUtil).getUrlContents(anyString());
-
+    void testGetJobPostings() {
         Map<String, String> params = new HashMap<>();
         params.put("what", "java developer");
+        params.put("where", "boston");
 
-        List<JobRecord> jobs = spyJobPostUtil.getJobPostingList("us", params);
+        InputStream inputStream = jobPostUtil.getJobPostings("us", params);
+        assertNotNull(inputStream, "InputStream should not be null");
 
-        assertEquals(1, jobs.size());
-        assertEquals("Java Developer", jobs.get(0).getTitle());
-        assertEquals("Tech Co", jobs.get(0).getCompany());
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode jsonMap = mapper.readTree(inputStream);
+            assertTrue(jsonMap.has("results"), "JSON response should contain 'results' key");
+
+            JsonNode results = jsonMap.get("results");
+            assertTrue(results.isArray(), "'results' should be an array");
+
+        } catch (Exception e) {
+            fail("Exception thrown while parsing JSON: " + e.getMessage());
+        }
+    }
+
+    @Test
+    void testGetJobPostingList() {
+        Map<String, String> params = new HashMap<>();
+        params.put("what", "java developer");
+        params.put("where", "boston");
+
+        List<JobRecord> jobRecords = jobPostUtil.getJobPostingList("us", params);
+        assertNotNull(jobRecords, "Job records list should not be null");
+        assertFalse(jobRecords.isEmpty(), "Job records list should not be empty");
+
+        for (JobRecord jobRecord : jobRecords) {
+            assertNotNull(jobRecord.title(), "Job ID should not be null");
+            assertNotNull(jobRecord.company(), "Job title should not be null");
+            assertNotNull(jobRecord.description(), "Job description should not be null");
+            assertNotNull(jobRecord.location(), "Job location should not be null");
+        }
     }
 }

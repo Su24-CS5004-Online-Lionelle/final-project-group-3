@@ -29,7 +29,8 @@ This application is a comprehensive job search and tracking tool designed to str
 - [Manual](Manual/README.md)
 - [UML and GUI Design](DesignDocuments/README.md)
 - [Proposal](https://docs.google.com/document/d/1YjlAw12svy9zmpYXrEizCwlTQeFE_9PsbCtp4eFsQtQ/edit?usp=sharing)
-- Testing
+- [GUI History Testing](GUITestingHistory/README.md)
+- [Code Testing](src/main/test/java)
 
 ## Instructions to Run the Application
 

@@ -33,6 +33,12 @@ This application is a comprehensive job search and tracking tool designed to str
 
 ## Instructions to Run the Application
 
+> [!IMPORTANT]
+> This GUI uses an external API to get job postings. Add a .env file to your directory with these credentials for the application to work properly.
+>
+> ADZUNA_APP_ID=2489f9d0\
+> ADZUNA_APP_KEY=c03e5ba3db6fb0c3edab2dfc03d8e4c9
+
 ### GUI Mode
 
 To use the application in GUI mode, run the application with the following command: `gui`
@@ -45,7 +51,7 @@ The GUI window will appear.
 
 
    <img src="GUITestingHistory/screenshots/gui-main-window.png" alt="Main GUI Window" width="400">
-
+   <br>
 
 ### Command Line Mode
 

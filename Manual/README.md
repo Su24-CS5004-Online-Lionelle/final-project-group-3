@@ -9,7 +9,6 @@
     - [Command Line Mode](#command-line-mode)
   - [Features](#features)
     - [Filtering Jobs](#filtering-jobs)
-      - [Filters](#filters)
     - [Resetting to default values](#resetting-to-default-values)
     - [Saving the list of jobs](#saving-the-list-of-jobs)
     - [Loading back saved jobs](#loading-back-saved-jobs)
@@ -131,23 +130,13 @@ List saved job postings.
 
 ### Filtering Jobs
 
-- Filter jobs using the available filters.
+- Filter jobs using the available filters: By Title, Country, Category, Company, Salary Range, Role Type, and Date Posted.
 - Hit the "Apply" button to apply changes to the main table.
-
-[Add screenshot of filter panel]
-
-#### Filters
-
-1. **Country**: Filter available jobs based on the country
-2. **Category**: Filter available jobs based on the category
-[add the rest]
 
 ### Resetting to default values
 
 - Hit the reset button at the bottom of the Filters pane to clear or reset to the default values.
 - This will display the list of all available jobs in the main table. 
-
-[Add screenshot after hitting reset button]
 
 
 ### Saving the list of jobs
